@@ -1,0 +1,3 @@
+Character Info: [Character: vmilon[268481536] - Account: johnni21 - IP: 37.6.163.222]
+Bug Type: General
+Message: test 

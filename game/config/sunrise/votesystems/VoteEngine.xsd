@@ -1,0 +1,128 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="global">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="enabled">
+                <xs:annotation>
+                  <xs:documentation> 		Enable or disable vote system </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:anyURI" name="serversite"/>
+              <xs:element type="xs:string" name="debug">
+                <xs:annotation>
+                  <xs:documentation> 		You can enable console debugs while configuring this file for tests </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="messagesuccess">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the message if vote is successful </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="messagefail">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the message if vote is failed </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="messagebusy">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the message if already voting </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="messagevoting">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the message when vote process starts </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="messageminlevel">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the message if minimum level requirements does not meet </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="voicecommand">
+                <xs:annotation>
+                  <xs:documentation> 		Set what will be the voice command for vote system, do not put . in command only the actual text </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:byte" name="minlevel">
+                <xs:annotation>
+                  <xs:documentation> 		Set what is the minimum level for players being able to use vote system </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="onconnectfailforcereward">
+                <xs:annotation>
+                  <xs:documentation> 		Consider vote site as voted if connection fails to target site </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="hwidcheck"/>
+              <xs:element type="xs:string" name="mustVotedAll">
+                <xs:annotation>
+                  <xs:documentation> 		Set if player has to vote in all banners or site by site </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="globalrewards">
+                <xs:annotation>
+                  <xs:documentation> 		Set if vote system will give global reward remember that mustVotedAll must be true </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="rewards">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="item">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:byte" name="id"/>
+                            <xs:attribute type="xs:int" name="count"/>
+                            <xs:attribute type="xs:byte" name="chance"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="topsite" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="api">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="url" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="checkWord"/>
+              <xs:element name="rewards">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:int" name="id" use="optional"/>
+                            <xs:attribute type="xs:int" name="count" use="optional"/>
+                            <xs:attribute type="xs:byte" name="chance" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name" use="optional"/>
+            <xs:attribute type="xs:string" name="enabled" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

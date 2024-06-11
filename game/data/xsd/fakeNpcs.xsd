@@ -1,0 +1,76 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="npc" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:integer" name="npc_id"/>
+              <xs:element type="xs:integer" name="race"/>
+              <xs:element type="xs:integer" name="sex"/>
+              <xs:element type="xs:integer" name="class"/>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="title_color"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="name_color"/>
+              <xs:element type="xs:integer" name="hair_style"/>
+              <xs:element type="xs:integer" name="hair_color"/>
+              <xs:element type="xs:integer" name="face"/>
+              <xs:element type="xs:byte" name="mount"/>
+              <xs:element type="xs:byte" name="team"/>
+              <xs:element type="xs:byte" name="hero"/>
+              <xs:element type="xs:integer" name="pd_under"/>
+              <xs:element type="xs:integer" name="pd_under_aug"/>
+              <xs:element type="xs:integer" name="pd_head"/>
+              <xs:element type="xs:integer" name="pd_head_aug"/>
+              <xs:element type="xs:integer" name="pd_rhand"/>
+              <xs:element type="xs:integer" name="pd_rhand_aug"/>
+              <xs:element type="xs:integer" name="pd_lhand"/>
+              <xs:element type="xs:integer" name="pd_lhand_aug"/>
+              <xs:element type="xs:integer" name="pd_gloves"/>
+              <xs:element type="xs:integer" name="pd_gloves_aug"/>
+              <xs:element type="xs:integer" name="pd_chest"/>
+              <xs:element type="xs:integer" name="pd_chest_aug"/>
+              <xs:element type="xs:integer" name="pd_legs"/>
+              <xs:element type="xs:integer" name="pd_legs_aug"/>
+              <xs:element type="xs:integer" name="pd_feet"/>
+              <xs:element type="xs:integer" name="pd_feet_aug"/>
+              <xs:element type="xs:integer" name="pd_back"/>
+              <xs:element type="xs:integer" name="pd_back_aug"/>
+              <xs:element type="xs:integer" name="pd_lrhand"/>
+              <xs:element type="xs:integer" name="pd_lrhand_aug"/>
+              <xs:element type="xs:integer" name="pd_hair"/>
+              <xs:element type="xs:integer" name="pd_hair_aug"/>
+              <xs:element type="xs:integer" name="pd_hair2"/>
+              <xs:element type="xs:integer" name="pd_hair2_aug"/>
+              <xs:element type="xs:integer" name="pd_rbracelet"/>
+              <xs:element type="xs:integer" name="pd_rbracelet_aug"/>
+              <xs:element type="xs:integer" name="pd_lbracelet"/>
+              <xs:element type="xs:integer" name="pd_lbracelet_aug"/>
+              <xs:element type="xs:integer" name="pd_deco1"/>
+              <xs:element type="xs:integer" name="pd_deco1_aug"/>
+              <xs:element type="xs:integer" name="pd_deco2"/>
+              <xs:element type="xs:integer" name="pd_deco2_aug"/>
+              <xs:element type="xs:integer" name="pd_deco3"/>
+              <xs:element type="xs:integer" name="pd_deco3_aug"/>
+              <xs:element type="xs:integer" name="pd_deco4"/>
+              <xs:element type="xs:integer" name="pd_deco4_aug"/>
+              <xs:element type="xs:integer" name="pd_deco5"/>
+              <xs:element type="xs:integer" name="pd_deco5_aug"/>
+              <xs:element type="xs:integer" name="pd_deco6"/>
+              <xs:element type="xs:integer" name="pd_deco6_aug"/>
+              <xs:element type="xs:integer" name="enchant_effect"/>
+              <xs:element type="xs:integer" name="pvp_flag"/>
+              <xs:element type="xs:integer" name="karma"/>
+              <xs:element type="xs:integer" name="fishing"/>
+              <xs:element type="xs:integer" name="fishing_x"/>
+              <xs:element type="xs:integer" name="fishing_y"/>
+              <xs:element type="xs:integer" name="fishing_z"/>
+              <xs:element type="xs:byte" name="invisible"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
