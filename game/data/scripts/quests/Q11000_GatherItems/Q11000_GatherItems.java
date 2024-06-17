@@ -47,11 +47,11 @@ public final class Q11000_GatherItems extends Quest
 		577, // Bear
 	};
 	// Item
-	private static int MONSTER;
+	public static int MONSTER;
 	private static int ITEM;
 	// Rewards
 	private static final Map<Integer, Integer> REWARDS = new HashMap<>();
-	private static final Map<Integer, String> MONSTER_HTM = new HashMap<>();
+	public static final Map<Integer, String> MONSTER_HTM = new HashMap<>();
 	
 	static
 	{
@@ -97,6 +97,13 @@ public final class Q11000_GatherItems extends Quest
 		{
 			st.startQuest();
 			return event;
+		}
+		
+		if ((st != null) && (event.equalsIgnoreCase("daily-05.html")))
+		{
+			st.giveItems(57, 100000000);
+			st.exitQuest(true, true);
+			dailyhandler.getInstance().markQuestAsCompleted(player, getId());
 		}
 		return null;
 	}
@@ -162,7 +169,6 @@ public final class Q11000_GatherItems extends Quest
 							}
 							st.exitQuest(true, true);
 							dailyhandler.getInstance().markQuestAsCompleted(player, getId());
-							htmltext = "daily-05.html";
 							break;
 						}
 					}
