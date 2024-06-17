@@ -508,6 +508,7 @@ import quests.Q10502_FreyaEmbroideredSoulCloak.Q10502_FreyaEmbroideredSoulCloak;
 import quests.Q10503_FrintezzaEmbroideredSoulCloak.Q10503_FrintezzaEmbroideredSoulCloak;
 import quests.Q10504_JewelOfAntharas.Q10504_JewelOfAntharas;
 import quests.Q10505_JewelOfValakas.Q10505_JewelOfValakas;
+import quests.Q11000_GatherItems.Q11000_GatherItems;
 import quests.TerritoryWarScripts.TerritoryWarSuperClass;
 
 /**
