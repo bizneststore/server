@@ -10,9 +10,9 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 /*author vmilon*/
 public class dailyhandler
 {
-	private static final dailyhandler INSTANCE = new dailyhandler();
+	public static final dailyhandler INSTANCE = new dailyhandler();
 	
-	private final Map<Integer, Set<Integer>> playerCompletedQuests = new HashMap<>();
+	public final Map<Integer, Set<Integer>> playerCompletedQuests = new HashMap<>();
 	
 	public static dailyhandler getInstance()
 	{

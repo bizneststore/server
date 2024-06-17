@@ -7,12 +7,12 @@ import java.util.concurrent.TimeUnit;
 
 public class dailyschedule
 {
-	private static final dailyschedule INSTANCE = new dailyschedule();
-	private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+	public static final dailyschedule INSTANCE = new dailyschedule();
+	public final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 	
-	private dailyschedule()
+	public dailyschedule()
 	{
-		// Private constructor to prevent instantiation
+	
 	}
 	
 	public static dailyschedule getInstance()
@@ -28,7 +28,7 @@ public class dailyschedule
 		scheduler.scheduleAtFixedRate(this::resetDailyQuests, initialDelay, period, TimeUnit.MILLISECONDS);
 	}
 	
-	private long computeInitialDelay()
+	public long computeInitialDelay()
 	{
 		Calendar now = Calendar.getInstance();
 		Calendar nextRun = Calendar.getInstance();
@@ -45,7 +45,7 @@ public class dailyschedule
 		return nextRun.getTimeInMillis() - now.getTimeInMillis();
 	}
 	
-	private void resetDailyQuests()
+	public void resetDailyQuests()
 	{
 		dailyhandler.getInstance().resetDailyQuests();
 	}
