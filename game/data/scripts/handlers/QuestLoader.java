@@ -1026,7 +1026,7 @@ public class QuestLoader extends ABLoader
 		Q10503_FrintezzaEmbroideredSoulCloak.class,
 		Q10504_JewelOfAntharas.class,
 		Q10505_JewelOfValakas.class,
-		Q11000_GatherItems.class
+		Q11000_GatherItems.class,
 		TerritoryWarSuperClass.class,
 	};
 	
