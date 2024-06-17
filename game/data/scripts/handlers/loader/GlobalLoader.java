@@ -22,6 +22,8 @@ import handlers.TeleportersLoader;
 import handlers.VehiclesLoader;
 import handlers.VillageMastersLoader;
 import handlers.ZonesLoader;
+import handlers.custom.dailyhandler;
+import handlers.custom.dailyschedule; // Add this line
 
 /**
  * @author L2jSunrise Team
@@ -51,11 +53,20 @@ public final class GlobalLoader extends ABLoader
 		VehiclesLoader.class,
 		VillageMastersLoader.class,
 		ZonesLoader.class,
+		dailyschedule.class,
+		dailyhandler.class
 	};
 	
 	public GlobalLoader()
 	{
 		loadScripts();
+		initializeScheduler();
+	}
+	
+	private void initializeScheduler() // Add this method
+	{
+		dailyschedule.getInstance().start();
+		dailyhandler.getInstance();
 	}
 	
 	@Override

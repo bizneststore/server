@@ -25,15 +25,14 @@ public class DailyManager extends AbstractNpcAI
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		
 		if (event.startsWith("showMainWindow"))
 		{
 			showDaily(player, npc);
 		}
-		// else if (event.startsWith("GatherItems"))
-		// {
-		// return "gathermain.htm";
-		// }
+		else if (event.startsWith("GatherItems"))
+		{
+			return "gathermain.htm";
+		}
 		else if (event.startsWith("showMainWindow"))
 		{
 			return "daily-00.htm";
@@ -59,21 +58,21 @@ public class DailyManager extends AbstractNpcAI
 	private void showDaily(L2PcInstance player, L2Npc npc)
 	{
 		StringBuilder tb = new StringBuilder();
+		
 		tb.append("<html><title>Daily Quests</title><body><br>");
 		
+		// Check if the player has completed any daily quests
 		if (dailyhandler.getInstance().hasCompletedQuest(player, 11000))
 		{
-			tb.append("<br>Gather Items Quest: <font color=\"LEVEL\">COMPLETED</font><br>");
-			tb.append("<button value=\"Gather Items\" width=160 height=32 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\" disabled=\"true\"></center>");
+			tb.append("Quest 11000: <font color=\"LEVEL\">COMPLETED</font><br>");
 		}
 		else
 		{
-			tb.append("<center><button value=\"Gather Items\" action=\"bypass -h Quest Q11000_GatherItems start\" width=160 height=32 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></center>");
+			tb.append("<a action=\"bypass -h Quest Q11000_GatherItems\">Quest 11000: Gather Items</a><br>");
 		}
 		
-		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1\"><br>");
-		tb.append("<center><button value=\"Back\" action=\"bypass -h Quest DailyManager showMainWindow\" width=160 height=32 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></center>");
-		tb.append("</body></html>");
+		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1s\"><br>");
+		tb.append("<center><button value=\"Back\" action=\"bypass -h Quest DailyManager showMainWindow\" width=160 height=32 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_ct1.button_df\"></center>");
 		
 		NpcHtmlMessage msg = new NpcHtmlMessage(npc.getObjectId());
 		msg.setHtml(tb.toString());
