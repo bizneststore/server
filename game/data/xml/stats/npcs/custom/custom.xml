@@ -6,7 +6,7 @@
 			<height normal="21" />
 		</collision>
 	</npc>
-	<npc id="576" displayId="32576" name="QuestTest" usingServerSideName="true" title="Quest Test" usingServerSideTitle="true" type="L2Merchant">
+	<npc id="576" displayId="32576" name="Bounty Hunter" usingServerSideName="true" title="Daily Bounties" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="8.5" />
 			<height normal="23.5" />
