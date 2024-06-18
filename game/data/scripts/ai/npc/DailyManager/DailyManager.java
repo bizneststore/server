@@ -28,10 +28,10 @@ public class DailyManager extends AbstractNpcAI
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
+		String monsterHtml = Q11000_GatherItems.MONSTER_HTM.get(Q11000_GatherItems.MONSTER);
 		if (event.startsWith("showMainWindow"))
 		{
 			showDaily(player, npc);
-			return null;
 		}
 		else if (event.startsWith("gatheritems"))
 		{
@@ -48,19 +48,35 @@ public class DailyManager extends AbstractNpcAI
 						switch (questState.getCond())
 						{
 							case 1:
-								return "daily-04.html";
+							{
+								return "gather-04.html";
+								
+							}
 							case 2:
-								return "daily-05.html";
+							{
+								return "gather-05.html";
+								
+							}
 						}
 						return "";
-					}
+					} // Provide the HTML for gathering items
 					default:
 						return ""; // Handle other cases if necessary
 				}
 			}
-			else
+			else if (event.startsWith("showMainWindow"))
 			{
-				return "gather-00.htm"; // If quest state is null, it means the quest has not been taken yet.
+				showDaily(player, npc);
+			}
+			
+		}
+		else if (event.startsWith("accept"))
+		{
+			QuestState questState = player.getQuestState(Q11000_GatherItems.class.getSimpleName());
+			if (questState != null)
+			{
+				questState.startQuest();
+				return monsterHtml;
 			}
 		}
 		return "";
@@ -73,15 +89,16 @@ public class DailyManager extends AbstractNpcAI
 		{
 			return "gather-01.htm";
 		}
-		else
+		if (player.getLevel() >= 75)
 		{
 			showDaily(player, npc);
-			return null;
 		}
+		return "";
 	}
 	
-	private void showDaily(L2PcInstance player, L2Npc npc)
+	public void showDaily(L2PcInstance player, L2Npc npc)
 	{
+		
 		StringBuilder tb = new StringBuilder();
 		
 		tb.append("<html><title>Daily Quests</title><body><br>");
@@ -99,7 +116,8 @@ public class DailyManager extends AbstractNpcAI
 			tb.append("<a action=\"bypass -h Quest DailyManager gatheritems\">Gather Items</a><br>");
 		}
 		
-		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1\"><br>");
+		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1s\"><br>");
+		// tb.append("<center><button value=\"Back\" action=\"bypass -h Quest DailyManager showMainWindow\" width=160 height=32 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_ct1.button_df\"></center>");
 		
 		NpcHtmlMessage msg = new NpcHtmlMessage(npc.getObjectId());
 		msg.setHtml(tb.toString());

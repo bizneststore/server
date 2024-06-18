@@ -93,7 +93,7 @@ public final class Q11000_GatherItems extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(getName());
-		if ((st != null) && event.equalsIgnoreCase(MONSTER_HTM.get(MONSTER)))
+		if ((st != null) && (event.equalsIgnoreCase("bear-01.htm") || event.equalsIgnoreCase("wolf-01.htm")))
 		{
 			st.startQuest();
 			return event;
@@ -104,6 +104,39 @@ public final class Q11000_GatherItems extends Quest
 			st.giveItems(57, 100000000);
 			st.exitQuest(true, true);
 			dailyhandler.getInstance().markQuestAsCompleted(player, getId());
+		}
+		else if (event.startsWith("gatheritems"))
+		{
+			QuestState questState = player.getQuestState(Q11000_GatherItems.class.getSimpleName());
+			if (questState != null)
+			{
+				switch (questState.getState())
+				{
+					case State.CREATED:
+						return "gather-00.htm"; // Quest not yet started
+						
+					case State.STARTED:
+					{
+						switch (questState.getCond())
+						{
+							case 1:
+							{
+								return "daily-04.html";
+								
+							}
+							case 2:
+							{
+								return "daily-05.html";
+								
+							}
+						}
+						return "";
+					} // Provide the HTML for gathering items
+					default:
+						return ""; // Handle other cases if necessary
+				}
+			}
+			
 		}
 		return null;
 	}
