@@ -29,8 +29,6 @@ import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.quest.State;
 
-import handlers.custom.dailyhandler;
-
 /**
  * DAILY QUEST GATHER ITEMS (11000)
  * @author vmilon
@@ -39,33 +37,20 @@ public final class Q11000_GatherItems extends Quest
 {
 	// Npc
 	private static final int NPC = 576;
-	// Item
 	// Monsters
 	private static final int[] MONSTERLIST = new int[]
 	{
 		20120, // Wolf
 		577, // Bear
 	};
-	// Item
 	public static int MONSTER;
 	private static int ITEM;
-	// Rewards
-	private static final Map<Integer, Integer> REWARDS = new HashMap<>();
 	public static final Map<Integer, String> MONSTER_HTM = new HashMap<>();
 	
 	static
 	{
 		MONSTER_HTM.put(577, "bear-01.htm"); // Bear
 		MONSTER_HTM.put(20120, "wolf-01.htm"); // Wolf
-	}
-	
-	static
-	{
-		REWARDS.put(390, 1); // Cotton Shirt
-		REWARDS.put(29, 6); // Leather Pants
-		REWARDS.put(22, 9); // Leather Shirt
-		REWARDS.put(1119, 13); // Short Leather Gloves
-		REWARDS.put(426, 16); // Tunic
 	}
 	
 	// Misc
@@ -93,18 +78,19 @@ public final class Q11000_GatherItems extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(getName());
-		if ((st != null) && (event.equalsIgnoreCase("bear-01.htm") || event.equalsIgnoreCase("wolf-01.htm")))
+		if ((st != null) && (event.equalsIgnoreCase("accept")))
 		{
+			String html = MONSTER_HTM.get(MONSTER);
 			st.startQuest();
-			return event;
+			return html;
 		}
 		
-		if ((st != null) && (event.equalsIgnoreCase("daily-05.html")))
-		{
-			st.giveItems(57, 100000000);
-			st.exitQuest(true, true);
-			dailyhandler.getInstance().markQuestAsCompleted(player, getId());
-		}
+		// if ((st != null) && (event.equalsIgnoreCase("gather-05.html")))
+		// {
+		// st.giveItems(57, 100000000);
+		// st.exitQuest(true, true);
+		// dailyhandler.getInstance().markQuestAsCompleted(player, getId());
+		// }
 		else if (event.startsWith("gatheritems"))
 		{
 			QuestState questState = player.getQuestState(Q11000_GatherItems.class.getSimpleName());
@@ -113,7 +99,7 @@ public final class Q11000_GatherItems extends Quest
 				switch (questState.getState())
 				{
 					case State.CREATED:
-						return "gather-00.htm"; // Quest not yet started
+						return "gather.htm"; // Quest not yet started
 						
 					case State.STARTED:
 					{
@@ -121,12 +107,14 @@ public final class Q11000_GatherItems extends Quest
 						{
 							case 1:
 							{
-								return "daily-04.html";
+								return "gather-04.html";
 								
 							}
 							case 2:
 							{
-								return "daily-05.html";
+								questState.giveItems(57, 100000000);
+								questState.exitQuest(true, true);
+								return "gather-05.html";
 								
 							}
 						}
@@ -169,45 +157,6 @@ public final class Q11000_GatherItems extends Quest
 		if (st == null)
 		{
 			return htmltext;
-		}
-		
-		switch (st.getState())
-		{
-			case State.CREATED:
-			{
-				htmltext = "daily-00.htm";
-				break;
-			}
-			case State.STARTED:
-			{
-				switch (st.getCond())
-				{
-					case 1:
-					{
-						htmltext = "daily-04.html";
-						break;
-					}
-					case 2:
-					{
-						if (st.getQuestItemsCount(ITEM) >= ITEMCOUNT)
-						{
-							final int chance = getRandom(16);
-							for (Map.Entry<Integer, Integer> reward : REWARDS.entrySet())
-							{
-								if (chance < reward.getValue())
-								{
-									st.giveItems(reward.getKey(), 1);
-									break;
-								}
-							}
-							st.exitQuest(true, true);
-							dailyhandler.getInstance().markQuestAsCompleted(player, getId());
-							break;
-						}
-					}
-				}
-				break;
-			}
 		}
 		return htmltext;
 	}
