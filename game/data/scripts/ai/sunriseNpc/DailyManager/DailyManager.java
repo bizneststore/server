@@ -13,7 +13,7 @@ import ai.npc.AbstractNpcAI;
  */
 public class DailyManager extends AbstractNpcAI
 {
-	private final static int NPC = CustomNpcsConfigs.DAILY_NPC_ID;
+	private final static int NPC = 576;
 	
 	public DailyManager()
 	{
@@ -41,7 +41,7 @@ public class DailyManager extends AbstractNpcAI
 	@Override
 	public String onFirstTalk(L2Npc npc, L2PcInstance player)
 	{
-		if (player.getLevel() < CustomNpcsConfigs.ACHIEVEMENT_REQUIRED_LEVEL)
+		if (player.getLevel() < CustomNpcsConfigs.DAILY_REQUIRED_LEVEL)
 		{
 			return "daily-lvl.htm";
 		}
