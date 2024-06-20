@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/dailyquest.xsd">
+<Id="1" name="Kill Bears" description="Kill 100 Bears" reward="57,100000" mob="577" mobAmount="100"/>
+<Id="1" name="Kill Bears" description="Kill 1 Bear" reward="57,1" mob="577" mobAmount="10"/>
