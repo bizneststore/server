@@ -21,7 +21,7 @@ public class DailyManager extends AbstractNpcAI
 	
 	public DailyManager()
 	{
-		super(DailyManager.class.getSimpleName(), "ai/sunriseNpc");
+		super(DailyManager.class.getSimpleName(), "ai/npc");
 		addStartNpc(NPC);
 		addFirstTalkId(NPC);
 		addTalkId(NPC);
