@@ -1,14 +1,19 @@
 package ai.sunriseNpc.DailyManager;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.serverpackets.NpcHtmlMessage;
+//import l2r.util.Files;
 
 import gr.sr.configsEngine.configs.impl.CustomNpcsConfigs;
 import gr.sr.dailyquests.DailyDBcon;
+//import gr.sr.utils.Files;
 
 import ai.npc.AbstractNpcAI;
 
@@ -104,9 +109,25 @@ public class DailyManager extends AbstractNpcAI
 		String htmlFile = getQuestHtmlFile(questId);
 		if (htmlFile != null)
 		{
-			NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
-			html.setHtml(htmlFile);
-			player.sendPacket(html);
+			String htmlContent = readFile(htmlFile);
+			if (htmlContent != null)
+			{
+				NpcHtmlMessage html = new NpcHtmlMessage(npc.getObjectId());
+				html.setHtml(htmlContent);
+				player.sendPacket(html);
+			}
+		}
+	}
+	
+	private String readFile(String filePath)
+	{
+		try
+		{
+			return new String(Files.readAllBytes(Paths.get(filePath)));
+		}
+		catch (IOException e)
+		{
+			return null; // Handle file read error
 		}
 	}
 	
