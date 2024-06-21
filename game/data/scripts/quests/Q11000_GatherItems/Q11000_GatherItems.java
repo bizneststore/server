@@ -1,21 +1,3 @@
-/*
- * Copyright (C) 2004-2013 L2J DataPack
- * 
- * This file is part of L2J DataPack.
- * 
- * L2J DataPack is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * L2J DataPack is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses/>.
- */
 package quests.Q11000_GatherItems;
 
 import java.util.HashMap;
@@ -29,8 +11,10 @@ import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.quest.State;
 
+import gr.sr.dailyquests.DailyDBcon;
+
 /**
- * DAILY QUEST GATHER ITEMS (11000)
+ * DAILY QUEST GATHER ITEMS (11000) DQ1 ON DATABASE
  * @author vmilon
  */
 public final class Q11000_GatherItems extends Quest
@@ -43,7 +27,7 @@ public final class Q11000_GatherItems extends Quest
 		20120, // Wolf
 		577, // Bear
 	};
-	public static int MONSTER;
+	public static int MONSTER = 577;
 	private static int ITEM;
 	public static final Map<Integer, String> MONSTER_HTM = new HashMap<>();
 	
@@ -82,15 +66,9 @@ public final class Q11000_GatherItems extends Quest
 		{
 			String html = MONSTER_HTM.get(MONSTER);
 			st.startQuest();
+			DailyDBcon.insertQuestRecord(player.getObjectId(), 11000);
 			return html;
 		}
-		
-		// if ((st != null) && (event.equalsIgnoreCase("gather-05.html")))
-		// {
-		// st.giveItems(57, 100000000);
-		// st.exitQuest(true, true);
-		// dailyhandler.getInstance().markQuestAsCompleted(player, getId());
-		// }
 		else if (event.startsWith("gatheritems"))
 		{
 			QuestState questState = player.getQuestState(Q11000_GatherItems.class.getSimpleName());
@@ -114,6 +92,7 @@ public final class Q11000_GatherItems extends Quest
 							{
 								questState.giveItems(57, 100000000);
 								questState.exitQuest(true, true);
+								DailyDBcon.updateQuestStatus(player.getObjectId(), 11000, 1);
 								return "gather-05.html";
 								
 							}
