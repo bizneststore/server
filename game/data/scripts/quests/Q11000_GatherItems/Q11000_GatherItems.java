@@ -1,7 +1,5 @@
 package quests.Q11000_GatherItems;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 
 import l2r.gameserver.enums.QuestSound;
@@ -22,20 +20,8 @@ public final class Q11000_GatherItems extends Quest
 	// Npc
 	private static final int NPC = 576;
 	// Monsters
-	private static final int[] MONSTERLIST = new int[]
-	{
-		20120, // Wolf
-		577, // Bear
-	};
 	public static int MONSTER = 577;
-	private static int ITEM;
-	public static final Map<Integer, String> MONSTER_HTM = new HashMap<>();
-	
-	static
-	{
-		MONSTER_HTM.put(577, "bear-01.htm"); // Bear
-		MONSTER_HTM.put(20120, "wolf-01.htm"); // Wolf
-	}
+	private static int ITEM = 1867;
 	
 	// Misc
 	private static final int ITEMCOUNT = 100;
@@ -45,15 +31,6 @@ public final class Q11000_GatherItems extends Quest
 		super(11000, Q11000_GatherItems.class.getSimpleName(), "Gather Items");
 		addStartNpc(NPC);
 		addTalkId(NPC);
-		MONSTER = MONSTERLIST[new Random().nextInt(MONSTERLIST.length)];
-		if (MONSTER == 577)
-		{
-			ITEM = 1867;
-		}
-		else if (MONSTER == 20120)
-		{
-			ITEM = 702;
-		}
 		addKillId(MONSTER);
 		registerQuestItems(ITEM);
 	}
@@ -62,48 +39,15 @@ public final class Q11000_GatherItems extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(getName());
-		if ((st != null) && (event.equalsIgnoreCase("accept")))
+		if ((st != null) && (event.equalsIgnoreCase("bear-01.htm")))
 		{
-			String html = MONSTER_HTM.get(MONSTER);
 			st.startQuest();
 			DailyDBcon.insertQuestRecord(player.getObjectId(), 11000);
-			return html;
+			return event;
 		}
-		else if (event.startsWith("gatheritems"))
+		else if (st == null)
 		{
-			QuestState questState = player.getQuestState(Q11000_GatherItems.class.getSimpleName());
-			if (questState != null)
-			{
-				switch (questState.getState())
-				{
-					case State.CREATED:
-						return "gather.htm"; // Quest not yet started
-						
-					case State.STARTED:
-					{
-						switch (questState.getCond())
-						{
-							case 1:
-							{
-								return "gather-04.html";
-								
-							}
-							case 2:
-							{
-								questState.giveItems(57, 100000000);
-								questState.exitQuest(true, true);
-								DailyDBcon.updateQuestStatus(player.getObjectId(), 11000, 1);
-								return "gather-05.html";
-								
-							}
-						}
-						return "";
-					} // Provide the HTML for gathering items
-					default:
-						return ""; // Handle other cases if necessary
-				}
-			}
-			
+			return "the quest is null";
 		}
 		return null;
 	}
@@ -136,6 +80,37 @@ public final class Q11000_GatherItems extends Quest
 		if (st == null)
 		{
 			return htmltext;
+		}
+		switch (st.getState())
+		{
+			case State.CREATED:
+			{
+				htmltext = "bear-01.html";
+				break;
+			}
+			case State.STARTED:
+			{
+				switch (st.getCond())
+				{
+					case 1:
+					{
+						htmltext = "gather-04.html";
+						break;
+					}
+					case 2:
+					{
+						if (st.getQuestItemsCount(ITEM) >= ITEMCOUNT)
+						{
+							st.giveItems(57, 1000000);
+							st.exitQuest(true, true);
+							DailyDBcon.updateQuestStatus(player.getObjectId(), 11000, 1);
+							htmltext = "gather-05.html";
+							break;
+						}
+					}
+				}
+				break;
+			}
 		}
 		return htmltext;
 	}
