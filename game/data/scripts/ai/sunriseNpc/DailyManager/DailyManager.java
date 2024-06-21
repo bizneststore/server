@@ -86,7 +86,7 @@ public class DailyManager extends AbstractNpcAI
 			}
 			else
 			{
-				tb.append("<a action=\"bypass -h Quest Q" + questId + "_" + questName.replace(" ", "") + " " + questName.replace(" ", "").toLowerCase() + "\">" + questName + "</a><br>");
+				tb.append("<a action=\"bypass -h Quest DailyManager " + questName.replace(" ", "").toLowerCase() + "\">" + questName + "</a><br>");
 			}
 		}
 		
