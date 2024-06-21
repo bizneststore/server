@@ -67,6 +67,12 @@
 			<height normal="50" />
 		</collision>
 	</npc>
+	<npc id="578" displayId="20130" name="Bounty Hunter 578" usingServerSideName="true" title="Daily Bounties" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8.5" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
 	<npc id="36600" displayId="20130" level="80" name="Etna" usingServerSideName="true" usingServerSideTitle="true" type="L2Monster">
 		<!-- Confirmed CT2.5 -->
 		<race>HUMANOID</race>
