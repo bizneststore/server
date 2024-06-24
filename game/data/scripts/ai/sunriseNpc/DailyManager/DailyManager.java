@@ -69,8 +69,8 @@ public class DailyManager extends AbstractNpcAI
 		{
 			return "daily-lvl.htm";
 		}
-		showMain(player, npc);
-		return "";
+		
+		return "daily.htm";
 	}
 	
 	public void showMain(L2PcInstance player, L2Npc npc)
@@ -81,7 +81,7 @@ public class DailyManager extends AbstractNpcAI
 		tb.append("I am looking for capable people willing to complete a variety of assignments that our clients require, with a reward of course.. <br>");
 		tb.append("Every day at dawn (6 A.M) the guild brings me more assignments, so check every day if you want to keep yourself busy.<br>");
 		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1\"><br>");
-		tb.append("<a action=\"bypass -h npc_%objectId%_Quest>View Daily Quests</a>");
+		tb.append("<a action=\"bypass -h npc_%objectId%_Quest\">View Daily Quests</a>");
 		
 		tb.append("</body></html>");
 		NpcHtmlMessage msg = new NpcHtmlMessage(npc.getObjectId());
