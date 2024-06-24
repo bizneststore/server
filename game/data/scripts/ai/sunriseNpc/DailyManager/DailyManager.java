@@ -44,7 +44,7 @@ public class DailyManager extends AbstractNpcAI
 	{
 		if (event.startsWith("showMainWindow"))
 		{
-			showDaily(player, npc);
+			showMain(player, npc);
 		}
 		else if (event.startsWith("showQuestHtml_"))
 		{
@@ -69,9 +69,29 @@ public class DailyManager extends AbstractNpcAI
 		{
 			return "daily-lvl.htm";
 		}
-		showDaily(player, npc);
+		showMain(player, npc);
 		return "";
 	}
+	
+	public void showMain(L2PcInstance player, L2Npc npc)
+	{
+		StringBuilder tb = new StringBuilder();
+		tb.append("<html><title>Daily Quests</title><body><br>");
+		tb.append("Hello Adventurer, I represent the <font color='LEVEL'>Bounty hunter guild</font>.<br>");
+		tb.append("I am looking for capable people willing to complete a variety of assignments that our clients require, with a reward of course.. <br>");
+		tb.append("Every day at dawn (6 A.M) the guild brings me more assignments, so check every day if you want to keep yourself busy.<br>");
+		tb.append("<br><img src=\"l2ui.squaregray\" width=\"280\" height=\"1\"><br>");
+		tb.append("<a action=\"bypass -h npc_%objectId%_Quest>View Daily Quests</a>");
+		
+		tb.append("</body></html>");
+		NpcHtmlMessage msg = new NpcHtmlMessage(npc.getObjectId());
+		msg.setHtml(tb.toString());
+		player.sendPacket(msg);
+	}
+	
+	/*
+	 * @Override public String onTalk(L2Npc npc, L2PcInstance player){ showDaily(player, npc); return ""; }
+	 */
 	
 	public void showDaily(L2PcInstance player, L2Npc npc)
 	{
@@ -94,7 +114,7 @@ public class DailyManager extends AbstractNpcAI
 			}
 			else
 			{
-				tb.append("<a action=\"bypass -h Quest " + getQuestClassName(questId) + " " + getQuestHtmlFile(questId) + "\">" + questName + "</a><br>");
+				tb.append("<a action=\"bypass -h npc_%objectId%_Quest " + getQuestClassName(questId) + " " + getQuestHtmlFile(questId) + "\">" + questName + "</a><br>");
 			}
 		}
 		
