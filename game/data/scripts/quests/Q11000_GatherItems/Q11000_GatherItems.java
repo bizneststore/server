@@ -45,10 +45,6 @@ public final class Q11000_GatherItems extends Quest
 			DailyDBcon.insertQuestRecord(player.getObjectId(), 11000);
 			return event;
 		}
-		else if (st == null)
-		{
-			return "the quest is null";
-		}
 		return null;
 	}
 	

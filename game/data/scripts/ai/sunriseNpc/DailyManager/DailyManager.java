@@ -94,7 +94,7 @@ public class DailyManager extends AbstractNpcAI
 			}
 			else
 			{
-				tb.append("<a action=\"bypass -h Quest DailyManager showQuestHtml_" + questId + "\">" + questName + "</a><br>");
+				tb.append("<a action=\"bypass -h Quest " + getQuestClassName(questId) + " " + getQuestHtmlFile(questId) + "\">" + questName + "</a><br>");
 			}
 		}
 		
@@ -136,10 +136,24 @@ public class DailyManager extends AbstractNpcAI
 		switch (questId)
 		{
 			case 11000:
-				return "data/scripts/quests/Q11000_GatherItems/gather.htm";
+				return "gather.htm";
 			// Add cases for other quests here
 			// case 11001:
 			// return "data/scripts/quests/Q11001_AnotherQuest/anotherquest.htm";
+			default:
+				return null; // Handle unknown quests if needed
+		}
+	}
+	
+	private String getQuestClassName(int questId)
+	{
+		switch (questId)
+		{
+			case 11000:
+				return "Q11000_GatherItems";
+			// Add cases for other quests here
+			// case 11001:
+			// return "Q11001_AnotherQuest";
 			default:
 				return null; // Handle unknown quests if needed
 		}
