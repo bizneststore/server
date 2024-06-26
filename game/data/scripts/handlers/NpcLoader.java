@@ -20,7 +20,6 @@ import ai.npc.CastleSiegeManager.CastleSiegeManager;
 import ai.npc.CastleTeleporter.CastleTeleporter;
 import ai.npc.CastleWarehouse.CastleWarehouse;
 import ai.npc.ClanTrader.ClanTrader;
-import ai.npc.DailyNPC.DailyNPC;
 import ai.npc.DimensionalMerchant.DimensionalMerchant;
 import ai.npc.Dorian.Dorian;
 import ai.npc.DragonVortexRetail.DragonVortexRetail;
@@ -126,7 +125,6 @@ public final class NpcLoader extends ABLoader
 		Tunatun.class,
 		VarkaSilenosSupport.class,
 		WeaverOlf.class,
-		DailyNPC.class,
 		WyvernManager.class,
 	};
 	
