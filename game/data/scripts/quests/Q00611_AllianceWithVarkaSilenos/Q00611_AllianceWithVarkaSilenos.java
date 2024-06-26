@@ -36,7 +36,6 @@ public class Q00611_AllianceWithVarkaSilenos extends Quest
 {
 	private static class DropInfo
 	{
-		@SuppressWarnings("unused")
 		private final int _chance;
 		private final int _minCond;
 		private final int _itemId;
@@ -64,9 +63,10 @@ public class Q00611_AllianceWithVarkaSilenos extends Quest
 			return _minCond;
 		}
 		
-		/*
-		 * public int getChance() { return _chance; }
-		 */
+		public int getChance()
+		{
+			return _chance;
+		}
 		
 		public int getId()
 		{
@@ -275,7 +275,7 @@ public class Q00611_AllianceWithVarkaSilenos extends Quest
 		{
 			final QuestState st = member.getQuestState(getName());
 			final DropInfo info = MOBS.get(npc.getId());
-			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getId())) /* && (getRandom(1000) < info.getChance())) */
+			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getId()) && (getRandom(1000) < info.getChance()))
 			{
 				st.giveItems(info.getId(), 2); // change number of badges dropped by npcs
 			}
