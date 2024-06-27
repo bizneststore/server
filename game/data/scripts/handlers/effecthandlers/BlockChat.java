@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.instancemanager.PunishmentManager;
+import l2r.gameserver.model.effects.EffectPump;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.punishment.PunishmentAffect;
 import l2r.gameserver.model.punishment.PunishmentTask;
@@ -30,7 +30,7 @@ import l2r.gameserver.model.stats.Env;
 /**
  * @author BiggBoss
  */
-public final class BlockChat extends L2Effect
+public final class BlockChat extends EffectPump
 {
 	public BlockChat(Env env, EffectTemplate template)
 	{

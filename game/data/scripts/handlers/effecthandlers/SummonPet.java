@@ -26,8 +26,8 @@ import l2r.gameserver.model.Location;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.instance.L2PetInstance;
 import l2r.gameserver.model.actor.templates.L2NpcTemplate;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.holders.PetItemHolder;
 import l2r.gameserver.model.items.instance.L2ItemInstance;
@@ -38,7 +38,7 @@ import l2r.gameserver.network.serverpackets.PetItemList;
 /**
  * @author UnAfraid
  */
-public class SummonPet extends L2Effect
+public class SummonPet extends EffectInstant
 {
 	public SummonPet(Env env, EffectTemplate template)
 	{
@@ -49,12 +49,6 @@ public class SummonPet extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.SUMMON_PET;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

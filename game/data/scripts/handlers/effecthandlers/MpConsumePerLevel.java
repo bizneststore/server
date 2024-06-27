@@ -19,11 +19,12 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
-public class MpConsumePerLevel extends L2Effect
+public class MpConsumePerLevel extends OverTimeEffect
 {
 	public MpConsumePerLevel(Env env, EffectTemplate template)
 	{
@@ -31,15 +32,23 @@ public class MpConsumePerLevel extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onStart()
+	{
+		onTick();
+		
+		return true;
+	}
+	
+	@Override
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
 			return false;
 		}
 		
-		double base = getValue();
-		double consume = ((getEffected().getLevel() - 1) / 7.5) * base * getAbnormalTime();
+		double base = getValue() * getTicksMultiplier();
+		double consume = ((getEffected().getLevel() - 1) / 7.5) * base;
 		if (consume > getEffected().getCurrentMp())
 		{
 			getEffected().sendPacket(SystemMessageId.SKILL_REMOVED_DUE_LACK_MP);
@@ -47,6 +56,8 @@ public class MpConsumePerLevel extends L2Effect
 		}
 		
 		getEffected().reduceCurrentMp(consume);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 }

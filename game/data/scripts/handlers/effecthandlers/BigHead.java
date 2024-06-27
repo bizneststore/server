@@ -18,7 +18,6 @@
  */
 package handlers.effecthandlers;
 
-import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
@@ -43,13 +42,11 @@ public class BigHead extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		getEffected().startAbnormalEffect(AbnormalEffect.BIG_HEAD);
 		return true;
 	}
 	
 	@Override
 	public void onExit()
 	{
-		getEffected().stopAbnormalEffect(AbnormalEffect.BIG_HEAD);
 	}
 }

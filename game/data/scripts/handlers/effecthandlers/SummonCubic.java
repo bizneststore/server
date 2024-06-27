@@ -8,12 +8,12 @@ import l2r.gameserver.data.xml.impl.CubicData;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.cubic.CubicInstance;
 import l2r.gameserver.model.cubic.CubicTemplate;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.util.Rnd;
 
-public class SummonCubic extends L2Effect
+public class SummonCubic extends EffectInstant
 {
 	private final int _cubicId;
 	private final int _cubicLvl;
@@ -24,12 +24,6 @@ public class SummonCubic extends L2Effect
 		
 		_cubicId = template.getParameters().getInt("cubicId");
 		_cubicLvl = template.getParameters().getInt("cubicLvl");
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

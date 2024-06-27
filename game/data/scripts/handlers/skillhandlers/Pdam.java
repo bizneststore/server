@@ -30,8 +30,10 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.skills.L2SkillType;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 
 public class Pdam implements ISkillHandler
@@ -72,12 +74,12 @@ public class Pdam implements ISkillHandler
 				continue;
 			}
 			
-			final byte shld = Formulas.calcShldUse(activeChar, target, skill);
+			final byte shld = SkillFormulas.calcShldUse(activeChar, target, skill);
 			// PDAM critical chance not affected by buffs, only by STR. Only some skills are meant to crit.
 			boolean crit = false;
 			if (!skill.isStaticDamage() && (skill.getBaseCritRate() > 0))
 			{
-				crit = Formulas.calcCrit(activeChar, target, skill);
+				crit = SkillFormulas.calcCrit(activeChar, target, skill);
 			}
 			
 			if (!crit && ((skill.getCondition() & L2Skill.COND_CRIT) != 0))
@@ -86,7 +88,7 @@ public class Pdam implements ISkillHandler
 			}
 			else
 			{
-				damage = skill.isStaticDamage() ? (int) skill.getPower() : (int) Formulas.calcSkillPhysDam(activeChar, target, skill, shld, false, ss);
+				damage = skill.isStaticDamage() ? (int) skill.getPower() : (SkillFormulas.calculateInt(FormulaType.CALC_PHYS_SKILL_DMG, activeChar, target, skill, new FormulaEnv(shld, false, ss, false, crit)));
 			}
 			if (!skill.isStaticDamage() && (skill.getMaxSoulConsumeCount() > 0) && activeChar.isPlayer())
 			{
@@ -99,7 +101,7 @@ public class Pdam implements ISkillHandler
 				damage *= 2; // PDAM Critical damage always 2x and not affected by buffs
 			}
 			
-			if (!Formulas.calcPhysicalSkillEvasion(activeChar, target, skill))
+			if (!SkillFormulas.calcPhysicalSkillEvasion(activeChar, target, skill))
 			{
 				if (skill.hasEffects())
 				{
@@ -142,7 +144,7 @@ public class Pdam implements ISkillHandler
 					}
 					
 					// Check if damage should be reflected
-					Formulas.calcDamageReflected(activeChar, target, skill, damage, crit);
+					SkillFormulas.calcDamageReflected(activeChar, target, skill, damage, crit);
 				}
 				else
 				{
@@ -152,7 +154,7 @@ public class Pdam implements ISkillHandler
 			}
 			
 			// Possibility of a lethal strike despite skill is evaded
-			Formulas.calcLethalHit(activeChar, target, skill);
+			SkillFormulas.calculate(FormulaType.CALC_LETHAL_HIT, activeChar, target, skill, null);
 		}
 		
 		// self Effect :]

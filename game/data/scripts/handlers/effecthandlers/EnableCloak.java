@@ -45,12 +45,6 @@ public final class EnableCloak extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
-	{
-		return getSkill().isPassive();
-	}
-	
-	@Override
 	public void onExit()
 	{
 		getEffected().getActingPlayer().getStat().setCloakSlotStatus(false);

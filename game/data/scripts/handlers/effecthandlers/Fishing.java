@@ -20,23 +20,19 @@ package handlers.effecthandlers;
 
 import l2r.Config;
 import l2r.gameserver.GeoData;
-import l2r.gameserver.enums.PcCondOverride;
-import l2r.gameserver.enums.ZoneIdType;
+import l2r.gameserver.data.xml.impl.FishingDataTable;
 import l2r.gameserver.instancemanager.ZoneManager;
-import l2r.gameserver.model.Location;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.fishing.FishPlaceType;
+import l2r.gameserver.model.fishing.FishingPlace;
 import l2r.gameserver.model.itemcontainer.Inventory;
-import l2r.gameserver.model.items.L2Weapon;
 import l2r.gameserver.model.items.instance.L2ItemInstance;
-import l2r.gameserver.model.items.type.EtcItemType;
-import l2r.gameserver.model.items.type.WeaponType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.model.zone.L2ZoneType;
-import l2r.gameserver.model.zone.type.L2FishingZone;
 import l2r.gameserver.model.zone.type.L2WaterZone;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.util.Util;
@@ -46,20 +42,14 @@ import l2r.util.Rnd;
  * Fishing effect implementation.
  * @author UnAfraid
  */
-public final class Fishing extends L2Effect
+public final class Fishing extends EffectInstant
 {
-	private static final int MIN_BAIT_DISTANCE = 90;
-	private static final int MAX_BAIT_DISTANCE = 250;
+	private static final int MIN_BAIT_DISTANCE = 50;
+	private static final int MAX_BAIT_DISTANCE = 150;
 	
 	public Fishing(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -79,64 +69,6 @@ public final class Fishing extends L2Effect
 		
 		final L2PcInstance player = activeChar.getActingPlayer();
 		
-		if (!Config.ALLOWFISHING && !player.canOverrideCond(PcCondOverride.SKILL_CONDITIONS))
-		{
-			player.sendMessage("Fishing is disabled!");
-			return false;
-		}
-		
-		if (player.getFishingEx().isFishing())
-		{
-			if (player.getFishingEx().getFishCombat() != null)
-			{
-				player.getFishingEx().getFishCombat().doDie(false);
-			}
-			else
-			{
-				player.getFishingEx().endFishing(false);
-			}
-			
-			player.sendPacket(SystemMessageId.FISHING_ATTEMPT_CANCELLED);
-			return false;
-		}
-		
-		// check for equiped fishing rod
-		L2Weapon equipedWeapon = player.getActiveWeaponItem();
-		if (((equipedWeapon == null) || (equipedWeapon.getItemType() != WeaponType.FISHINGROD)))
-		{
-			player.sendPacket(SystemMessageId.FISHING_POLE_NOT_EQUIPPED);
-			return false;
-		}
-		
-		// check for equiped lure
-		L2ItemInstance equipedLeftHand = player.getInventory().getPaperdollItem(Inventory.PAPERDOLL_LHAND);
-		if ((equipedLeftHand == null) || (equipedLeftHand.getItemType() != EtcItemType.LURE))
-		{
-			player.sendPacket(SystemMessageId.BAIT_ON_HOOK_BEFORE_FISHING);
-			return false;
-		}
-		
-		if (!player.isGM())
-		{
-			if (player.isInBoat())
-			{
-				player.sendPacket(SystemMessageId.CANNOT_FISH_ON_BOAT);
-				return false;
-			}
-			
-			if (player.isInCraftMode() || player.isInStoreMode())
-			{
-				player.sendPacket(SystemMessageId.CANNOT_FISH_WHILE_USING_RECIPE_BOOK);
-				return false;
-			}
-			
-			if (player.isInsideZone(ZoneIdType.WATER))
-			{
-				player.sendPacket(SystemMessageId.CANNOT_FISH_UNDER_WATER);
-				return false;
-			}
-		}
-		
 		// calculate a position in front of the player with a random distance
 		int distance = Rnd.get(MIN_BAIT_DISTANCE, MAX_BAIT_DISTANCE);
 		final double angle = Util.convertHeadingToDegree(player.getHeading());
@@ -147,73 +79,68 @@ public final class Fishing extends L2Effect
 		int baitY = (int) (player.getY() + (sin * distance));
 		
 		// search for fishing and water zone
-		L2FishingZone fishingZone = null;
-		L2WaterZone waterZone = null;
-		for (final L2ZoneType zone : ZoneManager.getInstance().getZones(baitX, baitY))
+		FishingPlace place = null;
+		boolean canFish = false;
+		boolean hasWaterZ = false;
+		
+		int baitZ = 0;
+		int z = 0;
+		
+		for (distance = MAX_BAIT_DISTANCE; distance >= MIN_BAIT_DISTANCE; --distance)
 		{
-			if (zone instanceof L2FishingZone)
+			baitX = (int) (player.getX() + (cos * distance));
+			baitY = (int) (player.getY() + (sin * distance));
+			
+			z = GeoData.getInstance().getSpawnHeight(baitX, baitY, player.getZ());
+			
+			place = FishingDataTable.getInstance().getFishingPlace(baitX, baitY, z);
+			if (place != null)
 			{
-				fishingZone = (L2FishingZone) zone;
-			}
-			else if (zone instanceof L2WaterZone)
-			{
-				waterZone = (L2WaterZone) zone;
+				if (place.fishing_place_type == FishPlaceType.FISHING_PLACE_TYPE2)
+				{
+					baitZ = z + 5;
+				}
+				else
+				{
+					for (final L2ZoneType zone : ZoneManager.getInstance().getZones(baitX, baitY))
+					{
+						if (zone instanceof L2WaterZone)
+						{
+							// always use water zone, fishing zone high z is high in the air...
+							baitZ = ((L2WaterZone) zone).getWaterZ();
+							hasWaterZ = true;
+							break;
+						}
+					}
+				}
+				
+				if (computeBaitZ(player, baitX, baitY, baitZ))
+				{
+					canFish = true;
+					
+					if (!hasWaterZ)
+					{
+						baitZ = place.territory.getLowZ();
+					}
+					break;
+				}
 			}
 			
-			if ((fishingZone != null) && (waterZone != null))
+			// if position found break
+			if (canFish)
 			{
 				break;
 			}
 		}
 		
-		int baitZ = computeBaitZ(player, baitX, baitY, fishingZone, waterZone);
-		if (baitZ == Integer.MIN_VALUE)
+		if (!canFish)
 		{
-			for (distance = MAX_BAIT_DISTANCE; distance >= MIN_BAIT_DISTANCE; --distance)
-			{
-				baitX = (int) (player.getX() + (cos * distance));
-				baitY = (int) (player.getY() + (sin * distance));
-				
-				// search for fishing and water zone again
-				fishingZone = null;
-				waterZone = null;
-				for (final L2ZoneType zone : ZoneManager.getInstance().getZones(baitX, baitY))
-				{
-					if (zone instanceof L2FishingZone)
-					{
-						fishingZone = (L2FishingZone) zone;
-					}
-					else if (zone instanceof L2WaterZone)
-					{
-						waterZone = (L2WaterZone) zone;
-					}
-					
-					if ((fishingZone != null) && (waterZone != null))
-					{
-						break;
-					}
-				}
-				
-				baitZ = computeBaitZ(player, baitX, baitY, fishingZone, waterZone);
-				if (baitZ != Integer.MIN_VALUE)
-				{
-					break;
-				}
-			}
-			
-			if (baitZ == Integer.MIN_VALUE)
-			{
-				if (player.isGM())
-				{
-					baitZ = player.getZ();
-				}
-				else
-				{
-					player.sendPacket(SystemMessageId.CANNOT_FISH_HERE);
-					return false;
-				}
-			}
+			player.sendPacket(SystemMessageId.CANNOT_FISH_HERE);
+			return false;
 		}
+		
+		// check for equiped lure
+		final L2ItemInstance equipedLeftHand = player.getInventory().getPaperdollItem(Inventory.PAPERDOLL_LHAND);
 		
 		if (!player.destroyItem("Fishing", equipedLeftHand, 1, null, false))
 		{
@@ -221,8 +148,7 @@ public final class Fishing extends L2Effect
 			return false;
 		}
 		
-		player.getFishingEx().setLure(equipedLeftHand);
-		player.getFishingEx().startFishing(baitX, baitY, baitZ);
+		player.getFishingEx().startFishing(place, baitX, baitY, baitZ, equipedLeftHand.getId());
 		return true;
 	}
 	
@@ -231,45 +157,29 @@ public final class Fishing extends L2Effect
 	 * @param player the player
 	 * @param baitX the bait x
 	 * @param baitY the bait y
-	 * @param fishingZone the fishing zone
-	 * @param waterZone the water zone
+	 * @param baitZ
 	 * @return the bait z or {@link Integer#MIN_VALUE} when you cannot fish here
 	 */
-	private static int computeBaitZ(final L2PcInstance player, final int baitX, final int baitY, final L2FishingZone fishingZone, final L2WaterZone waterZone)
+	private static boolean computeBaitZ(final L2PcInstance player, final int baitX, final int baitY, final int baitZ)
 	{
-		if ((fishingZone == null))
+		if (!GeoData.getInstance().canSeeTarget(player, baitX, baitY, baitZ))
 		{
-			return Integer.MIN_VALUE;
+			return false;
 		}
 		
-		if ((waterZone == null))
-		{
-			return Integer.MIN_VALUE;
-		}
-		
-		// always use water zone, fishing zone high z is high in the air...
-		int baitZ = waterZone.getWaterZ();
-		
-		if (!GeoData.getInstance().canSeeTarget(player, new Location(baitX, baitY, baitZ)))
-		{
-			return Integer.MIN_VALUE;
-		}
-		
-		// TODO: Need Check
 		if (Config.GEODATA)
-		// if (GeoData.getInstance().hasGeo(baitX, baitY))
 		{
 			if (GeoData.getInstance().getHeight(baitX, baitY, baitZ) > baitZ)
 			{
-				return Integer.MIN_VALUE;
+				return false;
 			}
 			
 			if (GeoData.getInstance().getHeight(baitX, baitY, player.getZ()) > baitZ)
 			{
-				return Integer.MIN_VALUE;
+				return false;
 			}
 		}
 		
-		return baitZ;
+		return true;
 	}
 }

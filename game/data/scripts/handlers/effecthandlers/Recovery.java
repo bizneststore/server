@@ -18,15 +18,15 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author Kerberos
  */
-public class Recovery extends L2Effect
+public class Recovery extends EffectInstant
 {
 	public Recovery(Env env, EffectTemplate template)
 	{
@@ -40,12 +40,6 @@ public class Recovery extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
 		if (getEffected().isPlayer())
@@ -54,10 +48,5 @@ public class Recovery extends L2Effect
 			return true;
 		}
 		return false;
-	}
-	
-	@Override
-	public void onExit()
-	{
 	}
 }

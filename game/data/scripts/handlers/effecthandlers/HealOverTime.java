@@ -19,22 +19,17 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.ExRegMax;
 
-public class HealOverTime extends L2Effect
+public class HealOverTime extends OverTimeEffect
 {
 	public HealOverTime(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	// Special constructor to steal this effect
-	public HealOverTime(Env env, L2Effect effect)
-	{
-		super(env, effect);
 	}
 	
 	@Override
@@ -56,11 +51,13 @@ public class HealOverTime extends L2Effect
 		{
 			getEffected().sendPacket(new ExRegMax(getValue(), getTotalCount() * getAbnormalTime(), getAbnormalTime()));
 		}
+		
+		onTick();
 		return true;
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if ((getEffected().getFirstEffect(L2EffectType.INVINCIBLE) != null) || getEffected().isDead() || getEffected().isDoor())
 		{
@@ -73,17 +70,20 @@ public class HealOverTime extends L2Effect
 		// Not needed to set the HP and send update packet if player is already at max HP
 		if (hp >= maxhp)
 		{
+			TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 			return true;
 		}
 		
 		// vGodFather: herb effect must override invul check
 		if ((!getEffected().isInvul() && !getEffected().isHpBlocked()) || getSkill().isHerb())
 		{
-			hp += getValue();
+			hp += getValue() * getTicksMultiplier();
 			hp = Math.min(hp, maxhp);
 			
 			getEffected().setCurrentHp(hp);
 		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 }

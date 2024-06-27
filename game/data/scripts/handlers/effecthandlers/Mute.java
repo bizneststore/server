@@ -35,7 +35,7 @@ public class Mute extends L2Effect
 	@Override
 	public int getEffectFlags()
 	{
-		return EffectFlag.MUTED.getMask();
+		return EffectFlag.FLAG_BLOCK_MAGICAL_SKILLS.getMask();
 	}
 	
 	@Override

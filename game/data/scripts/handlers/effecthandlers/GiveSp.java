@@ -18,25 +18,19 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Give SP effect.
  * @author Adry_85
  */
-public class GiveSp extends L2Effect
+public class GiveSp extends EffectInstant
 {
 	public GiveSp(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

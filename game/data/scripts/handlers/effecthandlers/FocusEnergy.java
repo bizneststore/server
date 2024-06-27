@@ -1,13 +1,13 @@
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author vGodFather
  */
-public class FocusEnergy extends L2Effect
+public class FocusEnergy extends EffectInstant
 {
 	private final int _charge;
 	
@@ -16,12 +16,6 @@ public class FocusEnergy extends L2Effect
 		super(env, template);
 		
 		_charge = template.getParameters().getInt("charge", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

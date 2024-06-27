@@ -19,7 +19,6 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Npc;
-import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
@@ -45,7 +44,6 @@ public class Grow extends L2Effect
 		{
 			L2Npc npc = (L2Npc) getEffected();
 			npc.setCollisionRadius((npc.getCollisionRadius() * 1.19));
-			getEffected().startAbnormalEffect(AbnormalEffect.GROW);
 			return true;
 		}
 		return false;
@@ -58,7 +56,6 @@ public class Grow extends L2Effect
 		{
 			L2Npc npc = (L2Npc) getEffected();
 			npc.setCollisionRadius(npc.getTemplate().getfCollisionRadius());
-			getEffected().stopAbnormalEffect(AbnormalEffect.GROW);
 		}
 	}
 }

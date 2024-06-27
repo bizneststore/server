@@ -9,7 +9,7 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="129">
 			<and>
 				<player invSize="10" />
@@ -17,9 +17,16 @@
 			</and>
 		</cond>
 		<cond msgId="2292">
-			<player agathionId="1584" />
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Restoration" noicon="1" val="0">
 				<param itemId="20993" itemCount="1" />
 			</effect>
@@ -1778,7 +1785,7 @@
 		<!-- Confirmed CT2.5 and Updated to H5 -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="10" />
-		<set name="abnormalType" val="flame_hawk" />
+		<set name="abnormalType" val="dot_attr" />
 		<set name="element" val="0" /> <!-- Fire -->
 		<set name="elementPower" val="20" />
 		<set name="isTriggeredSkill" val="true" />
@@ -1798,7 +1805,7 @@
 		<!-- Confirmed CT2.5 and Updated to H5 -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="10" />
-		<set name="abnormalType" val="arrow_rain" />
+		<set name="abnormalType" val="dot_attr" />
 		<set name="element" val="2" /> <!-- Wind -->
 		<set name="elementPower" val="20" />
 		<set name="isTriggeredSkill" val="true" />

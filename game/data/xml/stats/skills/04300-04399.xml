@@ -1386,12 +1386,12 @@
 		<set name="abnormalLvl" val="2" />
 		<set name="abnormalTime" val="10" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="affectRange" val="200" />
 		<set name="element" val="3" /> <!-- Earth -->
 		<set name="elementPower" val="20" />
 		<set name="magicLvl" val="80" />
 		<set name="operateType" val="A3" />
-		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="AGGDEBUFF" />
 		<set name="targetType" val="AURA" />
@@ -1399,14 +1399,14 @@
 			<effect name="Petrification" abnormalTime="10" abnormalLvl="2" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="10" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="10" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="10" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="10" noicon="1" abnormalType="turn_stone4" />
 			<effect name="TargetMe" noicon="1" />
 		</for>
 	</skill>

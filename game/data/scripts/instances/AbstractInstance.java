@@ -76,7 +76,7 @@ public abstract class AbstractInstance extends AbstractNpcAI
 		
 		if (checkConditions(player, templateId))
 		{
-			instance.setInstanceId(InstanceManager.getInstance().createDynamicInstance(template));
+			instance.setInstanceId(InstanceManager.getInstance().createDynamicInstance(template, templateId, player));
 			instance.setTemplateId(templateId);
 			instance.setStatus(0);
 			InstanceManager.getInstance().addWorld(instance);

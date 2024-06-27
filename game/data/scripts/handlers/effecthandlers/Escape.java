@@ -2,12 +2,12 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.TeleportWhereType;
 import l2r.gameserver.instancemanager.MapRegionManager;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
-public class Escape extends L2Effect
+public class Escape extends EffectInstant
 {
 	private final TeleportWhereType _escapeType;
 	
@@ -21,12 +21,6 @@ public class Escape extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.TELEPORT;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

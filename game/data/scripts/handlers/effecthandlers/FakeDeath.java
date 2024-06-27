@@ -19,8 +19,9 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
@@ -28,7 +29,7 @@ import l2r.gameserver.network.SystemMessageId;
  * Fake Death effect.
  * @author mkizub
  */
-public class FakeDeath extends L2Effect
+public class FakeDeath extends OverTimeEffect
 {
 	public FakeDeath(Env env, EffectTemplate template)
 	{
@@ -45,6 +46,9 @@ public class FakeDeath extends L2Effect
 	public boolean onStart()
 	{
 		getEffected().startFakeDeath();
+		
+		onTick();
+		
 		return true;
 	}
 	
@@ -55,15 +59,14 @@ public class FakeDeath extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
 			return false;
 		}
 		
-		double manaDam = getValue();
-		
+		double manaDam = getValue() * getTicksMultiplier();
 		if ((manaDam > getEffected().getCurrentMp()) && getSkill().isToggle())
 		{
 			getEffected().sendPacket(SystemMessageId.SKILL_REMOVED_DUE_LACK_MP);
@@ -71,6 +74,8 @@ public class FakeDeath extends L2Effect
 		}
 		
 		getEffected().reduceCurrentMp(manaDam);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 }

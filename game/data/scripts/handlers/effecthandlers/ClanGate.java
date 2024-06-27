@@ -19,7 +19,6 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.L2Clan;
-import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
@@ -39,7 +38,6 @@ public class ClanGate extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		getEffected().startAbnormalEffect(AbnormalEffect.MAGIC_CIRCLE);
 		if (getEffected().isPlayer())
 		{
 			L2Clan clan = getEffected().getActingPlayer().getClan();
@@ -56,6 +54,5 @@ public class ClanGate extends L2Effect
 	@Override
 	public void onExit()
 	{
-		getEffected().stopAbnormalEffect(AbnormalEffect.MAGIC_CIRCLE);
 	}
 }

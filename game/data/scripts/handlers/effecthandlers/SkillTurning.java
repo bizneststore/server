@@ -18,15 +18,15 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 /**
  * Skill Turning effect implementation.
  */
-public final class SkillTurning extends L2Effect
+public final class SkillTurning extends EffectInstant
 {
 	private final int _chance;
 	
@@ -38,19 +38,14 @@ public final class SkillTurning extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
+	public boolean calcSuccess(Env info)
 	{
-		return true;
+		return SkillFormulas.calcProbability(_chance, info.getCharacter(), info.getTarget(), info.getSkill());
 	}
 	
 	@Override
 	public boolean onStart()
 	{
-		if (!Formulas.calcProbability(_chance, getEffector(), getEffected(), getSkill()))
-		{
-			return false;
-		}
-		
 		if ((getEffected() == null) || (getEffected() == getEffector()) || getEffected().isRaid())
 		{
 			return false;

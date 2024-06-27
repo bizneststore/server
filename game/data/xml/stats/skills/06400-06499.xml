@@ -152,14 +152,14 @@
 			<effect name="Petrification" abnormalTime="300" abnormalLvl="99" abnormalType="silence_all">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="300" noicon="1">
+			<effect name="BlockDamage" abnormalTime="300" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="300" noicon="1">
+			<effect name="BlockDamage" abnormalTime="300" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="300" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="300" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="300" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="300" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="6407" levels="1" name="Torumba's Constraint">

@@ -19,15 +19,16 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
 /**
  * @author Adry_85
  */
-public class DamOverTimePercent extends L2Effect
+public class DamOverTimePercent extends OverTimeEffect
 {
 	private final boolean _canKill;
 	
@@ -45,14 +46,22 @@ public class DamOverTimePercent extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onStart()
+	{
+		onTick();
+		
+		return true;
+	}
+	
+	@Override
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
 			return false;
 		}
 		
-		double damage = getEffected().getCurrentHp() * getValue();
+		double damage = getEffected().getCurrentHp() * (getValue() * getTicksMultiplier());
 		
 		if (damage >= (getEffected().getCurrentHp() - 1))
 		{
@@ -68,6 +77,7 @@ public class DamOverTimePercent extends L2Effect
 				// Fix for players dying by DOTs if HP < 1 since reduceCurrentHP method will kill them
 				if (getEffected().getCurrentHp() <= 1)
 				{
+					TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 					return true;
 				}
 				
@@ -76,6 +86,8 @@ public class DamOverTimePercent extends L2Effect
 		}
 		getEffected().reduceCurrentHpByDOT(damage, getEffector(), getSkill());
 		getEffected().notifyDamageReceived(damage, getEffector(), getSkill(), false, true, false);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 }

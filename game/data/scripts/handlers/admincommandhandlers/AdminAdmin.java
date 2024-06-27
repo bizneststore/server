@@ -20,12 +20,10 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import l2r.Config;
 import l2r.gameserver.data.xml.impl.AdminData;
 import l2r.gameserver.handler.IAdminCommandHandler;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.SystemMessageId;
-import l2r.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * This class handles following admin commands: - admin|admin1/admin2/admin3/admin4/admin5 = slots for the 5 starting admin menus - gmliston/gmlistoff = includes/excludes active character from /gmlist results - silence = toggles private messages acceptance mode - diet = toggles weight penalty mode -
@@ -49,10 +47,6 @@ public class AdminAdmin implements IAdminCommandHandler
 		"admin_silence",
 		"admin_diet",
 		"admin_tradeoff",
-		"admin_set",
-		"admin_set_mod",
-		"admin_setconfig",
-		"admin_config_server",
 		"admin_gmon"
 	};
 	
@@ -62,10 +56,6 @@ public class AdminAdmin implements IAdminCommandHandler
 		if (command.startsWith("admin_admin"))
 		{
 			showMainPage(activeChar, command);
-		}
-		else if (command.equals("admin_config_server"))
-		{
-			showConfigPage(activeChar);
 		}
 		else if (command.startsWith("admin_gmliston"))
 		{
@@ -160,68 +150,6 @@ public class AdminAdmin implements IAdminCommandHandler
 			}
 			AdminHtml.showAdminHtml(activeChar, "gm_menu.htm");
 		}
-		else if (command.startsWith("admin_setconfig"))
-		{
-			StringTokenizer st = new StringTokenizer(command);
-			st.nextToken();
-			try
-			{
-				String pName = st.nextToken();
-				String pValue = st.nextToken();
-				if (Config.setParameterValue(pName, pValue))
-				{
-					activeChar.sendMessage("Config parameter " + pName + " set to " + pValue);
-				}
-				else
-				{
-					activeChar.sendMessage("Invalid parameter!");
-				}
-			}
-			catch (Exception e)
-			{
-				activeChar.sendMessage("Usage: //setconfig <parameter> <value>");
-			}
-			finally
-			{
-				showConfigPage(activeChar);
-			}
-		}
-		else if (command.startsWith("admin_set"))
-		{
-			StringTokenizer st = new StringTokenizer(command);
-			String[] cmd = st.nextToken().split("_");
-			try
-			{
-				String[] parameter = st.nextToken().split("=");
-				String pName = parameter[0].trim();
-				String pValue = parameter[1].trim();
-				if (Config.setParameterValue(pName, pValue))
-				{
-					activeChar.sendMessage("parameter " + pName + " succesfully set to " + pValue);
-				}
-				else
-				{
-					activeChar.sendMessage("Invalid parameter!");
-				}
-			}
-			catch (Exception e)
-			{
-				if (cmd.length == 2)
-				{
-					activeChar.sendMessage("Usage: //set parameter=value");
-				}
-			}
-			finally
-			{
-				if (cmd.length == 3)
-				{
-					if (cmd[2].equalsIgnoreCase("mod"))
-					{
-						AdminHtml.showAdminHtml(activeChar, "mods_menu.htm");
-					}
-				}
-			}
-		}
 		else if (command.startsWith("admin_gmon"))
 		{
 			// nothing
@@ -274,23 +202,5 @@ public class AdminAdmin implements IAdminCommandHandler
 				break;
 		}
 		AdminHtml.showAdminHtml(activeChar, filename + "_menu.htm");
-	}
-	
-	public void showConfigPage(L2PcInstance activeChar)
-	{
-		final NpcHtmlMessage adminReply = new NpcHtmlMessage();
-		StringBuilder replyMSG = new StringBuilder("<html><title>L2J :: Config</title><body>");
-		replyMSG.append("<center><table width=270><tr><td width=60><button value=\"Main\" action=\"bypass -h admin_admin\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td><td width=150>Config Server Panel</td><td width=60><button value=\"Back\" action=\"bypass -h admin_admin4\" width=60 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr></table></center><br>");
-		replyMSG.append("<center><table width=260><tr><td width=140></td><td width=40></td><td width=40></td></tr>");
-		replyMSG.append("<tr><td><font color=\"00AA00\">Drop:</font></td><td></td><td></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">Rate EXP</font> = " + Config.RATE_XP + "</td><td><edit var=\"param1\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig RateXp $param1\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">Rate SP</font> = " + Config.RATE_SP + "</td><td><edit var=\"param2\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig RateSp $param2\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td><font color=\"LEVEL\">Rate Drop Spoil</font> = " + Config.RATE_CORPSE_DROP_CHANCE_MULTIPLIER + "</td><td><edit var=\"param4\" width=40 height=15></td><td><button value=\"Set\" action=\"bypass -h admin_setconfig RateDropSpoil $param4\" width=40 height=25 back=\"L2UI_ct1.button_df\" fore=\"L2UI_ct1.button_df\"></td></tr>");
-		replyMSG.append("<tr><td width=140></td><td width=40></td><td width=40></td></tr>");
-		replyMSG.append("<tr><td><font color=\"00AA00\">Enchant:</font></td><td></td><td></td></tr>");
-		
-		replyMSG.append("</table></body></html>");
-		adminReply.setHtml(replyMSG.toString());
-		activeChar.sendPacket(adminReply);
 	}
 }

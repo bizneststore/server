@@ -29,7 +29,7 @@ import l2r.gameserver.model.quest.State;
 
 /**
  * Seekers Of The Holy Grail (638)
- * @author netvirus
+ * @author netvirus edited by vmilon x2
  */
 public final class Q00638_SeekersOfTheHolyGrail extends Quest
 {

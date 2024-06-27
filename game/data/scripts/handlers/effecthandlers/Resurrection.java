@@ -19,18 +19,18 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.taskmanager.DecayTaskManager;
 
 /**
  * Resurrection effect implementation.
  * @author Adry_85
  */
-public final class Resurrection extends L2Effect
+public final class Resurrection extends EffectInstant
 {
 	private final int _power;
 	
@@ -45,12 +45,6 @@ public final class Resurrection extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.RESURRECTION;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -69,7 +63,7 @@ public final class Resurrection extends L2Effect
 		else
 		{
 			DecayTaskManager.getInstance().cancel(target);
-			target.doRevive(Formulas.calculateSkillResurrectRestorePercent(_power, activeChar));
+			target.doRevive(SkillFormulas.calculateSkillResurrectRestorePercent(_power, activeChar));
 		}
 		return true;
 	}

@@ -90,7 +90,10 @@ public class StakatoNest extends AbstractNpcAI
 	public StakatoNest()
 	{
 		super(StakatoNest.class.getSimpleName(), "ai/group_template");
-		registerMobs(STAKATO_MOBS);
+		
+		addAttackId(STAKATO_MOBS);
+		addKillId(STAKATO_MOBS);
+		addSkillSeeId(STAKATO_MOBS);
 	}
 	
 	@Override

@@ -20,10 +20,11 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.ChanceCondition;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 
-public class ChanceSkillTrigger extends L2Effect
+public class ChanceSkillTrigger extends OverTimeEffect
 {
 	private final int _triggeredId;
 	private final int _triggeredLevel;
@@ -38,16 +39,6 @@ public class ChanceSkillTrigger extends L2Effect
 		_chanceCondition = template.chanceCondition;
 	}
 	
-	// Special constructor to steal this effect
-	public ChanceSkillTrigger(Env env, L2Effect effect)
-	{
-		super(env, effect);
-		
-		_triggeredId = effect.getEffectTemplate().triggeredId;
-		_triggeredLevel = effect.getEffectTemplate().triggeredLevel;
-		_chanceCondition = effect.getEffectTemplate().chanceCondition;
-	}
-	
 	@Override
 	protected boolean effectCanBeStolen()
 	{
@@ -59,21 +50,30 @@ public class ChanceSkillTrigger extends L2Effect
 	{
 		getEffected().addChanceTrigger(this);
 		getEffected().onStartChanceEffect(getSkill().getElement());
+		
+		onTick();
 		return super.onStart();
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		getEffected().onActionTimeChanceEffect(getSkill().getElement());
-		return getSkill().isPassive();
+		
+		if (!getSkill().isPassive())
+		{
+			return false;
+		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
+		return true;
 	}
 	
 	@Override
 	public void onExit()
 	{
 		// trigger only if effect in use and successfully ticked to the end
-		if (getInUse() && (getCount() == 0))
+		if (getCount() == 0)
 		{
 			getEffected().onExitChanceEffect(getSkill().getElement());
 		}
@@ -103,5 +103,11 @@ public class ChanceSkillTrigger extends L2Effect
 	public ChanceCondition getTriggeredChanceCondition()
 	{
 		return _chanceCondition;
+	}
+	
+	@Override
+	public int getTickCount()
+	{
+		return 1;
 	}
 }

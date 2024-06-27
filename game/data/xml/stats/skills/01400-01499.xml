@@ -32,7 +32,6 @@
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="4000" />
 		<set name="skillType" val="FEAR" />
-		<set name="mustIncludeBasicProperty" val="false" />
 		<set name="targetType" val="ONE" />
 		<enchant1 name="lethalStrikeRate" val="#ench1LethalStrikeRate" />
 		<enchant1 name="magicLvl" val="#enchMagicLvl" />

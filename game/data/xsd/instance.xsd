@@ -21,6 +21,34 @@
 							use="required" />
 					</xs:complexType>
 				</xs:element>
+				<xs:element name="parameters" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:choice minOccurs="1" maxOccurs="unbounded">
+							<xs:element name="param">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:token" use="required" />
+									<xs:attribute name="value" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="skill">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:token" use="required" />
+									<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+									<xs:attribute name="level" type="xs:positiveInteger" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="location">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:token" use="required" />
+									<xs:attribute name="x" type="xs:integer" use="required" />
+									<xs:attribute name="y" type="xs:integer" use="required" />
+									<xs:attribute name="z" type="xs:integer" use="required" />
+									<xs:attribute name="heading" type="xs:integer" use="optional" />
+								</xs:complexType>
+							</xs:element>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
 				<xs:element name="PvPInstance" minOccurs="0" maxOccurs="1">
 					<xs:complexType>
 						<xs:attribute name="val" type="xs:boolean" use="required" />
@@ -186,6 +214,8 @@
 			</xs:sequence>
 			<xs:attribute name="name" type="xs:normalizedString"
 				use="required" />
+			<xs:attribute name="id" type="xs:int"
+				use="optional" />
 			<xs:attribute name="ejectTime" type="xs:positiveInteger" />
 			<xs:attribute name="allowRandomWalk" type="xs:boolean" />
 		</xs:complexType>

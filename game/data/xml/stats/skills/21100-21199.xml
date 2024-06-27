@@ -1196,21 +1196,24 @@
 		<set name="staticReuse" val="true" />
 		<set name="energyConsume" val="240" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1539" />
-				<player agathionId="1543" />
-				<player agathionId="1547" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="240" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-240" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" val="0" abnormalType="AUTHORITY" abnormalTime="120" abnormalLvl="1">
-	       	 		<add stat="CON" val="1" />
-	        		<add stat="STR" val="1" />
+				<add stat="CON" val="1" />
+				<add stat="STR" val="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1226,21 +1229,24 @@
 		<set name="staticReuse" val="true" />
 		<set name="energyConsume" val="240" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1540" />
-				<player agathionId="1544" />
-				<player agathionId="1548" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="240" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-240" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" val="0" abnormalType="AUTHORITY" abnormalTime="120" abnormalLvl="1">
-	       	 		<add stat="WIT" val="1" />
-	        		<add stat="INT" val="1" />
+				<add stat="WIT" val="1" />
+				<add stat="INT" val="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1256,21 +1262,24 @@
 		<set name="staticReuse" val="true" />
 		<set name="energyConsume" val="240" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1542" />
-				<player agathionId="1546" />
-				<player agathionId="1550" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="240" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-240" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" val="0" abnormalType="AUTHORITY" abnormalTime="120" abnormalLvl="1">
-	       	 		<add stat="WIT" val="1" />
-	        		<add stat="MEN" val="1" />
+				<add stat="WIT" val="1" />
+				<add stat="MEN" val="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1284,20 +1293,24 @@
 		<set name="staticReuse" val="true" />
 		<set name="energyConsume" val="240" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1545" />
-				<player agathionId="1549" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="240" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-240" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" val="0" abnormalType="AUTHORITY" abnormalTime="120" abnormalLvl="1">
-	       	 		<add stat="CON" val="1" />
-	        		<add stat="DEX" val="1" />
+				<add stat="CON" val="1" />
+				<add stat="DEX" val="1" />
 			</effect>
 		</for>
 	</skill>
@@ -1307,14 +1320,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1539" />
-				<player agathionId="1540" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="holyPower" val="10" />
 				<add stat="holyRes" val="10" />
 			</effect>
@@ -1326,14 +1342,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1541" />
-				<player agathionId="1542" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="waterPower" val="10" />
 				<add stat="waterRes" val="10" />
 			</effect>
@@ -1345,14 +1364,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1547" />
-				<player agathionId="1548" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="firePower" val="10" />
 				<add stat="fireRes" val="10" />
 			</effect>
@@ -1364,14 +1386,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1549" />
-				<player agathionId="1550" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="windPower" val="10" />
 				<add stat="windRes" val="10" />
 			</effect>
@@ -1383,14 +1408,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1545" />
-				<player agathionId="1546" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="earthPower" val="10" />
 				<add stat="earthRes" val="10" />
 			</effect>
@@ -1402,14 +1430,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1543" />
-				<player agathionId="1544" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<add stat="darkPower" val="10" />
 				<add stat="darkRes" val="10" />
 			</effect>
@@ -1421,14 +1452,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1539" />
-				<player agathionId="1540" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="rootVuln" val="40" />
 			</effect>
 		</for>
@@ -1439,14 +1473,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1541" />
-				<player agathionId="1542" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="paralyzeVuln" val="40" />
 			</effect>
 		</for>
@@ -1457,14 +1494,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1543" />
-				<player agathionId="1544" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="sleepVuln" val="40" />
 			</effect>
 		</for>
@@ -1475,14 +1515,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1545" />
-				<player agathionId="1546" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="movementVuln" val="40" />
 			</effect>
 		</for>
@@ -1493,14 +1536,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1547" />
-				<player agathionId="1548" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="bleedVuln" val="40" />
 			</effect>
 		</for>
@@ -1511,14 +1557,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1549" />
-				<player agathionId="1550" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<sub stat="stunVuln" val="40" />
 			</effect>
 		</for>
@@ -1529,18 +1578,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1539" />
-				<player agathionId="1541" />
-				<player agathionId="1543" />
-				<player agathionId="1545" />
-				<player agathionId="1547" />
-				<player agathionId="1549" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<mul stat="regHp" val="1.2" />
 			</effect>
 		</for>
@@ -1551,18 +1599,17 @@
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="T" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1540" />
-				<player agathionId="1542" />
-				<player agathionId="1544" />
-				<player agathionId="1546" />
-				<player agathionId="1548" />
-				<player agathionId="1550" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
-			<effect name="EnergyDamOverTime" ticks="10" val="1">
+			<effect count="0x7fffffff" name="ConsumeAgathionEnergy" abnormalTime="2">
+				<param energy="-2" />
+				<param ticks="2" />
+				
 				<mul stat="regMp" val="1.2" />
 			</effect>
 		</for>
@@ -1577,30 +1624,24 @@
 		<set name="staticReuse" val="true" />
 		<set name="energyConsume" val="500" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<cond msgId="1509">
 			<player olympiad="false" />
 		</cond>
-		<cond msgId="2292">
-			<or>
-				<player agathionId="1539" />
-				<player agathionId="1540" />
-				<player agathionId="1541" />
-				<player agathionId="1542" />
-				<player agathionId="1543" />
-				<player agathionId="1544" />
-				<player agathionId="1545" />
-				<player agathionId="1546" />
-				<player agathionId="1547" />
-				<player agathionId="1548" />
-				<player agathionId="1549" />
-				<player agathionId="1550" />
-			</or>
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="2" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-240" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" val="0" abnormalType="SOUL_SHIELD" abnormalTime="10" abnormalLvl="1">
-	        		<mul stat="pDef" val="1.6" />
-	        		<mul stat="mDef" val="1.6" />
+				<mul stat="pDef" val="1.6" />
+				<mul stat="mDef" val="1.6" />
 			</effect>
 		</for>
 	</skill>

@@ -19,15 +19,15 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectFlag;
+import l2r.gameserver.model.effects.EffectPump;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author Zealar
  */
-public final class BlockDamage extends L2Effect
+public final class BlockDamage extends EffectPump
 {
 	public enum BlockType
 	{

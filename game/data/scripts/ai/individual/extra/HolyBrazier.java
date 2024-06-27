@@ -24,7 +24,10 @@ public class HolyBrazier extends AbstractNpcAI
 			HolyBrazier,
 			GuardianOfTheGrail
 		};
-		registerMobs(mobs);
+		
+		addSpawnId(mobs);
+		addAggroRangeEnterId(mobs);
+		addKillId(mobs);
 	}
 	
 	private void spawnGuard(L2Npc npc)

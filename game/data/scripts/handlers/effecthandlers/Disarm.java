@@ -48,6 +48,6 @@ public class Disarm extends L2Effect
 	@Override
 	public int getEffectFlags()
 	{
-		return EffectFlag.DISARMED.getMask();
+		return EffectFlag.FLAG_BLOCK_EQUIP_WEAPON.getMask();
 	}
 }

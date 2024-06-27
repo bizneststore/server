@@ -27,9 +27,10 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2EffectPointInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
 import l2r.gameserver.model.skills.L2Skill;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.skills.l2skills.L2SkillSignet;
 import l2r.gameserver.model.skills.l2skills.L2SkillSignetCasttime;
 import l2r.gameserver.model.stats.Env;
@@ -39,7 +40,7 @@ import l2r.gameserver.network.serverpackets.MagicSkillUse;
 /**
  * @author Forsaiken, Sami
  */
-public class Signet extends L2Effect
+public class Signet extends OverTimeEffect
 {
 	private L2Skill _skill;
 	private L2EffectPointInstance _actor;
@@ -66,16 +67,20 @@ public class Signet extends L2Effect
 		
 		_actor = (L2EffectPointInstance) getEffected();
 		_srcInArena = (getEffector().isInsideZone(ZoneIdType.PVP) && !getEffector().isInsideZone(ZoneIdType.SIEGE));
+		
+		onTick();
+		
 		return true;
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if (_skill == null)
 		{
-			return true;
+			return false;
 		}
+		
 		int mpConsume = _skill.getMpConsume();
 		
 		if (mpConsume > getEffector().getCurrentMp())
@@ -122,6 +127,8 @@ public class Signet extends L2Effect
 		{
 			getEffector().callSkill(_skill, targets.toArray(new L2Character[targets.size()]));
 		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

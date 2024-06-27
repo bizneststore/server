@@ -44,6 +44,11 @@ public abstract class AbstractNpcAI extends Quest
 {
 	public Logger _log = LoggerFactory.getLogger(getClass());
 	
+	public AbstractNpcAI()
+	{
+		super(-1, "", "");
+	}
+	
 	public AbstractNpcAI(String name, String descr)
 	{
 		super(-1, name, descr);

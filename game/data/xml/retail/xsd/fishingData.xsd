@@ -1,0 +1,136 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="fishingData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="distribution" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="distribution_id"
+									use="optional" />
+								<xs:attribute type="xs:string" name="default_distribution"
+									use="optional" />
+								<xs:attribute type="xs:string" name="night_fishing_distribution"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="fishing_place" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="fishing_place_id"
+									use="optional" />
+								<xs:attribute type="xs:string" name="territory"
+									use="optional" />
+								<xs:attribute type="xs:short" name="limit_grid"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="distribution_id"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fishing_place_type"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="maintain_distribution_time"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="lure" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="lure_id" use="optional" />
+								<xs:attribute type="xs:short" name="lure_item_id"
+									use="optional" />
+								<xs:attribute type="xs:float" name="revision_number"
+									use="optional" />
+								<xs:attribute type="xs:short" name="length_bonus"
+									use="optional" />
+								<xs:attribute type="xs:float" name="length_rate_bonus"
+									use="optional" />
+								<xs:attribute type="xs:string" name="lure_type"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fish_group_preference"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="fish" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:short" name="fish_id" use="optional" />
+								<xs:attribute type="xs:short" name="item_id" use="optional" />
+								<xs:attribute type="xs:string" name="item_name"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fish_group"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="fish_level" use="optional" />
+								<xs:attribute type="xs:float" name="fish_bite_rate"
+									use="optional" />
+								<xs:attribute type="xs:float" name="fish_guts" use="optional" />
+								<xs:attribute type="xs:short" name="fish_hp" use="optional" />
+								<xs:attribute type="xs:short" name="fish_max_length"
+									use="optional" />
+								<xs:attribute type="xs:float" name="fish_length_rate"
+									use="optional" />
+								<xs:attribute type="xs:float" name="hp_regen" use="optional" />
+								<xs:attribute type="xs:byte" name="start_combat_time"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="combat_duration"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="guts_check_time"
+									use="optional" />
+								<xs:attribute type="xs:float" name="guts_check_probability"
+									use="optional" />
+								<xs:attribute type="xs:float" name="cheating_prob"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fish_grade"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="fishingrod" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="fishingrod_id"
+									use="optional" />
+								<xs:attribute type="xs:short" name="fishingrod_item_id"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="fishingrod_level"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fishingrod_name"
+									use="optional" />
+								<xs:attribute type="xs:float" name="fishingrod_damage"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="fishingmonster" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:string" name="user_level"
+									use="optional" />
+								<xs:attribute type="xs:float" name="monster_probability"
+									use="optional" />
+								<xs:attribute type="xs:short" name="fishingmonsters"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

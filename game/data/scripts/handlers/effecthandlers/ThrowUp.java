@@ -21,8 +21,8 @@ package handlers.effecthandlers;
 import l2r.gameserver.GeoData;
 import l2r.gameserver.model.Location;
 import l2r.gameserver.model.effects.EffectFlag;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
@@ -31,19 +31,13 @@ import l2r.gameserver.network.serverpackets.ValidateLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ThrowUp extends L2Effect
+public class ThrowUp extends EffectInstant
 {
 	private static final Logger _log = LoggerFactory.getLogger(ThrowUp.class);
 	
 	public ThrowUp(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

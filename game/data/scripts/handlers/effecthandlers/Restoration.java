@@ -4,15 +4,15 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Implement restoration effect
  * @author vGodFather
  */
-public class Restoration extends L2Effect
+public class Restoration extends EffectInstant
 {
 	private final int _itemId;
 	private final int _itemCount;
@@ -22,12 +22,6 @@ public class Restoration extends L2Effect
 		super(env, template);
 		_itemId = template.getParameters().getInt("itemId", 0);
 		_itemCount = template.getParameters().getInt("itemCount", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

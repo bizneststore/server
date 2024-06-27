@@ -10,6 +10,7 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
@@ -20,7 +21,7 @@ import gr.sr.features.cancelreturn.CancelBuffReturnManager;
 /**
  * @author vGodFather
  */
-public class DispelBySlot extends L2Effect
+public class DispelBySlot extends EffectInstant
 {
 	private final String _dispel;
 	private final Map<String, Short> _dispelAbnormals;
@@ -52,12 +53,6 @@ public class DispelBySlot extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
 		if (_dispelAbnormals.isEmpty())
@@ -80,7 +75,7 @@ public class DispelBySlot extends L2Effect
 			for (L2Effect e : target.getAllEffects())
 			{
 				// Fist check for stacktype
-				if (stackType.equalsIgnoreCase(e.getAbnormalType()) && (e.getSkill().getId() != skillCast))
+				if (stackType.equalsIgnoreCase(e.getSkill().getAbnormalType().toString()) && (e.getSkill().getId() != skillCast))
 				{
 					if (e.getSkill() != null)
 					{
@@ -92,7 +87,7 @@ public class DispelBySlot extends L2Effect
 								CancelBuffReturnManager.tryAddCanceledBuff(getEffected(), e);
 							}
 						}
-						else if (stackOrder >= e.getAbnormalLvl())
+						else if (stackOrder >= e.getSkill().getAbnormalLvl())
 						{
 							target.stopSkillEffects(e.getSkill().getId());
 							if (!e.getSkill().isDebuff() && (e.getSkill().getTransformId() < 0))

@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.instancemanager.CastleManager;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.entity.Castle;
 import l2r.gameserver.model.stats.Env;
 
@@ -28,17 +28,11 @@ import l2r.gameserver.model.stats.Env;
  * Take Castle effect implementation.
  * @author Adry_85
  */
-public final class TakeCastle extends L2Effect
+public final class TakeCastle extends EffectInstant
 {
 	public TakeCastle(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

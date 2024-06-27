@@ -19,10 +19,10 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.serverpackets.StartRotation;
 import l2r.gameserver.network.serverpackets.StopRotation;
 
@@ -30,7 +30,7 @@ import l2r.gameserver.network.serverpackets.StopRotation;
  * Bluff effect.
  * @author decad
  */
-public class Bluff extends L2Effect
+public class Bluff extends EffectInstant
 {
 	private final int _chance;
 	
@@ -42,19 +42,14 @@ public class Bluff extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
+	public boolean calcSuccess(Env info)
 	{
-		return true;
+		return SkillFormulas.calcProbability(_chance, info.getCharacter(), info.getTarget(), info.getSkill());
 	}
 	
 	@Override
 	public boolean onStart()
 	{
-		if (!Formulas.calcProbability(_chance, getEffector(), getEffected(), getSkill()))
-		{
-			return false;
-		}
-		
 		final L2Character effected = getEffected();
 		// Headquarters NPC should not rotate
 		if ((effected.getId() == 35062) || effected.isRaid() || effected.isRaidMinion())

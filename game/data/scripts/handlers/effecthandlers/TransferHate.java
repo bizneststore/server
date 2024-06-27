@@ -20,16 +20,16 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 /**
  * Transfer Hate effect implementation.
  * @author Adry_85
  */
-public final class TransferHate extends L2Effect
+public final class TransferHate extends EffectInstant
 {
 	private final int _chance;
 	
@@ -41,19 +41,14 @@ public final class TransferHate extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
+	public boolean calcSuccess(Env info)
 	{
-		return true;
+		return SkillFormulas.calcProbability(_chance, info.getCharacter(), info.getTarget(), info.getSkill());
 	}
 	
 	@Override
 	public boolean onStart()
 	{
-		if (!Formulas.calcProbability(_chance, getEffector(), getEffected(), getSkill()))
-		{
-			return false;
-		}
-		
 		for (L2Character obj : getEffector().getKnownList().getKnownCharactersInRadius(getSkill().getAffectRange()))
 		{
 			if ((obj == null) || !obj.isAttackable() || obj.isDead())

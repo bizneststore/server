@@ -261,7 +261,7 @@
 		<set name="targetType" val="AURA" />
 		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect count="5" name="Confusion" abnormalTime="4" />
+			<effect name="Confusion" />
 		</for>
 	</skill>
 	<skill id="1216" levels="1" name="Self Heal">

@@ -33,11 +33,6 @@ public class TransferDamage extends L2Effect
 		super(env, template);
 	}
 	
-	public TransferDamage(Env env, L2Effect effect)
-	{
-		super(env, effect);
-	}
-	
 	@Override
 	public boolean onStart()
 	{

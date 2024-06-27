@@ -10,18 +10,19 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 import gr.sr.features.cancelreturn.CancelBuffReturnManager;
 
 /**
  * @author vGodFather
  */
-public class DispelBySlotProbability extends L2Effect
+public class DispelBySlotProbability extends EffectInstant
 {
 	private final String _dispel;
 	private final Map<String, Short> _dispelAbnormals;
@@ -49,15 +50,15 @@ public class DispelBySlotProbability extends L2Effect
 	}
 	
 	@Override
-	public L2EffectType getEffectType()
+	public boolean calcSuccess(Env info)
 	{
-		return L2EffectType.DISPEL;
+		return SkillFormulas.calcStealSuccess(getEffector(), getEffected(), getSkill(), _rate);
 	}
 	
 	@Override
-	public boolean isInstant()
+	public L2EffectType getEffectType()
 	{
-		return true;
+		return L2EffectType.DISPEL;
 	}
 	
 	@Override
@@ -91,13 +92,13 @@ public class DispelBySlotProbability extends L2Effect
 					}
 					
 					// Calculate steal success only if rate is less than 100 otherwise must proceed
-					if ((_rate < 100) && !Formulas.calcStealSuccess(getEffector(), target, getSkill(), _rate))
+					if ((_rate < 100) && !SkillFormulas.calcStealSuccess(getEffector(), target, getSkill(), _rate))
 					{
 						continue;
 					}
 					
 					// Fist check for stacktype
-					if (stackType.equalsIgnoreCase(e.getAbnormalType()) && (e.getSkill().getId() != skillCast))
+					if (stackType.equalsIgnoreCase(e.getSkill().getAbnormalType().toString()) && (e.getSkill().getId() != skillCast))
 					{
 						if (e.getSkill() != null)
 						{
@@ -109,7 +110,7 @@ public class DispelBySlotProbability extends L2Effect
 									CancelBuffReturnManager.tryAddCanceledBuff(getEffected(), e);
 								}
 							}
-							else if (stackOrder >= e.getAbnormalLvl())
+							else if (stackOrder >= e.getSkill().getAbnormalLvl())
 							{
 								target.stopSkillEffects(e.getSkill().getId());
 								if (!e.getSkill().isDebuff())

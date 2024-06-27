@@ -35,11 +35,6 @@ public class NoblesseBless extends L2Effect
 		super(env, template);
 	}
 	
-	public NoblesseBless(Env env, L2Effect effect)
-	{
-		super(env, effect);
-	}
-	
 	@Override
 	public int getEffectFlags()
 	{

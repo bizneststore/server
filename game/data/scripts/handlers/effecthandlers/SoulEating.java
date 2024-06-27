@@ -42,12 +42,6 @@ public final class SoulEating extends L2Effect
 		_expNeeded = template.getParameters().getInt("expNeeded");
 	}
 	
-	public SoulEating(Env env, L2Effect effect)
-	{
-		super(env, effect);
-		_expNeeded = effect.getEffectTemplate().getParameters().getInt("expNeeded");
-	}
-	
 	public void onExperienceReceived(L2Playable playable, long exp)
 	{
 		if (playable.isPlayer() && (exp >= _expNeeded))

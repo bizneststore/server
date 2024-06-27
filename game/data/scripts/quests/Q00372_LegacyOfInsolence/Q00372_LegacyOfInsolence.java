@@ -31,7 +31,7 @@ import l2r.gameserver.util.Util;
 
 /**
  * Legacy Of Insolence (372)
- * @author ivantotov
+ * @author ivantotov edited by vmilon x3
  */
 public final class Q00372_LegacyOfInsolence extends Quest
 {

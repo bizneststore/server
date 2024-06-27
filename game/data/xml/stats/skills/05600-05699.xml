@@ -316,6 +316,7 @@
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="10" />
 		<set name="abnormalType" val="invincibility" />
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="affectLimit" val="1-9" />
 		<set name="affectRange" val="150" />
 		<set name="hitTime" val="2000" />
@@ -327,14 +328,14 @@
 			<effect name="Petrification" abnormalTime="10" abnormalLvl="2" abnormalType="invincibility">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="10" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="10" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="10" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="10" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="5626" levels="1" name="Raid Boss">

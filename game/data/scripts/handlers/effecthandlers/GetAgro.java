@@ -20,25 +20,19 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Get Agro effect implementation.
  * @author Adry_85
  */
-public final class GetAgro extends L2Effect
+public final class GetAgro extends EffectInstant
 {
 	public GetAgro(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

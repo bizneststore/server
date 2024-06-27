@@ -21,12 +21,13 @@ package handlers.effecthandlers;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.effects.EffectFlag;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
-public class Relax extends L2Effect
+public class Relax extends OverTimeEffect
 {
 	public Relax(Env env, EffectTemplate template)
 	{
@@ -50,11 +51,13 @@ public class Relax extends L2Effect
 		{
 			getEffected().getAI().setIntention(CtrlIntention.AI_INTENTION_REST);
 		}
+		
+		onTick();
 		return super.onStart();
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
@@ -78,7 +81,7 @@ public class Relax extends L2Effect
 			}
 		}
 		
-		double manaDam = getValue();
+		double manaDam = getValue() * getTicksMultiplier();
 		
 		if (manaDam > getEffected().getCurrentMp())
 		{
@@ -90,6 +93,8 @@ public class Relax extends L2Effect
 		}
 		
 		getEffected().reduceCurrentMp(manaDam);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

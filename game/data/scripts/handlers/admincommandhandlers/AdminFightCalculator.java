@@ -27,7 +27,9 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2MonsterInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.templates.L2NpcTemplate;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.NpcHtmlMessage;
 import l2r.util.StringUtil;
@@ -212,17 +214,17 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		
 		for (int i = 0; i < 10000; i++)
 		{
-			boolean _miss1 = Formulas.calcHitMiss(npc1, npc2);
+			boolean _miss1 = SkillFormulas.calcHitMiss(npc1, npc2);
 			if (_miss1)
 			{
 				miss1++;
 			}
-			byte _shld1 = Formulas.calcShldUse(npc1, npc2, null, false);
+			byte _shld1 = SkillFormulas.calcShldUse(npc1, npc2, null, false);
 			if (_shld1 > 0)
 			{
 				shld1++;
 			}
-			boolean _crit1 = Formulas.calcCrit(npc1, npc2);
+			boolean _crit1 = SkillFormulas.calcCrit(npc1, npc2);
 			if (_crit1)
 			{
 				crit1++;
@@ -237,7 +239,7 @@ public class AdminFightCalculator implements IAdminCommandHandler
 			
 			if (!_miss1)
 			{
-				double _dmg1 = Formulas.calcPhysDam(npc1, npc2, _shld1, _crit1, false);
+				double _dmg1 = SkillFormulas.calculate(FormulaType.CALC_PHYS_DMG, npc1, npc2, null, new FormulaEnv(false, false, _shld1, _crit1, true));
 				dmg1 += _dmg1;
 				npc1.abortAttack();
 			}
@@ -245,17 +247,17 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		
 		for (int i = 0; i < 10000; i++)
 		{
-			boolean _miss2 = Formulas.calcHitMiss(npc2, npc1);
+			boolean _miss2 = SkillFormulas.calcHitMiss(npc2, npc1);
 			if (_miss2)
 			{
 				miss2++;
 			}
-			byte _shld2 = Formulas.calcShldUse(npc2, npc1, null, false);
+			byte _shld2 = SkillFormulas.calcShldUse(npc2, npc1, null, false);
 			if (_shld2 > 0)
 			{
 				shld2++;
 			}
-			boolean _crit2 = Formulas.calcCrit(npc2, npc1);
+			boolean _crit2 = SkillFormulas.calcCrit(npc2, npc1);
 			if (_crit2)
 			{
 				crit2++;
@@ -270,7 +272,7 @@ public class AdminFightCalculator implements IAdminCommandHandler
 			
 			if (!_miss2)
 			{
-				double _dmg2 = Formulas.calcPhysDam(npc2, npc1, _shld2, _crit2, false);
+				double _dmg2 = SkillFormulas.calculate(FormulaType.CALC_PHYS_DMG, npc2, npc1, null, new FormulaEnv(false, false, _shld2, _crit2, true));
 				dmg2 += _dmg2;
 				npc2.abortAttack();
 			}
@@ -294,10 +296,10 @@ public class AdminFightCalculator implements IAdminCommandHandler
 		int tdmg2 = (int) (sAtk2 * dmg2);
 		// HP restored per 100 seconds
 		double maxHp1 = npc1.getMaxHp();
-		int hp1 = (int) ((Formulas.calcHpRegen(npc1) * 100000) / Formulas.getRegeneratePeriod(npc1));
+		int hp1 = (int) ((SkillFormulas.calculate(FormulaType.CALC_HP_REGEN, npc1, null, null, null) * 100000) / SkillFormulas.getRegeneratePeriod(npc1));
 		
 		double maxHp2 = npc2.getMaxHp();
-		int hp2 = (int) ((Formulas.calcHpRegen(npc2) * 100000) / Formulas.getRegeneratePeriod(npc2));
+		int hp2 = (int) ((SkillFormulas.calculate(FormulaType.CALC_HP_REGEN, npc2, null, null, null) * 100000) / SkillFormulas.getRegeneratePeriod(npc2));
 		
 		final NpcHtmlMessage adminReply = new NpcHtmlMessage();
 		

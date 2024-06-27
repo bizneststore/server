@@ -23,13 +23,13 @@ import java.util.stream.Collectors;
 
 import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.util.Rnd;
 
-public class RandomizeHate extends L2Effect
+public class RandomizeHate extends EffectInstant
 {
 	private final int _chance;
 	
@@ -41,20 +41,15 @@ public class RandomizeHate extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
+	public boolean calcSuccess(Env info)
 	{
-		return true;
+		return SkillFormulas.calcProbability(_chance, info.getCharacter(), info.getTarget(), info.getSkill());
 	}
 	
 	@Override
 	public boolean onStart()
 	{
 		if ((getEffected() == null) || (getEffected() == getEffector()) || !getEffected().isAttackable())
-		{
-			return false;
-		}
-		
-		if (!Formulas.calcProbability(_chance, getEffector(), getEffected(), getSkill()))
 		{
 			return false;
 		}

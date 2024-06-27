@@ -27,13 +27,13 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.L2Playable;
 import l2r.gameserver.model.actor.L2Summon;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.stats.BaseStats;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.model.stats.Stats;
 import l2r.log.filter.Log;
 import l2r.util.Rnd;
@@ -45,7 +45,7 @@ import gr.sr.configsEngine.configs.impl.FormulasConfigs;
  * Energy Attack effect implementation.
  * @author NosBit
  */
-public final class EnergyAttack extends L2Effect
+public final class EnergyAttack extends EffectInstant
 {
 	private final double _power;
 	private final int _criticalChance;
@@ -67,9 +67,9 @@ public final class EnergyAttack extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
+	public boolean calcSuccess(Env info)
 	{
-		return true;
+		return !SkillFormulas.calcPhysicalSkillEvasion(info.getCharacter(), info.getTarget(), info.getSkill());
 	}
 	
 	@Override
@@ -77,13 +77,6 @@ public final class EnergyAttack extends L2Effect
 	{
 		final L2PcInstance attacker = getEffector() instanceof L2PcInstance ? (L2PcInstance) getEffector() : null;
 		if (attacker == null)
-		{
-			return false;
-		}
-		
-		// Check firstly if target dodges skill
-		final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(getEffector(), getEffected(), getSkill());
-		if (skillIsEvaded)
 		{
 			return false;
 		}
@@ -96,19 +89,19 @@ public final class EnergyAttack extends L2Effect
 		
 		if (!_ignoreShieldDefence)
 		{
-			byte shield = Formulas.calcShldUse(attacker, target, skill, true);
+			byte shield = SkillFormulas.calcShldUse(attacker, target, skill, true);
 			switch (shield)
 			{
-				case Formulas.SHIELD_DEFENSE_FAILED:
+				case SkillFormulas.SHIELD_DEFENSE_FAILED:
 				{
 					break;
 				}
-				case Formulas.SHIELD_DEFENSE_SUCCEED:
+				case SkillFormulas.SHIELD_DEFENSE_SUCCEED:
 				{
 					defence += target.getShldDef();
 					break;
 				}
-				case Formulas.SHIELD_DEFENSE_PERFECT_BLOCK:
+				case SkillFormulas.SHIELD_DEFENSE_PERFECT_BLOCK:
 				{
 					defence = -1;
 					break;
@@ -121,7 +114,7 @@ public final class EnergyAttack extends L2Effect
 		
 		if (defence != -1)
 		{
-			double damageMultiplier = Formulas.calcWeaponTraitBonus(attacker, target) * Formulas.calcAttributeBonus(attacker, target, skill) * Formulas.calcGeneralTraitBonus(attacker, target, skill, true);
+			double damageMultiplier = SkillFormulas.calcWeaponTraitBonus(attacker, target) * SkillFormulas.calcAttributeBonus(attacker, target, skill) * SkillFormulas.calcGeneralTraitBonus(attacker, target, skill, true);
 			
 			boolean ss = getSkill().useSoulShot() && attacker.isChargedShot(ShotType.SOULSHOTS);
 			double ssBoost = ss ? FormulasConfigs.ALT_PHYSICAL_SKILL_SS_MULTIPLIER : 1.0;
@@ -140,8 +133,8 @@ public final class EnergyAttack extends L2Effect
 			damage *= damageMultiplier;
 			if (target instanceof L2PcInstance)
 			{
-				damage *= attacker.getStat().calcStat(Stats.PVP_PHYS_SKILL_DMG, 1.0);
-				damage /= target.getStat().calcStat(Stats.PVP_PHYS_SKILL_DEF, 1.0);
+				damage *= attacker.getStat().calcStat(Stats.PVP_PHYSICAL_SKILL_DMG_BONUS, 1.0);
+				damage /= target.getStat().calcStat(Stats.PVP_PHYSICAL_SKILL_DEF_BONUS, 1.0);
 				damage = attacker.getStat().calcStat(Stats.PHYSICAL_SKILL_POWER, damage);
 			}
 			
@@ -241,7 +234,7 @@ public final class EnergyAttack extends L2Effect
 			}
 			
 			// Check if damage should be reflected
-			Formulas.calcDamageReflected(attacker, target, skill, damage, critical);
+			SkillFormulas.calcDamageReflected(attacker, target, skill, damage, critical);
 		}
 		return true;
 	}

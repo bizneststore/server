@@ -24,6 +24,8 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 
 import gr.sr.features.cancelreturn.CancelBuffReturnManager;
@@ -31,7 +33,7 @@ import gr.sr.features.cancelreturn.CancelBuffReturnManager;
 /**
  * @author Forsaiken, Sami
  */
-public class SignetNoise extends L2Effect
+public class SignetNoise extends OverTimeEffect
 {
 	private L2EffectPointInstance _actor;
 	
@@ -50,11 +52,13 @@ public class SignetNoise extends L2Effect
 	public boolean onStart()
 	{
 		_actor = (L2EffectPointInstance) getEffected();
+		
+		onTick();
 		return true;
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if (getCount() == (getTotalCount() - 1))
 		{
@@ -84,6 +88,8 @@ public class SignetNoise extends L2Effect
 				CancelBuffReturnManager.startReturnTask(target);
 			}
 		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

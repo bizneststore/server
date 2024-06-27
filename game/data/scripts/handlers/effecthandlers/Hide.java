@@ -21,7 +21,6 @@ package handlers.effecthandlers;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
-import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
@@ -37,11 +36,6 @@ public class Hide extends L2Effect
 		super(env, template);
 	}
 	
-	public Hide(Env env, L2Effect effect)
-	{
-		super(env, effect);
-	}
-	
 	@Override
 	public L2EffectType getEffectType()
 	{
@@ -55,7 +49,6 @@ public class Hide extends L2Effect
 		{
 			L2PcInstance activeChar = getEffected().getActingPlayer();
 			activeChar.setInvisible(true);
-			activeChar.startAbnormalEffect(AbnormalEffect.STEALTH);
 			
 			if ((activeChar.getAI().getNextIntention() != null) && (activeChar.getAI().getNextIntention().getCtrlIntention() == CtrlIntention.AI_INTENTION_ATTACK))
 			{
@@ -86,7 +79,6 @@ public class Hide extends L2Effect
 			{
 				activeChar.setInvisible(false);
 			}
-			activeChar.stopAbnormalEffect(AbnormalEffect.STEALTH);
 		}
 	}
 }

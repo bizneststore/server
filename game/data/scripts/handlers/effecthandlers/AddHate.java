@@ -19,15 +19,15 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Attackable;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Add Hate effect implementation.
  * @author Adry_85
  */
-public final class AddHate extends L2Effect
+public final class AddHate extends EffectInstant
 {
 	private final int _power;
 	
@@ -36,12 +36,6 @@ public final class AddHate extends L2Effect
 		super(env, template);
 		
 		_power = template.getParameters().getInt("_power", 100);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

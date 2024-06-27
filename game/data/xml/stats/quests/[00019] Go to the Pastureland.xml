@@ -2,6 +2,7 @@
 <!-- TODO -->
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
 	<quest id="19" nameEn="Go to the Pastureland" nameRu="Ферма Диких Зверей">
+		<level min="82" max="85" />
 		<expirience>
 			<rewardExp val="136766" rateable="true" />
 			<rewardSp val="12688" rateable="true" />

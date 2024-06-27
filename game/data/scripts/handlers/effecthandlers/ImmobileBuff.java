@@ -19,7 +19,6 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
@@ -31,12 +30,6 @@ public class ImmobileBuff extends Buff
 	public ImmobileBuff(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	// Special constructor to steal this effect
-	public ImmobileBuff(Env env, L2Effect effect)
-	{
-		super(env, effect);
 	}
 	
 	@Override

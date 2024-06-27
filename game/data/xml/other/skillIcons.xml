@@ -347,6 +347,7 @@
 	<skill	id="441"	icon="icon.skill0441"	/>
 	<skill	id="442"	icon="icon.skill0442"	/>
 	<skill	id="443"	icon="icon.skill0443"	/>
+	<skill	id="444"	icon="BranchSys2.icon.br_skill0444_a"	/>
 	<skill	id="445"	icon="icon.skill0445"	/>
 	<skill	id="446"	icon="icon.skill0446"	/>
 	<skill	id="447"	icon="icon.skill0447"	/>
@@ -745,6 +746,17 @@
 	<skill	id="843"	icon="icon.skill0843"	/>
 	<skill	id="844"	icon="icon.skill0247"	/>
 	<skill	id="845"	icon="icon.skill0247"	/>
+	<skill	id="846"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="847"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="848"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="849"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="850"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="851"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="852"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="853"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="854"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="855"	icon="icon.weapon_fort_flag_i00"	/>
+	<skill	id="856"	icon="icon.weapon_fort_flag_i00"	/>
 	<skill	id="857"	icon="icon.skilltransform1"	/>
 	<skill	id="858"	icon="icon.skilltransform1"	/>
 	<skill	id="859"	icon="icon.skilltransform1"	/>
@@ -1353,6 +1365,8 @@
 	<skill	id="2008"	icon="icon.skill0000"	/>
 	<skill	id="2009"	icon="icon.skill0000"	/>
 	<skill	id="2010"	icon="icon.skill0000"	/>
+	<skill	id="2011"	icon="icon.etc_potion_green_i00"	/>
+	<skill	id="2012"	icon="icon.etc_reagent_green_i00"	/>
 	<skill	id="2013"	icon="icon.skill0000"	/>
 	<skill	id="2014"	icon="icon.skill0000"	/>
 	<skill	id="2015"	icon="icon.skill0000"	/>
@@ -1371,8 +1385,13 @@
 	<skill	id="2028"	icon="icon.skill0000"	/>
 	<skill	id="2029"	icon="icon.skill0000"	/>
 	<skill	id="2030"	icon="icon.skill0000"	/>
+	<skill	id="2031"	icon="icon.etc_lesser_potion_red_i00"	/>
+	<skill	id="2032"	icon="icon.etc_potion_scarlet_i00"	/>
 	<skill	id="2033"	icon="icon.skill0000"	/>
+	<skill	id="2034"	icon="icon.etc_lesser_potion_green_i00"	/>
+	<skill	id="2035"	icon="icon.etc_lesser_potion_purple_i00"	/>
 	<skill	id="2036"	icon="icon.skill0000"	/>
+	<skill	id="2037"	icon="icon.etc_reagent_white_i00"	/>
 	<skill	id="2038"	icon="icon.skill0000"	/>
 	<skill	id="2039"	icon="icon.skill0000"	/>
 	<skill	id="2040"	icon="icon.skill0000"	/>
@@ -1385,10 +1404,21 @@
 	<skill	id="2047"	icon="icon.skill0000"	/>
 	<skill	id="2048"	icon="icon.skill0000"	/>
 	<skill	id="2049"	icon="icon.skill0000"	/>
+	<skill	id="2050"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2051"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2052"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2053"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2054"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2055"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2056"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2057"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2058"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2059"	icon="icon.etc_scroll_white_i00"	/>
 	<skill	id="2060"	icon="icon.skill0000"	/>
 	<skill	id="2061"	icon="icon.skill0000"	/>
 	<skill	id="2062"	icon="icon.skill0000"	/>
 	<skill	id="2063"	icon="icon.skill0000"	/>
+	<skill	id="2064"	icon="icon.etc_scroll_white_i00"	/>
 	<skill	id="2065"	icon="icon.skill0000"	/>
 	<skill	id="2066"	icon="icon.skill0000"	/>
 	<skill	id="2067"	icon="icon.skill0000"	/>
@@ -1398,7 +1428,10 @@
 	<skill	id="2071"	icon="icon.skill0000"	/>
 	<skill	id="2072"	icon="icon.skill0000"	/>
 	<skill	id="2073"	icon="icon.skill0000"	/>
+	<skill	id="2074"	icon="icon.etc_potion_red_i00"	/>
 	<skill	id="2075"	icon="icon.skill0000"	/>
+	<skill	id="2076"	icon="icon.etc_bless_of_eva_i00"	/>
+	<skill	id="2077"	icon="icon.etc_potion_blue_i00"	/>
 	<skill	id="2078"	icon="icon.skill0000"	/>
 	<skill	id="2079"	icon="icon.skill0000"	/>
 	<skill	id="2080"	icon="icon.skill0000"	/>
@@ -1489,6 +1522,8 @@
 	<skill	id="2165"	icon="icon.skill0000"	/>
 	<skill	id="2166"	icon="icon.skill0000"	/>
 	<skill	id="2167"	icon="icon.skill0000"	/>
+	<skill	id="2168"	icon="icon.etc_orcish_talisman_i00"	/>
+	<skill	id="2169"	icon="icon.etc_potion_of_acumen3_i00"	/>
 	<skill	id="2170"	icon="icon.skill0000"	/>
 	<skill	id="2171"	icon="icon.skill0000"	/>
 	<skill	id="2172"	icon="icon.skill0000"	/>
@@ -1550,17 +1585,29 @@
 	<skill	id="2228"	icon="icon.skill0000"	/>
 	<skill	id="2229"	icon="icon.skill0000"	/>
 	<skill	id="2230"	icon="icon.skill0000"	/>
+	<skill	id="2231"	icon="icon.etc_blesscharm_ward_val_i00"	/>
+	<skill	id="2232"	icon="icon.etc_blesscharm_slay_val_i00"	/>
 	<skill	id="2233"	icon="icon.skill0000"	/>
+	<skill	id="2234"	icon="icon.etc_destory_soul_arrow_i00"	/>
 	<skill	id="2235"	icon="icon.skill0000"	/>
 	<skill	id="2236"	icon="icon.skill0000"	/>
 	<skill	id="2237"	icon="icon.skill0000"	/>
 	<skill	id="2238"	icon="icon.skill0000"	/>
+	<skill	id="2239"	icon="icon.ect_piece_of_paper_white_i00"	/>
 	<skill	id="2240"	icon="icon.skill0000"	/>
 	<skill	id="2241"	icon="icon.skill0000"	/>
 	<skill	id="2242"	icon="icon.skill0000"	/>
 	<skill	id="2243"	icon="icon.skill0000"	/>
 	<skill	id="2244"	icon="icon.skill0000"	/>
 	<skill	id="2245"	icon="icon.skill0000"	/>
+	<skill	id="2246"	icon="icon.etc_herb_red_i00"	/>
+	<skill	id="2247"	icon="icon.etc_herb_blue_i00"	/>
+	<skill	id="2248"	icon="icon.etc_fire_crystal_i00"	/>
+	<skill	id="2249"	icon="icon.etc_water_crystal_i00"	/>
+	<skill	id="2250"	icon="icon.etc_wind_crystal_i00"	/>
+	<skill	id="2251"	icon="icon.etc_earth_crystal_i00"	/>
+	<skill	id="2252"	icon="icon.etc_unholy_crystal_i00"	/>
+	<skill	id="2253"	icon="icon.etc_holy_crystal_i00"	/>
 	<skill	id="2254"	icon="icon.skill0000"	/>
 	<skill	id="2255"	icon="icon.skill0000"	/>
 	<skill	id="2256"	icon="icon.skill0000"	/>
@@ -1581,10 +1628,18 @@
 	<skill	id="2271"	icon="icon.skill0000"	/>
 	<skill	id="2272"	icon="icon.skill0000"	/>
 	<skill	id="2273"	icon="icon.skill0000"	/>
+	<skill	id="2274"	icon="icon.etc_oblivion_white_i00"	/>
+	<skill	id="2275"	icon="icon.etc_oblivion_black_i00"	/>
 	<skill	id="2276"	icon="icon.skill0000"	/>
 	<skill	id="2277"	icon="icon.skill0000"	/>
 	<skill	id="2278"	icon="icon.skill0000"	/>
 	<skill	id="2279"	icon="icon.skill0000"	/>
+	<skill	id="2280"	icon="icon.etc_herb_red_i00"	/>
+	<skill	id="2281"	icon="icon.etc_herb_blue_i00"	/>
+	<skill	id="2282"	icon="BranchSys2.icon.etc_attack_sp_herb_i01"	/>
+	<skill	id="2283"	icon="icon.etc_magic_sp_herb_i00"	/>
+	<skill	id="2284"	icon="icon.etc_critical_herb_i00"	/>
+	<skill	id="2285"	icon="BranchSys2.icon.etc_move_herb_i01"	/>
 	<skill	id="2286"	icon="icon.skill0000"	/>
 	<skill	id="2287"	icon="icon.skill0000"	/>
 	<skill	id="2288"	icon="icon.skill0000"	/>
@@ -1609,6 +1664,16 @@
 	<skill	id="2307"	icon="icon.skill0000"	/>
 	<skill	id="2308"	icon="icon.skill0000"	/>
 	<skill	id="2309"	icon="icon.skill0000"	/>
+	<skill	id="2310"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2311"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2312"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2313"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2314"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2315"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2316"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2317"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2318"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2319"	icon="icon.etc_scroll_white_i00"	/>
 	<skill	id="2320"	icon="icon.skill0000"	/>
 	<skill	id="2321"	icon="icon.skill0000"	/>
 	<skill	id="2322"	icon="icon.skill0000"	/>
@@ -1624,6 +1689,13 @@
 	<skill	id="2332"	icon="icon.skill0000"	/>
 	<skill	id="2333"	icon="icon.skill0000"	/>
 	<skill	id="2334"	icon="icon.skill0000"	/>
+	<skill	id="2335"	icon="icon.etc_fire_potion_i00"	/>
+	<skill	id="2336"	icon="icon.etc_water_potion_i00"	/>
+	<skill	id="2337"	icon="icon.etc_wind_potion_i00"	/>
+	<skill	id="2338"	icon="icon.etc_earth_potion_i00"	/>
+	<skill	id="2339"	icon="icon.etc_holy_potion_i00"	/>
+	<skill	id="2340"	icon="icon.etc_unholy_potion_i00"	/>
+	<skill	id="2341"	icon="icon.etc_lesser_potion_red_i00"	/>
 	<skill	id="2342"	icon="icon.skill0000"	/>
 	<skill	id="2343"	icon="icon.skill0000"	/>
 	<skill	id="2344"	icon="icon.skill0000"	/>
@@ -1639,6 +1711,7 @@
 	<skill	id="2354"	icon="icon.skill0000"	/>
 	<skill	id="2355"	icon="icon.skill0000"	/>
 	<skill	id="2356"	icon="icon.skill0000"	/>
+	<skill	id="2357"	icon="icon.etc_lesser_potion_red_i00"	/>
 	<skill	id="2358"	icon="icon.skill0000"	/>
 	<skill	id="2359"	icon="icon.skill0000"	/>
 	<skill	id="2360"	icon="icon.skill0000"	/>
@@ -1660,13 +1733,47 @@
 	<skill	id="2376"	icon="icon.skilltransform2"	/>
 	<skill	id="2377"	icon="icon.skilltransform2"	/>
 	<skill	id="2378"	icon="icon.skilltransform2"	/>
+	<skill	id="2379"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2380"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2381"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2382"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2383"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2384"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2385"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2386"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2387"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2388"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2389"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2390"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2391"	icon="icon.etc_scroll_white_i00"	/>
 	<skill	id="2392"	icon="icon.skill0000"	/>
 	<skill	id="2393"	icon="icon.skill0000"	/>
+	<skill	id="2394"	icon="icon.etc_trans_4f_s_b_01"	/>
 	<skill	id="2395"	icon="icon.skill0000"	/>
+	<skill	id="2396"	icon="icon.etc_lesser_potion_yellow_i00"	/>
+	<skill	id="2397"	icon="icon.etc_lesser_potion_yellow_i00"	/>
+	<skill	id="2398"	icon="icon.etc_lesser_potion_yellow_i00"	/>
+	<skill	id="2399"	icon="icon.etc_braided_hemp_i00"	/>
 	<skill	id="2400"	icon="icon.skill0000"	/>
 	<skill	id="2401"	icon="icon.skill0000"	/>
 	<skill	id="2402"	icon="icon.skill0000"	/>
 	<skill	id="2403"	icon="icon.skill0000"	/>
+	<skill	id="2404"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2405"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2406"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2407"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2408"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2409"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2410"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2411"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2412"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2413"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2414"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2415"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2416"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2417"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2418"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2419"	icon="icon.etc_hot_spring_nectar_i00"	/>
 	<skill	id="2420"	icon="icon.skill0000"	/>
 	<skill	id="2421"	icon="icon.skill0000"	/>
 	<skill	id="2422"	icon="icon.skill0000"	/>
@@ -1676,6 +1783,17 @@
 	<skill	id="2426"	icon="icon.skill0000"	/>
 	<skill	id="2427"	icon="icon.skill0000"	/>
 	<skill	id="2428"	icon="icon.skill0298"	/>
+	<skill	id="2429"	icon="icon.etc_fruit_juice_glass_bottle_i00"	/>
+	<skill	id="2430"	icon="icon.etc_fruit_juice_glass_bottle_i01"	/>
+	<skill	id="2431"	icon="icon.etc_fruit_juice_glass_bottle_i02"	/>
+	<skill	id="2432"	icon="icon.etc_fruit_juice_glass_bottle_i03"	/>
+	<skill	id="2433"	icon="icon.etc_fruit_juice_glass_bottle_i04"	/>
+	<skill	id="2434"	icon="icon.etc_fruit_juice_glass_bottle_i05"	/>
+	<skill	id="2435"	icon="icon.etc_fruit_juice_glass_bottle_i06"	/>
+	<skill	id="2436"	icon="icon.etc_fruit_juice_glass_bottle_i07"	/>
+	<skill	id="2437"	icon="icon.etc_fruit_juice_glass_bottle_i08"	/>
+	<skill	id="2438"	icon="icon.etc_fruit_juice_glass_bottle_i09"	/>
+	<skill	id="2439"	icon="icon.etc_fruit_juice_glass_bottle_i10"	/>
 	<skill	id="2440"	icon="icon.skill0000"	/>
 	<skill	id="2441"	icon="icon.skill0000"	/>
 	<skill	id="2442"	icon="icon.skill0000"	/>
@@ -1747,7 +1865,9 @@
 	<skill	id="2509"	icon="icon.skill0000"	/>
 	<skill	id="2510"	icon="icon.skill0000"	/>
 	<skill	id="2511"	icon="icon.skilltransform3"	/>
+	<skill	id="2512"	icon="BranchSys2.icon.etc_vampiric_rage_herb_i01"	/>
 	<skill	id="2513"	icon="icon.skill2513"	/>
+	<skill	id="2514"	icon="BranchSys2.icon.etc_crt_force_herb_i01"	/>
 	<skill	id="2515"	icon="icon.skill0000"	/>
 	<skill	id="2516"	icon="icon.skill0000"	/>
 	<skill	id="2517"	icon="icon.skill0000"	/>
@@ -1826,6 +1946,7 @@
 	<skill	id="2590"	icon="icon.skill0000"	/>
 	<skill	id="2591"	icon="icon.skill0000"	/>
 	<skill	id="2592"	icon="icon.skill0000"	/>
+	<skill	id="2593"	icon="icon.etc_potion_red_i00"	/>
 	<skill	id="2594"	icon="icon.skill0000"	/>
 	<skill	id="2595"	icon="icon.skill0000"	/>
 	<skill	id="2596"	icon="icon.skill0000"	/>
@@ -1855,9 +1976,12 @@
 	<skill	id="2620"	icon="icon.skill0000"	/>
 	<skill	id="2621"	icon="icon.skill0000"	/>
 	<skill	id="2622"	icon="icon.skill0000"	/>
+	<skill	id="2623"	icon="icon.etc_potion_of_acumen2_i00"	/>
+	<skill	id="2624"	icon="icon.etc_piece_of_cloth_white_i00"	/>
 	<skill	id="2625"	icon="icon.skill0000"	/>
 	<skill	id="2626"	icon="icon.skill0000"	/>
 	<skill	id="2627"	icon="icon.skill0000"	/>
+	<skill	id="2628"	icon="icon.etc_beetle_i00"	/>
 	<skill	id="2629"	icon="icon.skill0000"	/>
 	<skill	id="2630"	icon="icon.skill0000"	/>
 	<skill	id="2631"	icon="icon.skilltransform3"	/>
@@ -2024,6 +2148,14 @@
 	<skill	id="2792"	icon="icon.skill0000"	/>
 	<skill	id="2793"	icon="icon.skill0000"	/>
 	<skill	id="2794"	icon="icon.skill0000"	/>
+	<skill	id="2795"	icon="icon.stone_1_i00"	/>
+	<skill	id="2796"	icon="icon.stone_2_i00"	/>
+	<skill	id="2797"	icon="icon.stone_3_i00"	/>
+	<skill	id="2798"	icon="icon.stone_8_i00"	/>
+	<skill	id="2799"	icon="icon.stone_7_i00"	/>
+	<skill	id="2800"	icon="icon.stone_4_i00"	/>
+	<skill	id="2801"	icon="icon.stone_5_i00"	/>
+	<skill	id="2802"	icon="icon.stone_1_i00"	/>
 	<skill	id="2803"	icon="icon.skill0000"	/>
 	<skill	id="2804"	icon="icon.skill0000"	/>
 	<skill	id="2805"	icon="icon.skill0000"	/>
@@ -2060,6 +2192,7 @@
 	<skill	id="2836"	icon="icon.skill0000"	/>
 	<skill	id="2837"	icon="icon.skill0000"	/>
 	<skill	id="2838"	icon="icon.skill0000"	/>
+	<skill	id="2839"	icon="icon.etc_piece_holy_light"	/>
 	<skill	id="2840"	icon="icon.skill0000"	/>
 	<skill	id="2841"	icon="icon.skill0000"	/>
 	<skill	id="2842"	icon="icon.skill0000"	/>
@@ -2076,21 +2209,54 @@
 	<skill	id="2853"	icon="icon.skill0000"	/>
 	<skill	id="2854"	icon="icon.skill0000"	/>
 	<skill	id="2855"	icon="icon.skill0000"	/>
+	<skill	id="2856"	icon="icon.etc_scroll_white_i00"	/>
+	<skill	id="2857"	icon="icon.etc_scroll_white_i00"	/>
 	<skill	id="2858"	icon="icon.skill0000"	/>
 	<skill	id="2859"	icon="icon.skill0000"	/>
 	<skill	id="2860"	icon="icon.skill0000"	/>
 	<skill	id="2861"	icon="icon.skill0000"	/>
 	<skill	id="2862"	icon="icon.skill0000"	/>
+	<skill	id="2863"	icon="icon.etc_reagent_white_i00"	/>
 	<skill	id="2864"	icon="icon.skill0000"	/>
 	<skill	id="2865"	icon="icon.skill0000"	/>
 	<skill	id="2866"	icon="icon.skill0000"	/>
 	<skill	id="2867"	icon="icon.skill3260"	/>
 	<skill	id="2868"	icon="icon.skill3260"	/>
+	<skill	id="2869"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="2870"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="2871"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="2872"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="2873"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2874"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2875"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2876"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2877"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2878"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2879"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2880"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="2881"	icon="icon.etc_scroll_of_return_i00"	/>
 	<skill	id="2882"	icon="icon.skill0000"	/>
+	<skill	id="2883"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2884"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="2885"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2886"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2887"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2888"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2889"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2890"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="2891"	icon="icon.etc_fresh_milk_i00"	/>
 	<skill	id="2892"	icon="icon.skill0000"	/>
+	<skill	id="2893"	icon="icon.etc_candle_yellow_i00"	/>
 	<skill	id="2894"	icon="icon.skill0000"	/>
 	<skill	id="2895"	icon="icon.skill0000"	/>
 	<skill	id="2896"	icon="icon.skill0000"	/>
+	<skill	id="2897"	icon="icon.etc_herb_of_baguette"	/>
+	<skill	id="2898"	icon="icon.etc_herb_of_cream"	/>
+	<skill	id="2899"	icon="icon.etc_herb_of_cheesecake"	/>
+	<skill	id="2900"	icon="icon.freed_soul_core_i00"	/>
+	<skill	id="2901"	icon="icon.freed_soul_core_i00"	/>
+	<skill	id="2902"	icon="icon.freed_soul_core_i00"	/>
+	<skill	id="2903"	icon="icon.freed_soul_core_i00"	/>
 	<skill	id="2904"	icon="icon.skill0000"	/>
 	<skill	id="2905"	icon="icon.skill0000"	/>
 	<skill	id="2906"	icon="icon.skill0000"	/>
@@ -2101,6 +2267,7 @@
 	<skill	id="2911"	icon="icon.skill0000"	/>
 	<skill	id="2912"	icon="icon.skill0000"	/>
 	<skill	id="2913"	icon="icon.skill0000"	/>
+	<skill	id="2914"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="2915"	icon="icon.skill0000"	/>
 	<skill	id="2916"	icon="icon.skill0000"	/>
 	<skill	id="2917"	icon="icon.skill0000"	/>
@@ -2179,6 +2346,7 @@
 	<skill	id="2990"	icon="icon.skill0000"	/>
 	<skill	id="2991"	icon="icon.skill0000"	/>
 	<skill	id="2992"	icon="icon.skill0000"	/>
+	<skill	id="2993"	icon="icon.freed_soul_core_i00"	/>
 	<skill	id="2994"	icon="icon.skilltransform3"	/>
 	<skill	id="2995"	icon="icon.skill0000"	/>
 	<skill	id="2996"	icon="icon.skill0000"	/>
@@ -2447,11 +2615,74 @@
 	<skill	id="3264"	icon="icon.skill0000"	/>
 	<skill	id="3265"	icon="icon.skill0000"	/>
 	<skill	id="3266"	icon="icon.skill0000"	/>
+	<skill	id="3267"	icon="icon.etc_unsummon_aga_agit_i01"	/>
+	<skill	id="3268"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="3269"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="3270"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="3271"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3272"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3273"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3274"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3275"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3276"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3277"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3278"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3279"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3280"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3281"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3282"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3283"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3284"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3285"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3286"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3287"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3288"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3289"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3290"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3291"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3292"	icon="icon.etc_talisman_i05"	/>
+	<skill	id="3293"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3294"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3295"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3296"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3297"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3298"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3299"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3300"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3301"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3302"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3303"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3304"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3305"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3306"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3307"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3308"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3309"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3310"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3311"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3312"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3313"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3314"	icon="icon.etc_talisman_i07"	/>
+	<skill	id="3315"	icon="icon.etc_talisman_i07"	/>
+	<skill	id="3316"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3317"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3318"	icon="icon.weapon_fort_flag_i00"	/>
 	<skill	id="3319"	icon="icon.skill0000"	/>
+	<skill	id="3320"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3321"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3322"	icon="icon.etc_rbracelet_c_i00"	/>
+	<skill	id="3323"	icon="icon.etc_rbracelet_b_i01"	/>
+	<skill	id="3324"	icon="icon.etc_rbracelet_a_i02"	/>
+	<skill	id="3325"	icon="icon.etc_rbracelet_s_i03"	/>
 	<skill	id="3326"	icon="icon.skill0000"	/>
 	<skill	id="3327"	icon="icon.skill0000"	/>
+	<skill	id="3328"	icon="icon.weapon_dual_sword_i00"	/>
+	<skill	id="3329"	icon="icon.weapon_unique_zariche_i00"	/>
 	<skill	id="3330"	icon="icon.skill3630"	/>
 	<skill	id="3331"	icon="icon.skill3631"	/>
+	<skill	id="3332"	icon="icon.etc_talisman_i04"	/>
+	<skill	id="3333"	icon="icon.etc_talisman_i04"	/>
+	<skill	id="3334"	icon="icon.etc_talisman_i04"	/>
 	<skill	id="3335"	icon="icon.skilltransform3"	/>
 	<skill	id="3336"	icon="icon.skilltransform3"	/>
 	<skill	id="3337"	icon="icon.skilltransform3"	/>
@@ -2465,8 +2696,20 @@
 	<skill	id="3345"	icon="icon.skill0000"	/>
 	<skill	id="3346"	icon="icon.skill0000"	/>
 	<skill	id="3347"	icon="icon.skill0000"	/>
+	<skill	id="3348"	icon="icon.armor_t91_uk_i00"	/>
+	<skill	id="3349"	icon="icon.armor_t91_uw_i00"	/>
+	<skill	id="3350"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="3351"	icon="icon.armor_t91_uke_i00"	/>
+	<skill	id="3352"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3353"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="3354"	icon="icon.armor_t93_uh_i00"	/>
+	<skill	id="3355"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="3356"	icon="icon.armor_t93_us_i00"	/>
+	<skill	id="3357"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="3358"	icon="icon.weapon_fort_flag_i00"	/>
 	<skill	id="3359"	icon="icon.skilltransform3"	/>
 	<skill	id="3360"	icon="icon.skill0000"	/>
+	<skill	id="3361"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="3362"	icon="icon.skill0000"	/>
 	<skill	id="3363"	icon="icon.skill0000"	/>
 	<skill	id="3364"	icon="icon.skill0000"	/>
@@ -2515,11 +2758,35 @@
 	<skill	id="3407"	icon="icon.skill0000"	/>
 	<skill	id="3408"	icon="icon.skill0000"	/>
 	<skill	id="3409"	icon="icon.skill0000"	/>
+	<skill	id="3410"	icon="icon.etc_talisman_i01"	/>
 	<skill	id="3411"	icon="icon.skill1077"	/>
+	<skill	id="3412"	icon="icon.armor_t91_u_i00"	/>
+	<skill	id="3413"	icon="icon.armor_t92_u_i00"	/>
+	<skill	id="3414"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3415"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="3416"	icon="icon.armor_t93_u_i00"	/>
+	<skill	id="3417"	icon="icon.shield_dynasty_shield_i00"	/>
 	<skill	id="3418"	icon="icon.skill0000"	/>
+	<skill	id="3419"	icon="icon.etc_stripe_shirts_s_i05"	/>
+	<skill	id="3420"	icon="icon.armor_t92_u_i00"	/>
 	<skill	id="3421"	icon="icon.skill0083"	/>
 	<skill	id="3422"	icon="icon.skill0083"	/>
+	<skill	id="3423"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="3424"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="3425"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="3426"	icon="icon.skill0000"	/>
+	<skill	id="3427"	icon="icon.weapon_infinity_rapier_i00"	/>
+	<skill	id="3428"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3429"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3430"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3431"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3432"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3433"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3434"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3435"	icon="icon.etc_talisman_i06"	/>
+	<skill	id="3436"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3437"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3438"	icon="icon.etc_talisman_i01"	/>
 	<skill	id="3439"	icon="icon.skill0000"	/>
 	<skill	id="3440"	icon="icon.skill0000"	/>
 	<skill	id="3441"	icon="icon.skill0000"	/>
@@ -2568,8 +2835,61 @@
 	<skill	id="3484"	icon="icon.skill0000"	/>
 	<skill	id="3485"	icon="icon.skill0000"	/>
 	<skill	id="3486"	icon="icon.skill0000"	/>
+	<skill	id="3487"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3488"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="3489"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3490"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3491"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3492"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3493"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3494"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3495"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3496"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3497"	icon="icon.etc_talisman_i02"	/>
 	<skill	id="3498"	icon="icon.skill0150"	/>
 	<skill	id="3499"	icon="icon.skilltransform2"	/>
+	<skill	id="3500"	icon="icon.armor_t06_u_i00"	/>
+	<skill	id="3501"	icon="icon.armor_t55_u_i00"	/>
+	<skill	id="3502"	icon="icon.armor_t19_u_i00"	/>
+	<skill	id="3503"	icon="icon.armor_t13_u_i00"	/>
+	<skill	id="3504"	icon="icon.armor_t41_u_i00"	/>
+	<skill	id="3505"	icon="icon.armor_t42_u_i00"	/>
+	<skill	id="3506"	icon="icon.armor_t43_u_i00"	/>
+	<skill	id="3507"	icon="icon.armor_t51_u_i00"	/>
+	<skill	id="3508"	icon="icon.armor_t47_u_i00"	/>
+	<skill	id="3509"	icon="icon.armor_t48_u_i00"	/>
+	<skill	id="3510"	icon="icon.armor_t53_u_i00"	/>
+	<skill	id="3511"	icon="icon.armor_t47_u_i00"	/>
+	<skill	id="3512"	icon="icon.armor_t61_ul_i00"	/>
+	<skill	id="3513"	icon="icon.armor_t54_u_i00"	/>
+	<skill	id="3514"	icon="icon.armor_t63_u_i00"	/>
+	<skill	id="3515"	icon="icon.armor_t21_ul_i00"	/>
+	<skill	id="3516"	icon="icon.armor_t62_ul_i00"	/>
+	<skill	id="3517"	icon="icon.armor_t57_u_i00"	/>
+	<skill	id="3518"	icon="icon.armor_t64_u_i00"	/>
+	<skill	id="3519"	icon="icon.armor_t66_u_i00"	/>
+	<skill	id="3520"	icon="icon.armor_t65_u_i00"	/>
+	<skill	id="3521"	icon="icon.armor_t67_ul_i00"	/>
+	<skill	id="3522"	icon="icon.armor_t56_u_i00"	/>
+	<skill	id="3523"	icon="icon.armor_t59_ul_i00"	/>
+	<skill	id="3524"	icon="icon.armor_t68_u_i00"	/>
+	<skill	id="3525"	icon="icon.armor_t71_ul_i00"	/>
+	<skill	id="3526"	icon="icon.armor_t69_ul_i00"	/>
+	<skill	id="3527"	icon="icon.armor_t72_ul_i00"	/>
+	<skill	id="3528"	icon="icon.armor_t70_u_i00"	/>
+	<skill	id="3529"	icon="icon.armor_t73_u_i00"	/>
+	<skill	id="3530"	icon="icon.armor_t74_u_i00"	/>
+	<skill	id="3531"	icon="icon.armor_t77_ul_i00"	/>
+	<skill	id="3532"	icon="icon.armor_t75_u_i00"	/>
+	<skill	id="3533"	icon="icon.armor_t78_ul_i00"	/>
+	<skill	id="3534"	icon="icon.armor_t79_u_i00"	/>
+	<skill	id="3535"	icon="icon.armor_t76_ul_i00"	/>
+	<skill	id="3536"	icon="icon.armor_t80_ul_i00"	/>
+	<skill	id="3537"	icon="icon.armor_t83_ul_i00"	/>
+	<skill	id="3538"	icon="icon.armor_t81_ul_i00"	/>
+	<skill	id="3539"	icon="icon.armor_t84_ul_i00"	/>
+	<skill	id="3540"	icon="icon.armor_t82_ul_i00"	/>
+	<skill	id="3541"	icon="icon.armor_t85_ul_i00"	/>
 	<skill	id="3542"	icon="icon.skill0193"	/>
 	<skill	id="3543"	icon="icon.skill0091"	/>
 	<skill	id="3544"	icon="icon.skill0091"	/>
@@ -2581,7 +2901,17 @@
 	<skill	id="3550"	icon="icon.skill0091"	/>
 	<skill	id="3551"	icon="icon.skill0091"	/>
 	<skill	id="3552"	icon="icon.skill0297"	/>
+	<skill	id="3553"	icon="icon.armor_t88_u_i00"	/>
 	<skill	id="3554"	icon="icon.skill0091"	/>
+	<skill	id="3555"	icon="icon.armor_t89_ul_i00"	/>
+	<skill	id="3556"	icon="icon.armor_t90_ul_i00"	/>
+	<skill	id="3557"	icon="icon.accessory_necklace_of_valakas_i00"	/>
+	<skill	id="3558"	icon="icon.accessory_earring_of_antaras_i00"	/>
+	<skill	id="3559"	icon="icon.accessory_earring_of_zaken_i00"	/>
+	<skill	id="3560"	icon="icon.accessory_earring_of_orfen_i00"	/>
+	<skill	id="3561"	icon="icon.accessory_ring_of_baium_i00"	/>
+	<skill	id="3562"	icon="icon.accessory_ring_of_queen_ant_i00"	/>
+	<skill	id="3563"	icon="icon.accessory_ring_of_core_i00"	/>
 	<skill	id="3564"	icon="icon.skill1086"	/>
 	<skill	id="3565"	icon="icon.skill1077"	/>
 	<skill	id="3566"	icon="icon.skill1077"	/>
@@ -2596,20 +2926,39 @@
 	<skill	id="3575"	icon="icon.skill1059"	/>
 	<skill	id="3576"	icon="icon.skill1047"	/>
 	<skill	id="3577"	icon="icon.skill1201"	/>
+	<skill	id="3578"	icon="icon.weapon_the_sword_of_hero_i00"	/>
 	<skill	id="3579"	icon="icon.skill0122"	/>
+	<skill	id="3580"	icon="icon.weapon_the_axe_of_hero_i00"	/>
 	<skill	id="3581"	icon="icon.skill0000"	/>
+	<skill	id="3582"	icon="icon.weapon_the_two_handed_sword_of_hero_i00"	/>
+	<skill	id="3583"	icon="icon.weapon_the_hammer_of_hero_i00"	/>
 	<skill	id="3584"	icon="icon.skill0100"	/>
+	<skill	id="3585"	icon="icon.weapon_the_dualsword_of_hero_i00"	/>
 	<skill	id="3586"	icon="icon.skill1064"	/>
+	<skill	id="3587"	icon="icon.weapon_the_fist_of_hero_i00"	/>
 	<skill	id="3588"	icon="icon.skill0100"	/>
+	<skill	id="3589"	icon="icon.weapon_the_dagger_of_hero_i00"	/>
 	<skill	id="3590"	icon="icon.skill1064"	/>
+	<skill	id="3591"	icon="icon.weapon_the_pole_of_hero_i00"	/>
 	<skill	id="3592"	icon="icon.skill0000"	/>
+	<skill	id="3593"	icon="icon.weapon_the_bow_of_hero_i00"	/>
 	<skill	id="3594"	icon="icon.skill1160"	/>
+	<skill	id="3595"	icon="icon.weapon_the_staff_of_hero_i00"	/>
 	<skill	id="3596"	icon="icon.skill0000"	/>
+	<skill	id="3597"	icon="icon.weapon_the_mace_of_hero_i00"	/>
 	<skill	id="3598"	icon="icon.skill0000"	/>
 	<skill	id="3599"	icon="icon.skill0216"	/>
 	<skill	id="3600"	icon="icon.skill1062"	/>
 	<skill	id="3601"	icon="icon.skill1086"	/>
 	<skill	id="3602"	icon="icon.skill1240"	/>
+	<skill	id="3603"	icon="icon.weapon_unique_zariche_i00"	/>
+	<skill	id="3604"	icon="icon.accessory_necklace_of_frintessa_i00"	/>
+	<skill	id="3605"	icon="icon.armor_t1001_ul_i00"	/>
+	<skill	id="3606"	icon="icon.armor_t1002_ul_i00"	/>
+	<skill	id="3607"	icon="icon.armor_t1003_ul_i00"	/>
+	<skill	id="3608"	icon="icon.armor_t1004_ul_i00"	/>
+	<skill	id="3609"	icon="icon.armor_t1005_ul_i00"	/>
+	<skill	id="3610"	icon="icon.armor_t1006_ul_i00"	/>
 	<skill	id="3611"	icon="icon.skill0231"	/>
 	<skill	id="3612"	icon="icon.skill0233"	/>
 	<skill	id="3613"	icon="icon.skill0234"	/>
@@ -2625,8 +2974,30 @@
 	<skill	id="3623"	icon="icon.skill0231"	/>
 	<skill	id="3624"	icon="icon.skill0233"	/>
 	<skill	id="3625"	icon="icon.skill0234"	/>
+	<skill	id="3626"	icon="icon.weapon_seize_mace_i00"	/>
+	<skill	id="3627"	icon="icon.weapon_seize_mace_i00"	/>
+	<skill	id="3628"	icon="icon.weapon_seize_mace_i00"	/>
+	<skill	id="3629"	icon="icon.weapon_dual_sword_i00"	/>
 	<skill	id="3630"	icon="icon.skill3630"	/>
 	<skill	id="3631"	icon="icon.skill3631"	/>
+	<skill	id="3632"	icon="icon.accessory_crown_i00"	/>
+	<skill	id="3633"	icon="icon.accessory_pledge_cap1_i05"	/>
+	<skill	id="3634"	icon="icon.weapon_infinity_sword_i00"	/>
+	<skill	id="3635"	icon="icon.weapon_infinity_shooter_i00"	/>
+	<skill	id="3636"	icon="icon.armor_t91_uk_i00"	/>
+	<skill	id="3637"	icon="icon.armor_t91_uw_i00"	/>
+	<skill	id="3638"	icon="icon.armor_t91_uke_i00"	/>
+	<skill	id="3639"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="3640"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3641"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="3642"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3643"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="3644"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="3645"	icon="icon.armor_t93_uh_i00"	/>
+	<skill	id="3646"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="3647"	icon="icon.armor_t93_us_i00"	/>
+	<skill	id="3648"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="3649"	icon="icon.accessary_dynasty_ring_i00"	/>
 	<skill	id="3650"	icon="icon.skill1306"	/>
 	<skill	id="3651"	icon="icon.skill1056"	/>
 	<skill	id="3652"	icon="icon.skill1304"	/>
@@ -2641,6 +3012,167 @@
 	<skill	id="3661"	icon="icon.skill1011"	/>
 	<skill	id="3662"	icon="icon.skill1160"	/>
 	<skill	id="3663"	icon="icon.skill0445"	/>
+	<skill	id="3664"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3665"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="3666"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3667"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="3668"	icon="icon.armor_t65_l_i00"	/>
+	<skill	id="3669"	icon="icon.armor_t65_u_i00"	/>
+	<skill	id="3670"	icon="icon.armor_t65_g_i00"	/>
+	<skill	id="3671"	icon="icon.armor_t65_b_i00"	/>
+	<skill	id="3672"	icon="icon.armor_t64_l_i00"	/>
+	<skill	id="3673"	icon="icon.armor_t64_g_i00"	/>
+	<skill	id="3674"	icon="icon.armor_t64_b_i00"	/>
+	<skill	id="3675"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3676"	icon="icon.armor_t64_u_i00"	/>
+	<skill	id="3677"	icon="icon.armor_t56_u_i00"	/>
+	<skill	id="3678"	icon="icon.armor_t56_l_i00"	/>
+	<skill	id="3679"	icon="icon.armor_t56_g_i00"	/>
+	<skill	id="3680"	icon="icon.armor_t56_b_i00"	/>
+	<skill	id="3681"	icon="icon.shield_shrnoens_shield_i00"	/>
+	<skill	id="3682"	icon="icon.armor_t66_g_i00"	/>
+	<skill	id="3683"	icon="icon.armor_t66_b_i00"	/>
+	<skill	id="3684"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3685"	icon="icon.armor_t66_l_i00"	/>
+	<skill	id="3686"	icon="icon.armor_t66_u_i00"	/>
+	<skill	id="3687"	icon="icon.shield_avadon_shield_i00"	/>
+	<skill	id="3688"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3689"	icon="icon.armor_t67_g_i00"	/>
+	<skill	id="3690"	icon="icon.armor_t67_ul_i00"	/>
+	<skill	id="3691"	icon="icon.armor_t67_b_i00"	/>
+	<skill	id="3692"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3693"	icon="icon.armor_t59_g_i00"	/>
+	<skill	id="3694"	icon="icon.armor_t59_ul_i00"	/>
+	<skill	id="3695"	icon="icon.armor_t59_b_i00"	/>
+	<skill	id="3696"	icon="icon.armor_t71_g_i00"	/>
+	<skill	id="3697"	icon="icon.armor_t71_b_i00"	/>
+	<skill	id="3698"	icon="icon.armor_t71_ul_i00"	/>
+	<skill	id="3699"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3700"	icon="icon.shield_doom_shield_i00"	/>
+	<skill	id="3701"	icon="icon.armor_t72_ul_i00"	/>
+	<skill	id="3702"	icon="icon.armor_t72_g_i00"	/>
+	<skill	id="3703"	icon="icon.armor_t72_b_i00"	/>
+	<skill	id="3704"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3705"	icon="icon.armor_t73_g_i00"	/>
+	<skill	id="3706"	icon="icon.armor_t73_b_i00"	/>
+	<skill	id="3707"	icon="icon.armor_t73_u_i00"	/>
+	<skill	id="3708"	icon="icon.armor_t73_l_i00"	/>
+	<skill	id="3709"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3710"	icon="icon.armor_t68_u_i00"	/>
+	<skill	id="3711"	icon="icon.armor_t68_l_i00"	/>
+	<skill	id="3712"	icon="icon.armor_t68_b_i00"	/>
+	<skill	id="3713"	icon="icon.armor_t68_g_i00"	/>
+	<skill	id="3714"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3715"	icon="icon.armor_t69_ul_i00"	/>
+	<skill	id="3716"	icon="icon.armor_t69_b_i00"	/>
+	<skill	id="3717"	icon="icon.armor_t69_g_i00"	/>
+	<skill	id="3718"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3719"	icon="icon.armor_t70_b_i00"	/>
+	<skill	id="3720"	icon="icon.armor_t70_g_i00"	/>
+	<skill	id="3721"	icon="icon.armor_t70_u_i00"	/>
+	<skill	id="3722"	icon="icon.armor_t70_l_i00"	/>
+	<skill	id="3723"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3724"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3725"	icon="icon.armor_t74_u_i00"	/>
+	<skill	id="3726"	icon="icon.armor_t74_l_i00"	/>
+	<skill	id="3727"	icon="icon.armor_t15_g_i00"	/>
+	<skill	id="3728"	icon="icon.armor_t74_b_i00"	/>
+	<skill	id="3729"	icon="icon.shield_dark_crystal_shield_i00"	/>
+	<skill	id="3730"	icon="icon.armor_t75_u_i00"	/>
+	<skill	id="3731"	icon="icon.armor_t15_g_i00"	/>
+	<skill	id="3732"	icon="icon.armor_t75_b_i00"	/>
+	<skill	id="3733"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3734"	icon="icon.armor_t75_l_i00"	/>
+	<skill	id="3735"	icon="icon.armor_t15_g_i00"	/>
+	<skill	id="3736"	icon="icon.armor_t76_ul_i00"	/>
+	<skill	id="3737"	icon="icon.armor_t76_b_i00"	/>
+	<skill	id="3738"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3739"	icon="icon.armor_t77_g_i00"	/>
+	<skill	id="3740"	icon="icon.armor_t77_b_i00"	/>
+	<skill	id="3741"	icon="icon.armor_t77_ul_i00"	/>
+	<skill	id="3742"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3743"	icon="icon.armor_t78_ul_i00"	/>
+	<skill	id="3744"	icon="icon.armor_t78_g_i00"	/>
+	<skill	id="3745"	icon="icon.armor_t78_b_i00"	/>
+	<skill	id="3746"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3747"	icon="icon.armor_t79_g_i00"	/>
+	<skill	id="3748"	icon="icon.armor_t79_b_i00"	/>
+	<skill	id="3749"	icon="icon.armor_t79_u_i00"	/>
+	<skill	id="3750"	icon="icon.armor_t79_l_i00"	/>
+	<skill	id="3751"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3752"	icon="icon.armor_t83_g_i00"	/>
+	<skill	id="3753"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3754"	icon="icon.armor_t83_ul_i00"	/>
+	<skill	id="3755"	icon="icon.armor_t83_b_i00"	/>
+	<skill	id="3756"	icon="icon.armor_t84_g_i00"	/>
+	<skill	id="3757"	icon="icon.armor_t84_ul_i00"	/>
+	<skill	id="3758"	icon="icon.armor_t84_b_i00"	/>
+	<skill	id="3759"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3760"	icon="icon.armor_t85_g_i00"	/>
+	<skill	id="3761"	icon="icon.armor_t85_ul_i00"	/>
+	<skill	id="3762"	icon="icon.armor_t85_b_i00"	/>
+	<skill	id="3763"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3764"	icon="icon.armor_t80_ul_i00"	/>
+	<skill	id="3765"	icon="icon.armor_t80_g_i00"	/>
+	<skill	id="3766"	icon="icon.armor_t80_b_i00"	/>
+	<skill	id="3767"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3768"	icon="icon.armor_t81_ul_i00"	/>
+	<skill	id="3769"	icon="icon.armor_t81_g_i00"	/>
+	<skill	id="3770"	icon="icon.armor_t81_b_i00"	/>
+	<skill	id="3771"	icon="icon.armor_t82_g_i00"	/>
+	<skill	id="3772"	icon="icon.armor_t82_ul_i00"	/>
+	<skill	id="3773"	icon="icon.armor_t82_b_i00"	/>
+	<skill	id="3774"	icon="icon.shield_shield_of_nightmare_i00"	/>
+	<skill	id="3775"	icon="icon.armor_t89_g_i00"	/>
+	<skill	id="3776"	icon="icon.armor_t89_b_i00"	/>
+	<skill	id="3777"	icon="icon.armor_t89_ul_i00"	/>
+	<skill	id="3778"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3779"	icon="icon.armor_t90_g_i00"	/>
+	<skill	id="3780"	icon="icon.armor_t90_ul_i00"	/>
+	<skill	id="3781"	icon="icon.armor_t90_b_i00"	/>
+	<skill	id="3782"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="3783"	icon="icon.armor_t88_l_i00"	/>
+	<skill	id="3784"	icon="icon.armor_t88_g_i00"	/>
+	<skill	id="3785"	icon="icon.armor_t88_b_i00"	/>
+	<skill	id="3786"	icon="icon.shield_imperial_crusader_shield_i00"	/>
+	<skill	id="3787"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3788"	icon="icon.armor_t88_u_i00"	/>
+	<skill	id="3789"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="3790"	icon="icon.armor_t91_l_i00"	/>
+	<skill	id="3791"	icon="icon.armor_t91_g_i00"	/>
+	<skill	id="3792"	icon="icon.armor_t91_b_i00"	/>
+	<skill	id="3793"	icon="icon.shield_dynasty_shield_i00"	/>
+	<skill	id="3794"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3795"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3796"	icon="icon.armor_t92_l_i00"	/>
+	<skill	id="3797"	icon="icon.armor_t92_b_i00"	/>
+	<skill	id="3798"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="3799"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="3800"	icon="icon.armor_t93_l_i00"	/>
+	<skill	id="3801"	icon="icon.armor_t93_g_i00"	/>
+	<skill	id="3802"	icon="icon.armor_t93_b_i00"	/>
+	<skill	id="3803"	icon="icon.armor_circlet_i00"	/>
+	<skill	id="3804"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="3805"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="3806"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="3807"	icon="icon.accessary_adamantite_earing_i00"	/>
+	<skill	id="3808"	icon="icon.accessary_adamantite_necklace_i00"	/>
+	<skill	id="3809"	icon="icon.accessary_adamantite_ring_i00"	/>
+	<skill	id="3810"	icon="icon.accessary_earing_of_black_ore_i00"	/>
+	<skill	id="3811"	icon="icon.accessary_necklace_of_black_ore_i00"	/>
+	<skill	id="3812"	icon="icon.accessary_ring_of_black_ore_i00"	/>
+	<skill	id="3813"	icon="icon.accessary_phoenixs_necklace_i00"	/>
+	<skill	id="3814"	icon="icon.accessary_phoenixs_ring_i00"	/>
+	<skill	id="3815"	icon="icon.accessary_phoenixs_earing_i00"	/>
+	<skill	id="3816"	icon="icon.accessary_inferno_necklace_i00"	/>
+	<skill	id="3817"	icon="icon.accessary_inferno_ring_i00"	/>
+	<skill	id="3818"	icon="icon.accessary_inferno_earing_i00"	/>
+	<skill	id="3819"	icon="icon.accessory_tateossian_necklace_i00"	/>
+	<skill	id="3820"	icon="icon.accessory_tateossian_ring_i00"	/>
+	<skill	id="3821"	icon="icon.accessory_tateossian_earring_i00"	/>
+	<skill	id="3822"	icon="icon.accessary_dynasty_necklace_i00"	/>
+	<skill	id="3823"	icon="icon.accessary_dynasty_ring_i00"	/>
+	<skill	id="3824"	icon="icon.accessary_dynasty_earing_i00"	/>
 	<skill	id="3825"	icon="icon.skill1068"	/>
 	<skill	id="3826"	icon="icon.skill0211"	/>
 	<skill	id="3827"	icon="icon.skill0193"	/>
@@ -2682,6 +3214,7 @@
 	<skill	id="3863"	icon="icon.skill1240"	/>
 	<skill	id="3864"	icon="icon.skill1086"	/>
 	<skill	id="3865"	icon="icon.skill0113"	/>
+	<skill	id="3866"	icon="icon.armor_t92_g_i00"	/>
 	<skill	id="3867"	icon="icon.skill0211"	/>
 	<skill	id="3868"	icon="icon.skill1240"	/>
 	<skill	id="3869"	icon="icon.skill1086"	/>
@@ -3191,6 +3724,7 @@
 	<skill	id="4375"	icon="icon.skill0000"	/>
 	<skill	id="4376"	icon="icon.skill4376"	/>
 	<skill	id="4377"	icon="icon.skill0000"	/>
+	<skill	id="4378"	icon="icon.action105"	/>
 	<skill	id="4379"	icon="icon.skill4379"	/>
 	<skill	id="4380"	icon="icon.skill0000"	/>
 	<skill	id="4381"	icon="icon.skill4381"	/>
@@ -3230,6 +3764,12 @@
 	<skill	id="4415"	icon="icon.skill0000"	/>
 	<skill	id="4416"	icon="icon.skill4296"	/>
 	<skill	id="4417"	icon="icon.skill4290"	/>
+	<skill	id="4418"	icon="icon.etc_fire_crystal_i00"	/>
+	<skill	id="4419"	icon="icon.etc_water_crystal_i00"	/>
+	<skill	id="4420"	icon="icon.etc_wind_crystal_i00"	/>
+	<skill	id="4421"	icon="icon.etc_earth_crystal_i00"	/>
+	<skill	id="4422"	icon="icon.etc_unholy_crystal_i00"	/>
+	<skill	id="4423"	icon="icon.etc_holy_crystal_i00"	/>
 	<skill	id="4424"	icon="icon.skill4424"	/>
 	<skill	id="4425"	icon="icon.skill4425"	/>
 	<skill	id="4426"	icon="icon.skill4426"	/>
@@ -3797,6 +4337,7 @@
 	<skill	id="4988"	icon="icon.skillraid"	/>
 	<skill	id="4989"	icon="icon.skill0000"	/>
 	<skill	id="4990"	icon="icon.skill0000"	/>
+	<skill	id="4991"	icon="icon.etc_hot_spring_sulfur_i00"	/>
 	<skill	id="4992"	icon="icon.skill0000"	/>
 	<skill	id="4993"	icon="icon.skill0000"	/>
 	<skill	id="4994"	icon="icon.skill0000"	/>
@@ -3982,6 +4523,7 @@
 	<skill	id="5175"	icon="icon.skill3080"	/>
 	<skill	id="5176"	icon="icon.skill3080"	/>
 	<skill	id="5177"	icon="icon.skill3080"	/>
+	<skill	id="5178"	icon="icon.action102"	/>
 	<skill	id="5179"	icon="icon.skillraid"	/>
 	<skill	id="5180"	icon="icon.skillraid"	/>
 	<skill	id="5181"	icon="icon.skillraid"	/>
@@ -4245,7 +4787,9 @@
 	<skill	id="5440"	icon="icon.skill0000"	/>
 	<skill	id="5441"	icon="icon.skill0000"	/>
 	<skill	id="5442"	icon="icon.skill0000"	/>
+	<skill	id="5443"	icon="icon.action109"	/>
 	<skill	id="5444"	icon="icon.skill0096"	/>
+	<skill	id="5445"	icon="icon.action105"	/>
 	<skill	id="5446"	icon="icon.skill5446_45"	/>
 	<skill	id="5447"	icon="icon.skill0523"	/>
 	<skill	id="5448"	icon="icon.skill0000"	/>
@@ -4384,6 +4928,8 @@
 	<skill	id="5581"	icon="icon.skill0100"	/>
 	<skill	id="5582"	icon="icon.skill0000"	/>
 	<skill	id="5583"	icon="icon.skill0000"	/>
+	<skill	id="5584"	icon="icon.action109"	/>
+	<skill	id="5585"	icon="icon.action109"	/>
 	<skill	id="5586"	icon="icon.skill1068"	/>
 	<skill	id="5587"	icon="icon.skill1040"	/>
 	<skill	id="5588"	icon="icon.skill1077"	/>
@@ -4550,6 +5096,7 @@
 	<skill	id="5750"	icon="icon.skill1417"	/>
 	<skill	id="5751"	icon="icon.skill0000"	/>
 	<skill	id="5752"	icon="icon.skill0000"	/>
+	<skill	id="5753"	icon="icon.action117"	/>
 	<skill	id="5754"	icon="icon.skill0000"	/>
 	<skill	id="5755"	icon="icon.skill0000"	/>
 	<skill	id="5756"	icon="icon.skill0000"	/>
@@ -4567,6 +5114,7 @@
 	<skill	id="5768"	icon="icon.skill0000"	/>
 	<skill	id="5769"	icon="icon.skill0000"	/>
 	<skill	id="5770"	icon="icon.skill0000"	/>
+	<skill	id="5771"	icon="icon.action113"	/>
 	<skill	id="5772"	icon="icon.skill4279_new"	/>
 	<skill	id="5773"	icon="icon.skill4280_new"	/>
 	<skill	id="5774"	icon="icon.skill0000"	/>
@@ -4844,9 +5392,11 @@
 	<skill	id="6046"	icon="icon.skill0000"	/>
 	<skill	id="6047"	icon="icon.skill0000"	/>
 	<skill	id="6048"	icon="icon.skill0000"	/>
+	<skill	id="6049"	icon="icon.action117"	/>
 	<skill	id="6050"	icon="icon.skill0000"	/>
 	<skill	id="6051"	icon="icon.skill0000"	/>
 	<skill	id="6052"	icon="icon.skill0000"	/>
+	<skill	id="6053"	icon="icon.action117"	/>
 	<skill	id="6054"	icon="icon.skill0000"	/>
 	<skill	id="6055"	icon="icon.skill6038"	/>
 	<skill	id="6056"	icon="icon.skill6038"	/>
@@ -4890,8 +5440,14 @@
 	<skill	id="6094"	icon="icon.skill6094"	/>
 	<skill	id="6095"	icon="icon.skill1445"	/>
 	<skill	id="6096"	icon="icon.skill6096"	/>
+	<skill	id="6097"	icon="icon.xmas_gawi_i00"	/>
+	<skill	id="6098"	icon="icon.xmas_bawi_i00"	/>
+	<skill	id="6099"	icon="icon.xmas_bo_i00"	/>
 	<skill	id="6100"	icon="icon.skill0000"	/>
+	<skill	id="6103"	icon="icon.xmas_pcwin5_i00"	/>
 	<skill	id="6104"	icon="icon.skill0000"	/>
+	<skill	id="6105"	icon="icon.turkey_buff_i00"	/>
+	<skill	id="6106"	icon="icon.xmas_miracle_i00"	/>
 	<skill	id="6107"	icon="icon.skill5762"	/>
 	<skill	id="6108"	icon="icon.skill5762"	/>
 	<skill	id="6109"	icon="icon.skill5762"	/>
@@ -4902,8 +5458,11 @@
 	<skill	id="6114"	icon="icon.skill5762"	/>
 	<skill	id="6115"	icon="icon.skill5762"	/>
 	<skill	id="6116"	icon="icon.skill0000"	/>
+	<skill	id="6117"	icon="icon.xmas_bo_i00"	/>
+	<skill	id="6120"	icon="icon.etc_pi_gift_box_i04"	/>
 	<skill	id="6121"	icon="icon.skill0000"	/>
 	<skill	id="6122"	icon="icon.skill0000"	/>
+	<skill	id="6123"	icon="icon.etc_pi_gift_box_i03"	/>
 	<skill	id="6124"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="6125"	icon="icon.skill1170"	/>
 	<skill	id="6126"	icon="icon.skill1170"	/>
@@ -4919,6 +5478,7 @@
 	<skill	id="6136"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="6137"	icon="icon.skill2513"	/>
 	<skill	id="6138"	icon="icon.skill_agathion_cute"	/>
+	<skill	id="6139"	icon="icon.etc_water_of_silen_i00"	/>
 	<skill	id="6140"	icon="icon.skill0000"	/>
 	<skill	id="6141"	icon="icon.skill0000"	/>
 	<skill	id="6142"	icon="icon.skill0770"	/>
@@ -4976,6 +5536,7 @@
 	<skill	id="6204"	icon="icon.skilltransform3"	/>
 	<skill	id="6205"	icon="icon.skill0000"	/>
 	<skill	id="6206"	icon="icon.skill0000"	/>
+	<skill	id="6207"	icon="icon.action108"	/>
 	<skill	id="6208"	icon="icon.skill1240"	/>
 	<skill	id="6209"	icon="icon.skill6209_4"	/>
 	<skill	id="6213"	icon="icon.skill6213_4"	/>
@@ -5002,6 +5563,7 @@
 	<skill	id="6237"	icon="icon.skill1160"	/>
 	<skill	id="6238"	icon="icon.skill1160"	/>
 	<skill	id="6239"	icon="icon.skill0000"	/>
+	<skill	id="6240"	icon="icon.etc_ashes_white_i00"	/>
 	<skill	id="6241"	icon="icon.skill1184"	/>
 	<skill	id="6242"	icon="icon.skill1184"	/>
 	<skill	id="6243"	icon="icon.skill1184"	/>
@@ -5011,6 +5573,7 @@
 	<skill	id="6247"	icon="icon.skill1184"	/>
 	<skill	id="6248"	icon="icon.skill1184"	/>
 	<skill	id="6249"	icon="icon.skill1184"	/>
+	<skill	id="6250"	icon="icon.etc_ashes_red_i00"	/>
 	<skill	id="6251"	icon="icon.skill0000"	/>
 	<skill	id="6252"	icon="icon.skill0000"	/>
 	<skill	id="6253"	icon="icon.skill1184"	/>
@@ -5203,6 +5766,7 @@
 	<skill	id="6461"	icon="icon.skill0000"	/>
 	<skill	id="6462"	icon="icon.skill0000"	/>
 	<skill	id="6463"	icon="icon.skill0000"	/>
+	<skill	id="6464"	icon="icon.ev_rotten_jack_ghost_i00"	/>
 	<skill	id="6465"	icon="icon.skill0000"	/>
 	<skill	id="6466"	icon="icon.skill0000"	/>
 	<skill	id="6467"	icon="icon.skill0000"	/>
@@ -5369,6 +5933,12 @@
 	<skill	id="6628"	icon="icon.skill0000"	/>
 	<skill	id="6629"	icon="icon.skill0000"	/>
 	<skill	id="6630"	icon="icon.skill0000"	/>
+	<skill	id="6631"	icon="icon.etc_herb_red_i00"	/>
+	<skill	id="6632"	icon="icon.etc_herb_blue_i00"	/>
+	<skill	id="6633"	icon="icon.etc_attack_sp_herb_i00"	/>
+	<skill	id="6634"	icon="icon.etc_magic_sp_herb_i00"	/>
+	<skill	id="6635"	icon="icon.etc_critical_herb_i00"	/>
+	<skill	id="6636"	icon="icon.etc_move_herb_i00"	/>
 	<skill	id="6637"	icon="icon.skill6637"	/>
 	<skill	id="6638"	icon="icon.skill2513"	/>
 	<skill	id="6639"	icon="icon.skill2514"	/>
@@ -5406,6 +5976,7 @@
 	<skill	id="6671"	icon="icon.skill1062"	/>
 	<skill	id="6672"	icon="icon.skill1243"	/>
 	<skill	id="6673"	icon="icon.skill0000"	/>
+	<skill	id="6674"	icon="icon.etc_magic_sp_herb_i00"	/>
 	<skill	id="6675"	icon="icon.skill0000"	/>
 	<skill	id="6676"	icon="icon.skill0000"	/>
 	<skill	id="6677"	icon="icon.skill4047"	/>
@@ -5940,20 +6511,74 @@
 	<skill	id="8190"	icon="icon.skill4416_dwarf"	/>
 	<skill	id="8191"	icon="icon.skill4416_dwarf"	/>
 	<skill	id="8192"	icon="icon.skill4416_dwarf"	/>
+	<skill	id="8193"	icon="icon.armor_t80_ul_i00"	/>
+	<skill	id="8194"	icon="icon.armor_t83_ul_i00"	/>
+	<skill	id="8195"	icon="icon.armor_t81_ul_i00"	/>
+	<skill	id="8196"	icon="icon.armor_t84_ul_i00"	/>
+	<skill	id="8197"	icon="icon.armor_t82_ul_i00"	/>
+	<skill	id="8198"	icon="icon.armor_t85_ul_i00"	/>
+	<skill	id="8199"	icon="icon.armor_t88_u_i00"	/>
+	<skill	id="8200"	icon="icon.armor_t89_ul_i00"	/>
+	<skill	id="8201"	icon="icon.armor_t90_ul_i00"	/>
+	<skill	id="8202"	icon="icon.armor_t91_u_i00"	/>
+	<skill	id="8203"	icon="icon.armor_t91_uk_i00"	/>
+	<skill	id="8204"	icon="icon.armor_t91_uw_i00"	/>
+	<skill	id="8205"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="8206"	icon="icon.armor_t91_uke_i00"	/>
+	<skill	id="8207"	icon="icon.armor_t92_u_i00"	/>
+	<skill	id="8208"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="8209"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8210"	icon="icon.armor_t93_u_i00"	/>
+	<skill	id="8211"	icon="icon.armor_t93_uh_i00"	/>
+	<skill	id="8212"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="8213"	icon="icon.armor_t93_us_i00"	/>
+	<skill	id="8214"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="8215"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="8216"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8217"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="8218"	icon="icon.armor_t92_u_i00"	/>
+	<skill	id="8219"	icon="icon.armor_t91_uk_i00"	/>
+	<skill	id="8220"	icon="icon.armor_t91_uw_i00"	/>
+	<skill	id="8221"	icon="icon.armor_t91_uke_i00"	/>
+	<skill	id="8222"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="8223"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="8224"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8225"	icon="icon.armor_t92_ud_i00"	/>
+	<skill	id="8226"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8227"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8228"	icon="icon.armor_t92_ub_i00"	/>
+	<skill	id="8229"	icon="icon.armor_t93_uh_i00"	/>
+	<skill	id="8230"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="8231"	icon="icon.armor_t93_us_i00"	/>
+	<skill	id="8232"	icon="icon.armor_t93_uw_i00"	/>
+	<skill	id="8233"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="8234"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="8235"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="8236"	icon="icon.armor_leather_helmet_i00"	/>
 	<skill	id="8237"	icon="icon.skill1401"	/>
 	<skill	id="8238"	icon="icon.skill0003"	/>
 	<skill	id="8239"	icon="icon.skill5760"	/>
+	<skill	id="8240"	icon="icon.weapon_long_spear_i00"	/>
 	<skill	id="8241"	icon="icon.skill1077"	/>
 	<skill	id="8242"	icon="icon.skill1184"	/>
 	<skill	id="8243"	icon="icon.skill0105"	/>
 	<skill	id="8244"	icon="icon.skilltransform3"	/>
+	<skill	id="8245"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8246"	icon="icon.skilltransform3"	/>
 	<skill	id="8247"	icon="icon.skilltransform3"	/>
 	<skill	id="8248"	icon="icon.skilltransform2"	/>
 	<skill	id="8249"	icon="icon.skill0000"	/>
 	<skill	id="8250"	icon="icon.skill0283"	/>
+	<skill	id="8251"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8252"	icon="icon.skilltransform3"	/>
 	<skill	id="8253"	icon="icon.skilltransform3"	/>
+	<skill	id="8254"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8255"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8256"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8257"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8258"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8259"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8260"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8261"	icon="icon.skilltransform3"	/>
 	<skill	id="8262"	icon="icon.skilltransform3"	/>
 	<skill	id="8263"	icon="icon.skilltransform3"	/>
@@ -5968,6 +6593,7 @@
 	<skill	id="8272"	icon="icon.skill08272"	/>
 	<skill	id="8273"	icon="icon.skill08273"	/>
 	<skill	id="8274"	icon="icon.skill08274"	/>
+	<skill	id="8275"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8276"	icon="icon.skill0092"	/>
 	<skill	id="8277"	icon="icon.skilltransform3"	/>
 	<skill	id="8278"	icon="icon.skilltransform3"	/>
@@ -5975,16 +6601,58 @@
 	<skill	id="8280"	icon="icon.skill0000"	/>
 	<skill	id="8281"	icon="icon.skill8281"	/>
 	<skill	id="8282"	icon="icon.skill8282"	/>
+	<skill	id="8283"	icon="icon.armor_t94_u_i00"	/>
+	<skill	id="8284"	icon="icon.armor_t94_u_i01"	/>
+	<skill	id="8285"	icon="icon.armor_t95_u_i00"	/>
+	<skill	id="8286"	icon="icon.armor_t95_u_i01"	/>
+	<skill	id="8287"	icon="icon.armor_t96_u_i00"	/>
+	<skill	id="8288"	icon="icon.armor_t96_u_i01"	/>
 	<skill	id="8289"	icon="icon.skill1077"	/>
 	<skill	id="8290"	icon="icon.skill0332"	/>
 	<skill	id="8291"	icon="icon.skill0150"	/>
+	<skill	id="8292"	icon="icon.accessory_tateossian_ring_i00"	/>
+	<skill	id="8293"	icon="icon.accessory_tateossian_earring_i00"	/>
+	<skill	id="8294"	icon="icon.accessory_tateossian_necklace_i00"	/>
 	<skill	id="8295"	icon="icon.skill1077"	/>
 	<skill	id="8296"	icon="icon.skill1077"	/>
 	<skill	id="8297"	icon="icon.skill1077"	/>
 	<skill	id="8298"	icon="icon.skill1077"	/>
+	<skill	id="8299"	icon="icon.arcana_sigil_i01"	/>
+	<skill	id="8300"	icon="icon.dynasty_sigil_i01"	/>
+	<skill	id="8301"	icon="icon.armor_t94_u_i00"	/>
+	<skill	id="8302"	icon="icon.armor_t94_u_i01"	/>
+	<skill	id="8303"	icon="icon.armor_t95_u_i00"	/>
+	<skill	id="8304"	icon="icon.armor_t95_u_i01"	/>
+	<skill	id="8305"	icon="icon.armor_t96_u_i00"	/>
+	<skill	id="8306"	icon="icon.armor_t96_u_i01"	/>
+	<skill	id="8307"	icon="icon.weapon_bbyong_hammer_a_i00"	/>
+	<skill	id="8308"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="8309"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="8310"	icon="icon.arcana_sigil_i00"	/>
+	<skill	id="8311"	icon="icon.dynasty_sigil_i00"	/>
 	<skill	id="8312"	icon="icon.skill0198"	/>
+	<skill	id="8314"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8315"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8316"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8317"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8318"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8319"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8320"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8321"	icon="icon.etc_x_mas_tree_i00"	/>
+	<skill	id="8322"	icon="icon.etc_x_mas_tree_i00"	/>
 	<skill	id="8323"	icon="icon.skill5239"	/>
 	<skill	id="8324"	icon="icon.skill0000"	/>
+	<skill	id="8325"	icon="icon.etc_pig_candy_i00"	/>
+	<skill	id="8326"	icon="icon.etc_pig_candy_i00"	/>
+	<skill	id="8327"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8328"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8329"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8330"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8331"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="8332"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="8333"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="8334"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="8335"	icon="icon.etc_talisman_i06"	/>
 	<skill	id="8336"	icon="icon.skilltransform3"	/>
 	<skill	id="8337"	icon="icon.skill3238"	/>
 	<skill	id="8338"	icon="icon.skill0332"	/>
@@ -5997,19 +6665,123 @@
 	<skill	id="8345"	icon="icon.skill0332"	/>
 	<skill	id="8346"	icon="icon.skill0332"	/>
 	<skill	id="8347"	icon="icon.skill0332"	/>
+	<skill	id="8348"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8349"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8350"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8351"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8352"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8353"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8354"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8355"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8356"	icon="icon.accessory_earring_of_domi_protection_i00"	/>
+	<skill	id="8357"	icon="icon.weapon_the_sword_of_hero_i00"	/>
+	<skill	id="8358"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8359"	icon="icon.skill5239"	/>
+	<skill	id="8360"	icon="icon.event_energy_belt_i00"	/>
+	<skill	id="8361"	icon="icon.event_six_party_earing_i00"	/>
 	<skill	id="8362"	icon="icon.skill8362"	/>
 	<skill	id="8363"	icon="icon.skill8363"	/>
 	<skill	id="8364"	icon="icon.skill8364"	/>
+	<skill	id="8365"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="8366"	icon="icon.armor_t91_uw_i00"	/>
+	<skill	id="8367"	icon="icon.armor_t91_uf_i00"	/>
+	<skill	id="8368"	icon="icon.armor_t93_ue_i00"	/>
+	<skill	id="8369"	icon="icon.ev_jack_ghost_i00"	/>
+	<skill	id="8370"	icon="icon.ev_rotten_jack_ghost_i00"	/>
 	<skill	id="8371"	icon="icon.skilltransform3"	/>
+	<skill	id="8372"	icon="icon.ev_frankenstein_mask_i00"	/>
+	<skill	id="8373"	icon="icon.ev_scream_mask_i00"	/>
+	<skill	id="8374"	icon="icon.ev_doccabi_mask_i00"	/>
+	<skill	id="8375"	icon="icon.ev_mummy_mask_i00"	/>
+	<skill	id="8376"	icon="icon.ev_alien_mask_i00"	/>
+	<skill	id="8377"	icon="icon.ev_golden_jack0_mask_i00"	/>
 	<skill	id="8378"	icon="icon.skill8378"	/>
+	<skill	id="8379"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8380"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8381"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8382"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8383"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8384"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8385"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8386"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8387"	icon="icon.accessory_ring_of_domi_protection_i00"	/>
+	<skill	id="8388"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8389"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8390"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8391"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8392"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8393"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8394"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8395"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8396"	icon="icon.accessory_nectklace_of_domi_protection_i00"	/>
+	<skill	id="8397"	icon="icon.armor_t100_u_i00"	/>
+	<skill	id="8398"	icon="icon.armor_t101_u_i00"	/>
+	<skill	id="8399"	icon="icon.armor_t102_u_i00"	/>
+	<skill	id="8400"	icon="icon.armor_t94_u_i03"	/>
+	<skill	id="8401"	icon="icon.armor_t95_u_i03"	/>
+	<skill	id="8402"	icon="icon.armor_t96_u_i03"	/>
+	<skill	id="8403"	icon="icon.armor_t97_u_i00"	/>
+	<skill	id="8404"	icon="icon.armor_t98_u_i00"	/>
+	<skill	id="8405"	icon="icon.armor_t99_u_i00"	/>
+	<skill	id="8406"	icon="icon.armor_t100_u_i00"	/>
+	<skill	id="8407"	icon="icon.armor_t101_u_i00"	/>
+	<skill	id="8408"	icon="icon.armor_t102_u_i00"	/>
+	<skill	id="8409"	icon="icon.armor_t94_u_i03"	/>
+	<skill	id="8410"	icon="icon.armor_t95_u_i03"	/>
+	<skill	id="8411"	icon="icon.armor_t96_u_i03"	/>
+	<skill	id="8412"	icon="icon.armor_t97_u_i00"	/>
+	<skill	id="8413"	icon="icon.armor_t98_u_i00"	/>
+	<skill	id="8414"	icon="icon.armor_t99_u_i00"	/>
 	<skill	id="8415"	icon="icon.skill3080"	/>
 	<skill	id="8416"	icon="icon.skill3080"	/>
 	<skill	id="8417"	icon="icon.skill3080"	/>
+	<skill	id="8418"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="8419"	icon="icon.armor_t100_u_i00"	/>
+	<skill	id="8420"	icon="icon.armor_t100_l_i00"	/>
+	<skill	id="8421"	icon="icon.armor_t100_g_i00"	/>
+	<skill	id="8422"	icon="icon.armor_t100_b_i00"	/>
+	<skill	id="8423"	icon="icon.weapon_tysandy_shield_i01"	/>
+	<skill	id="8424"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="8425"	icon="icon.armor_t101_u_i00"	/>
+	<skill	id="8426"	icon="icon.armor_t101_l_i00"	/>
+	<skill	id="8427"	icon="icon.armor_t101_g_i00"	/>
+	<skill	id="8428"	icon="icon.armor_t101_b_i00"	/>
+	<skill	id="8429"	icon="icon.armor_circlet_i00"	/>
+	<skill	id="8430"	icon="icon.armor_t102_u_i00"	/>
+	<skill	id="8431"	icon="icon.armor_t102_l_i00"	/>
+	<skill	id="8432"	icon="icon.armor_t102_g_i00"	/>
+	<skill	id="8433"	icon="icon.armor_t102_b_i00"	/>
+	<skill	id="8434"	icon="icon.weapon_tysandy_sigil_i01"	/>
+	<skill	id="8435"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="8436"	icon="icon.armor_t94_u_i00"	/>
+	<skill	id="8437"	icon="icon.armor_t94_l_i00"	/>
+	<skill	id="8438"	icon="icon.armor_t94_g_i00"	/>
+	<skill	id="8439"	icon="icon.armor_t94_b_i00"	/>
+	<skill	id="8440"	icon="icon.weapon_vesper_verteidiger_i01"	/>
+	<skill	id="8441"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="8442"	icon="icon.armor_t95_u_i00"	/>
+	<skill	id="8443"	icon="icon.armor_t95_l_i00"	/>
+	<skill	id="8444"	icon="icon.armor_t95_g_i00"	/>
+	<skill	id="8445"	icon="icon.armor_t95_b_i00"	/>
+	<skill	id="8446"	icon="icon.armor_circlet_i00"	/>
+	<skill	id="8447"	icon="icon.armor_t96_u_i00"	/>
+	<skill	id="8448"	icon="icon.armor_t96_l_i00"	/>
+	<skill	id="8449"	icon="icon.armor_t96_g_i00"	/>
+	<skill	id="8450"	icon="icon.armor_t96_b_i00"	/>
+	<skill	id="8451"	icon="icon.verper_sigil_i00"	/>
+	<skill	id="8452"	icon="icon.accessary_bluelycan_earring_i00"	/>
+	<skill	id="8453"	icon="icon.accessary_bluelycan_necklace_i00"	/>
+	<skill	id="8454"	icon="icon.accessary_bluelycan_ring_i00"	/>
+	<skill	id="8455"	icon="icon.vesper_earring_i00"	/>
+	<skill	id="8456"	icon="icon.vesper_necklace_i00"	/>
+	<skill	id="8457"	icon="icon.vesper_ring_i00"	/>
 	<skill	id="8458"	icon="icon.skill0150"	/>
+	<skill	id="8459"	icon="icon.accessary_queen_of_ice_necklace_i00"	/>
+	<skill	id="8460"	icon="icon.accessary_queen_of_ice_necklace_i00"	/>
 	<skill	id="8461"	icon="icon.skill0231"	/>
 	<skill	id="8462"	icon="icon.skill0233"	/>
 	<skill	id="8463"	icon="icon.skill0234"	/>
+	<skill	id="8464"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8465"	icon="icon.skill5239"	/>
 	<skill	id="8466"	icon="icon.skill1268"	/>
 	<skill	id="8467"	icon="icon.skill1044"	/>
@@ -6026,9 +6798,52 @@
 	<skill	id="8478"	icon="icon.skill0211"	/>
 	<skill	id="8479"	icon="icon.skill1044"	/>
 	<skill	id="8480"	icon="icon.skill1240"	/>
+	<skill	id="8481"	icon="icon.armor_helmet_i00"	/>
+	<skill	id="8482"	icon="icon.armor_t94_l_i01"	/>
+	<skill	id="8483"	icon="icon.armor_t94_g_i01"	/>
+	<skill	id="8484"	icon="icon.armor_t94_b_i01"	/>
+	<skill	id="8485"	icon="icon.armor_leather_helmet_i00"	/>
+	<skill	id="8486"	icon="icon.armor_t95_l_i01"	/>
+	<skill	id="8487"	icon="icon.armor_t95_g_i01"	/>
+	<skill	id="8488"	icon="icon.armor_t95_b_i01"	/>
+	<skill	id="8489"	icon="icon.armor_circlet_i00"	/>
+	<skill	id="8490"	icon="icon.armor_t96_l_i01"	/>
+	<skill	id="8491"	icon="icon.armor_t96_g_i01"	/>
+	<skill	id="8492"	icon="icon.armor_t96_b_i01"	/>
+	<skill	id="8493"	icon="icon.weapon_tysandy_shield_i01"	/>
+	<skill	id="8494"	icon="icon.weapon_vesper_verteidiger_i01"	/>
+	<skill	id="8495"	icon="icon.Evilgate_Shield_i00"	/>
+	<skill	id="8496"	icon="icon.heavengate_shield_i00"	/>
+	<skill	id="8497"	icon="icon.accessory_ice_circlet_i00"	/>
+	<skill	id="8498"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8499"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8500"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8501"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8502"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8503"	icon="icon.etc_talisman_event_i00"	/>
+	<skill	id="8504"	icon="icon.etc_talisman_event_i01"	/>
+	<skill	id="8505"	icon="icon.etc_talisman_event_i01"	/>
+	<skill	id="8506"	icon="icon.etc_talisman_event_i01"	/>
+	<skill	id="8507"	icon="icon.etc_talisman_event_i01"	/>
+	<skill	id="8508"	icon="icon.etc_talisman_event_i02"	/>
+	<skill	id="8509"	icon="icon.accessory_highangel_circlet_i00"	/>
+	<skill	id="8510"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8511"	icon="BranchSys2.icon.br_worldcup_hair_i02"	/>
+	<skill	id="8512"	icon="BranchSys2.icon.br_spirit_of_brave_i00"	/>
+	<skill	id="8513"	icon="BranchSys2.icon.br_spell_of_blessing_i00"	/>
+	<skill	id="8514"	icon="BranchSys2.icon.br_obsession_of_winning_i00"	/>
+	<skill	id="8515"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8516"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8517"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="8518"	icon="icon.skill5239"	/>
 	<skill	id="8519"	icon="icon.skill5239"	/>
 	<skill	id="8520"	icon="icon.skill5239"	/>
+	<skill	id="8521"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8522"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8523"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="8524"	icon="icon.weapon_the_sword_of_hero_i00"	/>
+	<skill	id="8525"	icon="icon.weapon_the_staff_of_hero_i00"	/>
+	<skill	id="8526"	icon="icon.accessory_shiny_bracelet"	/>
 	<skill	id="9000"	icon="icon.skill0000"	/>
 	<skill	id="9001"	icon="icon.skill0000"	/>
 	<skill	id="9002"	icon="icon.skill0000"	/>
@@ -6040,6 +6855,22 @@
 	<skill	id="9008"	icon="icon.skill0000"	/>
 	<skill	id="9009"	icon="icon.skill0000"	/>
 	<skill	id="9010"	icon="icon.skill1184"	/>
+	<skill	id="9011"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9012"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9013"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9014"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9015"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9016"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9017"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9018"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9019"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9020"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9021"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9022"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9023"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9024"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9025"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9026"	icon="icon.etc_hot_spring_nectar_i00"	/>
 	<skill	id="9027"	icon="icon.skill0000"	/>
 	<skill	id="9028"	icon="icon.skill1184"	/>
 	<skill	id="9029"	icon="icon.skill0000"	/>
@@ -6048,11 +6879,13 @@
 	<skill	id="9032"	icon="icon.skill0000"	/>
 	<skill	id="9033"	icon="icon.skill0000"	/>
 	<skill	id="9034"	icon="icon.skill0000"	/>
+	<skill	id="9035"	icon="icon.etc.event_steamed_rice_cake_i00"	/>
 	<skill	id="9036"	icon="icon.skill0000"	/>
 	<skill	id="9037"	icon="icon.skill0000"	/>
 	<skill	id="9038"	icon="icon.skill0000"	/>
 	<skill	id="9039"	icon="icon.skill0000"	/>
 	<skill	id="9040"	icon="icon.skill0000"	/>
+	<skill	id="9041"	icon="icon.event_six_party_cake_i00"	/>
 	<skill	id="9042"	icon="icon.skill0000"	/>
 	<skill	id="9043"	icon="icon.skill0000"	/>
 	<skill	id="9044"	icon="icon.skill0000"	/>
@@ -6078,15 +6911,24 @@
 	<skill	id="9064"	icon="icon.skill0000"	/>
 	<skill	id="9065"	icon="icon.skill0000"	/>
 	<skill	id="9066"	icon="icon.skill0000"	/>
+	<skill	id="9067"	icon="icon.etc_lesser_potion_blue_i00"	/>
+	<skill	id="9068"	icon="icon.etc_lesser_potion_scarlet_i00"	/>
 	<skill	id="9069"	icon="icon.skill0000"	/>
 	<skill	id="9070"	icon="icon.skill0000"	/>
 	<skill	id="9071"	icon="icon.skill0000"	/>
 	<skill	id="9072"	icon="icon.skill0000"	/>
+	<skill	id="9073"	icon="icon.xel_mahun_vampiric_rage_i00"	/>
 	<skill	id="9074"	icon="icon.skill0000"	/>
 	<skill	id="9075"	icon="icon.skill0000"	/>
 	<skill	id="9076"	icon="icon.skill0000"	/>
 	<skill	id="9077"	icon="icon.skill0000"	/>
+	<skill	id="9078"	icon="icon.etc_cp_potion_i01"	/>
+	<skill	id="9079"	icon="icon.mysterious_wedding_i00"	/>
 	<skill	id="9080"	icon="icon.skill0000"	/>
+	<skill	id="9081"	icon="icon.event_six_party_cake_i00"	/>
+	<skill	id="9082"	icon="icon.etc_candle_white_i00"	/>
+	<skill	id="9083"	icon="icon.event_six_party_cake_i00"	/>
+	<skill	id="9084"	icon="icon.etc_candle_white_i00"	/>
 	<skill	id="9085"	icon="icon.skill0000"	/>
 	<skill	id="9086"	icon="icon.skill0000"	/>
 	<skill	id="9087"	icon="icon.skill0000"	/>
@@ -6098,6 +6940,10 @@
 	<skill	id="9093"	icon="icon.skill0000"	/>
 	<skill	id="9094"	icon="icon.skill0000"	/>
 	<skill	id="9095"	icon="icon.skill0000"	/>
+	<skill	id="9096"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="9097"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="9098"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="9099"	icon="icon.etc_scroll_of_return_i00"	/>
 	<skill	id="9100"	icon="icon.skill0000"	/>
 	<skill	id="9101"	icon="icon.skill0000"	/>
 	<skill	id="9102"	icon="icon.skill0000"	/>
@@ -6111,43 +6957,366 @@
 	<skill	id="9110"	icon="icon.skill0000"	/>
 	<skill	id="9111"	icon="icon.skill0000"	/>
 	<skill	id="9112"	icon="icon.skill0000"	/>
+	<skill	id="9113"	icon="icon.etc_lesser_potion_blue_i00"	/>
 	<skill	id="9114"	icon="icon.skill0000"	/>
+	<skill	id="9115"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9116"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9117"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9118"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9119"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9120"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9121"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9122"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9123"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9124"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9125"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9126"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9127"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9128"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9129"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9130"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9131"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9132"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9133"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9134"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9135"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9136"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9137"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9138"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9139"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9140"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9141"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9142"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9143"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9144"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9145"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9146"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9147"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9148"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9149"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9150"	icon="icon.etc_flower_bouquet_i02"	/>
+	<skill	id="9151"	icon="icon.etc_flower_bouquet_i03"	/>
+	<skill	id="9152"	icon="icon.etc_fruit_cocktail_i02"	/>
+	<skill	id="9153"	icon="icon.etc_fruit_cocktail_i03"	/>
+	<skill	id="9154"	icon="icon.etc_herb_of_cheesecake"	/>
+	<skill	id="9155"	icon="icon.etc_herb_of_baguette"	/>
+	<skill	id="9156"	icon="icon.etc_herb_of_cream"	/>
+	<skill	id="9157"	icon="icon.etc_whiteday_candy_i00"	/>
+	<skill	id="9158"	icon="icon.etc_pi_gift_box_i04"	/>
 	<skill	id="9159"	icon="icon.skilltransform1"	/>
 	<skill	id="9160"	icon="icon.skilltransform1"	/>
+	<skill	id="9161"	icon="icon.weapon_vesper_slasher_i00"	/>
+	<skill	id="9162"	icon="icon.weapon_vesper_caster_i00"	/>
+	<skill	id="9163"	icon="icon.weapon_dual_sword_i00"	/>
+	<skill	id="9164"	icon="icon.etc_pi_gift_box_i04"	/>
+	<skill	id="9165"	icon="icon.etc_leaf_green_i00"	/>
+	<skill	id="9166"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="9167"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9168"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9169"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9170"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9171"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9172"	icon="icon.etc_dragons_blood_i03"	/>
 	<skill	id="9173"	icon="icon.skill0000"	/>
 	<skill	id="9174"	icon="icon.skill0000"	/>
 	<skill	id="9175"	icon="icon.skill0000"	/>
+	<skill	id="9176"	icon="icon.etc_pi_gift_box_i04"	/>
+	<skill	id="9177"	icon="icon.etc_pi_gift_box_i04"	/>
+	<skill	id="9178"	icon="icon.etc_pi_gift_box_i04"	/>
 	<skill	id="9179"	icon="icon.skill0000"	/>
 	<skill	id="9180"	icon="icon.skill0000"	/>
+	<skill	id="9181"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9182"	icon="icon.etc_dragons_blood_i03"	/>
+	<skill	id="9183"	icon="icon.etc_I.etc_hot_spring_mineral_i00"	/>
+	<skill	id="9184"	icon="icon.etc_I.etc_hot_spring_mineral_i00"	/>
+	<skill	id="14156"	icon="icon.skill0006"	/>
+	<skill	id="14157"	icon="icon.skill0006"	/>
+	<skill	id="14158"	icon="icon.skill0006"	/>
+	<skill	id="14164"	icon="icon.skill1275"	/>
+	<skill	id="14165"	icon="icon.skill1275"	/>
+	<skill	id="14167"	icon="icon.skill0006"	/>
+	<skill	id="14168"	icon="icon.skill1275"	/>
+	<skill	id="20000"	icon="BranchSys2.icon.br_s_search_treasure1_i00"	/>
+	<skill	id="20001"	icon="BranchSys2.icon.br_s_hammerpunch_treasure1_i001"	/>
 	<skill	id="20002"	icon="icon.skill_transform_s_attack"	/>
 	<skill	id="20003"	icon="icon.skill_transform_s_attack"	/>
 	<skill	id="20004"	icon="icon.skill_transform_buff"	/>
 	<skill	id="20005"	icon="icon.skill_transform_buff"	/>
 	<skill	id="20006"	icon="BranchSys2.icon.skill20006"	/>
+	<skill	id="21000"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21001"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21002"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21003"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21004"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21005"	icon="BranchSys.icon.br_Eye_Glasses_i00"	/>
+	<skill	id="21006"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21007"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21008"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21009"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21010"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21011"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21012"	icon="BranchSys.icon.br_Eye_Glasses_i00"	/>
+	<skill	id="21013"	icon="BranchSys.icon.br_Bamboo_Hat_i00"	/>
+	<skill	id="21014"	icon="BranchSys.icon.br_xmas_gawi_i00"	/>
+	<skill	id="21015"	icon="BranchSys.icon.br_xmas_bawi_i00"	/>
+	<skill	id="21016"	icon="BranchSys.icon.br_xmas_bo_i00"	/>
+	<skill	id="21017"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21018"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21019"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21020"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21021"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21022"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21023"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21024"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21025"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21026"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21027"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21028"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21029"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21030"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="21031"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21032"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21033"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21034"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21035"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21036"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21037"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21038"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21039"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21040"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21041"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="21042"	icon="icon.skill3123"	/>
+	<skill	id="21043"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21044"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21045"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21046"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21047"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21048"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21049"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21050"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="21051"	icon="icon.skilltransform3"	/>
+	<skill	id="21052"	icon="BranchSys.icon.br_people_cap_i00"	/>
+	<skill	id="21053"	icon="BranchSys.icon.br_people_cap_i00"	/>
+	<skill	id="21054"	icon="BranchSys.icon.br_Uniform_Hat_i00"	/>
+	<skill	id="21055"	icon="BranchSys.icon.br_Bamboo_Hat_i00"	/>
+	<skill	id="21056"	icon="BranchSys.icon.br_mask_i00"	/>
+	<skill	id="21057"	icon="BranchSys.icon.br_Ribbon_i00"	/>
+	<skill	id="21058"	icon="BranchSys.icon.br_Eye_Visor_i00"	/>
+	<skill	id="21059"	icon="icon.accessory_cat_the_cat_cap_i00"	/>
+	<skill	id="21060"	icon="icon.accessory_skeleton_cap_i00"	/>
+	<skill	id="21061"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21062"	icon="BranchSys.icon.br_Afro_hair_i00"	/>
+	<skill	id="21063"	icon="BranchSys.icon.br_goggles_i00"	/>
+	<skill	id="21064"	icon="BranchSys.icon.br_napoleonic_cap_i00"	/>
+	<skill	id="21065"	icon="BranchSys.icon.br_horn_hairband_i00"	/>
+	<skill	id="21066"	icon="BranchSys.icon.br_black_gem_mask_i00"	/>
+	<skill	id="21067"	icon="BranchSys.icon.br_plastic_hair_f_i00"	/>
+	<skill	id="21068"	icon="icon.accessory_daisy_hairpin_i00"	/>
+	<skill	id="21069"	icon="icon.accessory_forget_me_not_hairpin_i00"	/>
+	<skill	id="21070"	icon="icon.accessory_outlaw_eyepatch_i00"	/>
+	<skill	id="21071"	icon="icon.accessory_eye_bandage_i00"	/>
+	<skill	id="21072"	icon="icon.accessory_glasses_i00"	/>
+	<skill	id="21073"	icon="icon.accessory_worldcup_mask_i00"	/>
+	<skill	id="21074"	icon="icon.accessory_hair_cornu_i00"	/>
+	<skill	id="21075"	icon="icon.etc_party_mask_i00"	/>
+	<skill	id="21076"	icon="icon.etc_party_mask_i01"	/>
+	<skill	id="21077"	icon="icon.accessory_cat_ear_i00"	/>
+	<skill	id="21078"	icon="icon.accessory_hairpin_i00"	/>
+	<skill	id="21079"	icon="icon.accessory_racoon_ear_i00"	/>
+	<skill	id="21080"	icon="icon.accessory_rabbit_ear_i00"	/>
+	<skill	id="21081"	icon="icon.accessory_hair_ring_i00"	/>
+	<skill	id="21082"	icon="icon.accessory_hair_feeler_i00"	/>
+	<skill	id="21083"	icon="icon.accessory_archer_hat_i00"	/>
+	<skill	id="21084"	icon="icon.accessory_dwarf_goggle_i00"	/>
+	<skill	id="21085"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21086"	icon="BranchSys.icon.br_garland_i00"	/>
+	<skill	id="21087"	icon="BranchSys.icon.br_circlet_of_eva_i00"	/>
 	<skill	id="21088"	icon="icon.skill_agathion_special"	/>
+	<skill	id="21089"	icon="BranchSys.icon.br_invokespirit_stick_a_i00"	/>
+	<skill	id="21090"	icon="BranchSys.icon.br_comfortspirit_hat_a_i00"	/>
+	<skill	id="21091"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21092"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21093"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21094"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21095"	icon="BranchSys.icon.br_comfortspirit_hat_a_i00"	/>
+	<skill	id="21096"	icon="BranchSys.icon.br_watermelon_cap_a_i00"	/>
 	<skill	id="21097"	icon="icon.skill_agathion_special"	/>
+	<skill	id="21098"	icon="BranchSys.icon.br_valkyrie_cap_i00"	/>
+	<skill	id="21099"	icon="BranchSys.icon.br_tiger_cap_i00"	/>
+	<skill	id="21100"	icon="BranchSys.icon.br_maid_hairband_i00"	/>
+	<skill	id="21101"	icon="BranchSys.icon.br_babypanda_cap_i00"	/>
+	<skill	id="21102"	icon="BranchSys.icon.br_sexypanda_cap_i00"	/>
+	<skill	id="21103"	icon="BranchSys.icon.br_kungfupanda_cap_i00"	/>
+	<skill	id="21104"	icon="BranchSys.icon.br_gatekeeper_of_hat_i00"	/>
+	<skill	id="21105"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21106"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21107"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21108"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21109"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21110"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21111"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21112"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21113"	icon="BranchSys.icon.br_headphone_i00"	/>
+	<skill	id="21114"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21115"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21116"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21117"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21118"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21119"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21120"	icon="BranchSys.icon.br_jack_ghost_i00"	/>
+	<skill	id="21121"	icon="BranchSys.icon.br_rotten_jack_ghost_i00"	/>
+	<skill	id="21122"	icon="BranchSys.icon.br_scooldie_mask_i00"	/>
+	<skill	id="21123"	icon="BranchSys.icon.br_scooldie_mask_i00"	/>
+	<skill	id="21124"	icon="BranchSys.icon.br_scooldie_mask_i00"	/>
+	<skill	id="21125"	icon="BranchSys.icon.br_scooldie_mask_i00"	/>
+	<skill	id="21126"	icon="BranchSys.icon.br_scooldie_mask_i00"	/>
 	<skill	id="21127"	icon="icon.skill1528"	/>
 	<skill	id="21128"	icon="icon.skill1528"	/>
 	<skill	id="21129"	icon="icon.skill1528"	/>
 	<skill	id="21130"	icon="icon.skill1528"	/>
 	<skill	id="21131"	icon="icon.skill1528"	/>
 	<skill	id="21132"	icon="icon.skill5739"	/>
+	<skill	id="21133"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21134"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21135"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21136"	icon="BranchSys.icon.br_golden_jack0_mask_i00"	/>
 	<skill	id="21137"	icon="icon.skill1528"	/>
 	<skill	id="21138"	icon="icon.skill1528"	/>
 	<skill	id="21139"	icon="icon.skill1528"	/>
 	<skill	id="21140"	icon="icon.skill1528"	/>
 	<skill	id="21141"	icon="icon.skill1528"	/>
+	<skill	id="21142"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21143"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21144"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21145"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21146"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21147"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21148"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21149"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21150"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21151"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21152"	icon="BranchSys.icon.br_rocket_cap_i00"	/>
+	<skill	id="21153"	icon="BranchSys.icon.br_party_hat_gold_i00"	/>
+	<skill	id="21154"	icon="BranchSys.icon.br_party_hat_mask_i00"	/>
+	<skill	id="21155"	icon="BranchSys.icon.br_bigrat_cap_i00"	/>
+	<skill	id="21156"	icon="BranchSys.icon.br_goldrat_cap_i00"	/>
+	<skill	id="21157"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21158"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21159"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21160"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21161"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21162"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21163"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21164"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21165"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21166"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21167"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21168"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="21169"	icon="icon.skilltransform3"	/>
+	<skill	id="21170"	icon="BranchSys.icon.br_party_mask_purple_i00"	/>
 	<skill	id="21171"	icon="icon.skilltransform3"	/>
+	<skill	id="21172"	icon="BranchSys2.icon.br_soulavatar_stat_i00"	/>
+	<skill	id="21173"	icon="BranchSys2.icon.br_soulavatar_stat_i00"	/>
+	<skill	id="21174"	icon="BranchSys2.icon.br_soulavatar_stat_i00"	/>
+	<skill	id="21175"	icon="BranchSys2.icon.br_soulavatar_stat_i00"	/>
+	<skill	id="21176"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21177"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21178"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21179"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21180"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21181"	icon="BranchSys2.icon.br_soulavatar_attr_i00"	/>
+	<skill	id="21182"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21183"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21184"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21185"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21186"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21187"	icon="BranchSys2.icon.br_soulavatar_resist_i00"	/>
+	<skill	id="21188"	icon="BranchSys2.icon.br_soulavatar_regen_i00"	/>
+	<skill	id="21189"	icon="BranchSys2.icon.br_soulavatar_regen_i00"	/>
+	<skill	id="21190"	icon="BranchSys2.icon.br_soulavatar_active_i00"	/>
+	<skill	id="21191"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21192"	icon="BranchSys2.icon.br_fox_japan_cap_i00"	/>
+	<skill	id="21193"	icon="BranchSys2.icon.br_paiwan_cap_i00"	/>
+	<skill	id="21194"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="21195"	icon="icon.skilltransform3"	/>
 	<skill	id="21196"	icon="icon.skilltransform3"	/>
+	<skill	id="21197"	icon="BranchSys2.icon.br_pekingopera_mask_a_i00"	/>
+	<skill	id="21198"	icon="BranchSys2.icon.br_pekingopera_mask_b_i00"	/>
+	<skill	id="21199"	icon="BranchSys2.icon.br_pekingopera_mask_c_i00"	/>
+	<skill	id="21200"	icon="BranchSys.icon.br_spirit_skill_i00"	/>
+	<skill	id="21201"	icon="BranchSys2.icon.br_dragonboat_cap_i00"	/>
+	<skill	id="21202"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21203"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21204"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21205"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21206"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21207"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21208"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21209"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21210"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21211"	icon="BranchSys2.icon.br_worldcup_hair_i02"	/>
+	<skill	id="21212"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21213"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21214"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21215"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21216"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21217"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21218"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21219"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21220"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21221"	icon="BranchSys2.icon.br_flag_cap_i00"	/>
+	<skill	id="21222"	icon="BranchSys2.icon.br_polar_bear_cap_i00"	/>
+	<skill	id="21223"	icon="BranchSys2.icon.br_polar_bear_wp_i00"	/>
+	<skill	id="21224"	icon="BranchSys2.icon.br_stagbeetle_cap_i00"	/>
+	<skill	id="21225"	icon="BranchSys2.icon.br_hornbeetle_cap_i00"	/>
+	<skill	id="21226"	icon="BranchSys2.icon.br_ladybug_cap_i00"	/>
+	<skill	id="21227"	icon="BranchSys2.icon.br_mantis_cap_i00"	/>
+	<skill	id="21228"	icon="BranchSys2.icon.br_locust_cap_i00"	/>
+	<skill	id="21229"	icon="BranchSys2.icon.br_close_helmet_i00"	/>
+	<skill	id="21230"	icon="BranchSys2.icon.br_navy_cap_i00"	/>
+	<skill	id="21231"	icon="BranchSys2.icon.br_gold_eyeglass_i00"	/>
 	<skill	id="21232"	icon="icon.skilltransform3"	/>
+	<skill	id="21233"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21234"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21235"	icon="BranchSys2.icon.7anni_shirt_i00"	/>
 	<skill	id="21236"	icon="icon.skill1050"	/>
+	<skill	id="21237"	icon="BranchSys2.icon.7anni_shirt_i00"	/>
 	<skill	id="21238"	icon="icon.skilltransform3"	/>
+	<skill	id="21239"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21240"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21241"	icon="BranchSys.icon.br_Eye_Glasses_i00"	/>
+	<skill	id="21242"	icon="BranchSys2.Icon.br_zaken_cloak_i00"	/>
+	<skill	id="21243"	icon="BranchSys2.Icon.br_freya_cloak_i00"	/>
+	<skill	id="21244"	icon="BranchSys2.Icon.br_frintessa_cloak_i00"	/>
+	<skill	id="21245"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21246"	icon="icon.etc_rbracelet_aga_agit_i00"	/>
+	<skill	id="21247"	icon="icon.etc_pi_gift_box_i04"	/>
+	<skill	id="21248"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21249"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21250"	icon="icon.accessory_academy_i00"	/>
+	<skill	id="21251"	icon="BranchSys.icon.br_party_hat_gold_i00"	/>
+	<skill	id="21252"	icon="BranchSys2.icon.br_wp_Caladbulg_i00"	/>
+	<skill	id="21253"	icon="BranchSys2.icon.br_wp_habus_knife_i00"	/>
+	<skill	id="21254"	icon="BranchSys2.icon.br_wp_tiatenon_i00"	/>
+	<skill	id="21255"	icon="BranchSys2.icon.br_wp_astarot_i00"	/>
+	<skill	id="21256"	icon="BranchSys2.icon.br_wp_tirbing_i00"	/>
+	<skill	id="21257"	icon="BranchSys2.icon.br_wp_wind_of_mardil_i00"	/>
 	<skill	id="21258"	icon="icon.skilltransform3"	/>
+	<skill	id="21259"	icon="icon.etc_summon_aga_agit_i00"	/>
 	<skill	id="21260"	icon="icon.skill5239"	/>
+	<skill	id="21261"	icon="branchsys2.icon2.g_accessory_event_necklace"	/>
+	<skill	id="21262"	icon="branchsys2.icon2.g_accessory_event_earring"	/>
+	<skill	id="21263"	icon="branchsys2.icon2.g_accessory_event_ring"	/>
+	<skill	id="21264"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21265"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21266"	icon="icon.etc_summon_aga_agit_i00"	/>
+	<skill	id="21267"	icon="icon.skill5239"	/>
+	<skill	id="22000"	icon="BranchSys.icon.etc_kimchi_power_i00"	/>
+	<skill	id="22001"	icon="BranchSys.icon.etc_kimchi_power_i00"	/>
+	<skill	id="22002"	icon="BranchSys.icon.etc_kimchi_power_i00"	/>
+	<skill	id="22003"	icon="BranchSys.icon.etc_kimchi_time_i00"	/>
+	<skill	id="22004"	icon="BranchSys.icon.etc_ginseng_recovery_i00"	/>
+	<skill	id="22005"	icon="BranchSys.icon.etc_ginseng_recovery_i00"	/>
 	<skill	id="22006"	icon="icon.skill0000"	/>
 	<skill	id="22007"	icon="icon.skill0000"	/>
 	<skill	id="22008"	icon="icon.skill0000"	/>
@@ -6155,6 +7324,10 @@
 	<skill	id="22010"	icon="icon.skill0000"	/>
 	<skill	id="22011"	icon="icon.skill0000"	/>
 	<skill	id="22012"	icon="icon.skill0000"	/>
+	<skill	id="22013"	icon="new_icons.event_ny_present1_i00"	/>
+	<skill	id="22014"	icon="new_icons.event_ny_present1_i00"	/>
+	<skill	id="22015"	icon="new_icons.event_ny_present1_i00"	/>
+	<skill	id="22016"	icon="new_icons.event_ny_present1_i00"	/>
 	<skill	id="22017"	icon="icon.skill0000"	/>
 	<skill	id="22018"	icon="icon.skill0000"	/>
 	<skill	id="22019"	icon="icon.skill0000"	/>
@@ -6167,12 +7340,19 @@
 	<skill	id="22026"	icon="icon.skill0000"	/>
 	<skill	id="22027"	icon="icon.skill0000"	/>
 	<skill	id="22028"	icon="icon.skill0000"	/>
+	<skill	id="22029"	icon="BranchSys.icon.br_herb_of_baguette_i00"	/>
+	<skill	id="22030"	icon="BranchSys.icon.br_herb_of_cream_i00"	/>
+	<skill	id="22031"	icon="BranchSys.icon.br_herb_of_cheesecake_i00"	/>
 	<skill	id="22032"	icon="icon.skill0000"	/>
 	<skill	id="22033"	icon="icon.skill0000"	/>
 	<skill	id="22034"	icon="icon.skill0000"	/>
+	<skill	id="22035"	icon="BranchSys.icon.br_birthday_cake_i00"	/>
 	<skill	id="22036"	icon="icon.skill0000"	/>
 	<skill	id="22037"	icon="icon.skill0000"	/>
 	<skill	id="22038"	icon="icon.skill0000"	/>
+	<skill	id="22039"	icon="br_cashtex.skill.br_cash_rune_of_exp_buff_5"	/>
+	<skill	id="22040"	icon="br_cashtex.skill.br_cash_rune_of_sp_buff_5"	/>
+	<skill	id="22041"	icon="br_cashtex.skill.br_cash_rune_of_rp_buff_5"	/>
 	<skill	id="22042"	icon="icon.skill0000"	/>
 	<skill	id="22043"	icon="icon.skill0000"	/>
 	<skill	id="22044"	icon="icon.skill0000"	/>
@@ -6187,6 +7367,21 @@
 	<skill	id="22053"	icon="icon.skill0000"	/>
 	<skill	id="22054"	icon="icon.skilltransform4"	/>
 	<skill	id="22055"	icon="icon.skill0000"	/>
+	<skill	id="22056"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22057"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22058"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22059"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22060"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22061"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22062"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22063"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22064"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22065"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22066"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22067"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22068"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22069"	icon="icon.etc_hot_spring_nectar_i00"	/>
+	<skill	id="22070"	icon="icon.etc_hot_spring_nectar_i00"	/>
 	<skill	id="22071"	icon="icon.skill0000"	/>
 	<skill	id="22072"	icon="icon.skill0000"	/>
 	<skill	id="22073"	icon="icon.skill0000"	/>
@@ -6195,11 +7390,28 @@
 	<skill	id="22076"	icon="icon.skill0000"	/>
 	<skill	id="22077"	icon="icon.skill0000"	/>
 	<skill	id="22078"	icon="icon.skill0000"	/>
+	<skill	id="22079"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22080"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22081"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22082"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22083"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22084"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22085"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22086"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22087"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22088"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22089"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22090"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="22091"	icon="BranchSys.icon.br_rune_of_eva_i00"	/>
 	<skill	id="22092"	icon="icon.skill0000"	/>
 	<skill	id="22093"	icon="icon.skill0000"	/>
 	<skill	id="22094"	icon="icon.skill0000"	/>
 	<skill	id="22095"	icon="icon.skill0000"	/>
 	<skill	id="22096"	icon="icon.skill0000"	/>
+	<skill	id="22097"	icon="BranchSys.icon.br_sevenlove_girlpresent_i00"	/>
+	<skill	id="22098"	icon="BranchSys.icon.br_sevenlove_boypresent_i00"	/>
+	<skill	id="22099"	icon="BranchSys.icon.br_ghost_silverpaper_i00"	/>
+	<skill	id="22100"	icon="BranchSys.icon.br_ghost_incense_i00"	/>
 	<skill	id="22101"	icon="icon.skill0000"	/>
 	<skill	id="22102"	icon="icon.skill0000"	/>
 	<skill	id="22103"	icon="icon.skill0000"	/>
@@ -6215,10 +7427,55 @@
 	<skill	id="22113"	icon="icon.skill0000"	/>
 	<skill	id="22114"	icon="icon.skill0000"	/>
 	<skill	id="22115"	icon="icon.skill0000"	/>
+	<skill	id="22116"	icon="BranchSys.icon.br_fire_box_i00"	/>
 	<skill	id="22117"	icon="icon.skill0788"	/>
+	<skill	id="22118"	icon="BranchSys.icon.br_kotatsu_i00"	/>
+	<skill	id="22119"	icon="BranchSys.icon.br_taiwan_newyear_food_a_i00"	/>
+	<skill	id="22120"	icon="BranchSys.icon.br_taiwan_newyear_food_b_i00"	/>
+	<skill	id="22121"	icon="BranchSys.icon.br_taiwan_newyear_food_c_i00"	/>
+	<skill	id="22122"	icon="BranchSys.icon.br_taiwan_newyear_food_d_i00"	/>
+	<skill	id="22123"	icon="BranchSys.icon.br_taiwan_newyear_food_e_i00"	/>
+	<skill	id="22124"	icon="BranchSys.icon.br_taiwan_newyear_food_f_i00"	/>
+	<skill	id="22125"	icon="BranchSys.icon.br_taiwan_newyear_food_g_i00"	/>
+	<skill	id="22126"	icon="BranchSys.br_baby_food_i00"	/>
+	<skill	id="22127"	icon="BranchSys.icon.br_kotatsu_i00"	/>
 	<skill	id="22128"	icon="icon.skill1256"	/>
 	<skill	id="22129"	icon="icon.skill0000"	/>
+	<skill	id="22130"	icon="BranchSys.br_rudolf_food_unknown_i00"	/>
+	<skill	id="22131"	icon="BranchSys.icon.br_firecracker_red_i00"	/>
+	<skill	id="22132"	icon="BranchSys.icon.br_firecracker_gold_i00"	/>
+	<skill	id="22133"	icon="BranchSys.icon.br_firecracker_blue_i00"	/>
+	<skill	id="22134"	icon="BranchSys.icon.br_firecracker_pink_i00"	/>
+	<skill	id="22135"	icon="BranchSys.icon.br_firecracker_white_i00"	/>
+	<skill	id="22136"	icon="BranchSys.icon.br_firecracker_silver_i00"	/>
 	<skill	id="22137"	icon="icon.skill0000"	/>
+	<skill	id="22138"	icon="BranchSys.icon.br_thai_desert_i00"	/>
+	<skill	id="22139"	icon="BranchSys.icon.br_taiwan_newyear_food_g_i00"	/>
+	<skill	id="22140"	icon="BranchSys.icon.br_taiwan_newyear_food_f_i00"	/>
+	<skill	id="22141"	icon="BranchSys.icon.br_taiwan_newyear_food_g_i00"	/>
+	<skill	id="22142"	icon="BranchSys.icon.br_taiwan_newyear_food_c_i00"	/>
+	<skill	id="22143"	icon="BranchSys.icon.br_taiwan_newyear_food_b_i00"	/>
+	<skill	id="22144"	icon="BranchSys.icon.br_taiwan_newyear_food_b_i00"	/>
+	<skill	id="22145"	icon="BranchSys.icon.br_taiwan_newyear_food_a_i00"	/>
+	<skill	id="22146"	icon="BranchSys.icon.br_taiwan_newyear_food_e_i00"	/>
+	<skill	id="22147"	icon="BranchSys.icon.br_taiwan_newyear_food_d_i00"	/>
+	<skill	id="22148"	icon="BranchSys.icon.br_taiwan_newyear_food_g_i00"	/>
+	<skill	id="22149"	icon="BranchSys.icon.br_taiwan_newyear_food_d_i00"	/>
+	<skill	id="22150"	icon="BranchSys.icon.br_taiwan_newyear_food_c_i00"	/>
+	<skill	id="22151"	icon="BranchSys.icon.br_taiwan_newyear_food_e_i00"	/>
+	<skill	id="22152"	icon="BranchSys.icon.br_taiwan_newyear_food_e_i00"	/>
+	<skill	id="22153"	icon="BranchSys.icon.br_taiwan_newyear_food_a_i00"	/>
+	<skill	id="22154"	icon="BranchSys.icon.br_taiwan_newyear_food_b_i00"	/>
+	<skill	id="22155"	icon="BranchSys.icon.br_taiwan_newyear_food_c_i00"	/>
+	<skill	id="22156"	icon="BranchSys.icon.br_taiwan_newyear_food_f_i00"	/>
+	<skill	id="22157"	icon="BranchSys.icon.br_taiwan_newyear_food_d_i00"	/>
+	<skill	id="22158"	icon="BranchSys2.icon.Br_herb_rose_red_i09"	/>
+	<skill	id="22159"	icon="BranchSys2.icon.br_royal_crown_of_vesper_i00"	/>
+	<skill	id="22160"	icon="BranchSys2.icon.br_royal_circlet_of_vesper_i00"	/>
+	<skill	id="22161"	icon="BranchSys2.icon.br_noblesse_oblige_of_vesper_i00"	/>
+	<skill	id="22162"	icon="BranchSys2.icon.br_fuji_herb_i00"	/>
+	<skill	id="22163"	icon="BranchSys2.icon.br_hawk_herb_i00"	/>
+	<skill	id="22164"	icon="BranchSys2.icon.br_eggplant_herb_i00"	/>
 	<skill	id="22165"	icon="icon.skill0788"	/>
 	<skill	id="22166"	icon="icon.skill0788"	/>
 	<skill	id="22167"	icon="icon.skill0001"	/>
@@ -6236,9 +7493,14 @@
 	<skill	id="22179"	icon="icon.skill0001"	/>
 	<skill	id="22180"	icon="icon.skill0000"	/>
 	<skill	id="22181"	icon="icon.skill0000"	/>
+	<skill	id="22182"	icon="icon.etc_potion_blue_i00"	/>
 	<skill	id="22183"	icon="icon.skilltransform1"	/>
 	<skill	id="22184"	icon="icon.skilltransform1"	/>
+	<skill	id="22185"	icon="BranchSys.icon.br_firecracker_red_i00"	/>
+	<skill	id="22186"	icon="icon.item_normal16"	/>
+	<skill	id="22187"	icon="BranchSys2.Icon.br_weddin_ticket_i00"	/>
 	<skill	id="22188"	icon="icon.skill0000"	/>
+	<skill	id="22189"	icon="icon.item_normal16"	/>
 	<skill	id="22190"	icon="icon.skilltransform3"	/>
 	<skill	id="22191"	icon="icon.skilltransform1"	/>
 	<skill	id="22192"	icon="icon.skilltransform1"	/>
@@ -6264,6 +7526,7 @@
 	<skill	id="22212"	icon="icon.skill0000"	/>
 	<skill	id="22213"	icon="icon.skill1357"	/>
 	<skill	id="22214"	icon="icon.skill0000"	/>
+	<skill	id="22215"	icon="icon.etc_hot_spring_mineral_i00"	/>
 	<skill	id="22216"	icon="icon.skilltransform1"	/>
 	<skill	id="22217"	icon="icon.skill0000"	/>
 	<skill	id="22218"	icon="icon.skill0000"	/>
@@ -6271,6 +7534,18 @@
 	<skill	id="22220"	icon="icon.skill0000"	/>
 	<skill	id="22221"	icon="icon.skill0000"	/>
 	<skill	id="22222"	icon="icon.skill0000"	/>
+	<skill	id="22223"	icon="BranchSys2.icon.br_essence_rose_i00"	/>
+	<skill	id="22224"	icon="BranchSys2.icon.br_essence_rose_i00"	/>
+	<skill	id="22225"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22226"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22227"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22228"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22229"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22230"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22231"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22232"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22233"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
+	<skill	id="22234"	icon="BranchSys.icon.br_valentine_cookie_i00"	/>
 	<skill	id="22235"	icon="icon.skill0000"	/>
 	<skill	id="22236"	icon="icon.skill0000"	/>
 	<skill	id="22237"	icon="icon.skill0000"	/>
@@ -6286,10 +7561,27 @@
 	<skill	id="22247"	icon="icon.skill0000"	/>
 	<skill	id="22248"	icon="icon.skill0000"	/>
 	<skill	id="22249"	icon="icon.skill0000"	/>
+	<skill	id="22250"	icon="BranchSys.icon.br_birthday_cake_i00"	/>
 	<skill	id="22251"	icon="icon.skill0000"	/>
 	<skill	id="22252"	icon="icon.skill0000"	/>
+	<skill	id="22253"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
 	<skill	id="22254"	icon="icon.skill0000"	/>
 	<skill	id="22255"	icon="icon.skill0000"	/>
+	<skill	id="22256"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22257"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22258"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22259"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22260"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22261"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22262"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22263"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22264"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22265"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22266"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22267"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22268"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22269"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
+	<skill	id="22270"	icon="BranchSys.icon.br_shield_bread_i01"	/>
 	<skill	id="22271"	icon="icon.skill0000"	/>
 	<skill	id="22272"	icon="icon.skill0000"	/>
 	<skill	id="22273"	icon="icon.skill0000"	/>
@@ -6302,21 +7594,77 @@
 	<skill	id="22280"	icon="icon.skill0000"	/>
 	<skill	id="22281"	icon="icon.skill0000"	/>
 	<skill	id="22282"	icon="icon.skill0000"	/>
+	<skill	id="22283"	icon="BranchSys.icon.br_flag_of_bookmark_i00"	/>
+	<skill	id="22284"	icon="icon.etc_pccafe_point_i00"	/>
+	<skill	id="22285"	icon="icon.etc_pccafe_point_i00"	/>
+	<skill	id="22286"	icon="icon.etc_pccafe_point_i00"	/>
+	<skill	id="22287"	icon="icon.etc_pccafe_point_i00"	/>
 	<skill	id="22288"	icon="icon.skill0000"	/>
 	<skill	id="22289"	icon="icon.skill0000"	/>
+	<skill	id="22290"	icon="BranchSys2.icon.call_of_fire_dragon"	/>
+	<skill	id="22291"	icon="BranchSys2.icon.orb_of_fire_dragon"	/>
+	<skill	id="22292"	icon="BranchSys2.icon.call_of_earth_dragon"	/>
+	<skill	id="22293"	icon="BranchSys2.icon.orb_of_earth_dragon"	/>
 	<skill	id="22294"	icon="icon.skill0000"	/>
 	<skill	id="22295"	icon="icon.skill0000"	/>
 	<skill	id="22296"	icon="icon.skill0000"	/>
 	<skill	id="22297"	icon="icon.skill0000"	/>
+	<skill	id="22298"	icon="BranchSys2.icon.refined_red_blood_of_dragon"	/>
+	<skill	id="22299"	icon="BranchSys2.icon.refined_blue_blood_of_dragon"	/>
+	<skill	id="22300"	icon="BranchSys2.icon.s_g_fantastic_magic"	/>
+	<skill	id="22301"	icon="BranchSys.icon.br_birthday_cake_i00"	/>
+	<skill	id="22302"	icon="BranchSys.icon.br_valentine_darkchoco_i00"	/>
+	<skill	id="22303"	icon="BranchSys.icon.br_birthday_cake_i00"	/>
+	<skill	id="22304"	icon="icon.etc_torch_on_i00"	/>
 	<skill	id="22305"	icon="icon.skill0000"	/>
+	<skill	id="22306"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="22307"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="22308"	icon="icon.etc_scroll_of_return_i00"	/>
+	<skill	id="22309"	icon="icon.etc_scroll_of_return_i00"	/>
 	<skill	id="22310"	icon="icon.skill3260"	/>
 	<skill	id="22311"	icon="icon.skill3260"	/>
+	<skill	id="22312"	icon="icon.etc_potion_blue_i00"	/>
+	<skill	id="22313"	icon="BranchSys2.Icon.pi_wind_of_paagrio"	/>
 	<skill	id="22314"	icon="icon.skill0000"	/>
 	<skill	id="22315"	icon="icon.skill0000"	/>
 	<skill	id="22316"	icon="icon.skill0000"	/>
 	<skill	id="22317"	icon="icon.skill0000"	/>
 	<skill	id="22318"	icon="icon.skill0000"	/>
 	<skill	id="22319"	icon="icon.skill0000"	/>
+	<skill	id="22320"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22321"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22322"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22323"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22324"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22325"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22326"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22327"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22328"	icon="icon.etc_fruit_cocktail_i01"	/>
+	<skill	id="22329"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22330"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22331"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22332"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22333"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22334"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22335"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22336"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22337"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22338"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22339"	icon="icon.etc_fruit_cocktail_i00"	/>
+	<skill	id="22340"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22341"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22342"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22343"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22344"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22345"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22346"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22347"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22348"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22349"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22350"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22351"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22352"	icon="icon.etc_fresh_milk_i00"	/>
+	<skill	id="22353"	icon="icon.etc_fresh_milk_i00"	/>
 	<skill	id="22354"	icon="icon.skill0000"	/>
 	<skill	id="22355"	icon="icon.skill0000"	/>
 	<skill	id="22356"	icon="icon.skill0000"	/>
@@ -6337,13 +7685,42 @@
 	<skill	id="22371"	icon="icon.skill0000"	/>
 	<skill	id="22372"	icon="icon.skill0000"	/>
 	<skill	id="22373"	icon="icon.skill0000"	/>
+	<skill	id="22374"	icon="BranchSys.icon.br_valentine_darkchoco_i00"	/>
 	<skill	id="22375"	icon="icon.skill0000"	/>
+	<skill	id="22376"	icon="BranchSys.icon.br_valentine_darkchoco_i00"	/>
 	<skill	id="22377"	icon="icon.skill0000"	/>
 	<skill	id="22378"	icon="icon.skill0000"	/>
 	<skill	id="22379"	icon="icon.skill0000"	/>
 	<skill	id="22380"	icon="icon.skill0000"	/>
 	<skill	id="22381"	icon="icon.skill0000"	/>
 	<skill	id="22382"	icon="icon.skill0000"	/>
+	<skill	id="22383"	icon="icon.skill0000"	/>
+	<skill	id="22384"	icon="icon.skill0000"	/>
+	<skill	id="22385"	icon="icon.skill0000"	/>
+	<skill	id="22386"	icon="icon.skill0000"	/>
+	<skill	id="22387"	icon="icon.skill0000"	/>
+	<skill	id="22388"	icon="icon.skill0000"	/>
+	<skill	id="22389"	icon="icon.skill0000"	/>
+	<skill	id="22390"	icon="icon.skill0000"	/>
+	<skill	id="22391"	icon="icon.skill0000"	/>
+	<skill	id="22392"	icon="icon.skill0000"	/>
+	<skill	id="22393"	icon="icon.skill0000"	/>
+	<skill	id="22394"	icon="icon.skill0000"	/>
+	<skill	id="22395"	icon="icon.skill0000"	/>
+	<skill	id="22396"	icon="icon.skill0000"	/>
+	<skill	id="22397"	icon="icon.skill0000"	/>
+	<skill	id="22398"	icon="icon.skill0000"	/>
+	<skill	id="22399"	icon="icon.skill0000"	/>
+	<skill	id="22400"	icon="icon.skilltransform1"	/>
+	<skill	id="22401"	icon="icon.skilltransform1"	/>
+	<skill	id="22402"	icon="icon.skill0000"	/>
+	<skill	id="22403"	icon="icon.skill0000"	/>
+	<skill	id="22404"	icon="icon.skill0000"	/>
+	<skill	id="22405"	icon="icon.skill0000"	/>
+	<skill	id="22406"	icon="icon.skill0000"	/>
+	<skill	id="22407"	icon="icon.etc_pccafe_point_i00"	/>
+	<skill	id="22408"	icon="icon.skill0000"	/>
+	<skill	id="22409"	icon="br_cashtex.item.br_cash_rune_of_feather_i00"	/>
 	<skill	id="23000"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23001"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23002"	icon="icon.skill_agathion_cute"	/>
@@ -6361,8 +7738,12 @@
 	<skill	id="23014"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23015"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23016"	icon="icon.skill_agathion_special"	/>
+	<skill	id="23017"	icon="BranchSys.icon.br_xmas_reward_buff_i00"	/>
+	<skill	id="23018"	icon="BranchSys.icon.br_turkey_buff_i00"	/>
+	<skill	id="23019"	icon="BranchSys.icon.br_xmas_bo_i00"	/>
 	<skill	id="23020"	icon="icon.skill0000"	/>
 	<skill	id="23021"	icon="icon.skill0000"	/>
+	<skill	id="23022"	icon="BranchSys.icon.br_xmas_pcwin10_i00"	/>
 	<skill	id="23023"	icon="icon.skill0000"	/>
 	<skill	id="23024"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23025"	icon="icon.skill_agathion_cute"	/>
@@ -6412,6 +7793,7 @@
 	<skill	id="23069"	icon="icon.skill1289"	/>
 	<skill	id="23070"	icon="icon.skill0211"	/>
 	<skill	id="23071"	icon="icon.skill0213"	/>
+	<skill	id="23072"	icon="BranchSys.icon.br_power_of_eva_i00"	/>
 	<skill	id="23073"	icon="icon.skill1528"	/>
 	<skill	id="23074"	icon="icon.skill0279"	/>
 	<skill	id="23075"	icon="icon.skill0000"	/>
@@ -6431,6 +7813,10 @@
 	<skill	id="23089"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23090"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23091"	icon="icon.skill0000"	/>
+	<skill	id="23092"	icon="BranchSys.icon.br_jack_ghost_i00"	/>
+	<skill	id="23093"	icon="BranchSys.icon.br_rotten_jack_ghost_i00"	/>
+	<skill	id="23094"	icon="BranchSys.icon.br_jack_ghost_i00"	/>
+	<skill	id="23095"	icon="BranchSys.icon.br_rotten_jack_ghost_i00"	/>
 	<skill	id="23096"	icon="icon.skill0000"	/>
 	<skill	id="23097"	icon="icon.skill0000"	/>
 	<skill	id="23098"	icon="icon.skill0000"	/>
@@ -6456,6 +7842,7 @@
 	<skill	id="23118"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23119"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23120"	icon="icon.skill_agathion_cute"	/>
+	<skill	id="23121"	icon="BranchSys.icon.br_jack_ghost_i00"	/>
 	<skill	id="23122"	icon="icon.skill0000"	/>
 	<skill	id="23123"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23124"	icon="icon.skill_agathion_special"	/>
@@ -6488,12 +7875,23 @@
 	<skill	id="23151"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23152"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23153"	icon="icon.skill_agathion_special"	/>
+	<skill	id="23154"	icon="BranchSys.icon.br_kadomatsu_i00"	/>
 	<skill	id="23155"	icon="icon.skill0436"	/>
 	<skill	id="23156"	icon="icon.skill1086"	/>
+	<skill	id="23157"	icon="BranchSys.icon.br_xmas_present_luck_i00"	/>
+	<skill	id="23158"	icon="BranchSys.icon.br_xmas_present_joy_i00"	/>
+	<skill	id="23159"	icon="BranchSys.icon.br_xmas_reward_buff_i00"	/>
+	<skill	id="23160"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
+	<skill	id="23161"	icon="BranchSys.icon.br_xmas_miracle_i00"	/>
 	<skill	id="23162"	icon="icon.skill0000"	/>
+	<skill	id="23163"	icon="BranchSys.icon.br_turkey_buff_i00"	/>
 	<skill	id="23164"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23165"	icon="icon.skill4443"	/>
 	<skill	id="23166"	icon="icon.skill0000"	/>
+	<skill	id="23167"	icon="BranchSys2.icon.br_rosalia_rose_red_i00"	/>
+	<skill	id="23168"	icon="BranchSys2.icon.br_rosalia_rose_red_i00"	/>
+	<skill	id="23169"	icon="BranchSys2.icon.br_rosalia_rose_blue_i00"	/>
+	<skill	id="23170"	icon="BranchSys2.icon.br_rosalia_rose_white_i00"	/>
 	<skill	id="23171"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23172"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23173"	icon="icon.skill_agathion_special"	/>
@@ -6502,6 +7900,7 @@
 	<skill	id="23176"	icon="icon.skill0922"	/>
 	<skill	id="23177"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23178"	icon="icon.skill0411"	/>
+	<skill	id="23179"	icon="BranchSys2.icon.br_vitality_day_i00"	/>
 	<skill	id="23180"	icon="icon.skill0000"	/>
 	<skill	id="23181"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23182"	icon="icon.skill_agathion_special"	/>
@@ -6619,6 +8018,7 @@
 	<skill	id="23294"	icon="icon.skill1542"	/>
 	<skill	id="23295"	icon="icon.skill1352"	/>
 	<skill	id="23296"	icon="icon.skill1354"	/>
+	<skill	id="23297"	icon="BranchSys.icon.br_xmas_weapon_i00"	/>
 	<skill	id="23298"	icon="icon.skill0771"	/>
 	<skill	id="23299"	icon="icon.skill0772"	/>
 	<skill	id="23300"	icon="icon.skill0773"	/>
@@ -6629,11 +8029,23 @@
 	<skill	id="23305"	icon="icon.skill_agathion_special"	/>
 	<skill	id="23306"	icon="icon.skill_agathion_cute"	/>
 	<skill	id="23307"	icon="icon.skill_agathion_cute"	/>
+	<skill	id="23308"	icon="BranchSys2.icon.totem_of_body"	/>
+	<skill	id="23309"	icon="BranchSys2.icon.totem_of_mind"	/>
+	<skill	id="23310"	icon="BranchSys2.icon.totem_of_bravery"	/>
+	<skill	id="23311"	icon="BranchSys2.icon.totem_of_fortitude"	/>
+	<skill	id="23312"	icon="BranchSys2.icon.the_fall_of_dragon"	/>
 	<skill	id="23313"	icon="icon.skill0386"	/>
 	<skill	id="23314"	icon="icon.skill0388"	/>
 	<skill	id="23315"	icon="icon.skill0000"	/>
 	<skill	id="23316"	icon="icon.skill0000"	/>
 	<skill	id="23317"	icon="icon.skill0000"	/>
+	<skill	id="23318"	icon="BranchSys2.icon.action5016"	/>
+	<skill	id="23319"	icon="BranchSys2.icon.br_wp_Caladbulg_i00"	/>
+	<skill	id="23320"	icon="BranchSys2.icon.br_wp_habus_knife_i00"	/>
+	<skill	id="23321"	icon="BranchSys2.icon.br_wp_tiatenon_i00"	/>
+	<skill	id="23322"	icon="BranchSys2.icon.br_wp_astarot_i00"	/>
+	<skill	id="23323"	icon="BranchSys2.icon.br_wp_tirbing_i00"	/>
+	<skill	id="23324"	icon="BranchSys2.icon.br_wp_wind_of_mardil_i00"	/>
 	<skill	id="23325"	icon="icon.skill0000"	/>
 	<skill	id="23326"	icon="icon.skill0000"	/>
 	<skill	id="23327"	icon="icon.skill0000"	/>
@@ -6642,7 +8054,171 @@
 	<skill	id="23330"	icon="icon.skill0000"	/>
 	<skill	id="23331"	icon="icon.skill0000"	/>
 	<skill	id="23332"	icon="icon.skill0000"	/>
+	<skill	id="23333"	icon="icon.etc_pi_gift_box_i03"	/>
 	<skill	id="23334"	icon="icon.skill_agathion_cute"	/>
+	<skill	id="23335"	icon="icon.etc_pi_gift_box_i03"	/>
+	<skill	id="23336"	icon="icon.skill_agathion_cute"	/>
+	<skill	id="23337"	icon="icon.skill0000"	/>
+	<skill	id="23338"	icon="icon.skill0000"	/>
+	<skill	id="23339"	icon="icon.skill0000"	/>
+	<skill	id="23340"	icon="icon.skill0000"	/>
+	<skill	id="23401"	icon="icon.etc_wise_man_stone_i01"	/>
+	<skill	id="23402"	icon="icon.etc_wise_man_stone_i00"	/>
+	<skill	id="23403"	icon="icon.etc_wise_man_stone_i05"	/>
+	<skill	id="23404"	icon="icon.etc_wise_man_stone_i03"	/>
+	<skill	id="23405"	icon="icon.etc_wise_man_stone_i02"	/>
+	<skill	id="23406"	icon="icon.etc_wise_man_stone_i04"	/>
+	<skill	id="23407"	icon="icon.accessory_shiny_bracelet"	/>
+	<skill	id="23420"	icon="icon.skill3123"	/>
+	<skill	id="23421"	icon="icon.skill3080"	/>
+	<skill	id="23422"	icon="icon.skill3123"	/>
+	<skill	id="23423"	icon="icon.skill3080"	/>
+	<skill	id="23424"	icon="icon.skill3123"	/>
+	<skill	id="23425"	icon="icon.skill3080"	/>
+	<skill	id="23426"	icon="icon.skill3123"	/>
+	<skill	id="23427"	icon="icon.skill3080"	/>
+	<skill	id="23428"	icon="icon.skill3123"	/>
+	<skill	id="23429"	icon="icon.skill3080"	/>
+	<skill	id="23430"	icon="icon.skill3123"	/>
+	<skill	id="23431"	icon="icon.skill3080"	/>
+	<skill	id="23440"	icon="icon.skilltransform1"	/>
+	<skill	id="23441"	icon="icon.skilltransform1"	/>
+	<skill	id="23601"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23602"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23603"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23604"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23605"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23606"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23607"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23608"	icon="icon.etc_talisman_i02"	/>
+	<skill	id="23609"	icon="icon.etc_talisman_i00"	/>
+	<skill	id="23610"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="23611"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="23612"	icon="icon.etc_talisman_i01"	/>
+	<skill	id="23650"	icon="icon.skill0332"	/>
+	<skill	id="23651"	icon="icon.skill_transform_buff"	/>
+	<skill	id="23652"	icon="icon.skill1430"	/>
+	<skill	id="23704"	icon="icon.skill0000"	/>
+	<skill	id="23705"	icon="icon.skill0000"	/>
+	<skill	id="23706"	icon="icon.skill0000"	/>
+	<skill	id="23707"	icon="icon.skill0000"	/>
+	<skill	id="23708"	icon="icon.skill0000"	/>
+	<skill	id="23709"	icon="icon.skill0000"	/>
+	<skill	id="23710"	icon="icon.skill0000"	/>
+	<skill	id="23711"	icon="icon.skill0000"	/>
+	<skill	id="23712"	icon="icon.skill0000"	/>
+	<skill	id="23713"	icon="icon.skill0000"	/>
+	<skill	id="23714"	icon="icon.skill0000"	/>
+	<skill	id="23715"	icon="icon.skill0000"	/>
+	<skill	id="23716"	icon="icon.skill0000"	/>
+	<skill	id="23717"	icon="icon.skill0000"	/>
+	<skill	id="23718"	icon="icon.skill0000"	/>
+	<skill	id="23719"	icon="icon.skill0000"	/>
+	<skill	id="23720"	icon="icon.skill0000"	/>
+	<skill	id="23721"	icon="icon.skill0000"	/>
+	<skill	id="23722"	icon="icon.skill0000"	/>
+	<skill	id="23723"	icon="icon.skill0000"	/>
+	<skill	id="23724"	icon="icon.skill0000"	/>
+	<skill	id="23725"	icon="icon.skill0000"	/>
+	<skill	id="23726"	icon="icon.skill0000"	/>
+	<skill	id="23727"	icon="icon.skill0000"	/>
+	<skill	id="23728"	icon="icon.skill0000"	/>
+	<skill	id="23729"	icon="icon.skill0000"	/>
+	<skill	id="23730"	icon="icon.skill0000"	/>
+	<skill	id="23731"	icon="icon.skill0000"	/>
+	<skill	id="23732"	icon="icon.skill0000"	/>
+	<skill	id="23733"	icon="icon.skill0000"	/>
+	<skill	id="23734"	icon="icon.skill0000"	/>
+	<skill	id="23735"	icon="icon.skill0000"	/>
+	<skill	id="23736"	icon="icon.skill0000"	/>
+	<skill	id="23737"	icon="icon.skill0000"	/>
+	<skill	id="23738"	icon="icon.skill0000"	/>
+	<skill	id="23739"	icon="icon.skill0000"	/>
+	<skill	id="23740"	icon="icon.skill0000"	/>
+	<skill	id="23741"	icon="icon.skill0000"	/>
+	<skill	id="23742"	icon="icon.skill0000"	/>
+	<skill	id="23743"	icon="icon.skill0000"	/>
+	<skill	id="23744"	icon="icon.skill0000"	/>
+	<skill	id="23745"	icon="icon.skill0000"	/>
+	<skill	id="23746"	icon="icon.skill0000"	/>
+	<skill	id="23747"	icon="icon.skill0000"	/>
+	<skill	id="23748"	icon="icon.skill0000"	/>
+	<skill	id="23749"	icon="icon.skill0000"	/>
+	<skill	id="23750"	icon="icon.skill0000"	/>
+	<skill	id="23751"	icon="icon.skill1323"	/>
+	<skill	id="23752"	icon="icon.armor_back01"	/>
+	<skill	id="23753"	icon="icon.armor_back02"	/>
+	<skill	id="23754"	icon="icon.armor_back01"	/>
+	<skill	id="23755"	icon="icon.armor_back02"	/>
+	<skill	id="23900"	icon="icon.skilltransform3"	/>
+	<skill	id="23901"	icon="icon.skilltransform3"	/>
+	<skill	id="23902"	icon="icon.skilltransform3"	/>
+	<skill	id="23903"	icon="icon.skilltransform3"	/>
+	<skill	id="23904"	icon="icon.skilltransform3"	/>
+	<skill	id="23905"	icon="icon.skilltransform3"	/>
+	<skill	id="23906"	icon="icon.skilltransform3"	/>
+	<skill	id="23907"	icon="icon.skilltransform3"	/>
+	<skill	id="23908"	icon="icon.skilltransform3"	/>
+	<skill	id="23909"	icon="icon.skilltransform3"	/>
+	<skill	id="23910"	icon="icon.skilltransform3"	/>
+	<skill	id="23911"	icon="icon.skilltransform3"	/>
+	<skill	id="23912"	icon="icon.skilltransform3"	/>
+	<skill	id="23913"	icon="icon.skilltransform3"	/>
+	<skill	id="23914"	icon="icon.skilltransform3"	/>
+	<skill	id="23915"	icon="icon.skilltransform3"	/>
+	<skill	id="23930"	icon="icon.skilltransform3"	/>
+	<skill	id="23950"	icon="icon.skill0000"	/>
+	<skill	id="25000"	icon="icon.etc_potion_blue_i00"	/>
+	<skill	id="25001"	icon="icon.etc_potion_green_i00"	/>
+	<skill	id="25002"	icon="icon.etc_potion_scarlet_i00"	/>
+	<skill	id="25003"	icon="icon.etc_potion_clear_i00"	/>
+	<skill	id="25004"	icon="icon.etc_food_dish_i00"	/>
+	<skill	id="25005"	icon="icon.etc_fish_oil_i02"	/>
+	<skill	id="25006"	icon="icon.armor_head05"	/>
+	<skill	id="25007"	icon="icon.skill0000"	/>
+	<skill	id="25008"	icon="icon.armor_back01"	/>
+	<skill	id="25100"	icon="icon.skill0000"	/>
+	<skill	id="25101"	icon="icon.skill0000"	/>
+	<skill	id="25102"	icon="icon.skill0000"	/>
+	<skill	id="25206"	icon="icon.armor_back01"	/>
+	<skill	id="25207"	icon="icon.armor_back01"	/>
+	<skill	id="25208"	icon="icon.accessory_full_mask_i00"	/>
+	<skill	id="25209"	icon="icon.armor_back02"	/>
+	<skill	id="25210"	icon="icon.skill0000"	/>
+	<skill	id="25211"	icon="icon.skill0000"	/>
+	<skill	id="25212"	icon="icon.skill0000"	/>
+	<skill	id="25213"	icon="icon.skill0000"	/>
+	<skill	id="25214"	icon="icon.skill0000"	/>
+	<skill	id="25215"	icon="icon.skillraid"	/>
+	<skill	id="25216"	icon="icon.skillraid"	/>
+	<skill	id="25217"	icon="icon.skillraid"	/>
+	<skill	id="25218"	icon="icon.skill0000"	/>
+	<skill	id="25219"	icon="icon.skill0000"	/>
+	<skill	id="25220"	icon="icon.skill0000"	/>
+	<skill	id="25221"	icon="icon.etc_poison_pouch_i00"	/>
+	<skill	id="25222"	icon="icon.etc_handbag_i00"	/>
+	<skill	id="25223"	icon="icon.etc_fire_mantra_i00"	/>
+	<skill	id="25224"	icon="icon.etc_luxury_wine_c_i00"	/>
+	<skill	id="25225"	icon="icon.etc_luxury_wine_b_i00"	/>
+	<skill	id="25226"	icon="icon.etc_luxury_wine_b_i00"	/>
+	<skill	id="25227"	icon="icon.etc_luxury_wine_b_i00"	/>
+	<skill	id="25228"	icon="icon.skill0000"	/>
+	<skill	id="25230"	icon="icon.skill0110"	/>
+	<skill	id="25231"	icon="icon.skill1056"	/>
+	<skill	id="25232"	icon="icon.skill1170"	/>
+	<skill	id="25233"	icon="icon.skill0000"	/>
+	<skill	id="25250"	icon="icon.skill1332"	/>
+	<skill	id="25300"	icon="icon.skillraid"	/>
+	<skill	id="25307"	icon="icon.skill0000"	/>
+	<skill	id="25308"	icon="icon.skill0000"	/>
+	<skill	id="25309"	icon="icon.skill0000"	/>
+	<skill	id="25310"	icon="icon.skill0000"	/>
+	<skill	id="25311"	icon="icon.skill0000"	/>
+	<skill	id="25312"	icon="icon.skill0000"	/>
+	<skill	id="25313"	icon="icon.skill0000"	/>
+	<skill	id="25314"	icon="icon.skill0000"	/>
+	<skill	id="25315"	icon="icon.skill0000"	/>
+	<skill	id="25316"	icon="icon.skill0000"	/>
 	<skill	id="26000"	icon="icon.skill0000"	/>
 	<skill	id="26001"	icon="icon.skill0000"	/>
 	<skill	id="26002"	icon="icon.skill0000"	/>
@@ -6665,11 +8241,34 @@
 	<skill	id="26019"	icon="icon.skill0000"	/>
 	<skill	id="26020"	icon="icon.skill0000"	/>
 	<skill	id="26021"	icon="icon.skill0000"	/>
+	<skill	id="26022"	icon="br_cashtex.item.br_cash_adv_swift_attack_potion_i00"	/>
+	<skill	id="26023"	icon="br_cashtex.item.br_cash_adv_quick_step_potion_i00"	/>
 	<skill	id="26024"	icon="icon.skill0000"	/>
+	<skill	id="26025"	icon="br_cashtex.item.br_cash_greater_healing_potion_i00"	/>
+	<skill	id="26026"	icon="br_cashtex.item.br_cash_healing_potion_i00"	/>
 	<skill	id="26027"	icon="icon.skill0000"	/>
 	<skill	id="26028"	icon="icon.skill0000"	/>
 	<skill	id="26029"	icon="icon.skill0000"	/>
 	<skill	id="26030"	icon="icon.skill0000"	/>
+	<skill	id="26031"	icon="br_cashtex.item.br_cash_scroll_of_wind_walk_i00"	/>
+	<skill	id="26032"	icon="br_cashtex.item.br_cash_scroll_of_haste_i00"	/>
+	<skill	id="26033"	icon="br_cashtex.item.br_cash_scroll_of_might_i00"	/>
+	<skill	id="26034"	icon="br_cashtex.item.br_cash_scroll_of_shield_i00"	/>
+	<skill	id="26035"	icon="br_cashtex.item.br_cash_scroll_of_death_whisper_i00"	/>
+	<skill	id="26036"	icon="br_cashtex.item.br_cash_scroll_of_guidance_i00"	/>
+	<skill	id="26037"	icon="br_cashtex.item.br_cash_scroll_of_empower_i00"	/>
+	<skill	id="26038"	icon="br_cashtex.item.br_cash_scroll_of_greater_acumen_i00"	/>
+	<skill	id="26039"	icon="br_cashtex.item.br_cash_scroll_of_vampiric_rage_i00"	/>
+	<skill	id="26040"	icon="br_cashtex.item.br_cash_scroll_of_bless_the_body_i00"	/>
+	<skill	id="26041"	icon="br_cashtex.item.br_cash_scroll_of_berserker_spirit_i00"	/>
+	<skill	id="26042"	icon="br_cashtex.item.br_cash_scroll_of_magic_barrier_i00"	/>
+	<skill	id="26043"	icon="br_cashtex.item.br_cash_scroll_of_bless_the_soul_i00"	/>
+	<skill	id="26044"	icon="br_cashtex.item.br_cash_scroll_of_clarity_i00"	/>
+	<skill	id="26045"	icon="br_cashtex.item.br_cash_scroll_of_wild_magic_i00"	/>
+	<skill	id="26046"	icon="br_cashtex.skill.br_cash_rune_of_exp_i00"	/>
+	<skill	id="26047"	icon="br_cashtex.skill.br_cash_rune_of_sp_i00"	/>
+	<skill	id="26048"	icon="br_cashtex.skill.br_cash_rune_of_rp_buff_5"	/>
+	<skill	id="26049"	icon="br_cashtex.item.br_cash_rune_of_feather_i00"	/>
 	<skill	id="26050"	icon="icon.skill0000"	/>
 	<skill	id="26051"	icon="icon.skill0000"	/>
 	<skill	id="26052"	icon="icon.skill0000"	/>
@@ -6694,11 +8293,7 @@
 	<skill	id="26071"	icon="icon.skill0000"	/>
 	<skill	id="26072"	icon="icon.skill0000"	/>
 	<skill	id="26073"	icon="icon.skill0000"	/>
-	<skill	id="40255"	icon="icon.skill6171"	/>
-	<skill	id="40256"	icon="icon.skill6441"	/>
-	<skill	id="40257"	icon="icon.skill6286"	/>
-	<skill	id="40258"	icon="icon.skill5662"	/>
-	<skill	id="40259"	icon="icon.skill6320"	/>
-	<skill	id="40260"	icon="icon.skill5076_c"	/>
-	<skill	id="40261"	icon="icon.skill6319"	/>
+	<skill	id="50000"	icon="icon.etc_adena_i00"	/>
+	<skill	id="50001"	icon="icon.skill0254"	/>
+	<skill	id="50002"	icon="icon.etc_letter_white_i00"	/>
 </list>

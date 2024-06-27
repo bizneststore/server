@@ -36,6 +36,7 @@
 									<xs:enumeration value="cycle" />
 									<xs:enumeration value="conveyor" />
 									<xs:enumeration value="random" />
+									<xs:enumeration value="no" />
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:attribute>

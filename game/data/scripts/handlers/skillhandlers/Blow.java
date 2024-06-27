@@ -31,10 +31,10 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.skills.L2SkillType;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
-import l2r.gameserver.network.SystemMessageId;
-import l2r.gameserver.network.serverpackets.SystemMessage;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 /**
  * @author Steuf
@@ -68,32 +68,21 @@ public class Blow implements ISkillHandler
 			}
 			
 			// Check firstly if target dodges skill
-			final boolean skillIsEvaded = Formulas.calcPhysicalSkillEvasion(activeChar, target, skill);
-			if (!skillIsEvaded && Formulas.calcBlowSuccess(activeChar, target, skill))
+			final boolean skillIsEvaded = SkillFormulas.calcPhysicalSkillEvasion(activeChar, target, skill);
+			final boolean success = SkillFormulas.calculateBoolean(FormulaType.CALC_BLOW_SUCC, activeChar, target, skill, null);
+			if (!skillIsEvaded && success)
 			{
 				if (skill.hasEffects())
 				{
-					final byte shld = Formulas.calcShldUse(activeChar, target, skill);
+					final byte shld = SkillFormulas.calcShldUse(activeChar, target, skill);
 					target.stopSkillEffects(skill.getId());
-					if (Formulas.calcSkillSuccess(activeChar, target, skill, shld, ss, sps, bss))
-					{
-						skill.getEffectsVoid(activeChar, target, new Env(shld, ss, sps, bss));
-						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
-						sm.addSkillName(skill);
-						target.sendPacket(sm);
-					}
-					else
-					{
-						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.C1_RESISTED_YOUR_S2);
-						sm.addCharName(target);
-						sm.addSkillName(skill);
-						activeChar.sendPacket(sm);
-					}
+					skill.getEffectsVoid(activeChar, target, new Env(shld, ss, sps, bss));
 				}
 				
-				byte shld = Formulas.calcShldUse(activeChar, target, skill);
+				byte shld = SkillFormulas.calcShldUse(activeChar, target, skill);
 				
-				double damage = skill.isStaticDamage() ? skill.getPower() : (int) Formulas.calcBlowDamage(activeChar, target, skill, shld, ss);
+				double damage = skill.isStaticDamage() ? skill.getPower() : (int) (SkillFormulas.calculate(FormulaType.CALC_BLOW_DMG, activeChar, target, skill, new FormulaEnv(ss, false, shld, false, false)));
+				// double damage = skill.isStaticDamage() ? skill.getPower() : (int) Formulas.calcBlowDamage(activeChar, target, skill, shld, ss);
 				if (!skill.isStaticDamage() && (skill.getMaxSoulConsumeCount() > 0) && activeChar.isPlayer())
 				{
 					// Souls Formula (each soul increase +4%)
@@ -101,7 +90,7 @@ public class Blow implements ISkillHandler
 					damage *= 1 + (chargedSouls * 0.04);
 				}
 				
-				boolean crit = Formulas.calcCrit(activeChar, target, skill);
+				boolean crit = SkillFormulas.calcCrit(activeChar, target, skill);
 				// Crit rate base crit rate for skill, modified with STR bonus
 				if (!skill.isStaticDamage() && crit)
 				{
@@ -146,21 +135,21 @@ public class Blow implements ISkillHandler
 				}
 				
 				// Manage attack or cast break of the target (calculating rate, sending message...)
-				if (!target.isRaid() && Formulas.calcAtkBreak(target, damage))
+				if (!target.isRaid() && SkillFormulas.calcAtkBreak(target, damage))
 				{
 					target.breakAttack();
 					target.breakCast();
 				}
 				
 				// Check if damage should be reflected
-				Formulas.calcDamageReflected(activeChar, target, skill, damage, crit);
+				SkillFormulas.calcDamageReflected(activeChar, target, skill, damage, crit);
 				
 				// vGodFather: ss must consume only if skill succeed
 				activeChar.setChargedShot(ShotType.SOULSHOTS, false);
 			}
 			
 			// Possibility of a lethal strike
-			Formulas.calcLethalHit(activeChar, target, skill);
+			SkillFormulas.calculate(FormulaType.CALC_LETHAL_HIT, activeChar, target, skill, null);
 			
 			// Self Effect
 			if (skill.hasSelfEffects())

@@ -39,6 +39,7 @@ import l2r.gameserver.data.xml.impl.ItemData;
 import l2r.gameserver.data.xml.impl.MultisellData;
 import l2r.gameserver.data.xml.impl.ProductItemData;
 import l2r.gameserver.data.xml.impl.SkillData;
+import l2r.gameserver.data.xml.impl.SkillIconData;
 import l2r.gameserver.data.xml.impl.TransformData;
 import l2r.gameserver.handler.IAdminCommandHandler;
 import l2r.gameserver.instancemanager.CursedWeaponsManager;
@@ -193,6 +194,7 @@ public class AdminReload implements IAdminCommandHandler
 				case "skill":
 				{
 					SkillData.getInstance().reload();
+					SkillIconData.getInstance().load();
 					AdminData.getInstance().broadcastMessageToGMs(activeChar.getName() + ": Reloaded Skills.");
 					break;
 				}

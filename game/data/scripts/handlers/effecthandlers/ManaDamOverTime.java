@@ -19,11 +19,12 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
-public class ManaDamOverTime extends L2Effect
+public class ManaDamOverTime extends OverTimeEffect
 {
 	public ManaDamOverTime(Env env, EffectTemplate template)
 	{
@@ -31,7 +32,15 @@ public class ManaDamOverTime extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onStart()
+	{
+		onTick();
+		
+		return true;
+	}
+	
+	@Override
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
@@ -41,7 +50,7 @@ public class ManaDamOverTime extends L2Effect
 		// vGodFather: herb effect must override invul check
 		if ((!getEffected().isInvul() && !getEffected().isMpBlocked()) || getSkill().isHerb())
 		{
-			double manaDam = getValue();
+			double manaDam = getValue() * getTicksMultiplier();
 			
 			if (manaDam > getEffected().getCurrentMp())
 			{
@@ -54,6 +63,8 @@ public class ManaDamOverTime extends L2Effect
 			
 			getEffected().reduceCurrentMp(manaDam);
 		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 }

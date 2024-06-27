@@ -35,17 +35,20 @@ import l2r.gameserver.model.actor.instance.L2EffectPointInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.templates.L2NpcTemplate;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
 import l2r.gameserver.model.skills.L2Skill;
+import l2r.gameserver.model.skills.TickManager;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.skills.l2skills.L2SkillSignetCasttime;
 import l2r.gameserver.model.skills.targets.L2TargetType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.MagicSkillLaunched;
 
-public class SignetMDam extends L2Effect
+public class SignetMDam extends OverTimeEffect
 {
 	private L2EffectPointInstance _actor;
 	private boolean _srcInArena;
@@ -98,11 +101,14 @@ public class SignetMDam extends L2Effect
 		
 		_actor = effectPoint;
 		_srcInArena = (getEffector().isInsideZone(ZoneIdType.PVP) && !getEffector().isInsideZone(ZoneIdType.SIEGE));
+		
+		onTick();
+		
 		return true;
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		int mpConsume = getSkill().getMpConsume();
 		
@@ -161,10 +167,9 @@ public class SignetMDam extends L2Effect
 			activeChar.broadcastPacket(new MagicSkillLaunched(activeChar, getSkill().getId(), getSkill().getLevel(), targets.toArray(new L2Character[targets.size()])));
 			for (L2Character target : targets)
 			{
-				final boolean mcrit = Formulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
-				final byte shld = Formulas.calcShldUse(activeChar, target, getSkill());
-				final double mAtk = activeChar.getMAtk(target, getSkill());
-				final int mdam = (int) Formulas.calcMagicDam(activeChar, target, getSkill(), mAtk, shld, sps, bss, mcrit);
+				final boolean mcrit = SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
+				final byte shld = SkillFormulas.calcShldUse(activeChar, target, getSkill());
+				final int mdam = (SkillFormulas.calculateInt(FormulaType.CALC_MAGI_DMG, activeChar, target, getSkill(), new FormulaEnv(shld, false, sps, bss, mcrit)));
 				
 				if (target.isSummon())
 				{
@@ -173,7 +178,7 @@ public class SignetMDam extends L2Effect
 				
 				if (mdam > 0)
 				{
-					if (!target.isRaid() && Formulas.calcAtkBreak(target, mdam))
+					if (!target.isRaid() && SkillFormulas.calcAtkBreak(target, mdam))
 					{
 						target.breakAttack();
 						target.breakCast();
@@ -185,6 +190,8 @@ public class SignetMDam extends L2Effect
 			}
 		}
 		activeChar.setChargedShot(bss ? ShotType.BLESSED_SPIRITSHOTS : ShotType.SPIRITSHOTS, false);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

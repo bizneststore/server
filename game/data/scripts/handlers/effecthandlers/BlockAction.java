@@ -23,8 +23,8 @@ import java.util.Set;
 
 import l2r.gameserver.data.sql.BotReportTable;
 import l2r.gameserver.instancemanager.PunishmentManager;
+import l2r.gameserver.model.effects.EffectPump;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.punishment.PunishmentAffect;
 import l2r.gameserver.model.punishment.PunishmentTask;
@@ -34,7 +34,7 @@ import l2r.gameserver.model.stats.Env;
 /**
  * @author BiggBoss
  */
-public final class BlockAction extends L2Effect
+public final class BlockAction extends EffectPump
 {
 	private final Set<Integer> _blockedActions = new HashSet<>();
 	

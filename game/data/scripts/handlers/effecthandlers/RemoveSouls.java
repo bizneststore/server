@@ -4,14 +4,14 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author vGodFather
  */
-public class RemoveSouls extends L2Effect
+public class RemoveSouls extends EffectInstant
 {
 	private final int _count;
 	
@@ -22,12 +22,6 @@ public class RemoveSouls extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
 		if ((getEffected() == null) || !getEffected().isPlayer())
@@ -35,7 +29,7 @@ public class RemoveSouls extends L2Effect
 			return false;
 		}
 		
-		getEffected().getActingPlayer().decreaseSouls(_count, getSkill());
+		getEffected().getActingPlayer().decreaseSouls(_count);
 		return true;
 	}
 }

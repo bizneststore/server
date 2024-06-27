@@ -23,6 +23,7 @@ import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectFlag;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
 public class Petrification extends L2Effect
@@ -48,11 +49,18 @@ public class Petrification extends L2Effect
 		{
 			getEffected().getAI().notifyEvent(CtrlEvent.EVT_THINK);
 		}
+		super.onExit();
 	}
 	
 	@Override
 	public int getEffectFlags()
 	{
 		return EffectFlag.PARALYZED.getMask();
+	}
+	
+	@Override
+	public L2EffectType getEffectType()
+	{
+		return L2EffectType.PETRIFICATION;
 	}
 }

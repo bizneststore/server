@@ -15,7 +15,8 @@ public class Barakiel extends AbstractNpcAI
 	public Barakiel()
 	{
 		super(Barakiel.class.getSimpleName(), "ai/individual/extra");
-		registerMobs(BARAKIEL);
+		
+		addAttackId(BARAKIEL);
 	}
 	
 	public String onAttack(L2NpcInstance npc, L2PcInstance attacker, int damage, boolean isPet)

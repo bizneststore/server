@@ -92,13 +92,13 @@
 		<set name="abnormalLvl" val="99" />
 		<set name="abnormalTime" val="120" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="canBeDispeled" val="false" />
 		<set name="castRange" val="1500" />
 		<set name="effectRange" val="2000" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="A2" />
-		<set name="power" val="100" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="skillType" val="PARALYZE" />
 		<set name="targetType" val="ONE" />
@@ -106,14 +106,14 @@
 			<effect name="Petrification" abnormalTime="120" abnormalLvl="99" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="120" noicon="1">
+			<effect name="BlockDamage" abnormalTime="120" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="120" noicon="1">
+			<effect name="BlockDamage" abnormalTime="120" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="120" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="120" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="120" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="120" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="4516" levels="1" name="Orfen Heal">
@@ -1224,7 +1224,7 @@
 		<set name="mpConsume" val="58" />
 		<set name="mpInitialConsume" val="15" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="100" />
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="offensive" val="true" />
 		<set name="skillType" val="PARALYZE" />
 		<set name="targetType" val="ONE" />
@@ -1232,14 +1232,14 @@
 			<effect name="Petrification" abnormalTime="20" abnormalLvl="2" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="20" noicon="1">
+			<effect name="BlockDamage" abnormalTime="20" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="20" noicon="1">
+			<effect name="BlockDamage" abnormalTime="20" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="20" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="20" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="20" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="20" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="4579" levels="12" name="Bleed">

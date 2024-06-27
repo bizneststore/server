@@ -20,8 +20,8 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.instance.PcInstance.PcFunc;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.holders.SummonRequestHolder;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
@@ -32,7 +32,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
  * Call Pc effect implementation.
  * @author Adry_85
  */
-public class CallPc extends L2Effect
+public class CallPc extends EffectInstant
 {
 	private static int _itemId;
 	private static int _itemCount;
@@ -42,12 +42,6 @@ public class CallPc extends L2Effect
 		super(env, template);
 		_itemId = template.getParameters().getInt("itemId", 0);
 		_itemCount = template.getParameters().getInt("itemCount", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

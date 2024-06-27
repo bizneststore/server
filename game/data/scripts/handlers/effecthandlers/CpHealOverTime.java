@@ -19,21 +19,16 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 
-public class CpHealOverTime extends L2Effect
+public class CpHealOverTime extends OverTimeEffect
 {
 	public CpHealOverTime(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	// Special constructor to steal this effect
-	public CpHealOverTime(Env env, L2Effect effect)
-	{
-		super(env, effect);
 	}
 	
 	@Override
@@ -49,7 +44,15 @@ public class CpHealOverTime extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onStart()
+	{
+		onTick();
+		
+		return true;
+	}
+	
+	@Override
+	public boolean onTick()
 	{
 		if (getEffected().isDead())
 		{
@@ -62,13 +65,16 @@ public class CpHealOverTime extends L2Effect
 		// Not needed to set the CP and send update packet if player is already at max CP
 		if (cp >= maxcp)
 		{
-			return false;
+			TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
+			return true;
 		}
 		
-		cp += getValue();
+		cp += getValue() * getTicksMultiplier();
 		cp = Math.min(cp, maxcp);
 		
 		getEffected().setCurrentCp(cp);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return false;
 	}
 }

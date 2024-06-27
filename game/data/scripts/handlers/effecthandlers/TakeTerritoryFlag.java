@@ -8,27 +8,21 @@ import l2r.gameserver.instancemanager.TerritoryWarManager;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.instance.L2SiegeFlagInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Take Territory Flag effect implementation.
  * @author vGodFather
  */
-public final class TakeTerritoryFlag extends L2Effect
+public final class TakeTerritoryFlag extends EffectInstant
 {
 	private static final int FLAG_NPC_ID = 35062;
 	
 	public TakeTerritoryFlag(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

@@ -25,8 +25,8 @@ import l2r.Config;
 import l2r.gameserver.model.L2ExtractableProductItem;
 import l2r.gameserver.model.L2ExtractableSkill;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.holders.ItemHolder;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
@@ -38,17 +38,11 @@ import l2r.util.Rnd;
  * This effect has been unhardcoded in order to work on targets as well.
  * @author Zoey76
  */
-public class RestorationRandom extends L2Effect
+public class RestorationRandom extends EffectInstant
 {
 	public RestorationRandom(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

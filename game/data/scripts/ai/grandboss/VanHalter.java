@@ -19,7 +19,6 @@ import l2r.gameserver.data.SpawnTable;
 import l2r.gameserver.data.sql.NpcTable;
 import l2r.gameserver.data.xml.impl.DoorData;
 import l2r.gameserver.data.xml.impl.SkillData;
-import l2r.gameserver.enums.CtrlEvent;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.instancemanager.GrandBossManager;
 import l2r.gameserver.instancemanager.ZoneManager;
@@ -1077,8 +1076,6 @@ public class VanHalter extends AbstractNpcAI
 			{
 				if (!_vanHalter.isAfraid())
 				{
-					_vanHalter.getAI().notifyEvent(CtrlEvent.EVT_AFRAID);
-					
 					if (_vanHalter.getZ() >= -10476)
 					{
 						Location pos = new Location(-16397, -53308, -10448, 0);

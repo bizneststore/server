@@ -801,14 +801,14 @@
 			<effect name="Petrification" abnormalTime="5" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="5" noicon="1">
+			<effect name="BlockDamage" abnormalTime="5" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="5" noicon="1">
+			<effect name="BlockDamage" abnormalTime="5" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="5" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="5" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="5" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="5" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="2240" levels="1" name="Hot Spring Nectar">
@@ -1501,7 +1501,8 @@
 	</skill>
 	<skill id="2274" levels="8" name="Fisherman's Potion">
 		<table name="#active_skill_id_lvl"> 1315,4 1315,7 1315,10 1315,13 1315,16 1315,19 1315,22 1315,25 1315,28 </table>
-		<table name="#power"> 2 5 8 11 14 17 20 23 </table>
+		<table name="#level"> 2 5 8 11 14 17 20 23 </table>
+		<table name="#power"> 0.9375 1.7 2.15 2.6 3.05 3.5 3.95 4.4 </table>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="fishing_mastery_down" />
@@ -1515,7 +1516,10 @@
 			<player active_skill_id_lvl="#active_skill_id_lvl" />
 		</cond>
 		<for>
-			<effect name="Buff" abnormalTime="3600" abnormalLvl="1" abnormalType="fishing_mastery_down" />
+			<effect name="p_change_fishing_mastery" abnormalTime="3600" abnormalLvl="1" abnormalType="fishing_mastery_down">
+				<param masteryLevel="#level" />
+				<param masteryPower="#power" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="2275" levels="1" name="Fisherman's Recovery Potion">

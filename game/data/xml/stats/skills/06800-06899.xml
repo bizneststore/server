@@ -388,6 +388,7 @@
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="3" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="activateRate" val="100" />
 		<set name="baseCritRate" val="30" />
 		<set name="castRange" val="300" />
 		<set name="effectRange" val="600" />
@@ -409,14 +410,14 @@
 			<effect name="Petrification" abnormalTime="3" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="3" noicon="1">
+			<effect name="BlockDamage" abnormalTime="3" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="3" noicon="1">
+			<effect name="BlockDamage" abnormalTime="3" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="3" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="3" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="3" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="3" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="6828" levels="1" name="Dust Storm">
@@ -1268,9 +1269,9 @@
 	</skill>
 	<skill id="6882" levels="1" name="Petrify">
 		<!-- High Five Skill -->
-		<!-- FIXME: value unconfirmed -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
 		<set name="hitTime" val="2500" />
@@ -1278,7 +1279,6 @@
 		<set name="lvlBonusRate" val="1" />
 		<set name="magicLvl" val="85" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="5000" />
 		<set name="basicProperty" val="MEN" />
@@ -1288,14 +1288,14 @@
 			<effect name="Petrification" abnormalTime="10" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="10" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="10" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="10" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="10" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="6883" levels="1" name="Energy Abundance Effect">

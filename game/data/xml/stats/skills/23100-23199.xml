@@ -1023,16 +1023,23 @@
 		<set name="abnormalType" val="multi_buff" />
 		<set name="hitTime" val="4000"/>
 		<set name="blockedInOlympiad" val="true" />
-		<set name="energyConsume" val="30" />
+		<set name="energyConsume" val="250" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1576" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1060,16 +1067,27 @@
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
 		<set name="targetType" val="SELF" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<cond msgId="129">
 			<and>
 				<player invSize="10" />
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20983" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23185" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1082,12 +1100,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1577" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1114,7 +1139,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1122,9 +1146,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20984" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23187" levels="1" name="Ball Trapping Penalty Kick Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1137,12 +1173,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1578" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1169,7 +1212,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1177,9 +1219,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20985" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23189" levels="1" name="Ball Trapping Gnosian Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1192,12 +1246,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1579" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1224,7 +1285,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1232,9 +1292,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20986" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23191" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1247,12 +1319,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1580" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1279,7 +1358,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1287,9 +1365,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20987" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23193" levels="1" name="Ball Trapping Penalty Kick Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1302,12 +1392,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1581" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1334,7 +1431,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1342,9 +1438,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20988" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23195" levels="1" name="Ball Trapping Gnosian Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1357,12 +1465,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1582" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1389,7 +1504,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1397,9 +1511,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20989" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23197" levels="1" name="Ball Trapping Orodriel Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1412,12 +1538,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1583" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />
@@ -1444,7 +1577,6 @@
 		<set name="operateType" val="A1" />
 		<set name="reuseDelay" val="10000" />
 		<set name="energyConsume" val="450" />
-		<set name="skillType" val="ENERGY_SPEND" />
 		<set name="targetType" val="SELF" />
 		<cond msgId="129">
 			<and>
@@ -1452,9 +1584,21 @@
 				<player weight="80" />
 			</and>
 		</cond>
-		<cond msgId="2292">
-			<player agathionId="20990" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="500" />
+			</and>
 		</cond>
+		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-500" />
+				<param type="DIFF" />
+			</effect>
+			<effect name="Restoration" noicon="1">
+				<param itemId="20993" itemCount="1" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="23199" levels="1" name="Ball Trapping Penalty Kick Agathion Special Skill - Buff of Cheers">
 		<!-- With the power of cheers, for 1 hour, increases Max MP, MP Recovery Bonus, HP Recovery Bonus, Critical Attack Power, P. Def., Atk. Spd., M. Atk., M. Def., Casting Spd. by 20%, the occurrence rate of Prominent Damage through damage magic by 2, P. Atk. by 10%, and resistance to de-buffs by 10%. Also decreases MP consumption needed for skill use by 5% and moving speed by 20%. Reuse Delay 1 hour. Consumes 250 energy. -->
@@ -1467,12 +1611,19 @@
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="3600000" />
 		<set name="energyConsume" val="30" />
-		<set name="skillType" val="ENERGY_SPEND" />
+		<set name="skillType" val="BUFF" />
 		<set name="targetType" val="SELF" />
-		<cond msgId="2292">
-			<player agathionId="1584" />
+		<cond msgId="113" addName="1">
+			<and>
+				<player hasAgathion="true" />
+				<player agathionEnergy="250" />
+			</and>
 		</cond>
 		<for>
+			<effect name="i_agathion_energy" noicon="1">
+				<param energy="-250" />
+				<param type="DIFF" />
+			</effect>
 			<effect name="Buff" abnormalTime="3600" abnormalLvl="26" abnormalType="multi_buff">
 				<mul stat="maxMp" val="1.2" />
 				<mul stat="regHp" val="1.2" />

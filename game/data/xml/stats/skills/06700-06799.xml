@@ -1055,12 +1055,12 @@
 	</skill>
 	<skill id="6769" levels="1" name="Petrify">
 		<!-- High Five Skill -->
-		<!-- FIXME: value unconfirmed -->
 		<set name="hitTime" val="2500"/>
 		<set name="targetType" val="ONE"/>
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="activateRate" val="80" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="isDebuff" val="true" />
@@ -1069,7 +1069,6 @@
 		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="155" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="5000" />
 		<set name="basicProperty" val="MEN" />
@@ -1078,14 +1077,14 @@
 			<effect name="Petrification" abnormalTime="10" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="10" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="10" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="10" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="10" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="6770" levels="1" name="Heal">
@@ -1227,10 +1226,10 @@
 	</skill>
 	<skill id="6777" levels="1" name="Bleeding Gash">
 		<!-- High Five Skill -->
-		<!-- FIXME: value unconfirmed -->
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="20" />
 		<set name="abnormalType" val="bleeding" />
+		<set name="activateRate" val="80" />
 		<set name="affectRange" val="300" />
 		<set name="hitTime" val="1500" />
 		<set name="isDebuff" val="true" />
@@ -1238,7 +1237,6 @@
 		<set name="magicLvl" val="85" />
 		<set name="mpConsume" val="89" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="5000" />
 		<set name="basicProperty" val="CON" />
@@ -1252,14 +1250,14 @@
 			<effect name="Petrification" abnormalTime="10" abnormalLvl="1" abnormalType="turn_stone" noicon="1">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="10" noicon="1">
+			<effect name="BlockDamage" abnormalTime="10" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="10" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="10" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="10" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="10" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="6778" levels="1" name="Death Strike">

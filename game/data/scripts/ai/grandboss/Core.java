@@ -63,7 +63,10 @@ public final class Core extends AbstractNpcAI
 	public Core()
 	{
 		super(Core.class.getSimpleName(), "ai/grandboss");
-		registerMobs(CORE, DEATH_KNIGHT, DOOM_WRAITH, SUSCEPTOR);
+		
+		addAttackId(CORE, DEATH_KNIGHT, DOOM_WRAITH, SUSCEPTOR);
+		addKillId(CORE, DEATH_KNIGHT, DOOM_WRAITH, SUSCEPTOR);
+		addSpawnId(CORE, DEATH_KNIGHT, DOOM_WRAITH, SUSCEPTOR);
 		
 		_firstAttacked = false;
 		final StatsSet info = GrandBossManager.getInstance().getStatsSet(CORE);

@@ -281,6 +281,7 @@
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="activateRate" val="50" />
 		<set name="affectRange" val="700" />
 		<set name="castRange" val="1000" />
 		<set name="coolTime" val="1800" />
@@ -293,7 +294,6 @@
 		<set name="magicLvl" val="85" />
 		<set name="offensive" val="true" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="10" />
 		<set name="basicProperty" val="MEN" />
 		<set name="skillType" val="PDAM" />
 		<set name="targetType" val="AREA" />
@@ -301,14 +301,14 @@
 			<effect name="Petrification" abnormalTime="30" abnormalLvl="1" abnormalType="turn_stone" effectPower="50">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="30" noicon="1">
+			<effect name="BlockDamage" abnormalTime="30" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="30" noicon="1">
+			<effect name="BlockDamage" abnormalTime="30" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="30" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="30" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="30" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="30" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="4112" levels="1" name="Ordinary Attack">

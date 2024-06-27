@@ -20,8 +20,8 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.Elementals;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.itemcontainer.Inventory;
 import l2r.gameserver.model.items.L2Weapon;
 import l2r.gameserver.model.items.instance.L2ItemInstance;
@@ -34,17 +34,11 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
  * Convert Item effect.
  * @author Zoey76
  */
-public class ConvertItem extends L2Effect
+public class ConvertItem extends EffectInstant
 {
 	public ConvertItem(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

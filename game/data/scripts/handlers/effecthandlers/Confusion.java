@@ -21,14 +21,13 @@ package handlers.effecthandlers;
 import java.util.ArrayList;
 import java.util.List;
 
-import l2r.gameserver.enums.CtrlEvent;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.L2Object;
 import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.effects.EffectFlag;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.util.Rnd;
 
@@ -36,7 +35,7 @@ import l2r.util.Rnd;
  * Confusion effect implementation.
  * @author littlecrow
  */
-public class Confusion extends L2Effect
+public class Confusion extends EffectInstant
 {
 	public Confusion(Env env, EffectTemplate template)
 	{
@@ -44,30 +43,10 @@ public class Confusion extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
 		getEffected().startConfused();
-		return true;
-	}
-	
-	@Override
-	public void onExit()
-	{
-		if (!getEffected().isPlayer())
-		{
-			getEffected().getAI().notifyEvent(CtrlEvent.EVT_THINK);
-		}
-	}
-	
-	@Override
-	public boolean onActionTime()
-	{
+		
 		final List<L2Character> targetList = new ArrayList<>();
 		// Getting the possible targets
 		for (L2Object obj : getEffected().getKnownList().getKnownObjects().values())
@@ -89,7 +68,7 @@ public class Confusion extends L2Effect
 			effected.setTarget(target);
 			effected.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, target);
 		}
-		return false;
+		return true;
 	}
 	
 	@Override

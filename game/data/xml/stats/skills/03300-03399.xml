@@ -138,10 +138,18 @@
 		</for>
 	</skill>
 	<skill id="3315" levels="1" name="Grey Talisman of Fishing">
-		<!-- TODO: Require Support -->
+		<table name="#level"> 2 5 8 11 14 17 20 23 </table>
+		<table name="#power"> 0.9375 1.7 2.15 2.6 3.05 3.5 3.95 4.4 </table>
 		<set name="operateType" val="P" />
-		<set name="skillType" val="NOTDONE" />
-		<set name="targetType" val="NONE" />
+		<set name="magicLvl" val="55" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="p_change_fishing_mastery" noicon="1">
+				<param masteryLevel="#level" />
+				<param masteryPower="#power" />
+			</effect>
+		</for>
 	</skill>
 	<skill id="3316" levels="1" name="Yellow Talisman of Critical Dodging">
 		<!-- Confirmed CT2.5 -->

@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.model.stats.Stats;
 import l2r.gameserver.network.SystemMessageId;
@@ -29,17 +29,11 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
 /**
  * @author UnAfraid
  */
-public class ManaHeal extends L2Effect
+public class ManaHeal extends EffectInstant
 {
 	public ManaHeal(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -61,7 +55,7 @@ public class ManaHeal extends L2Effect
 		
 		if (!getSkill().isStatic())
 		{
-			amount = target.calcStat(Stats.MANA_CHARGE, amount, null, null);
+			amount = target.calcStat(Stats.MP_EFFECTIVNESS, amount, null, null);
 		}
 		
 		// Prevents overheal and negative amount

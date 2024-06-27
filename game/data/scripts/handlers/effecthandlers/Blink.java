@@ -22,8 +22,8 @@ import l2r.gameserver.GeoData;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.Location;
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
@@ -38,17 +38,11 @@ import l2r.gameserver.util.Util;
  * <br>
  * @author House
  */
-public class Blink extends L2Effect
+public class Blink extends EffectInstant
 {
 	public Blink(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -81,7 +75,6 @@ public class Blink extends L2Effect
 			effected.getActingPlayer().setLastServerPosition(null);
 		}
 		
-		// effected.broadcastPacket(new ValidateLocation(effected));
 		return true;
 	}
 }

@@ -129,6 +129,7 @@ import handlers.bypasshandlers.ElcardiaBuff;
 import handlers.bypasshandlers.Festival;
 import handlers.bypasshandlers.Freight;
 import handlers.bypasshandlers.ItemAuctionLink;
+import handlers.bypasshandlers.LearnSkill;
 import handlers.bypasshandlers.Link;
 import handlers.bypasshandlers.Loto;
 import handlers.bypasshandlers.Multisell;
@@ -144,7 +145,6 @@ import handlers.bypasshandlers.ReleaseAttribute;
 import handlers.bypasshandlers.RemoveDeathPenalty;
 import handlers.bypasshandlers.RentPet;
 import handlers.bypasshandlers.Rift;
-import handlers.bypasshandlers.SkillList;
 import handlers.bypasshandlers.SupportBlessing;
 import handlers.bypasshandlers.SupportMagic;
 import handlers.bypasshandlers.TerritoryStatus;
@@ -238,7 +238,6 @@ import handlers.skillhandlers.ChainHeal;
 import handlers.skillhandlers.Continuous;
 import handlers.skillhandlers.Disablers;
 import handlers.skillhandlers.Dummy;
-import handlers.skillhandlers.EnergyReplenish;
 import handlers.skillhandlers.Mdam;
 import handlers.skillhandlers.Pdam;
 import handlers.skillhandlers.Unlock;
@@ -448,6 +447,7 @@ public class MasterHandler
 		Festival.class,
 		Freight.class,
 		ItemAuctionLink.class,
+		LearnSkill.class,
 		Link.class,
 		Loto.class,
 		Multisell.class,
@@ -463,7 +463,6 @@ public class MasterHandler
 		RemoveDeathPenalty.class,
 		RentPet.class,
 		Rift.class,
-		SkillList.class,
 		SupportBlessing.class,
 		SupportMagic.class,
 		TerritoryStatus.class,
@@ -560,7 +559,6 @@ public class MasterHandler
 		Continuous.class,
 		Disablers.class,
 		Dummy.class,
-		EnergyReplenish.class,
 		Mdam.class,
 		Pdam.class,
 		Unlock.class,

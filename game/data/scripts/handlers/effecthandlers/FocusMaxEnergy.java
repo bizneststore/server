@@ -1,24 +1,18 @@
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author vGodFather
  */
-public class FocusMaxEnergy extends L2Effect
+public class FocusMaxEnergy extends EffectInstant
 {
 	public FocusMaxEnergy(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

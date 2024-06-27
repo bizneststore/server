@@ -21,25 +21,19 @@ package handlers.effecthandlers;
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.actor.instance.L2ChestInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Open Chest effect implementation.
  * @author Adry_85
  */
-public final class OpenChest extends L2Effect
+public final class OpenChest extends EffectInstant
 {
 	public OpenChest(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

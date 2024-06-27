@@ -20,13 +20,13 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.data.xml.impl.SkillData;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.OverTimeEffect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author Kerberos
  */
-public class Fusion extends L2Effect
+public class Fusion extends OverTimeEffect
 {
 	public int _effect;
 	public int _maxEffect;
@@ -39,7 +39,7 @@ public class Fusion extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		return true;
 	}

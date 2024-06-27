@@ -45,4 +45,9 @@ public class ProtectionBlessing extends L2Effect
 	{
 		return (getEffector() != null) && (getEffected() != null) && getEffected().isPlayer();
 	}
+	
+	@Override
+	public void onExit()
+	{
+	}
 }

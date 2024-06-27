@@ -44,13 +44,8 @@ public class EnlargeAbnormalSlot extends L2Effect
 		{
 			getEffected().getStat().setMaxBuffCount(getEffected().getStat().getMaxBuffCount() + _slots);
 		}
+		
 		return true;
-	}
-	
-	@Override
-	public boolean onActionTime()
-	{
-		return getSkill().isPassive();
 	}
 	
 	@Override

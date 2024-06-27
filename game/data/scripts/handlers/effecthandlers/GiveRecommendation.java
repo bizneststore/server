@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.ExVoteSystemInfo;
@@ -30,7 +30,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
  * Give Recommendation effect implementation.
  * @author NosBit
  */
-public final class GiveRecommendation extends L2Effect
+public final class GiveRecommendation extends EffectInstant
 {
 	private final int _amount;
 	
@@ -43,12 +43,6 @@ public final class GiveRecommendation extends L2Effect
 		{
 			_log.warn(getClass().getSimpleName() + ": amount parameter is missing or set to 0. id:" + template.getParameters().getInt("id", -1));
 		}
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

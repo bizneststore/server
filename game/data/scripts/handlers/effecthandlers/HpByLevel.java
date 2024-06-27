@@ -18,8 +18,8 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
@@ -29,7 +29,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
  * Hp By Level effect.
  * @author Zoey76
  */
-public class HpByLevel extends L2Effect
+public class HpByLevel extends EffectInstant
 {
 	private final double _power;
 	
@@ -44,12 +44,6 @@ public class HpByLevel extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.BUFF;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

@@ -1284,14 +1284,14 @@
 			<effect name="Petrification" abnormalTime="8" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="8" noicon="1">
+			<effect name="BlockDamage" abnormalTime="8" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="8" noicon="1">
+			<effect name="BlockDamage" abnormalTime="8" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="8" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="8" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="8" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="8" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="1541" levels="1" name="Curse of Desparion">

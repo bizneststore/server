@@ -26,10 +26,10 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.skills.L2SkillType;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
-import l2r.gameserver.network.SystemMessageId;
-import l2r.gameserver.network.serverpackets.SystemMessage;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.log.filter.Log;
 
 public class Mdam implements ISkillHandler
@@ -75,12 +75,18 @@ public class Mdam implements ISkillHandler
 				continue;
 			}
 			
-			final boolean mcrit = Formulas.calcMCrit(activeChar.getMCriticalHit(target, skill));
-			final byte shld = Formulas.calcShldUse(activeChar, target, skill);
-			final byte reflect = Formulas.calcSkillReflect(target, skill);
-			final double mAtk = activeChar.getMAtk(target, skill);
+			final boolean mcrit = SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, skill));
+			final byte shld = SkillFormulas.calcShldUse(activeChar, target, skill);
+			final byte reflect = SkillFormulas.calcSkillReflect(target, skill);
 			
-			int damage = skill.isStaticDamage() ? (int) skill.getPower() : (int) Formulas.calcMagicDam(activeChar, target, skill, mAtk, shld, sps, bss, mcrit);
+			// Calculate skill evasion
+			final boolean skillIsEvaded = SkillFormulas.calcMagicalSkillEvasion(activeChar, target, skill);
+			if (skillIsEvaded)
+			{
+				continue;
+			}
+			
+			int damage = skill.isStaticDamage() ? (int) skill.getPower() : (SkillFormulas.calculateInt(FormulaType.CALC_MAGI_DMG, activeChar, target, skill, new FormulaEnv(shld, false, ss, bss, mcrit)));
 			
 			// Curse of Divinity Formula (each buff increase +30%)
 			if (!skill.isStaticDamage() && skill.getDependOnTargetBuff())
@@ -96,12 +102,12 @@ public class Mdam implements ISkillHandler
 			}
 			
 			// Possibility of a lethal strike
-			Formulas.calcLethalHit(activeChar, target, skill);
+			SkillFormulas.calculate(FormulaType.CALC_LETHAL_HIT, activeChar, target, skill, null);
 			
 			if (damage > 0)
 			{
 				// Manage attack or cast break of the target (calculating rate, sending message...)
-				if (!target.isRaid() && Formulas.calcAtkBreak(target, damage))
+				if (!target.isRaid() && SkillFormulas.calcAtkBreak(target, damage))
 				{
 					target.breakAttack();
 					target.breakCast();
@@ -110,7 +116,7 @@ public class Mdam implements ISkillHandler
 				// vengeance reflected damage
 				// DS: because only skill using vengeanceMdam is Shield Deflect Magic
 				// and for this skill no damage should pass to target, just hardcode it for now
-				if ((reflect & Formulas.SKILL_REFLECT_VENGEANCE) != 0)
+				if ((reflect & SkillFormulas.SKILL_REFLECT_VENGEANCE) != 0)
 				{
 					activeChar.reduceCurrentHp(damage, target, skill);
 					activeChar.notifyDamageReceived(damage, target, skill, mcrit, false, true);
@@ -149,13 +155,10 @@ public class Mdam implements ISkillHandler
 				
 				if (skill.hasEffects())
 				{
-					if ((reflect & Formulas.SKILL_REFLECT_SUCCEED) != 0) // reflect skill effects
+					if ((reflect & SkillFormulas.SKILL_REFLECT_SUCCEED) != 0) // reflect skill effects
 					{
 						activeChar.stopSkillEffects(skill.getId());
 						skill.getEffects(target, activeChar);
-						SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
-						sm.addSkillName(skill);
-						activeChar.sendPacket(sm);
 					}
 					else
 					{

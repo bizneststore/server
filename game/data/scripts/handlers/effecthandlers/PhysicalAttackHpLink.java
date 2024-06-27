@@ -18,8 +18,8 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 
@@ -27,7 +27,7 @@ import l2r.gameserver.model.stats.Env;
  * Physical Attack HP Link effect implementation.
  * @author vGodFather
  */
-public final class PhysicalAttackHpLink extends L2Effect
+public final class PhysicalAttackHpLink extends EffectInstant
 {
 	public PhysicalAttackHpLink(Env env, EffectTemplate template)
 	{
@@ -38,11 +38,5 @@ public final class PhysicalAttackHpLink extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.PHYSICAL_ATTACK_HP_LINK;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 }

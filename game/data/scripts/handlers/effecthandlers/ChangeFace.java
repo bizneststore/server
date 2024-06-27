@@ -19,25 +19,19 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Change Face effect.
  * @author Zoey76
  */
-public class ChangeFace extends L2Effect
+public class ChangeFace extends EffectInstant
 {
 	public ChangeFace(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

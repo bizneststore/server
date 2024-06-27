@@ -882,7 +882,7 @@
 		<set name="skillType" val="CONFUSE_MOB_ONLY" />
 		<set name="targetType" val="ONE" />
 		<for>
-			<effect count="5" name="Confusion" abnormalTime="4" />
+			<effect name="Confusion" />
 		</for>
 	</skill>
 	<skill id="3582" levels="1" name="Special Ability: Infinity Cleaver">

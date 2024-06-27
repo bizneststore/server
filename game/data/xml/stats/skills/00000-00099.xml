@@ -405,12 +405,15 @@
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="5000" />
-		<set name="mustIncludeBasicProperty" val="false" />
 		<set name="targetType" val="ONE" />
 		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect name="DeleteHateOfMe" noicon="1" />
-			<effect name="RemoveTarget" val="0" />
+			<effect name="DeleteHateOfMe" noicon="1">
+				<param chance="80" />
+			</effect>
+			<effect name="RemoveTarget">
+				<param chance="80" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="12" levels="14" name="Switch">
@@ -430,12 +433,15 @@
 		<set name="power" val="80" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="3000" />
-		<set name="mustIncludeBasicProperty" val="false" />
 		<set name="targetType" val="ONE" />
 		<set name="trait" val="DERANGEMENT" />
 		<for>
-			<effect name="DeleteHateOfMe" noicon="1" />
-			<effect name="RemoveTarget" val="0" />
+			<effect name="DeleteHateOfMe" noicon="1">
+				<param chance="80" />
+			</effect>
+			<effect name="RemoveTarget">
+				<param chance="80" />
+			</effect>
 		</for>
 	</skill>
 	<skill id="13" levels="1" name="Summon Siege Golem" enchantGroup1="1">
@@ -1452,8 +1458,8 @@
 		<set name="skillType" val="CONT" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<!-- retail value: 10MP/sec; stat update every 3 sec -->
-			<effect count="0x7fffffff" name="FakeDeath" abnormalTime="3" val="30" />
+			<!-- retail value: 10MP/sec; stat update every 5 sec -->
+			<effect count="0x7fffffff" name="FakeDeath" abnormalTime="5" val="50" />
 		</for>
 	</skill>
 	<skill id="61" levels="3" name="Cure Bleeding">

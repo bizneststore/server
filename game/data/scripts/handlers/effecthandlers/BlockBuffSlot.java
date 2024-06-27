@@ -22,15 +22,15 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
+import l2r.gameserver.model.effects.EffectPump;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Block Buff Slot effect implementation.
  * @author Zoey76 reworked vGodFather
  */
-public final class BlockBuffSlot extends L2Effect
+public final class BlockBuffSlot extends EffectPump
 {
 	private final Set<String> _blockBuffSlots;
 	

@@ -19,14 +19,14 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectFlag;
+import l2r.gameserver.model.effects.EffectPump;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * @author UnAfraid
  */
-public class BlockResurrection extends L2Effect
+public class BlockResurrection extends EffectPump
 {
 	public BlockResurrection(Env env, EffectTemplate template)
 	{

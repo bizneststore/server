@@ -376,11 +376,11 @@
 		<cond msgId="2292">
 			<player hasAgathion="true" />
 		</cond>
-		<effects>
+		<for>
 			<effect name="Restoration">
 				<param itemId="22220" itemCount="1" />
 			</effect>
-		</effects>
+		</for>
 	</skill>
 	<skill id="23330" levels="1" name="Lantern Agathion's Gift2">
 		<set name="operateType" val="P" />

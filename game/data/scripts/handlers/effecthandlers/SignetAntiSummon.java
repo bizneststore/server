@@ -24,15 +24,16 @@ import l2r.gameserver.model.actor.L2Summon;
 import l2r.gameserver.model.actor.instance.L2EffectPointInstance;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
 /**
  * @author Forsaiken
  */
-public class SignetAntiSummon extends L2Effect
+public class SignetAntiSummon extends OverTimeEffect
 {
 	private L2EffectPointInstance _actor;
 	
@@ -51,16 +52,20 @@ public class SignetAntiSummon extends L2Effect
 	public boolean onStart()
 	{
 		_actor = (L2EffectPointInstance) getEffected();
+		
+		onTick();
 		return true;
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		if (getCount() == (getTotalCount() - 1))
 		{
+			TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 			return true; // do nothing first time
 		}
+		
 		int mpConsume = getSkill().getMpConsume();
 		
 		L2PcInstance caster = getEffector().getActingPlayer();
@@ -101,6 +106,8 @@ public class SignetAntiSummon extends L2Effect
 				}
 			}
 		}
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

@@ -34,10 +34,10 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.skills.L2SkillType;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.skills.targets.L2TargetType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
-import l2r.gameserver.network.SystemMessageId;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 /**
  * @version $Revision: 1.1.2.2.2.9 $ $Date: 2005/04/03 15:55:04 $
@@ -61,8 +61,6 @@ public class Continuous implements ISkillHandler
 	@Override
 	public void useSkill(L2Character activeChar, L2Skill skill, L2Object[] targets)
 	{
-		boolean acted = true;
-		
 		L2PcInstance player = null;
 		if (activeChar.isPlayer())
 		{
@@ -93,7 +91,7 @@ public class Continuous implements ISkillHandler
 			L2Character target = (L2Character) obj;
 			byte shld = 0;
 			
-			if (Formulas.calcSkillReflect(target, skill) == Formulas.SKILL_REFLECT_SUCCEED)
+			if (SkillFormulas.calcSkillReflect(target, skill) == SkillFormulas.SKILL_REFLECT_SUCCEED)
 			{
 				target = activeChar;
 			}
@@ -142,86 +140,78 @@ public class Continuous implements ISkillHandler
 			
 			if (skill.isOffensive() || skill.isDebuff())
 			{
-				shld = Formulas.calcShldUse(activeChar, target, skill);
-				acted = Formulas.calcSkillSuccess(activeChar, target, skill, shld, ss, sps, bss);
+				shld = SkillFormulas.calcShldUse(activeChar, target, skill);
 			}
 			
-			if (acted)
+			if (skill.isToggle())
 			{
-				if (skill.isToggle())
+				List<L2Effect> effects = target.getEffectList().getEffects();
+				if (effects != null)
 				{
-					List<L2Effect> effects = target.getEffectList().getEffects();
-					if (effects != null)
+					for (L2Effect e : effects)
 					{
-						for (L2Effect e : effects)
+						if (e != null)
 						{
-							if (e != null)
+							if (e.getSkill().getId() == skill.getId())
 							{
-								if (e.getSkill().getId() == skill.getId())
-								{
-									target.stopSkillEffects(e.getSkill().getId());
-									return;
-								}
+								target.stopSkillEffects(e.getSkill().getId());
+								return;
 							}
 						}
 					}
 				}
-				
-				// if this is a debuff let the duel manager know about it
-				// so the debuff can be removed after the duel
-				// (player & target must be in the same duel)
-				if (target.isPlayer() && target.getActingPlayer().isInDuel() && ((skill.getSkillType() == L2SkillType.DEBUFF) || (skill.getSkillType() == L2SkillType.BUFF)) && (player != null) && (player.getDuelId() == target.getActingPlayer().getDuelId()))
+			}
+			
+			// if this is a debuff let the duel manager know about it
+			// so the debuff can be removed after the duel
+			// (player & target must be in the same duel)
+			if (target.isPlayer() && target.getActingPlayer().isInDuel() && ((skill.getSkillType() == L2SkillType.DEBUFF) || (skill.getSkillType() == L2SkillType.BUFF)) && (player != null) && (player.getDuelId() == target.getActingPlayer().getDuelId()))
+			{
+				DuelManager dm = DuelManager.getInstance();
+				for (L2Effect buff : skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss)))
 				{
-					DuelManager dm = DuelManager.getInstance();
-					for (L2Effect buff : skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss)))
-					{
-						dm.onBuff(target.getActingPlayer(), buff);
-					}
-				}
-				else
-				{
-					List<L2Effect> effects = skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
-					L2Summon summon = target.getSummon();
-					if ((summon != null) && (summon != activeChar) && summon.isServitor() && (effects.size() > 0))
-					{
-						if (effects.get(0).canBeStolen() || skill.isHeroSkill() || skill.isStatic())
-						{
-							skill.getEffectsVoid(activeChar, target.getSummon(), new Env(shld, ss, sps, bss));
-						}
-						// vGodFather: some extra implementation most of target type one skills must take effect on servitors too
-						else if (((skill.getTargetType() == L2TargetType.ONE) || ((skill.getTargetType() == L2TargetType.SELF) && !skill.isToggle())) && !skill.isDebuff())
-						{
-							skill.getEffectsVoid(activeChar, target.getSummon(), new Env(shld, ss, sps, bss));
-						}
-					}
-				}
-				
-				if (skill.getSkillType() == L2SkillType.AGGDEBUFF)
-				{
-					if (target.isAttackable())
-					{
-						target.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, activeChar, (int) skill.getPower());
-					}
-					else if (target.isPlayable())
-					{
-						if (target.getTarget() == activeChar)
-						{
-							target.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, activeChar);
-						}
-						else
-						{
-							target.setTarget(activeChar);
-						}
-					}
+					dm.onBuff(target.getActingPlayer(), buff);
 				}
 			}
 			else
 			{
-				activeChar.sendPacket(SystemMessageId.ATTACK_FAILED);
+				List<L2Effect> effects = skill.getEffects(activeChar, target, new Env(shld, ss, sps, bss));
+				L2Summon summon = target.getSummon();
+				if ((summon != null) && (summon != activeChar) && summon.isServitor() && (effects.size() > 0))
+				{
+					if (effects.get(0).canBeStolen() || skill.isHeroSkill() || skill.isStatic())
+					{
+						skill.getEffectsVoid(activeChar, target.getSummon(), new Env(shld, ss, sps, bss));
+					}
+					// vGodFather: some extra implementation most of target type one skills must take effect on servitors too
+					else if (((skill.getTargetType() == L2TargetType.ONE) || ((skill.getTargetType() == L2TargetType.SELF) && !skill.isToggle())) && !skill.isDebuff())
+					{
+						skill.getEffectsVoid(activeChar, target.getSummon(), new Env(shld, ss, sps, bss));
+					}
+				}
+			}
+			
+			if (skill.getSkillType() == L2SkillType.AGGDEBUFF)
+			{
+				if (target.isAttackable())
+				{
+					target.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, activeChar, (int) skill.getPower());
+				}
+				else if (target.isPlayable())
+				{
+					if (target.getTarget() == activeChar)
+					{
+						target.getAI().setIntention(CtrlIntention.AI_INTENTION_ATTACK, activeChar);
+					}
+					else
+					{
+						target.setTarget(activeChar);
+					}
+				}
 			}
 			
 			// Possibility of a lethal strike (Banish Undead, Banish Seraph, Turn Undead)
-			Formulas.calcLethalHit(activeChar, target, skill);
+			SkillFormulas.calculate(FormulaType.CALC_LETHAL_HIT, activeChar, target, skill, null);
 		}
 		
 		// self Effect :]

@@ -23,12 +23,12 @@ import l2r.gameserver.enums.ZoneIdType;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.instance.L2TrapInstance;
 import l2r.gameserver.model.actor.templates.L2NpcTemplate;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
-public class SummonTrap extends L2Effect
+public class SummonTrap extends EffectInstant
 {
 	private final int _despawnTime;
 	private final int _npcId;
@@ -38,12 +38,6 @@ public class SummonTrap extends L2Effect
 		super(env, template);
 		_despawnTime = template.getParameters().getInt("despawnTime", 0);
 		_npcId = template.getParameters().getInt("npcId", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

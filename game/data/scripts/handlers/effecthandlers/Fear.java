@@ -28,15 +28,16 @@ import l2r.gameserver.model.actor.instance.L2NpcInstance;
 import l2r.gameserver.model.actor.instance.L2SiegeFlagInstance;
 import l2r.gameserver.model.effects.EffectFlag;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.effects.OverTimeEffect;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Implementation of the Fear Effect
  * @author littlecrow
  */
-public class Fear extends L2Effect
+public class Fear extends OverTimeEffect
 {
 	public static final int FEAR_RANGE = 500;
 	
@@ -78,8 +79,7 @@ public class Fear extends L2Effect
 				_dY = 1;
 			}
 			
-			getEffected().startFear();
-			onActionTime();
+			onTick();
 			return true;
 		}
 		return false;
@@ -88,11 +88,10 @@ public class Fear extends L2Effect
 	@Override
 	public void onExit()
 	{
-		getEffected().stopFear(false);
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		int posX = getEffected().getX();
 		int posY = getEffected().getY();
@@ -117,6 +116,8 @@ public class Fear extends L2Effect
 		
 		final Location destination = GeoData.getInstance().moveCheck(getEffected().getX(), getEffected().getY(), getEffected().getZ(), posX, posY, posZ, getEffected().getInstanceId());
 		getEffected().getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, destination);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

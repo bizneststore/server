@@ -19,15 +19,15 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.instance.L2TrapInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Trap Detect effect implementation.
  * @author UnAfraid
  */
-public final class TrapDetect extends L2Effect
+public final class TrapDetect extends EffectInstant
 {
 	private final int _power;
 	
@@ -41,12 +41,6 @@ public final class TrapDetect extends L2Effect
 		}
 		
 		_power = template.getParameters().getInt("power");
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

@@ -200,6 +200,12 @@ public class Wedding implements IVoicedCommandHandler
 			return false;
 		}
 		
+		if ((ptarget.getAppearance().getSex() == activeChar.getAppearance().getSex()) && !WeddingConfigs.L2JMOD_WEDDING_SAMESEX)
+		{
+			activeChar.sendMessage("Gay marriage is not allowed on this server!");
+			return false;
+		}
+		
 		// check if target has player on friendlist
 		boolean foundOnFriendList = false;
 		try (Connection con = L2DatabaseFactory.getInstance().getConnection();

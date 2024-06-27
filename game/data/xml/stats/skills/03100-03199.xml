@@ -1822,6 +1822,7 @@
 		<set name="abnormalLvl" val="1" />
 		<set name="abnormalTime" val="30" />
 		<set name="abnormalType" val="turn_stone" />
+		<set name="activateRate" val="40" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="element" val="3" /> <!-- Earth -->
@@ -1834,7 +1835,6 @@
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="operateType" val="A2" />
-		<set name="power" val="40" /> <!-- Base Land Rate -->
 		<set name="offensive" val="true" />
 		<set name="reuseDelay" val="30000" />
 		<set name="basicProperty" val="MEN" />
@@ -1845,14 +1845,14 @@
 			<effect name="Petrification" abnormalTime="30" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="30" noicon="1">
+			<effect name="BlockDamage" abnormalTime="30" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="30" noicon="1">
+			<effect name="BlockDamage" abnormalTime="30" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="30" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="30" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="30" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="30" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="3194" levels="10" name="Item Skill: Fear">

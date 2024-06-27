@@ -20,8 +20,8 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.GeoData;
 import l2r.gameserver.model.Location;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
@@ -31,7 +31,7 @@ import l2r.gameserver.network.serverpackets.ValidateLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class EnemyCharge extends L2Effect
+public class EnemyCharge extends EffectInstant
 {
 	static final Logger _log = LoggerFactory.getLogger(EnemyCharge.class);
 	
@@ -46,12 +46,6 @@ public class EnemyCharge extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.BUFF;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.instancemanager.FortManager;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.entity.Fort;
 import l2r.gameserver.model.stats.Env;
 
@@ -28,17 +28,11 @@ import l2r.gameserver.model.stats.Env;
  * Take Fort effect implementation.
  * @author Adry_85
  */
-public final class TakeFort extends L2Effect
+public final class TakeFort extends EffectInstant
 {
 	public TakeFort(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

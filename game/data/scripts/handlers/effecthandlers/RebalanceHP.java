@@ -20,8 +20,8 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.L2Party;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.util.Util;
@@ -30,7 +30,7 @@ import l2r.gameserver.util.Util;
  * Rebalance HP effect.
  * @author Adry_85, earendil
  */
-public class RebalanceHP extends L2Effect
+public class RebalanceHP extends EffectInstant
 {
 	public RebalanceHP(Env env, EffectTemplate template)
 	{
@@ -41,12 +41,6 @@ public class RebalanceHP extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.REBALANCE_HP;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

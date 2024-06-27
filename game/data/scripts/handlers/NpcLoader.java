@@ -53,6 +53,7 @@ import ai.npc.Summons.MerchantGolem.GolemTrader;
 import ai.npc.SupportUnitCaptain.SupportUnitCaptain;
 import ai.npc.SymbolMaker.SymbolMaker;
 import ai.npc.TerritoryManagers.TerritoryManagers;
+import ai.npc.Tolonis.Tolonis;
 import ai.npc.TownPets.TownPets;
 import ai.npc.Trainers.HealerTrainer.HealerTrainer;
 import ai.npc.Tunatun.Tunatun;
@@ -126,6 +127,7 @@ public final class NpcLoader extends ABLoader
 		VarkaSilenosSupport.class,
 		WeaverOlf.class,
 		WyvernManager.class,
+		Tolonis.class,
 	};
 	
 	public NpcLoader()

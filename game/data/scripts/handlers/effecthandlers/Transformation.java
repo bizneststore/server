@@ -46,11 +46,6 @@ public class Transformation extends L2Effect
 		}
 	}
 	
-	public Transformation(Env env, L2Effect effect)
-	{
-		super(env, effect);
-	}
-	
 	@Override
 	public L2EffectType getEffectType()
 	{

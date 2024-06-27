@@ -50,14 +50,6 @@ public final class Flag extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
-	{
-		getEffected().updatePvPFlag(1);
-		
-		return super.onActionTime();
-	}
-	
-	@Override
 	public void onExit()
 	{
 		getEffected().getActingPlayer().updatePvPFlag(0);

@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
@@ -29,7 +29,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
 /**
  * @author UnAfraid
  */
-public class CpHeal extends L2Effect
+public class CpHeal extends EffectInstant
 {
 	public CpHeal(Env env, EffectTemplate template)
 	{
@@ -40,12 +40,6 @@ public class CpHeal extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.CPHEAL;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

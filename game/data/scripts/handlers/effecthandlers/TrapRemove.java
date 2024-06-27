@@ -20,9 +20,10 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.TrapAction;
 import l2r.gameserver.model.actor.instance.L2TrapInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.events.EventDispatcher;
+import l2r.gameserver.model.events.EventType;
 import l2r.gameserver.model.events.impl.character.trap.OnTrapAction;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
@@ -31,7 +32,7 @@ import l2r.gameserver.network.SystemMessageId;
  * Trap Remove effect implementation.
  * @author UnAfraid
  */
-public final class TrapRemove extends L2Effect
+public final class TrapRemove extends EffectInstant
 {
 	private final int _power;
 	
@@ -45,12 +46,6 @@ public final class TrapRemove extends L2Effect
 		}
 		
 		_power = template.getParameters().getInt("power");
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -74,7 +69,10 @@ public final class TrapRemove extends L2Effect
 		if (trap.getLevel() <= _power)
 		{
 			// Notify to scripts
-			EventDispatcher.getInstance().notifyEventAsync(new OnTrapAction(trap, getEffector(), TrapAction.TRAP_DISARMED), trap);
+			if (EventDispatcher.getInstance().hasListener(EventType.ON_TRAP_ACTION, trap))
+			{
+				EventDispatcher.getInstance().notifyEventAsync(new OnTrapAction(trap, getEffector(), TrapAction.TRAP_DISARMED), trap);
+			}
 			
 			trap.unSummon();
 			if (getEffector().isPlayer())

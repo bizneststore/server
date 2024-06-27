@@ -20,18 +20,18 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.CtrlEvent;
 import l2r.gameserver.model.actor.instance.L2MonsterInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 
 /**
  * Spoil effect.
  * @author _drunk_, Ahmed, Zoey76
  */
-public class Spoil extends L2Effect
+public class Spoil extends EffectInstant
 {
 	public Spoil(Env env, EffectTemplate template)
 	{
@@ -42,12 +42,6 @@ public class Spoil extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.SPOIL;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -66,7 +60,7 @@ public class Spoil extends L2Effect
 			return false;
 		}
 		
-		if (Formulas.calcMagicSuccess(getEffector(), target, getSkill()))
+		if (SkillFormulas.calcMagicSuccess(getEffector(), target, getSkill()))
 		{
 			target.setSpoilerObjectId(getEffector().getObjectId());
 			getEffector().sendPacket(SystemMessageId.SPOIL_SUCCESS);

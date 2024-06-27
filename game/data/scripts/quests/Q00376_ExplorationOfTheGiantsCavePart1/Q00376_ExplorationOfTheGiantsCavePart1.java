@@ -47,14 +47,14 @@ public class Q00376_ExplorationOfTheGiantsCavePart1 extends Quest
 	
 	static
 	{
-		MOBS.put(22670, 0.314); // const_lord
-		MOBS.put(22671, 0.302); // const_gaurdian
-		MOBS.put(22672, 0.300); // const_seer
-		MOBS.put(22673, 0.258); // hirokai
-		MOBS.put(22674, 0.248); // imagro
-		MOBS.put(22675, 0.264); // palite
-		MOBS.put(22676, 0.258); // hamrit
-		MOBS.put(22677, 0.266); // kranout
+		MOBS.put(22670, 0.500); // const_lord
+		MOBS.put(22671, 0.500); // const_gaurdian
+		MOBS.put(22672, 0.500); // const_seer
+		MOBS.put(22673, 0.500); // hirokai
+		MOBS.put(22674, 0.400); // imagro
+		MOBS.put(22675, 0.400); // palite
+		MOBS.put(22676, 0.600); // hamrit
+		MOBS.put(22677, 0.400); // kranout
 	}
 	
 	public Q00376_ExplorationOfTheGiantsCavePart1()

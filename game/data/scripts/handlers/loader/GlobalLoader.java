@@ -21,7 +21,7 @@ import handlers.SunriseNpcsLoader;
 import handlers.TeleportersLoader;
 import handlers.VehiclesLoader;
 import handlers.VillageMastersLoader;
-import handlers.ZonesLoader; // Add this line
+import handlers.ZonesLoader;
 
 /**
  * @author L2jSunrise Team

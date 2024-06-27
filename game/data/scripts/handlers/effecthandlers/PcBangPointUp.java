@@ -19,8 +19,8 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.ExPCCafePointInfo;
 
@@ -28,7 +28,7 @@ import l2r.gameserver.network.serverpackets.ExPCCafePointInfo;
  * Give Recommendation effect implementation.
  * @author vGodFather
  */
-public final class PcBangPointUp extends L2Effect
+public final class PcBangPointUp extends EffectInstant
 {
 	private final int _amount;
 	
@@ -37,12 +37,6 @@ public final class PcBangPointUp extends L2Effect
 		super(env, template);
 		
 		_amount = template.getParameters().getInt("amount", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

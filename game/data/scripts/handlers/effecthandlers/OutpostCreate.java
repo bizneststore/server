@@ -24,27 +24,21 @@ import l2r.gameserver.instancemanager.TerritoryWarManager;
 import l2r.gameserver.model.L2Clan;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.actor.instance.L2SiegeFlagInstance;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
 
 /**
  * Outpost Create effect implementation.
  * @author UnAfraid
  */
-public class OutpostCreate extends L2Effect
+public class OutpostCreate extends EffectInstant
 {
 	private static final int HQ_NPC_ID = 36590;
 	
 	public OutpostCreate(Env env, EffectTemplate template)
 	{
 		super(env, template);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

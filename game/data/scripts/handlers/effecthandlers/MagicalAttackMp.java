@@ -20,11 +20,13 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.ShotType;
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
+import l2r.gameserver.model.skills.formulas.FormulaEnv;
+import l2r.gameserver.model.skills.formulas.FormulaType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 
@@ -32,7 +34,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
  * Magical Attack MP effect.
  * @author Adry_85
  */
-public final class MagicalAttackMp extends L2Effect
+public final class MagicalAttackMp extends EffectInstant
 {
 	public MagicalAttackMp(Env env, EffectTemplate template)
 	{
@@ -46,19 +48,13 @@ public final class MagicalAttackMp extends L2Effect
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
 		if (getEffected().isInvul() || getEffected().isMpBlocked())
 		{
 			return false;
 		}
-		if (!Formulas.calcMagicAffected(getEffector(), getEffected(), getSkill()))
+		if (!SkillFormulas.calcMagicAffected(getEffector(), getEffected(), getSkill()))
 		{
 			if (getEffector().isPlayer())
 			{
@@ -84,9 +80,9 @@ public final class MagicalAttackMp extends L2Effect
 		
 		boolean sps = getSkill().useSpiritShot() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
 		boolean bss = getSkill().useSpiritShot() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
-		final byte shld = Formulas.calcShldUse(activeChar, target, getSkill());
-		final boolean mcrit = Formulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
-		double damage = Formulas.calcManaDam(activeChar, target, getSkill(), shld, sps, bss, mcrit);
+		final byte shld = SkillFormulas.calcShldUse(activeChar, target, getSkill());
+		final boolean mcrit = SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
+		double damage = SkillFormulas.calculate(FormulaType.CALC_MANA_DMG, activeChar, target, getSkill(), new FormulaEnv(shld, false, sps, bss, mcrit));
 		double mp = (damage > target.getCurrentMp() ? target.getCurrentMp() : damage);
 		
 		if (damage > 0)

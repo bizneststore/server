@@ -49,12 +49,6 @@ public final class TalismanSlot extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
-	{
-		return getSkill().isPassive();
-	}
-	
-	@Override
 	public void onExit()
 	{
 		getEffected().getActingPlayer().getStat().addTalismanSlots(-_slots);

@@ -20,17 +20,17 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.CtrlIntention;
 import l2r.gameserver.model.actor.L2Attackable;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.util.Rnd;
 
 /**
  * @author -Nemesiss-
  */
-public class RemoveTarget extends L2Effect
+public class RemoveTarget extends EffectInstant
 {
 	private final int _chance;
 	
@@ -42,25 +42,20 @@ public class RemoveTarget extends L2Effect
 	}
 	
 	@Override
+	public boolean calcSuccess(Env info)
+	{
+		return SkillFormulas.calcProbability(_chance, info.getCharacter(), info.getTarget(), info.getSkill());
+	}
+	
+	@Override
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.REMOVE_TARGET;
 	}
 	
 	@Override
-	public boolean isInstant()
-	{
-		return true;
-	}
-	
-	@Override
 	public boolean onStart()
 	{
-		if (!Formulas.calcProbability(_chance, getEffector(), getEffected(), getSkill()))
-		{
-			return false;
-		}
-		
 		if (getEffected().isAttackable())
 		{
 			((L2Attackable) getEffected()).stopHating(getEffector());

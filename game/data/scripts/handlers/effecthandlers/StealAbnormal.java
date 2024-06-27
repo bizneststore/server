@@ -28,7 +28,7 @@ import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 
@@ -64,7 +64,7 @@ public class StealAbnormal extends L2Effect
 	{
 		if ((getEffected() != null) && getEffected().isPlayer() && (getEffector() != getEffected()))
 		{
-			final List<L2Effect> toSteal = Formulas.getCanceledEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max, false);
+			final List<L2Effect> toSteal = SkillFormulas.getCanceledEffects(getEffector(), getEffected(), getSkill(), _slot, _rate, _max, false);
 			if (toSteal.isEmpty())
 			{
 				return false;
@@ -92,6 +92,13 @@ public class StealAbnormal extends L2Effect
 				{
 					env.setSkill(skill);
 					
+					if (skill.getShowIcon() && getEffector().isPlayer())
+					{
+						final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
+						sm.addSkillName(effect);
+						getEffector().sendPacket(sm);
+					}
+					
 					L2Effect ef;
 					for (EffectTemplate et : skill.getEffectTemplates())
 					{
@@ -101,13 +108,6 @@ public class StealAbnormal extends L2Effect
 							ef.setCount(effect.getCount());
 							ef.setFirstTime(effect.getTime());
 							ef.scheduleEffect();
-							
-							if (ef.getShowIcon() && getEffector().isPlayer())
-							{
-								final SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT);
-								sm.addSkillName(effect);
-								getEffector().sendPacket(sm);
-							}
 							
 							CancelBuffReturnManager.tryAddCanceledBuff(getEffected(), ef);
 						}

@@ -959,7 +959,7 @@
 		<set name="castRange" val="1000"/>
 		<set name="effectRange" val="1500"/>
 		<set name="overHit" val="true"/>
-		<set name="isDebuff" val="true"/>
+		<set name="power" val="-1" /> <!-- Land Always -->
 		<set name="reuseDelay" val="75000"/>
 		<set name="hitTime" val="9700" />
 		<set name="operateType" val="A1" />
@@ -969,14 +969,14 @@
 			<effect name="Petrification" abnormalTime="120" effectPower="80" abnormalLvl="1" abnormalType="turn_stone">
 				<mul stat="regHp" val="0" />
 			</effect>
-			<effect name="BlockDamage" abnormalTime="120" noicon="1">
+			<effect name="BlockDamage" abnormalTime="120" noicon="1" abnormalType="turn_stone1">
 				<param block="HP"/>
 			</effect>
-			<effect name="BlockDamage" abnormalTime="120" noicon="1">
+			<effect name="BlockDamage" abnormalTime="120" noicon="1" abnormalType="turn_stone2">
 				<param block="MP"/>
 			</effect>
-			<effect name="BlockBuff" abnormalTime="120" noicon="1" />
-			<effect name="BlockDebuff" abnormalTime="120" noicon="1" />
+			<effect name="BlockBuff" abnormalTime="120" noicon="1" abnormalType="turn_stone3" />
+			<effect name="BlockDebuff" abnormalTime="120" noicon="1" abnormalType="turn_stone4" />
 		</for>
 	</skill>
 	<skill id="5760" levels="9" name="Critical Hit">

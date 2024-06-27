@@ -20,22 +20,24 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.model.effects.EffectFlag;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
+import l2r.gameserver.model.effects.OverTimeEffect;
 import l2r.gameserver.model.skills.L2SkillType;
+import l2r.gameserver.model.skills.TickManager;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.SystemMessageId;
 
-public class SilentMove extends L2Effect
+public class SilentMove extends OverTimeEffect
 {
 	public SilentMove(Env env, EffectTemplate template)
 	{
 		super(env, template);
 	}
 	
-	// Special constructor to steal this effect
-	public SilentMove(Env env, L2Effect effect)
+	@Override
+	public boolean onStart()
 	{
-		super(env, effect);
+		onTick();
+		return true;
 	}
 	
 	@Override
@@ -45,7 +47,7 @@ public class SilentMove extends L2Effect
 	}
 	
 	@Override
-	public boolean onActionTime()
+	public boolean onTick()
 	{
 		// Only cont skills shouldn't end
 		if (getSkill().getSkillType() != L2SkillType.CONT)
@@ -58,7 +60,7 @@ public class SilentMove extends L2Effect
 			return false;
 		}
 		
-		double manaDam = getValue();
+		double manaDam = getValue() * getTicksMultiplier();
 		if (manaDam > getEffected().getCurrentMp())
 		{
 			getEffected().sendPacket(SystemMessageId.SKILL_REMOVED_DUE_LACK_MP);
@@ -66,6 +68,8 @@ public class SilentMove extends L2Effect
 		}
 		
 		getEffected().reduceCurrentMp(manaDam);
+		
+		TickManager.getInstance().addEffectPerTickTask(getSkill(), this);
 		return true;
 	}
 	

@@ -5,6 +5,7 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
@@ -15,7 +16,7 @@ import gr.sr.features.cancelreturn.CancelBuffReturnManager;
 /**
  * @author vGodFather
  */
-public class DispelOne extends L2Effect
+public class DispelOne extends EffectInstant
 {
 	private final boolean _randomEffects;
 	
@@ -30,12 +31,6 @@ public class DispelOne extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.DISPEL;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override

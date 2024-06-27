@@ -18,16 +18,16 @@
  */
 package handlers.effecthandlers;
 
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 
 /**
  * CP Damage Percent effect implementation.
  * @author Zoey76
  */
-public class CpDamPercent extends L2Effect
+public class CpDamPercent extends EffectInstant
 {
 	private final double _power;
 	
@@ -36,12 +36,6 @@ public class CpDamPercent extends L2Effect
 		super(env, template);
 		
 		_power = template.getParameters().getDouble("power", 0);
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -59,7 +53,7 @@ public class CpDamPercent extends L2Effect
 		
 		int damage = (int) ((getEffected().getCurrentCp() * _power) / 100);
 		// Manage attack or cast break of the target (calculating rate, sending message)
-		if (!getEffected().isRaid() && Formulas.calcAtkBreak(getEffected(), damage))
+		if (!getEffected().isRaid() && SkillFormulas.calcAtkBreak(getEffected(), damage))
 		{
 			getEffected().breakAttack();
 			getEffected().breakCast();

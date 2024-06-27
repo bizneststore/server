@@ -19,7 +19,6 @@
 package handlers.effecthandlers;
 
 import l2r.gameserver.enums.CtrlEvent;
-import l2r.gameserver.model.effects.AbnormalEffect;
 import l2r.gameserver.model.effects.EffectFlag;
 import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.effects.L2Effect;
@@ -32,13 +31,9 @@ import l2r.gameserver.model.stats.Env;
  */
 public class Paralyze extends L2Effect
 {
-	private final String _mustCleanEffect;
-	
 	public Paralyze(Env env, EffectTemplate template)
 	{
 		super(env, template);
-		
-		_mustCleanEffect = template.getParameters().getString("mustCleanEffect", null);
 	}
 	
 	@Override
@@ -60,20 +55,12 @@ public class Paralyze extends L2Effect
 		{
 			getEffected().getAI().notifyEvent(CtrlEvent.EVT_THINK);
 		}
-		
-		getEffected().stopAbnormalEffect(AbnormalEffect.HOLD_1);
-		
-		if (_mustCleanEffect != null)
-		{
-			getEffected().stopSpecialEffect(AbnormalEffect.getByName(_mustCleanEffect).getMask());
-			getEffected().stopAbnormalEffect(AbnormalEffect.getByName(_mustCleanEffect).getMask());
-		}
+		super.onExit();
 	}
 	
 	@Override
 	public boolean onStart()
 	{
-		getEffected().startAbnormalEffect(AbnormalEffect.HOLD_1);
 		getEffected().startParalyze();
 		return super.onStart();
 	}

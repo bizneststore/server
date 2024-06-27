@@ -42,13 +42,8 @@ public class CubicMastery extends L2Effect
 		}
 		
 		getEffected().getActingPlayer().getStat().setMaxCubicCount(_cubicCount);
+		
 		return true;
-	}
-	
-	@Override
-	public boolean onActionTime()
-	{
-		return getSkill().isPassive();
 	}
 	
 	@Override

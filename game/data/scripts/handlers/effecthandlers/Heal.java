@@ -20,13 +20,13 @@ package handlers.effecthandlers;
 
 import l2r.gameserver.enums.ShotType;
 import l2r.gameserver.model.actor.L2Character;
+import l2r.gameserver.model.effects.EffectInstant;
 import l2r.gameserver.model.effects.EffectTemplate;
-import l2r.gameserver.model.effects.L2Effect;
 import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.items.instance.L2ItemInstance;
 import l2r.gameserver.model.items.type.CrystalType;
 import l2r.gameserver.model.stats.Env;
-import l2r.gameserver.model.stats.Formulas;
+import l2r.gameserver.model.stats.SkillFormulas;
 import l2r.gameserver.model.stats.Stats;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.SystemMessage;
@@ -34,7 +34,7 @@ import l2r.gameserver.network.serverpackets.SystemMessage;
 /**
  * @author UnAfraid
  */
-public class Heal extends L2Effect
+public class Heal extends EffectInstant
 {
 	public Heal(Env env, EffectTemplate template)
 	{
@@ -45,12 +45,6 @@ public class Heal extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.HEAL;
-	}
-	
-	@Override
-	public boolean isInstant()
-	{
-		return true;
 	}
 	
 	@Override
@@ -102,9 +96,9 @@ public class Heal extends L2Effect
 		if (!getSkill().isStatic())
 		{
 			amount += staticShotBonus + Math.sqrt(mAtkMul * activeChar.getMAtk(activeChar, null));
-			amount = target.calcStat(Stats.HEAL_EFFECT, amount, null, null);
+			amount = target.calcStat(Stats.HEAL_EFFECTIVNESS, amount, null, null);
 			// Heal critic, since CT2.3 Gracia Final
-			if (getSkill().isMagic() && Formulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill())))
+			if (getSkill().isMagic() && SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill())))
 			{
 				amount *= 3;
 			}

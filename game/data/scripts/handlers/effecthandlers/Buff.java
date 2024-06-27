@@ -33,12 +33,6 @@ public class Buff extends L2Effect
 		super(env, template);
 	}
 	
-	// Special constructor to steal this effect
-	public Buff(Env env, L2Effect effect)
-	{
-		super(env, effect);
-	}
-	
 	@Override
 	public boolean canBeStolen()
 	{
@@ -49,11 +43,5 @@ public class Buff extends L2Effect
 	public L2EffectType getEffectType()
 	{
 		return L2EffectType.BUFF;
-	}
-	
-	@Override
-	public boolean onActionTime()
-	{
-		return getSkill().isPassive();
 	}
 }
