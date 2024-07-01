@@ -105,7 +105,7 @@
 	<!-- [RU] Айди предмета и задержка (в мс, 1 секунда = 1000 мс) для слота 6 -->
 	<!-- [EN] ItemID and delay (in ms, 1 second = 1000 ms) for slot 6 -->
 	<interface_setting name="ItemIdSlot6" type="TYPE_ARR_INT" value="728"/>
-	<interface_setting name="DelaySlot6" type="TYPE_ARR_INT" value="15000"/>
+	<interface_setting name="DelaySlot6" type="TYPE_ARR_INT" value="1000"/>
 	<!-- [RU] Фоновая текстура для слота 6 -->
 	<!-- [EN] Background texture for slot 6 -->
 	<interface_setting name="BackTextureSlot6" type="TYPE_TEXT" value="L2UI_CT2.AutoPotionsWnd.Potions_BoxMP"/>
