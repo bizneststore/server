@@ -71,12 +71,7 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 			activeChar.sendMessage("Cannot use while in combat outside of peace zone.");
 			return false;
 		}
-		if (!activeChar.isPremium())
-		{
-			activeChar.sendMessage("This Command is for Premium Users only!");
-			return false;
-		}
-		if (!activeChar.isPlatinum())
+		if (!activeChar.isPremium() && !activeChar.isPlatinum())
 		{
 			activeChar.sendMessage("This Command is for Premium Users only!");
 			return false;
