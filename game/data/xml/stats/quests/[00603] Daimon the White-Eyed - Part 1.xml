@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="603" nameEn="Daimon the White-Eyed - Part 1" nameRu="Белоглазый Демон - ч. 1">
+		<level min="73" max="85" />
+		<rewardlist>
+			<item id="7192" min="1" rateable="false" /> <!--Unfinished Summon Crystal-->
+		</rewardlist>
+	</quest>
+</list>

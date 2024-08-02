@@ -1,0 +1,36 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="agathionData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="agathion" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:short" name="npc_id" use="optional"/>
+                <xs:attribute type="xs:short" name="id" use="optional"/>
+                <xs:attribute type="xs:byte" name="level" use="optional"/>
+                <xs:attribute type="xs:byte" name="slot" use="optional"/>
+                <xs:attribute type="xs:string" name="target_type" use="optional"/>
+                <xs:attribute type="xs:string" name="op_cond" use="optional"/>
+                <xs:attribute type="xs:string" name="skill1" use="optional"/>
+                <xs:attribute type="xs:string" name="skill2" use="optional"/>
+                <xs:attribute type="xs:string" name="skill3" use="optional"/>
+                <xs:attribute type="xs:byte" name="duration" use="optional"/>
+                <xs:attribute type="xs:short" name="delay" use="optional"/>
+                <xs:attribute type="xs:short" name="max_count" use="optional"/>
+                <xs:attribute type="xs:byte" name="use_up" use="optional"/>
+                <xs:attribute type="xs:float" name="power" use="optional"/>
+                <xs:attribute type="xs:string" name="timeskill1" use="optional"/>
+                <xs:attribute type="xs:string" name="timeskill2" use="optional"/>
+                <xs:attribute type="xs:string" name="timeskill3" use="optional"/>
+                <xs:attribute type="xs:string" name="item_ids" use="optional"/>
+                <xs:attribute type="xs:int" name="energy" use="optional"/>
+                <xs:attribute type="xs:int" name="max_energy" use="optional"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

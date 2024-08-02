@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agathionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/agathionData.xsd">
+	<agathion	npc_id="16028"	id="1"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16027"	id="2"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16026"	id="3"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16029"	id="4"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16031"	id="5"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16032"	id="6"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16033"	id="7"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16049"	id="8"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16054"	id="9"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16055"	id="10"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16056"	id="11"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16057"	id="12"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16058"	id="13"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16059"	id="14"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16060"	id="15"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16061"	id="16"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16062"	id="17"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16063"	id="18"	level="1"	slot="1"	duration="-1"	delay="300"	max_count="300"	use_up="0"	power="1026.0"	target_type="master"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	timeskill1="{[s_event_agathion_gift1];0;master;600}"	timeskill2="{[s_event_agathion_gift2];0;master;4200}"	timeskill3="{[s_event_agathion_gift3];0;master;660}"	/>
+	<agathion	npc_id="16064"	id="19"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16065"	id="20"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16066"	id="21"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16069"	id="22"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16070"	id="23"	level="1"	slot="1"	duration="-1"	delay="300"	max_count="300"	use_up="0"	power="1026.0"	target_type="master"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	timeskill1="{[s_eventserver_agathion_memory_1];0;master;1800}"	timeskill2="{}"	timeskill3="{}"	/>
+	<agathion	npc_id="16073"	id="24"	level="1"	slot="1"	duration="-1"	delay="300"	max_count="30000"	use_up="0"	power="1026.0"	target_type="master"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	timeskill1="{[s_event_xmas_agathion_gift1];0;master;1800}"	timeskill2="{}"	timeskill3="{}"	/>
+	<agathion	npc_id="16077"	id="28"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16078"	id="29"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16079"	id="30"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1501"	id="501"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1502"	id="502"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1503"	id="503"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1504"	id="504"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1505"	id="505"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1506"	id="506"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1507"	id="507"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1508"	id="508"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1509"	id="509"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1510"	id="510"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1511"	id="511"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1512"	id="512"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1513"	id="513"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1514"	id="514"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1515"	id="515"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1516"	id="516"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1517"	id="517"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1518"	id="518"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1519"	id="519"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1520"	id="520"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1521"	id="521"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1522"	id="522"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1523"	id="523"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1524"	id="524"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1525"	id="525"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1526"	id="526"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1527"	id="527"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1528"	id="528"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1529"	id="529"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1530"	id="530"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1531"	id="531"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1532"	id="532"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1533"	id="533"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1534"	id="534"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1535"	id="535"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1536"	id="536"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1537"	id="537"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1539"	id="539"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20818}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1540"	id="540"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20820"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1541"	id="541"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20822}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1542"	id="542"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20824}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1543"	id="543"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20826}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1544"	id="544"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20828}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1545"	id="545"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20830}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1546"	id="546"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20832}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1547"	id="547"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20834}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1548"	id="548"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20836}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1549"	id="549"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20838}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1550"	id="550"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20840}"	energy="100000"	max_energy="100000"	/>
+	<agathion	npc_id="1551"	id="551"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1552"	id="552"	level="1"	slot="1"	duration="-1"	delay="13"	max_count="300"	use_up="0"	power="0"	target_type="{heal;90%;60%;30%;0%}"	op_cond="{}"	skill1="{[s_br_special_aga_mercygod];13%;0}"	skill2="{[s_br_special_aga_mercygod];33%;0}"	skill3="{[s_br_special_aga_mercygod];53%;0}"	/>
+	<agathion	npc_id="1553"	id="553"	level="1"	slot="1"	duration="-1"	delay="13"	max_count="300"	use_up="0"	power="0"	target_type="{heal;90%;60%;30%;0%}"	op_cond="{}"	skill1="{[s_br_special_aga_blue_pekingopera_a];13%;0}"	skill2="{[s_br_special_aga_blue_pekingopera_a];33%;0}"	skill3="{[s_br_special_aga_blue_pekingopera_a];53%;0}"	/>
+	<agathion	npc_id="1554"	id="554"	level="1"	slot="1"	duration="-1"	delay="10"	max_count="300"	use_up="0"	power="82.0"	target_type="target"	op_cond="{0;33%;1000}"	skill1="{100%;[s_br_special_aga_red_pekingopera];12%;1}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1555"	id="555"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1556"	id="556"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1557"	id="557"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1558"	id="558"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1559"	id="559"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1560"	id="560"	level="1"	slot="1"	duration="-1"	delay="10"	max_count="300"	use_up="0"	power="82.0"	target_type="target"	op_cond="{0;33%;1000}"	skill1="{100%;[s_br_special_aga_blue_pekingopera_b];12%;1}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1574"	id="574"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1575"	id="575"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1576"	id="576"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20983}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1577"	id="577"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20984}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1578"	id="578"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20985}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1579"	id="579"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20986}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1580"	id="580"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20987}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1581"	id="581"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20988}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1582"	id="582"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20989}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1583"	id="583"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20990}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1584"	id="584"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	item_ids="{20991}"	energy="1000"	max_energy="1000"	/>
+	<agathion	npc_id="1585"	id="585"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1586"	id="586"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1587"	id="587"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1588"	id="588"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1589"	id="589"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1590"	id="590"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1591"	id="591"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1592"	id="592"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="1593"	id="593"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16074"	id="594"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16075"	id="595"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+	<agathion	npc_id="16076"	id="596"	level="1"	slot="1"	target_type="by_skill"	op_cond="{}"	skill1="{}"	skill2="{}"	skill3="{}"	/>
+</agathionData>

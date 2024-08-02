@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<equipmentSets>
+
+    <equipment classId="fighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="warrior" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="knight" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="rogue" minLevel="20" maxLevel="39" rhand="279" lhand="" head="47" chest="395" legs="417" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="mage" minLevel="1" maxLevel="19" rhand="177" lhand="" head="44" chest="1101" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="wizard" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="cleric" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="elvenFighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="elvenKnight" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="elvenScout" minLevel="20" maxLevel="39" rhand="279" lhand="" head="47" chest="395" legs="417" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="elvenMage" minLevel="1" maxLevel="19" rhand="177" lhand="" head="44" chest="1101" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="elvenWizard" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="oracle" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="darkFighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="palusKnight" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="assassin" minLevel="20" maxLevel="39" rhand="279" lhand="" head="47" chest="395" legs="417" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="darkMage" minLevel="1" maxLevel="19" rhand="177" lhand="" head="44" chest="1101" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="darkWizard" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="shillienOracle" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="orcFighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="orcRaider" minLevel="20" maxLevel="39" rhand="70" lhand="" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="orcMage" minLevel="1" maxLevel="19" rhand="177" lhand="" head="44" chest="1101" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="orcShaman" minLevel="20" maxLevel="39" rhand="90" lhand="" head="44" chest="1101" legs="1104" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <equipment classId="dwarvenFighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="artisan" minLevel="20" maxLevel="39" rhand="158" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    <equipment classId="scavenger" minLevel="20" maxLevel="39" rhand="158" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
+    
+    <!-- Gladiator -->
+    <equipment classId="gladiator" minLevel="40" maxLevel="51" rhand="2599" lhand="" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="gladiator" minLevel="52" maxLevel="60" rhand="2626" lhand="" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="gladiator" minLevel="61" maxLevel="75" rhand="5706" lhand="" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="duelist" minLevel="76" maxLevel="85" rhand="6580" lhand="" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Warlord -->
+    <equipment classId="warlord" minLevel="40" maxLevel="51" rhand="4852" lhand="" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="warlord" minLevel="52" maxLevel="60" rhand="4859" lhand="" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="warlord" minLevel="61" maxLevel="75" rhand="5633" lhand="" head="547" chest="2382" legs="" hands="5768" feet="5780" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="dreadnought" minLevel="76" maxLevel="85" rhand="6599" lhand="" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+    
+    <!-- Paladin -->
+    <equipment classId="paladin" minLevel="40" maxLevel="51" rhand="4708" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="paladin" minLevel="52" maxLevel="60" rhand="4717" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="paladin" minLevel="61" maxLevel="75" rhand="5648" lhand="2498" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="phoenixKnight" minLevel="76" maxLevel="85" rhand="6582" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Dark Avenger -->
+    <equipment classId="darkAvenger" minLevel="40" maxLevel="51" rhand="4745" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="darkAvenger" minLevel="52" maxLevel="60" rhand="4753" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="darkAvenger" minLevel="61" maxLevel="75" rhand="5602" lhand="2498" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="hellKnight" minLevel="76" maxLevel="85" rhand="6585" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Treasure Hunter -->
+    <equipment classId="treasureHunter" minLevel="40" maxLevel="51" rhand="6358" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="treasureHunter" minLevel="52" maxLevel="60" rhand="6359" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="treasureHunter" minLevel="61" maxLevel="75" rhand="5618" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="adventurer" minLevel="76" maxLevel="85" rhand="6590" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Hawkeye -->
+    <equipment classId="hawkeye" minLevel="40" maxLevel="51" rhand="4822" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="hawkeye" minLevel="52" maxLevel="60" rhand="4829" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="hawkeye" minLevel="61" maxLevel="75" rhand="4833" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="sagittarius" minLevel="76" maxLevel="85" rhand="7577" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Temple Knight -->
+    <equipment classId="templeKnight" minLevel="40" maxLevel="51" rhand="4708" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="templeKnight" minLevel="52" maxLevel="60" rhand="4717" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="templeKnight" minLevel="61" maxLevel="75" rhand="5648" lhand="2498" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="evaTemplar" minLevel="76" maxLevel="85" rhand="6582" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Sword Singer -->
+    <equipment classId="swordSinger" minLevel="40" maxLevel="51" rhand="4708" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="swordSinger" minLevel="52" maxLevel="60" rhand="4717" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="swordSinger" minLevel="61" maxLevel="75" rhand="5648" lhand="2498" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="swordMuse" minLevel="76" maxLevel="85" rhand="6582" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Plains Walker -->
+    <equipment classId="plainsWalker" minLevel="40" maxLevel="51" rhand="6358" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="plainsWalker" minLevel="52" maxLevel="60" rhand="6359" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="plainsWalker" minLevel="61" maxLevel="75" rhand="5618" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="windRider" minLevel="76" maxLevel="85" rhand="6590" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Silver Ranger -->
+    <equipment classId="silverRanger" minLevel="40" maxLevel="51" rhand="4822" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="silverRanger" minLevel="52" maxLevel="60" rhand="4829" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="silverRanger" minLevel="61" maxLevel="75" rhand="4833" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="moonlightSentinel" minLevel="76" maxLevel="85" rhand="7577" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Shillien Knight -->
+    <equipment classId="shillienKnight" minLevel="40" maxLevel="51" rhand="4708" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="shillienKnight" minLevel="52" maxLevel="60" rhand="4717" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="shillienKnight" minLevel="61" maxLevel="75" rhand="5648" lhand="2498" head="2418" chest="374" legs="" hands="5771" feet="5783" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="shillienTemplar" minLevel="76" maxLevel="85" rhand="6582" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Blade Dancer -->
+    <equipment classId="bladedancer" minLevel="40" maxLevel="51" rhand="2599" lhand="" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="bladedancer" minLevel="52" maxLevel="60" rhand="2626" lhand="" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="bladedancer" minLevel="61" maxLevel="75" rhand="5706" lhand="" head="547" chest="2382" legs="" hands="5768" feet="5780" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="spectralDancer" minLevel="76" maxLevel="85" rhand="6580" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Abyss Walker -->
+    <equipment classId="abyssWalker" minLevel="40" maxLevel="51" rhand="6358" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="abyssWalker" minLevel="52" maxLevel="60" rhand="6359" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="abyssWalker" minLevel="61" maxLevel="75" rhand="5618" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="ghostHunter" minLevel="76" maxLevel="85" rhand="6590" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Phantom Ranger -->
+    <equipment classId="phantomRanger" minLevel="40" maxLevel="51" rhand="4822" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="phantomRanger" minLevel="52" maxLevel="60" rhand="4829" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="phantomRanger" minLevel="61" maxLevel="75" rhand="4833" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="ghostSentinel" minLevel="76" maxLevel="85" rhand="7577" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Destroyer -->
+    <equipment classId="destroyer" minLevel="40" maxLevel="51" rhand="6347" lhand="" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="destroyer" minLevel="52" maxLevel="60" rhand="4724" lhand="" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="destroyer" minLevel="61" maxLevel="75" rhand="5644" lhand="" head="547" chest="2382" legs="" hands="5768" feet="5780" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="titan" minLevel="76" maxLevel="85" rhand="6607" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Tyrant -->
+    <equipment classId="tyrant" minLevel="40" maxLevel="51" rhand="4797" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="tyrant" minLevel="52" maxLevel="60" rhand="4806" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="tyrant" minLevel="61" maxLevel="75" rhand="5625" lhand="" head="512" chest="2385" legs="2389" hands="5766" feet="5778" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="grandKhavatari" minLevel="76" maxLevel="85" rhand="6602" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Bounty Hunter -->
+    <equipment classId="bountyHunter" minLevel="40" maxLevel="51" rhand="4745" lhand="2497" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="bountyHunter" minLevel="52" maxLevel="60" rhand="4753" lhand="110" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="bountyHunter" minLevel="61" maxLevel="75" rhand="5644" lhand="2498" head="547" chest="2382" legs="" hands="5768" feet="5780" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="fortuneSeeker" minLevel="76" maxLevel="85" rhand="6585" lhand="6377" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Warsmith -->
+    <equipment classId="warsmith" minLevel="40" maxLevel="51" rhand="8120" lhand="" head="2414" chest="356" legs="" hands="2462" feet="2438" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="warsmith" minLevel="52" maxLevel="60" rhand="8129" lhand="" head="2417" chest="2381" legs="" hands="5722" feet="5738" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="warsmith" minLevel="61" maxLevel="75" rhand="5644" lhand="" head="547" chest="2382" legs="" hands="5768" feet="5780" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="maestro" minLevel="76" maxLevel="85" rhand="6597" lhand="" head="6378" chest="6373" legs="6374" hands="6375" feet="6376" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Sorcerer -->
+    <equipment classId="sorceror" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="sorceror" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="sorceror" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="archmage" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Necromancer -->
+    <equipment classId="necromancer" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="necromancer" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="necromancer" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="soultaker" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Warlock -->
+    <equipment classId="warlock" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="warlock" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="warlock" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="arcanaLord" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Bishop -->
+    <equipment classId="bishop" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="bishop" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="bishop" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="cardinal" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Prophet -->
+    <equipment classId="prophet" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="prophet" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="prophet" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="hierophant" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Spellsigner -->
+    <equipment classId="spellsinger" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="spellsinger" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="spellsinger" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="mysticMuse" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Elemental summoner -->
+    <equipment classId="elementalSummoner" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="elementalSummoner" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="elementalSummoner" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="elementalMaster" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Elven elder -->
+    <equipment classId="elder" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="elder" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="elder" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="evaSaint" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- spellhowler -->
+    <equipment classId="spellhowler" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="spellhowler" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="spellhowler" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="stormScreamer" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Phantom summoner -->
+    <equipment classId="phantomSummoner" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="phantomSummoner" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="phantomSummoner" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="spectralMaster" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Shillien elder -->
+    <equipment classId="shillenElder" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="shillenElder" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="shillenElder" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="shillienSaint" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Overlord -->
+    <equipment classId="overlord" minLevel="40" maxLevel="51" rhand="6313" lhand="" head="2414" chest="439" legs="471" hands="2459" feet="2430" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="overlord" minLevel="52" maxLevel="60" rhand="8117" lhand="673" head="2415" chest="2406" legs="" hands="5715" feet="5732" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="overlord" minLevel="61" maxLevel="75" rhand="5643" lhand="2498" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="dominator" minLevel="76" maxLevel="85" rhand="6608" lhand="6377" head="512" chest="2407" legs="" hands="5767" feet="5779" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+
+    <!-- Warcryer -->
+    <equipment classId="warcryer" minLevel="40" maxLevel="51" rhand="6358" lhand="" head="2414" chest="398" legs="418" hands="2455" feet="2431" neck="919" lear="857" rear="857" lring="888" rring="888"/>
+    <equipment classId="warcryer" minLevel="52" maxLevel="60" rhand="6359" lhand="" head="2417" chest="2392" legs="" hands="5723" feet="5739" neck="926" lear="864" rear="864" lring="895" rring="895"/>
+    <equipment classId="warcryer" minLevel="61" maxLevel="75" rhand="5618" lhand="" head="2419" chest="2395" legs="" hands="5775" feet="5787" neck="924" lear="862" rear="862" lring="893" rring="893"/>
+    <equipment classId="doomcryer" minLevel="76" maxLevel="85" rhand="6590" lhand="" head="6382" chest="6379" legs="" hands="6380" feet="6381" neck="920" lear="858" rear="858" lring="889" rring="889"/>
+    
+</equipmentSets>
+
+

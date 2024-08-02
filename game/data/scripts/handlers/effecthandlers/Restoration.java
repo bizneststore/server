@@ -1,0 +1,38 @@
+/*
+ * Copyright (C) L2J Sunrise
+ * This file is part of L2J Sunrise.
+ */
+package handlers.effecthandlers;
+
+import l2r.gameserver.model.effects.EffectInstant;
+import l2r.gameserver.model.effects.EffectTemplate;
+import l2r.gameserver.model.stats.Env;
+
+/**
+ * Implement restoration effect
+ * @author vGodFather
+ */
+public class Restoration extends EffectInstant
+{
+	private final int _itemId;
+	private final int _itemCount;
+	
+	public Restoration(Env env, EffectTemplate template)
+	{
+		super(env, template);
+		_itemId = template.getParameters().getInt("itemId", 0);
+		_itemCount = template.getParameters().getInt("itemCount", 0);
+	}
+	
+	@Override
+	public boolean onStart()
+	{
+		if ((getEffected() == null) || !getEffected().isPlayer())
+		{
+			return false;
+		}
+		
+		getEffected().getActingPlayer().addItem("Restoration: skillId" + getSkill().getId(), _itemId, _itemCount, getEffected().getActingPlayer(), true);
+		return true;
+	}
+}

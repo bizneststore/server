@@ -1,0 +1,207 @@
+<html noscrollbar>
+<title>Auto farmer</title>
+<body>
+
+	<table width=290>
+		<tr>
+			<td align=center valign=center>
+				<button value="Start"
+					action="bypass -h voice .farmon" width=45 height=22
+					back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df">
+			</td>
+			
+			<td width=65 align=center valign=center>
+				<font>{%}isactive{%}</font>
+			</td>
+			
+			<td align=center valign=center>
+				<button value="Stop"
+					action="bypass -h voice .farmoff" width=45 height=22
+					back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df">
+			</td>
+		</tr>
+	</table>
+	
+	<table width=290>
+		<tr>
+			<td align=right width=75>
+				MP use <font color=ae9977 width=20>{%}mppotionpercent{%}%</font>
+			</td>
+			<td align=right>
+				<edit width=32 height=10 var="mpthreshhold">
+			</td>
+			<td align=right>
+				<button value="Set"
+						action="bypass %command%_mpthreshhold $mpthreshhold" width=30
+						height=20 back="L2UI_CT1.Button_DF_Down"
+						fore="L2UI_ct1.button_df">
+			</td>
+			
+			<td align=right width=75>
+				HP use <font color=ae9977 width=45>{%}hppotionpercent{%}%</font>
+			</td>
+			<td align=right>
+				<edit width=32 height=10 var="hpthreshhold">
+			</td>
+			<td align=right>
+				<button value="Set"
+						action="bypass %command%_hpthreshhold $hpthreshhold" width=30
+						height=20 back="L2UI_CT1.Button_DF_Down"
+						fore="L2UI_ct1.button_df">
+			</td>
+		</tr>
+	</table>
+	
+	<table>
+		<tr>
+			<td><button value="Attack"
+					action="bypass %command%_selecttype_ATTACK"
+					width=70
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>
+			<td><button value="Chance"
+					action="bypass %command%_selecttype_CHANCE"
+					width=70
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>	
+				<td><button value="Self"
+					action="bypass %command%_selecttype_SELF"
+					width=70
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>			
+				<td><button value="Heal"
+					action="bypass %command%_selecttype_LOWLIFE"
+					width=70
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>
+		</tr>
+	</table>
+	
+	<table width=290>
+		<tr>
+			<td align=center><font color=ae9977>Selected Category | {%}selectedcategorystr{%}</font></td>
+			
+			<td><button value="Add"
+					action="bypass %command%_show_{%}skillListType{%}"
+					width=45
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>
+			<td><button value="Clear"
+					action="bypass %command%_reset_{%}skillListType{%}"
+					width=45
+					height=22 back="L2UI_CT1.Button_DF_Down"
+					fore="L2UI_ct1.button_df"></td>			
+		</tr>
+	</table>
+	
+	{%}skillList{%}
+	
+	
+	<table>
+
+		<tr>
+			<td align=center width=290><font color=ae9977>Target Preferences | {%}targetchoose{%} | {%}targetdistance{%} </font></td>
+		</tr>
+		
+		<tr>
+			<td>
+				<table>
+					
+					<tr>
+						<td>
+							<button value="Narrow"
+								action="bypass %command%_targetrange_NARROW" width=65
+								height=22 back="L2UI_CT1.Button_DF_Down"
+								fore="L2UI_ct1.button_df">
+						</td>
+						<td>
+							<button value="Average"
+								action="bypass %command%_targetrange_AVERAGE" width=65
+								height=22 back="L2UI_CT1.Button_DF_Down"
+								fore="L2UI_ct1.button_df">
+							</td>
+						<td>
+							<button value="Wide"
+								action="bypass %command%_targetrange_WIDE" width=65
+								height=22 back="L2UI_CT1.Button_DF_Down"
+								fore="L2UI_ct1.button_df">
+							</td>
+						<td>
+							<button value="Very wide"
+								action="bypass %command%_targetrange_VERYWIDE" width=65
+								height=22 back="L2UI_CT1.Button_DF_Down"
+								fore="L2UI_ct1.button_df">
+							</td>
+					</tr>
+				</table>
+			</td>
+		
+		</tr>
+	
+	</table>
+	
+	<table>
+
+		<tr>
+			<td>
+
+				<table>
+			
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Auto Attack</font></td>
+						<td width=25>%autoattack%</td>
+					</tr>
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Use spells</font></td>
+						<td width=25>%usespells%</td>
+					</tr>
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Buff Potions</font></td>
+						<td width=25>%potionbuffuse%</td>
+					</tr>
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Can Kite</font></td>
+						<td width=25>%kite%</td>
+					</tr>
+				
+				</table>
+			</td>
+			
+			<td>
+	
+				<table>
+			
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Summon Assist</font></td>
+						<td width=25>%summonassist%</td>
+					</tr>
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Party Assist</font></td>
+						<td width=25>%partyassist%</td>
+					</tr>
+					<tr>
+						<td align=center width=100><font name="hs8" color=ae9977>Passive Assist</font></td>
+						<td width=25>%passiveassist%</td>
+					</tr>
+					
+					<tr>
+						<td align=center width=88><font name="hs8" color=ae9977>Low life {%}lowlifepercent{%}%</font></td>
+						<td align=right>
+							<edit width=22 height=10 var="lowlifepercentedit">
+						</td>
+						<td align=right>
+							<button value="Set"
+									action="bypass %command%_lowlifepercent $lowlifepercentedit" width=30
+									height=18 back="L2UI_CT1.Button_DF_Down"
+									fore="L2UI_ct1.button_df">
+						</td>
+					</tr>
+				
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

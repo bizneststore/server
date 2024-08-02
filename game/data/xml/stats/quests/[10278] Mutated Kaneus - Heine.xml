@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="10278" nameEn="Mutated Kaneus - Heine" nameRu="Мутант Канеус - Хейн">
+		<level min="37" max="85" />
+		<rewardlist>
+			<item id="57" min="50000" rateable="true" /> <!--Adena-->
+		</rewardlist>
+	</quest>
+</list>

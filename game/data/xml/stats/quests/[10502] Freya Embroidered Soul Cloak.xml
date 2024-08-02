@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="10502" nameEn="Freya Embroidered Soul Cloak" nameRu="Плащ с вышитой душой -2(Фрея)">
+		<level min="82" max="85" />
+		<rewardlist>
+			<item id="21720" min="1" rateable="false" /> <!--Soul Cloak of Freya-->
+		</rewardlist>
+	</quest>
+</list>

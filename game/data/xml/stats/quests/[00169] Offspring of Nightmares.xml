@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="169" nameEn="[00169] Offspring of Nightmares" nameRu="">
+		<level min="2" max="85" />
+		<expirience>
+			<rewardExp val="17475" rateable="true" />
+			<rewardSp val="818" rateable="true" />
+		</expirience>
+		<rewardlist>
+			<item id="31" min="1" rateable="false" />
+			<item id="57" min="17030" rateable="false" />
+		</rewardlist>
+	</quest>
+</list>

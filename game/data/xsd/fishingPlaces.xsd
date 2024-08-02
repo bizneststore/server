@@ -1,0 +1,30 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="fishing_place" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute type="xs:byte" name="fishing_place_id"
+									use="optional" />
+								<xs:attribute type="xs:string" name="territory"
+									use="optional" />
+								<xs:attribute type="xs:short" name="limit_grid"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="distribution_id"
+									use="optional" />
+								<xs:attribute type="xs:string" name="fishing_place_type"
+									use="optional" />
+								<xs:attribute type="xs:byte" name="maintain_distribution_time"
+									use="optional" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

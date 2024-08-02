@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./VoteEngine.xsd">
+	
+	<global>
+		
+<!-- 		Enable or disable vote system -->
+		<enabled>true</enabled>
+		<serversite>l2jsunrise.com</serversite>
+		
+<!-- 		You can enable console debugs while configuring this file for tests -->
+		<debug>true</debug>
+		
+<!-- 		Set what will be the message if vote is successful -->
+		<messagesuccess>Successfully rewarded.</messagesuccess>
+		
+<!-- 		Set what will be the message if vote is failed -->
+		<messagefail>You didn't voted anywhere.</messagefail>
+		
+<!-- 		Set what will be the message if already voting -->
+		<messagebusy>Busy voting</messagebusy>
+
+<!-- 		Set what will be the message when vote process starts -->
+		<messagevoting>Checking if you voted... It may take a while!</messagevoting>
+		
+<!-- 		Set what will be the message if minimum level requirements does not meet -->
+		<messageminlevel>You need to be at least level 20 to use vote reward.</messageminlevel>
+		
+<!-- 		Set what will be the voice command for vote system, do not put . in command only the actual text -->
+		<voicecommand>getreward</voicecommand>
+		
+<!-- 		Set what is the minimum level for players being able to use vote system -->
+		<minlevel>0</minlevel>
+		
+<!-- 		Consider vote site as voted if connection fails to target site -->
+		<onconnectfailforcereward>true</onconnectfailforcereward>
+
+		<hwidcheck>false</hwidcheck>
+
+<!-- 		Set if player has to vote in all banners or site by site -->
+		<mustVotedAll>false</mustVotedAll>
+		
+<!-- 		Set if vote system will give global reward remember that mustVotedAll must be true -->
+		<globalrewards>true</globalrewards>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</global>
+	
+	<!-- 
+        Topsites Configuration:
+        Configure individual voting platforms with their respective APIs and rewards.
+
+		Remember!
+			ON  api url use placeholder %ip% where the ip of the voter is needed 
+			ON  api url use &amp; where "&" symbol is needed 
+	-->
+
+	<topsite name="L2Rankzone" enabled="true">
+		<api url="https://l2rankzone.com/api/vote-reward?apiKey=REPLACE_API_KEY_HERE&amp;ip=%ip%"/>
+		<checkWord>true</checkWord>
+		<rewards>
+			<item id="57" count="1000" chance="100" />
+		</rewards>
+	</topsite>
+	
+	<topsite name="GameBytes" enabled="true">
+		<api url="https://www.gamebytes.net/api.php?ip=%ip%&amp;username=REPLACE_USERNAME_HERE"/>
+		<checkWord>TRUE</checkWord> 
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="L2Topzone" enabled="false">
+		<api url="https://api.l2topzone.com/v1/vote?token=REPLACE_TOKEN_HERE&amp;ip=%ip%"/>
+		<checkWord>true</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="L2.hopzone.net" enabled="true">
+		<api url="https://api.hopzone.net/lineage2/vote?token=REPLACE_TOKEN_HERE&amp;ip_address=%ip%"/>
+		<checkWord>true</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="L2network" enabled="true">
+		<api url="https://l2network.eu/index.php?a=in&amp;u=REPLACE_USERNAME_HERE&amp;ipc=%ip%"/>
+		<checkWord>1</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="L2jBrasil" enabled="false">
+		<api url="https://top.l2jbrasil.com/votesystem/index.php?username=REPLACE_USERNAME_HERE&amp;ip=%ip%&amp;type=json"/>
+		<checkWord>"status":"1"</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="L2votes.com" enabled="false">
+		<api url="https://l2votes.com/api.php?apiKey=REPLACE_API_KEY_HERE&amp;ip=%ip%"/>
+		<checkWord>"status":"1"</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+
+	<topsite name="Hotservers" enabled="false">
+		<api url="https://hotservers.org/api/servers/REPLACE_SERVER_ID_HERE/voteCheck?api_token=REPLACE_TOKEN_HERE&amp;ip_address=%ip%"/>
+		<checkWord>true</checkWord>
+		<rewards>
+			<item id="57" count="3000" chance="100" />
+		</rewards>
+	</topsite>
+</list>

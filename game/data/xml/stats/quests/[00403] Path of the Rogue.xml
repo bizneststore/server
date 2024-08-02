@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- TODO -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="403" nameEn="Path of the Rogue" nameRu="Путь Разбойника">
+		<level min="18" max="85" />
+		<rewardlist>
+			<item id="57" min="163800" rateable="true" /> <!--Adena-->
+			<item id="1190" min="1" rateable="false" /> <!--Bezique's Recommendation-->
+		</rewardlist>
+	</quest>
+</list>
