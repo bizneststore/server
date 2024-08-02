@@ -14,7 +14,7 @@
 	<!-- [EN] 0 - partial automation (button "repeat") -->
 	<!-- [RU] 1 - полная автоматизация -->
 	<!-- [EN] 1 - full automation -->
-	<interface_setting name="ItemEnchantSubMode" type="TYPE_CHAR" value="0"/>
+	<interface_setting name="ItemEnchantSubMode" type="TYPE_CHAR" value="1"/>
 
 	<!-- [RU] Минимальная задержка и значение на которое будет увеличиваться на каждое положение бегунка (в мс, 1 секунда = 1000 мс) -->
 	<!-- [EN] The minimum delay and the value that will increase for each position of the slider (in ms, 1 second = 1000 ms) -->
