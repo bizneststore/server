@@ -1,0 +1,25 @@
+<FilesSettings>
+  <filestocheck>
+    <file value="system\Engine.dll" ignore="1">
+      <hash value="C0-BA-EA-D2-45-86-E4-A2-6C-49-33-81-A7-60-5F-89" />
+    </file>
+    <file value="system\Interface.u">
+      <hash value="D4-1D-8C-D9-8F-00-B2-04-E9-80-09-98-EC-F8-42-7E" />
+    </file>
+    <file value="system\Interface.xdat">
+      <hash value="A4-DC-EF-1D-B1-0A-38-FD-F6-95-C8-0B-25-C5-2B-4E" />
+    </file>
+    <file value="system\L2.bin">
+      <hash value="D0-F0-91-13-F9-DC-BF-51-BA-70-0D-58-EC-93-1E-63" />
+    </file>
+    <file value="system\l2.ini">
+      <hash value="2E-12-E0-EA-6A-8B-0A-8C-24-6C-03-BF-98-E7-20-96" />
+    </file>
+    <file value="system\localization.ini">
+      <hash value="4F-3A-10-E9-FC-79-37-B2-C4-16-3A-24-15-B0-6E-9A" />
+    </file>
+    <file value="system\NWindow.dll" ignore="1">
+      <hash value="31-F3-F3-C2-47-1E-45-2F-7B-F1-D7-64-DA-D8-F4-72" />
+    </file>
+  </filestocheck>
+</FilesSettings>
