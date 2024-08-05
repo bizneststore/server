@@ -1,0 +1,11 @@
+<LiteLauncherSettings>
+
+  <downloadlink value="http://test.com/myfile.exe" />
+  
+  <downloadlinktwo value="http://test2.com/myfile.exe" />
+  
+  <failupdatelink value="" />
+  
+  <failhashlink value="" />
+  
+</LiteLauncherSettings>

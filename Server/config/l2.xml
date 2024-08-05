@@ -1,0 +1,59 @@
+<GameSettings>
+
+	<!--  For l2j Mobius new network protocol - set False! Otherwise keep True!   -->
+	<ingamecrypt value="True" />
+	
+	<disablegg value="True"/>
+	
+	<sendhwid value="False"/>
+	
+	<!--  Window with saved login/passwords. In case you wiped accounts out, please increase version by 1!  -->
+	<saveaccounts value="True" accountsversion="1" />
+	
+	<overlay value="False" />
+	
+	<enablectrlv value="False"/>
+	
+	<browserbypass value="False" />
+	
+	<disableloopmacro value="False" />
+	
+	<uievents value="False" />
+	
+	<noclearauth value="False" />
+	
+	<!--  Show FPS in game  -->
+	<showfps value="False" />
+	
+	<!--  Game window will quickly respond  -->
+	<nosleep value="True" />
+	
+	<!--  Game FPS in backgroud ( 1-20 )  -->
+	<defaultfps value="1" />
+	
+	<!--  Game window renaming. Only english letters!  -->
+	<windowrename value="False" />
+	<windowname value="My Server Name" />
+	
+	<!--  Replacing official .dat files encryption key 97df398472ddf737ef0a0cd17e8d172f0fef16...
+		  You can set your own key using exp="" ( size 2 ) and modulus="" ( size 256 )
+	-->
+	<encdec value="False" exp="" modulus="" />
+	
+	<!--  Fix of error "LCID cannot run in this locale"  -->
+	<lciderror value="False" />
+	
+	<!--  Only Interlude and High Five   -->
+	<clearcache value="False" />
+	
+	<!--  Only interlude  -->
+	<debuff value="False" />
+	
+	<!--   
+		( ONLY INTERLUDE )
+		Fix of Interlude game client bug which causes crash:
+				History: UpdateAnimation <- AActor::Tick <- TickAllActors <- ULevel::Tick <- (NetMode=0) <- TickLevel <- UGameEngine::Tick <- UpdateWorld <- MainLoop
+	-->
+	<interludefix value="False" />
+	
+</GameSettings>
