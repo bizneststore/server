@@ -39,7 +39,7 @@
 		<set name="item_skill" val="21097-1" />
 		<set name="time" val="10080" />
 	</item>
-<item id="50203" type="Armor" name="Bracelet of Rheumatism - 7-day limited period">
+<item id="50203" type="Armor" name="Bracelet of Rheumatism - 7 Days ">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
