@@ -7,6 +7,6 @@
         	<set name="material" val="PAPER" />
         	<set name="weight" val="120" />
         	<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="8337-1" />
+		<set name="item_skill" val="10003-1" />
 	</item>
 </list>
