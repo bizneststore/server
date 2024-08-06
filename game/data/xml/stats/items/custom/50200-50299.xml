@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+<item id="50200" type="EtcItem" name="Pack Mule Rune">
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="etcitem_type" val="RUNE" />
+        	<set name="immediate_effect" val="true" />
+        	<set name="material" val="PAPER" />
+        	<set name="weight" val="120" />
+        	<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="8337-1" />
+	</item>
+</list>
