@@ -9,4 +9,80 @@
         	<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="10003-1" />
 	</item>
+<item id="50201" type="Armor" name="Bracelet of Friendship - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21097-1" />
+		<set name="time" val="10080" />
+	</item>
+<item id="50202" type="Armor" name="Bracelet of Flu - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21097-1" />
+		<set name="time" val="10080" />
+	</item>
+<item id="50203" type="Armor" name="Bracelet of Rheumatism - 7-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="4551-4" />
+		<set name="time" val="10080" />
+	</item>
+<item id="50204" type="Armor" name="Bracelet of Cholera - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21097-1" />
+		<set name="time" val="10080" />
+	</item>
+<item id="50205" type="Armor" name="Bracelet of Malaria - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21097-1" />
+		<set name="time" val="10080" />
+	</item>
+
 </list>

@@ -669,7 +669,8 @@
 		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="targetType" val="ONE" />
+		<set name="targetType" val="SELF" />
+		<set name="reuseDelay" val="8000" />
 		<for>
 			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
 				<mul stat="pDef" val="#pDef" />

@@ -130,5 +130,13 @@
 		<!-- CRIMSON CLOAK-->
 		<production count="1" id="21587" />
 	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="150000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50200" />
+	</item>
+	
+	
 	
 </list>
