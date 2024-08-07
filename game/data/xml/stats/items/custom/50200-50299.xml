@@ -39,7 +39,7 @@
 		<set name="item_skill" val="21097-1" />
 		<set name="time" val="10080" />
 	</item>
-<item id="50203" type="Armor" name="Bracelet of Rheumatism - 7 Days ">
+<item id="50203" type="Armor" name="Bracelet of Rheumatism - 7-day limited period">
 		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="lbracelet" />
@@ -83,6 +83,76 @@
 		<set name="is_oly_restricted" val="true" />
 		<set name="item_skill" val="21097-1" />
 		<set name="time" val="10080" />
+	</item>
+<item id="50206" type="Armor" name="Bracelet of Friendship">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21097-1" />
+	</item>
+<item id="50207" type="Armor" name="Bracelet of Flu">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="4553-4" />
+	</item>
+<item id="50208" type="Armor" name="Bracelet of Rheumatism">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="4551-4" />
+	</item>
+<item id="50209" type="Armor" name="Bracelet of Cholera">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="4552-4" />
+	</item>
+<item id="50210" type="Armor" name="Bracelet of Malaria">
+		<set name="icon" val="BranchSys.icon.br_ring_of_friendship_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="4554-4" />
 	</item>
 
 </list>
