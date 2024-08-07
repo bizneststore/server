@@ -20,10 +20,10 @@
 		<set name="itemConsumeCount" val="1" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="A1" />
-		<set name="reuseDelay" val="500" />
+		<set name="reuseDelay" val="10000" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<effect name="ManaHeal" noicon="1" val="100" />
+			<effect name="ManaHeal" noicon="1" val="1000" />
 		</for>
 	</skill>
 	<skill id="10002" levels="1" name="Custom Trap skill">

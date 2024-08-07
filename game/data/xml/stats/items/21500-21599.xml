@@ -901,7 +901,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="22248-1" />
 	</item>
-	<item id="21583" type="Armor" name="7th Anniversary Cloak - Pitch Black">
+	<item id="21583" type="Armor" name="Cloak - Pitch Black">
 		<!-- Description: Dimensional Item. Lineage II 7th Anniversary commemorative item. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped or destroyed. -->
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -912,10 +912,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<cond msgId="2453">
-			<player cloakStatus="true" />
+			<player cloakStatus="false" />
 		</cond>
 		<for>
-			<add order="0" stat="pDef" val="25" />
+			<add order="0" stat="pDef" val="0" />
 		</for>
 	</item>
 	<item id="21584" type="EtcItem" name="Festival's Cloak - Pitch Black">
@@ -955,7 +955,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_freightable" val="true" />
 	</item>
-	<item id="21587" type="Armor" name="7th Anniversary Cloak - Blood Red">
+	<item id="21587" type="Armor" name="Cloak - Blood Red">
 		<!-- Description: Dimensional Item. Lineage II 7th anniversary commemorative item. Cloak for the true heroes who have made history since the beginning of Lineage II. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped, or destroyed. Can be shared between characters on the same account through the Dimensional Merchant. -->
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i01" />
 		<set name="default_action" val="EQUIP" />
@@ -966,13 +966,13 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<cond msgId="2453">
-			<player cloakStatus="true" />
+			<player cloakStatus="false" />
 		</cond>
 		<for>
-			<add order="0" stat="pDef" val="25" />
+			<add order="0" stat="pDef" val="0" />
 		</for>
 	</item>
-	<item id="21588" type="Armor" name="7th Anniversary Cloak - Pearl White">
+	<item id="21588" type="Armor" name="Cloak - Pearl White">
 		<!-- Description: Dimensional Item. Lineage II 7th Anniversary commemorative item. When an armor set above the Dynasty level is worn, the Sealed Cloak Slot will be open so that the cloak can be equipped. Enchanting, attribute enhancing, or augmenting are not possible. Cannot be exchanged, dropped or destroyed. Can be shared between characters on the same account through the Dimensional Merchant. -->
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i02" />
 		<set name="default_action" val="EQUIP" />
@@ -983,10 +983,10 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 		<cond msgId="2453">
-			<player cloakStatus="true" />
+			<player cloakStatus="false" />
 		</cond>
 		<for>
-			<add order="0" stat="pDef" val="25" />
+			<add order="0" stat="pDef" val="0" />
 		</for>
 	</item>
 	<item id="21589" type="EtcItem" name="Festival's Cloak - Pearl White Pack">
