@@ -7,12 +7,6 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-<npc id="503" displayId="32576" name="Thorgil" usingServerSideName="true" title="GM Shop" usingServerSideTitle="true" type="L2Merchant">
-		<collision>
-			<radius normal="8" />
-			<height normal="23" />
-		</collision>
-	</npc>
 	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
@@ -32,12 +26,6 @@
 		</collision>
 	</npc>
 	<npc id="501" displayId="25350" name="Rebirth Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Rebirth">
-		<collision>
-			<radius normal="9" />
-			<height normal="34" />
-		</collision>
-	</npc>
-	<npc id="539" displayId="25350" name="Achievement Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
