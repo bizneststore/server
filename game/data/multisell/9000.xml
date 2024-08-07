@@ -2,7 +2,7 @@
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
 		<!-- Lyanna (na mpei edw to ID ths) -->
-		<npc>31729</npc>
+		<npc>502</npc>
 	</npcs>
 	<item>
 		<!-- Pc Bang Point -->
