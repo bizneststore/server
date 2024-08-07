@@ -136,6 +136,42 @@
 		<!-- Pack Mule Rune-->
 		<production count="1" id="50200" />
 	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50201" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="60000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50202" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="60000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50203" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="60000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50204" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="60000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="50205" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50000" id="-100" />
+		<!-- Pack Mule Rune-->
+		<production count="1" id="14053" />
+	</item>
 	
 	
 	
