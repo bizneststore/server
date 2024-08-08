@@ -43,12 +43,6 @@
 	<item>
 		<!-- Pc Bang Point -->
 		<ingredient count="35000" id="-100" />
-		<!-- GREATER CP POT 500 -->
-		<production count="1000" id="1539" />
-	</item>
-	<item>
-		<!-- Pc Bang Point -->
-		<ingredient count="35000" id="-100" />
 		<!-- GREATER HP POT 500 -->
 		<production count="1000" id="1539" />
 	</item>
