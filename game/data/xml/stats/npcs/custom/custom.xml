@@ -115,7 +115,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="573" displayId="32808" name="Donate Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2DonateManager">
+	<npc id="573" displayId="32808" name="Spartacus" usingServerSideName="true" title="Donation Manager" usingServerSideTitle="true" type="L2DonateManager">
 		<collision>
 			<radius normal="15" />
 			<height normal="27.5" />
