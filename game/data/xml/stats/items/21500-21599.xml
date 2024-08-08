@@ -911,9 +911,6 @@
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
-		<cond msgId="2453">
-			<player cloakStatus="false" />
-		</cond>
 		<for>
 			<add order="0" stat="pDef" val="0" />
 		</for>
