@@ -1,5 +1,7 @@
 package handlers.voicedcommandhandlers;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 import l2r.gameserver.enums.ZoneIdType;
 import l2r.gameserver.handler.IVoicedCommandHandler;
 import l2r.gameserver.model.Location;
@@ -79,8 +81,23 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 		Location loc = null;
 		switch (command)
 		{
+			/*
+			 * case "giran": loc = new Location(83432, 148296, -3408); loc = new Location(83432, 148984, -3408); break;
+			 */
 			case "giran":
-				loc = new Location(83473, 148554, -3400);
+				// Get a random number, either 1 or 2
+				int randomLocation = ThreadLocalRandom.current().nextInt(1, 3);
+				
+				// Switch between the two locations based on the random number
+				switch (randomLocation)
+				{
+					case 1:
+						loc = new Location(83432, 148296, -3408);
+						break;
+					case 2:
+						loc = new Location(83432, 148984, -3408);
+						break;
+				}
 				break;
 			case "dion":
 				loc = new Location(15619, 143132, -2705);
