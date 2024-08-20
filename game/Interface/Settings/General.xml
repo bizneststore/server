@@ -2,11 +2,11 @@
 <list>	
 	<!-- [RU] Максимальная дистанция следующей цели, выше которой игрок не сможет задать значение в настройках -->
 	<!-- [EN] The maximum distance of the next target, above which the player will not be able to set a value in the settings -->
-	<interface_setting name="MaxDistanceNextTarget" type="TYPE_INT" value="1000"/>
+	<interface_setting name="MaxDistanceNextTarget" type="TYPE_INT" value="1400"/>
 	
 	<!-- [RU] Значение максимальной дистанции следующей цели по умолчанию -->
 	<!-- [EN] The default value for the maximum distance of the next target -->
-	<interface_setting name="MaxDistanceNextTargetDefault" type="TYPE_INT" value="400"/>
+	<interface_setting name="MaxDistanceNextTargetDefault" type="TYPE_INT" value="1400"/>
 	
 	<!-- [RU] Путь до иконок макросов с названием иконки (без айди), если ID макроса больше 128 - ID макроса начнет отсчет от -127 -->
 	<!-- [EN] The path to the macro icons with the icon name (without the ID), if the macro ID is greater than 128 - the macro ID will start counting from -127 -->

@@ -512,9 +512,9 @@
 		<set name="abnormalTime" val="3600" />
 		<set name="abnormalType" val="preserve_abnormal" />
 		<set name="aggroPoints" val="1" />
-		<set name="castRange" val="400" />
+		<set name="castRange" val="900" />
 		<set name="effectRange" val="900" />
-		<set name="hitTime" val="4000" />
+		<set name="hitTime" val="500" />
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="itemConsumeCount" val="5" />
 		<set name="itemConsumeId" val="3031" />
@@ -523,7 +523,7 @@
 		<set name="mpInitialConsume" val="14" />
 		<set name="operateType" val="A2" />
 		<set name="reuseDelay" val="2000" />
-		<set name="skillType" val="BUFF" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="targetType" val="ONE" />
 		<for>
 			<effect name="NoblesseBless" abnormalTime="3600" abnormalLvl="1" abnormalType="preserve_abnormal" />

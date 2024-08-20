@@ -669,8 +669,8 @@
 		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="targetType" val="SELF" />
-		<set name="reuseDelay" val="8000" />
+		<set name="targetType" val="ONE" />
+		
 		<for>
 			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
 				<mul stat="pDef" val="#pDef" />
@@ -697,7 +697,8 @@
 		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="targetType" val="SELF" />
+		<set name="targetType" val="ONE" />
+		
 		<for>
 			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_b" abnormalVisualEffect="poison">
 				<sub stat="rEvas" val="#rEvas" />
@@ -724,7 +725,8 @@
 		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="targetType" val="SELF" />
+		<set name="targetType" val="ONE" />
+		
 		<for>
 			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_c" abnormalVisualEffect="poison">
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
@@ -751,7 +753,7 @@
 		<set name="power" val="100" />
 		<set name="offensive" val="true" />
 		<set name="skillType" val="DEBUFF" />
-		<set name="targetType" val="SELF" />
+		<set name="targetType" val="ONE" />
 		<for>
 			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_d" abnormalVisualEffect="poison">
 				<mul stat="mAtkSpd" val="#mAtkSpd" />
