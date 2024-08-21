@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
-		<!-- Lyanna (na mpei edw to ID ths) -->
+		<!-- SPARTACUS (na mpei edw to ID ths) -->
 		<npc>573</npc>
 	</npcs>
 	<item>
