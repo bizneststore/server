@@ -18,6 +18,9 @@
  */
 package ai.grandboss.Baium;
 
+import java.util.Calendar;
+import java.util.List;
+
 import l2r.Config;
 import l2r.gameserver.enums.CategoryType;
 import l2r.gameserver.enums.CtrlIntention;
@@ -42,6 +45,7 @@ import l2r.gameserver.network.serverpackets.Earthquake;
 import l2r.gameserver.network.serverpackets.ExShowScreenMessage;
 import l2r.gameserver.network.serverpackets.SocialAction;
 import l2r.gameserver.util.Util;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -559,7 +563,44 @@ public final class Baium extends AbstractNpcAI
 			setStatus(DEAD);
 			addSpawn(TELE_CUBE, TELEPORT_CUBIC_LOC, false, 900000);
 			zone.broadcastPacket(Music.BS01_D_10000.getPacket());
-			long respawnTime = (Config.BAIUM_SPAWN_INTERVAL + getRandom(-Config.BAIUM_SPAWN_RANDOM, Config.BAIUM_SPAWN_RANDOM)) * 3600000;
+			
+			// Calculate Min and Max respawn times randomly.
+			final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+			calendar.set(Calendar.HOUR_OF_DAY, Config.BAIUM_RESPAWN_HOUR);
+			calendar.set(Calendar.MINUTE, Config.BAIUM_RESPAWN_MINUTE);
+			calendar.set(Calendar.SECOND, 0);
+			
+			final List<Integer> daysOfWeek = Config.BAIUM_SPAWN_INTERVALS;
+			
+			long closestDayMillis = Long.MAX_VALUE;
+			int dayOfWeekIndex = 0;
+			
+			while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+			{
+				final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+				
+				if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+				{
+					calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				dayOfWeekIndex++;
+			}
+			
+			// If no valid day is found, add one week and check the days in the next week
+			if (closestDayMillis == Long.MAX_VALUE)
+			{
+				calendar.add(Calendar.WEEK_OF_YEAR, Config.BAIUM_RESPAWN_WEEKS);
+				calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+				closestDayMillis = calendar.getTimeInMillis();
+			}
+			
+			calendar.setTimeInMillis(closestDayMillis);
+			
+			long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+			respawnTime += Rnd.get(0, getRandom(Config.BAIUM_SPAWN_RANDOM) * 60 * 1000);
+			
 			setRespawn(respawnTime);
 			startQuestTimer("CLEAR_STATUS", respawnTime, null, null);
 			startQuestTimer("CLEAR_ZONE", 900000, null, null);

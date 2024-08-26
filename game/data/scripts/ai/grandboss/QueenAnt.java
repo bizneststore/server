@@ -18,6 +18,7 @@
  */
 package ai.grandboss;
 
+import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -38,6 +39,7 @@ import l2r.gameserver.model.skills.CommonSkill;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.zone.type.L2BossZone;
 import l2r.gameserver.network.serverpackets.MagicSkillUse;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -336,9 +338,47 @@ public final class QueenAnt extends AbstractNpcAI
 		if (npcId == QUEEN)
 		{
 			npc.broadcastPacket(Music.BS02_D_10000.getPacket());
+			
 			// Calculate Min and Max respawn times randomly.
-			long respawnTime = Config.QUEEN_ANT_SPAWN_INTERVAL + getRandom(-Config.QUEEN_ANT_SPAWN_RANDOM, Config.QUEEN_ANT_SPAWN_RANDOM);
-			respawnTime *= 3600000;
+			final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+			calendar.set(Calendar.HOUR_OF_DAY, Config.QUEEN_ANT_RESPAWN_HOUR);
+			calendar.set(Calendar.MINUTE, Config.QUEEN_ANT_RESPAWN_MINUTE);
+			calendar.set(Calendar.SECOND, 0);
+			
+			final List<Integer> daysOfWeek = Config.QUEEN_ANT_SPAWN_INTERVALS;
+			
+			long closestDayMillis = Long.MAX_VALUE;
+			int dayOfWeekIndex = 0;
+			
+			while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+			{
+				final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+				
+				if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+				{
+					calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				dayOfWeekIndex++;
+			}
+			
+			// If no valid day is found, add one week and check the days in the next week
+			if (closestDayMillis == Long.MAX_VALUE)
+			{
+				calendar.add(Calendar.WEEK_OF_YEAR, Config.QUEEN_ANT_RESPAWN_WEEKS);
+				calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+				closestDayMillis = calendar.getTimeInMillis();
+			}
+			
+			calendar.setTimeInMillis(closestDayMillis);
+			
+			long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+			respawnTime += Rnd.get(0, getRandom(Config.QUEEN_ANT_SPAWN_RANDOM) * 60 * 1000);
+			
+			// also save the respawn time so that the info is maintained past reboots
+			setRespawn(respawnTime);
+			
 			setRespawn(respawnTime);
 			setStatus(DEAD);
 			startQuestTimer("queen_unlock", respawnTime, null, null);

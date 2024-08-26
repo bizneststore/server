@@ -18,6 +18,7 @@
  */
 package ai.grandboss;
 
+import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -34,6 +35,7 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.NpcStringId;
 import l2r.gameserver.network.clientpackets.Say2;
 import l2r.gameserver.network.serverpackets.NpcSay;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -207,9 +209,44 @@ public final class Core extends AbstractNpcAI
 			npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.DOT_DOT_DOT_DOT_DOT_DOT));
 			_firstAttacked = false;
 			GrandBossManager.getInstance().setBossStatus(CORE, DEAD);
+			
 			// Calculate Min and Max respawn times randomly.
-			long respawnTime = Config.CORE_SPAWN_INTERVAL + getRandom(-Config.CORE_SPAWN_RANDOM, Config.CORE_SPAWN_RANDOM);
-			respawnTime *= 3600000;
+			final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+			calendar.set(Calendar.HOUR_OF_DAY, Config.CORE_RESPAWN_HOUR);
+			calendar.set(Calendar.MINUTE, Config.CORE_RESPAWN_MINUTE);
+			calendar.set(Calendar.SECOND, 0);
+			
+			final List<Integer> daysOfWeek = Config.CORE_SPAWN_INTERVALS;
+			
+			long closestDayMillis = Long.MAX_VALUE;
+			int dayOfWeekIndex = 0;
+			
+			while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+			{
+				final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+				
+				if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+				{
+					calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				dayOfWeekIndex++;
+			}
+			
+			// If no valid day is found, add one week and check the days in the next week
+			if (closestDayMillis == Long.MAX_VALUE)
+			{
+				calendar.add(Calendar.WEEK_OF_YEAR, Config.CORE_RESPAWN_WEEKS);
+				calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+				closestDayMillis = calendar.getTimeInMillis();
+			}
+			
+			calendar.setTimeInMillis(closestDayMillis);
+			
+			long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+			respawnTime += Rnd.get(0, getRandom(Config.CORE_SPAWN_RANDOM) * 60 * 1000);
+			
 			startQuestTimer("core_unlock", respawnTime, null, null);
 			// also save the respawn time so that the info is maintained past reboots
 			StatsSet info = GrandBossManager.getInstance().getStatsSet(CORE);

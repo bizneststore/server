@@ -18,6 +18,7 @@
  */
 package ai.grandboss.Antharas;
 
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -48,6 +49,7 @@ import l2r.gameserver.network.serverpackets.SpecialCamera;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 import l2r.gameserver.util.Broadcast;
 import l2r.gameserver.util.Util;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -253,6 +255,7 @@ public final class Antharas extends AbstractNpcAI
 						{
 							if (member.isInsideRadius(npc, 1000, true, false))
 							{
+								takeItems(member, STONE, 1);
 								member.teleToLocation(179700 + getRandom(700), 113800 + getRandom(2100), -7709);
 							}
 						}
@@ -271,6 +274,8 @@ public final class Antharas extends AbstractNpcAI
 					}
 					else
 					{
+						takeItems(player, STONE, 1);
+						
 						player.teleToLocation(179700 + getRandom(700), 113800 + getRandom(2100), -7709);
 						if (getStatus() != WAITING)
 						{
@@ -706,9 +711,44 @@ public final class Antharas extends AbstractNpcAI
 				zone.broadcastPacket(new SpecialCamera(npc, 1200, 20, -10, 0, 10000, 13000, 0, 0, 0, 0, 0));
 				zone.broadcastPacket(Music.BS01_D_10000.getPacket());
 				addSpawn(CUBE, 177615, 114941, -7709, 0, false, 900000);
+				
 				// Calculate Min and Max respawn times randomly.
-				long respawnTime = Config.ANTHARAS_SPAWN_INTERVAL + getRandom(-Config.ANTHARAS_SPAWN_RANDOM, Config.ANTHARAS_SPAWN_RANDOM);
-				respawnTime *= 3600000;
+				final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+				calendar.set(Calendar.HOUR_OF_DAY, Config.ANTHARAS_RESPAWN_HOUR);
+				calendar.set(Calendar.MINUTE, Config.ANTHARAS_RESPAWN_MINUTE);
+				calendar.set(Calendar.SECOND, 0);
+				
+				final List<Integer> daysOfWeek = Config.ANTHARAS_SPAWN_INTERVALS;
+				
+				long closestDayMillis = Long.MAX_VALUE;
+				int dayOfWeekIndex = 0;
+				
+				while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+				{
+					final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+					
+					if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+					{
+						calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+						closestDayMillis = calendar.getTimeInMillis();
+					}
+					
+					dayOfWeekIndex++;
+				}
+				
+				// If no valid day is found, add one week and check the days in the next week
+				if (closestDayMillis == Long.MAX_VALUE)
+				{
+					calendar.add(Calendar.WEEK_OF_YEAR, Config.ANTHARAS_RESPAWN_WEEKS);
+					calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				calendar.setTimeInMillis(closestDayMillis);
+				
+				long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+				respawnTime += Rnd.get(0, getRandom(Config.ANTHARAS_SPAWN_RANDOM) * 60 * 1000);
+				
 				setRespawn(respawnTime);
 				startQuestTimer("CLEAR_STATUS", respawnTime, null, null);
 				cancelQuestTimer("SET_REGEN", npc, null);

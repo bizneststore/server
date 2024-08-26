@@ -18,6 +18,7 @@
  */
 package ai.grandboss;
 
+import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -50,6 +51,7 @@ import l2r.gameserver.network.serverpackets.SocialAction;
 import l2r.gameserver.network.serverpackets.SpecialCamera;
 import l2r.gameserver.network.serverpackets.StaticObject;
 import l2r.gameserver.util.Util;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -767,9 +769,44 @@ public final class Beleth extends AbstractNpcAI
 			
 			setBelethKiller(killer);
 			setStatus(DEAD);
+			
 			// Calculate Min and Max respawn times randomly.
-			long respawnTime = Config.BELETH_SPAWN_INTERVAL + getRandom(-Config.BELETH_SPAWN_RANDOM, Config.BELETH_SPAWN_RANDOM);
-			respawnTime *= 3600000;
+			final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+			calendar.set(Calendar.HOUR_OF_DAY, Config.BELETH_RESPAWN_HOUR);
+			calendar.set(Calendar.MINUTE, Config.BELETH_RESPAWN_MINUTE);
+			calendar.set(Calendar.SECOND, 0);
+			
+			final List<Integer> daysOfWeek = Config.BELETH_SPAWN_INTERVALS;
+			
+			long closestDayMillis = Long.MAX_VALUE;
+			int dayOfWeekIndex = 0;
+			
+			while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+			{
+				final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+				
+				if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+				{
+					calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				dayOfWeekIndex++;
+			}
+			
+			// If no valid day is found, add one week and check the days in the next week
+			if (closestDayMillis == Long.MAX_VALUE)
+			{
+				calendar.add(Calendar.WEEK_OF_YEAR, Config.BELETH_RESPAWN_WEEKS);
+				calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+				closestDayMillis = calendar.getTimeInMillis();
+			}
+			
+			calendar.setTimeInMillis(closestDayMillis);
+			
+			long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+			respawnTime += Rnd.get(0, getRandom(Config.BELETH_SPAWN_RANDOM) * 60 * 1000);
+			
 			// also save the respawn time so that the info is maintained past reboots
 			setRespawn(respawnTime);
 			startQuestTimer("BELETH_UNLOCK", respawnTime, null, null);

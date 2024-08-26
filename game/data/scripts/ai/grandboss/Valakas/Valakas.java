@@ -18,6 +18,7 @@
  */
 package ai.grandboss.Valakas;
 
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
@@ -48,6 +49,7 @@ import l2r.gameserver.network.serverpackets.SocialAction;
 import l2r.gameserver.network.serverpackets.SpecialCamera;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 import l2r.gameserver.util.Util;
+import l2r.util.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -631,9 +633,44 @@ public final class Valakas extends AbstractNpcAI
 			zone.broadcastPacket(new SpecialCamera(_valakas, 2000, 130, -1, 0, 15000, 10000, 0, 0, 1, 1, 0));
 			zone.broadcastPacket(Music.B03_D_10000.getPacket());
 			startQuestTimer("CAMERA_10", 500, _valakas, null);
+			
 			// Calculate Min and Max respawn times randomly.
-			long respawnTime = Config.VALAKAS_SPAWN_INTERVAL + getRandom(-Config.VALAKAS_SPAWN_RANDOM, Config.VALAKAS_SPAWN_RANDOM);
-			respawnTime *= 3600000;
+			final Calendar calendar = Calendar.getInstance(); // Get the current date and time
+			calendar.set(Calendar.HOUR_OF_DAY, Config.VALAKAS_RESPAWN_HOUR);
+			calendar.set(Calendar.MINUTE, Config.VALAKAS_RESPAWN_MINUTE);
+			calendar.set(Calendar.SECOND, 0);
+			
+			final List<Integer> daysOfWeek = Config.VALAKAS_SPAWN_INTERVALS;
+			
+			long closestDayMillis = Long.MAX_VALUE;
+			int dayOfWeekIndex = 0;
+			
+			while ((closestDayMillis == Long.MAX_VALUE) && (dayOfWeekIndex < daysOfWeek.size()))
+			{
+				final int dayOfWeek = daysOfWeek.get(dayOfWeekIndex);
+				
+				if (dayOfWeek > calendar.get(Calendar.DAY_OF_WEEK))
+				{
+					calendar.set(Calendar.DAY_OF_WEEK, dayOfWeek);
+					closestDayMillis = calendar.getTimeInMillis();
+				}
+				
+				dayOfWeekIndex++;
+			}
+			
+			// If no valid day is found, add one week and check the days in the next week
+			if (closestDayMillis == Long.MAX_VALUE)
+			{
+				calendar.add(Calendar.WEEK_OF_YEAR, Config.VALAKAS_RESPAWN_WEEKS);
+				calendar.set(Calendar.DAY_OF_WEEK, daysOfWeek.get(0));
+				closestDayMillis = calendar.getTimeInMillis();
+			}
+			
+			calendar.setTimeInMillis(closestDayMillis);
+			
+			long respawnTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+			respawnTime += Rnd.get(0, getRandom(Config.VALAKAS_SPAWN_RANDOM) * 60 * 1000);
+			
 			setRespawn(respawnTime);
 			for (Location loc : CUBE_LOC)
 			{
