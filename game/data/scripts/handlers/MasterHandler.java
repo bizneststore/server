@@ -680,11 +680,12 @@ public class MasterHandler
 		(BufferConfigs.ENABLE_ITEM_BUFFER && PremiumServiceConfigs.USE_PREMIUM_SERVICE ? ItemBufferVCmd.class : null),
 		(MultilingualConfigs.MULTILANG_ENABLE && MultilingualConfigs.MULTILANG_VOICED_ALLOW ? Lang.class : null),
 		(CustomServerConfigs.ALLOW_ONLINE_COMMAND ? OnlineVCmd.class : null),
-		(PremiumServiceConfigs.USE_PREMIUM_SERVICE ? PremiumVCmd.class : null),
+		//(PremiumServiceConfigs.USE_PREMIUM_SERVICE ? PremiumVCmd.class : null),
 		(ChaoticZoneConfigs.ENABLE_CHAOTIC_ZONE ? PvpZoneVCmd.class : null),
 		(CustomServerConfigs.ALLOW_REPAIR_COMMAND ? RepairVCmd.class : null),
 		(CustomServerConfigs.ALLOW_TELEPORTS_COMMAND ? TeleportsVCmd.class : null),
 		PingVCmd.class,
+		PremiumVCmd.class,
 		(WeddingConfigs.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
 		CharStatsVCmd.class,
 	};
