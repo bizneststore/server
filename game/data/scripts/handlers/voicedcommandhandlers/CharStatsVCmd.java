@@ -30,7 +30,7 @@ public class CharStatsVCmd implements IVoicedCommandHandler
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
 	{
-		if (command.startsWith("getstats") || command.startsWith("getstats"))
+		if (command.startsWith("getstat") || command.startsWith("getstats"))
 		{
 			calculateStats(activeChar);
 		}
