@@ -78,12 +78,10 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 			activeChar.sendMessage("This Command is for Premium Users only!");
 			return false;
 		}
+		
 		Location loc = null;
 		switch (command)
 		{
-			/*
-			 * case "giran": loc = new Location(83432, 148296, -3408); loc = new Location(83432, 148984, -3408); break;
-			 */
 			case "giran":
 				// Get a random number, either 1 or 2
 				int randomLocation = ThreadLocalRandom.current().nextInt(1, 3);

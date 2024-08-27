@@ -17,7 +17,7 @@ public class ItemBufferVCmd implements IVoicedCommandHandler
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
 	{
-		if (!activeChar.isPremium())
+		if (!activeChar.isPremium() && !activeChar.isPlatinum())
 		{
 			activeChar.sendMessage("Voiced buffer is only available for premium accounts.");
 			return false;

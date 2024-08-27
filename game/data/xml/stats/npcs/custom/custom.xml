@@ -97,7 +97,7 @@
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="570" displayId="30719" name="Gatekeeper" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2CustomGatekeeper">
+	<npc id="570" displayId="30719" name="Eternia" usingServerSideName="true" title="Global Gatekeeper" usingServerSideTitle="true" type="L2CustomGatekeeper">
 		<collision>
 			<radius normal="12" />
 			<height normal="24.5" />
