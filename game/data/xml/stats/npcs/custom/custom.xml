@@ -7,6 +7,66 @@
 			<height normal="23" />
 		</collision>
 	</npc>
+<npc id="503" displayId="31948" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="504" displayId="31303" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="505" displayId="30061" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="506" displayId="31300" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="507" displayId="30084" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="508" displayId="31260" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="509" displayId="31437" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="510" displayId="31262" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="511" displayId="7090" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="512" displayId="7560" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
 	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />

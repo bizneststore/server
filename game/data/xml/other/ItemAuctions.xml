@@ -10,6 +10,10 @@
 	<!-- <instance id="NPC ID of the auctioneer" interval="1" hour_of_day="0-23" minute_of_hour="0-59"> -->
 	<!-- <item auctionItemId="1" itemId="10485" itemCount="1" auctionInitBid="100000" auctionLenght="300" /> -->
 	<!-- </instance> -->
+	<instance id="505" interval="1" hour_of_day="16" minute_of_hour="35">
+		<!-- Greater Baium's Ring -->
+		<item auctionItemId="1" itemId="40007" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+	</instance>
 	<instance id="32320" day_of_week="5" hour_of_day="17">
 		<!-- Improved Weapons (No-Grade) +15 -->
 		<!-- Improved Falchion -->
