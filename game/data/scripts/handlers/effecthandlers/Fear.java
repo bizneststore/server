@@ -78,11 +78,11 @@ public class Fear extends OverTimeEffect
 			{
 				_dY = 1;
 			}
-			
-			onTick();
-			return true;
 		}
-		return false;
+		
+		System.out.println("started");
+		onTick();
+		return true;
 	}
 	
 	@Override

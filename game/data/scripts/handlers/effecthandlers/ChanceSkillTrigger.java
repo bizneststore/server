@@ -73,7 +73,7 @@ public class ChanceSkillTrigger extends OverTimeEffect
 	public void onExit()
 	{
 		// trigger only if effect in use and successfully ticked to the end
-		if (getCount() == 0)
+		if (getCount() <= 0)
 		{
 			getEffected().onExitChanceEffect(getSkill().getElement());
 		}

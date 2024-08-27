@@ -83,6 +83,10 @@ public class Sweeper extends EffectInstant
 					{
 						itemCount *= player.calcPremiumDropMultipliers(itemId);
 					}
+					if (player.isPlatinum())
+					{
+						itemCount *= player.calcPlatinumDropMultipliers(itemId);
+					}
 					
 					player.addItem("Sweeper", itemId, itemCount, getEffected(), true);
 				}

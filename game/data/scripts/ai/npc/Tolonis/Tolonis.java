@@ -66,7 +66,7 @@ public class Tolonis extends AbstractNpcAI
 		final AcquireSkillList asl = new AcquireSkillList(COLLECT);
 		for (L2SkillLearn skill : skills)
 		{
-			asl.addSkill(skill.getSkillId(), skill.getSkillLevel(), skill.getSkillLevel(), 0, 1);
+			asl.add(skill);
 		}
 		
 		if (skills.size() == 0)

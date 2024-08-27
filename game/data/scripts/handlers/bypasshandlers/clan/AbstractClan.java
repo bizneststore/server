@@ -272,7 +272,7 @@ public abstract class AbstractClan implements IBypassHandler
 		
 		for (L2SkillLearn s : skills)
 		{
-			asl.addSkill(s.getSkillId(), s.getSkillLevel(), s.getSkillLevel(), s.getLevelUpSp(), s.getSocialClass().ordinal());
+			asl.add(s);
 			counts++;
 		}
 		

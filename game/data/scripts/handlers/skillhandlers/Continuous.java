@@ -195,7 +195,7 @@ public class Continuous implements ISkillHandler
 			{
 				if (target.isAttackable())
 				{
-					target.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, activeChar, (int) skill.getPower());
+					target.getAI().notifyEvent(CtrlEvent.EVT_AGGRESSION, activeChar, (int) skill.getPower() * 10);
 				}
 				else if (target.isPlayable())
 				{

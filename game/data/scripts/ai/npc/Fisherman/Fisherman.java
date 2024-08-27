@@ -138,7 +138,7 @@ public class Fisherman extends AbstractNpcAI
 			if (SkillData.getInstance().getSkill(s.getSkillId(), s.getSkillLevel()) != null)
 			{
 				count++;
-				asl.addSkill(s.getSkillId(), s.getSkillLevel(), s.getSkillLevel(), s.getLevelUpSp(), 1);
+				asl.add(s);
 			}
 		}
 		

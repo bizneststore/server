@@ -309,7 +309,7 @@ public class AvantGarde extends AbstractNpcAI
 			if (SkillData.getInstance().getInfo(s.getSkillId(), s.getSkillLevel()) != null)
 			{
 				count++;
-				asl.addSkill(s.getSkillId(), s.getSkillLevel(), s.getSkillLevel(), 0, 0);
+				asl.add(s);
 			}
 		}
 		if (count > 0)
@@ -337,7 +337,7 @@ public class AvantGarde extends AbstractNpcAI
 			if (SkillData.getInstance().getInfo(s.getSkillId(), s.getSkillLevel()) != null)
 			{
 				counts++;
-				asl.addSkill(s.getSkillId(), s.getSkillLevel(), s.getSkillLevel(), s.getLevelUpSp(), 0);
+				asl.add(s);
 			}
 		}
 		

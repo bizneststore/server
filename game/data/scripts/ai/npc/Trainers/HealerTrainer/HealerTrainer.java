@@ -101,7 +101,7 @@ public final class HealerTrainer extends AbstractNpcAI
 					if (SkillData.getInstance().getInfo(skillLearn.getSkillId(), skillLearn.getSkillLevel()) != null)
 					{
 						count++;
-						asl.addSkill(skillLearn.getSkillId(), skillLearn.getSkillLevel(), skillLearn.getSkillLevel(), skillLearn.getLevelUpSp(), 0);
+						asl.add(skillLearn);
 					}
 				}
 				
