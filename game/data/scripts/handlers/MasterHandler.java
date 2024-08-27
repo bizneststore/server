@@ -307,6 +307,7 @@ import handlers.voicedcommandhandlers.Antibot;
 import handlers.voicedcommandhandlers.Banking;
 import handlers.voicedcommandhandlers.CcpVCmd;
 import handlers.voicedcommandhandlers.ChangePassword;
+import handlers.voicedcommandhandlers.CharStatsVCmd;
 import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
 import handlers.voicedcommandhandlers.EvenlyDistributeItems;
@@ -685,6 +686,7 @@ public class MasterHandler
 		(CustomServerConfigs.ALLOW_TELEPORTS_COMMAND ? TeleportsVCmd.class : null),
 		PingVCmd.class,
 		(WeddingConfigs.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
+		CharStatsVCmd.class,
 	};
 	
 	private void loadHandlers(IHandler<?, ?> handler, Class<?>[] classes)
