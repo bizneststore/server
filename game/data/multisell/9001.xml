@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<!-- SPARTACUS (na mpei edw to ID ths) -->
+		<npc>573</npc>
+	</npcs>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="300" id="40007" />
+
+		<production count="1" id="50206" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="400" id="40007" />
+
+		<production count="1" id="50207" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="400" id="40007" />
+
+		<production count="1" id="50208" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="400" id="40007" />
+
+		<production count="1" id="50209" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="400" id="40007" />
+
+		<production count="1" id="50210" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="25" id="40007" />
+
+		<production count="1" id="5594" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40007" />
+
+		<production count="1" id="5595" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10" id="40007" />
+
+		<production count="1" id="13010" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10" id="40007" />
+
+		<production count="1" id="13011" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10" id="40007" />
+
+		<production count="1" id="13012" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="150" id="40007" />
+
+		<production count="1" id="50200" />
+	</item>
+	
+	
+</list>

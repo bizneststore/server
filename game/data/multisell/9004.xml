@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<!-- DONATE MANAGER QUEST ITEMS -->
+		<npc>573</npc>
+	</npcs>
+
+    <!-- New Mount Bracelets -->
+    <item>
+        <!-- Steam Sledge Mount Bracelet -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="13546" />
+    </item>
+    <item>
+        <!-- Tawny-Maned Lion Mount Bracelet -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="13547" />
+    </item>
+    <item>
+        <!-- Steam Beatle Mount Bracelet -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="20396" />
+    </item>
+    <item>
+        <!-- Light Purple-Maned Horse Mount Bracelet -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="20029" />
+    </item>
+    <item>
+        <!-- Gold-Maned Lion Mount Bracelet - 30-day limited period -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="20536" />
+    </item>
+    <item>
+        <!-- Steam Beatle Mount Bracelet (event) - 7-day limited period -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="14067" />
+    </item>
+    <item>
+        <!-- Darkmane Pacer Mount Bracelet - 7-day limited period -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="20448" />
+    </item>
+    <item>
+        <!-- Jet Bike Mount Bracelet - 30-day limited period -->
+        <ingredient count="350" id="40007" />
+        <production count="1" id="20939" />
+    </item>
+</list>
