@@ -872,7 +872,7 @@
 		<set name="is_dropable" val="false" />
 		<for>
 			<add order="0" stat="pDef" val="28" />
-			<enchant stat="pDef" val="0" />
+			<enchant stat="pDef" val="2" />
 		</for>
 	</item>
 	<item id="21581" type="EtcItem" name="Olf's T-shirt Enchant Scroll">

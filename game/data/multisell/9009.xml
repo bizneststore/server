@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<!-- TARTARUS (na mpei edw to ID ths) -->
+		<npc>513</npc>
+	</npcs>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40008" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="40009" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="1" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="5" id="6622" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="1" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="2" id="9626" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="3" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="2" id="9627" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="5" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="8618" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="15" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="8619" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="25" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="8620" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="8621" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="3" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6572" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="6" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6571" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="6" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6570" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="9" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6569" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="9" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6578" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="12" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="6577" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50202" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50203" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50204" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50205" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="30" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="14053" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="10311" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="10312" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="10313" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="15" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5577" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="15" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5578" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="15" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5579" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="25" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5580" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="25" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5581" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="25" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5582" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5908" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5911" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="40" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="5914" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="9570" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="9571" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="9572" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="10480" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="65" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="10481" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="1482" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="80" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="13071" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="80" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="13072" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="80" id="40009" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="13073" />
+	</item>
+</list>

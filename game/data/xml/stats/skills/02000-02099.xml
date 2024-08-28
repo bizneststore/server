@@ -468,7 +468,7 @@
 			</effect>
 		</for>
 	</skill>
-	<skill id="2046" levels="2" name="Wolf's Necklace">
+	<skill id="2046" levels="2" name="Summoning">
 		<set name="hitTime" val="5000" />
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="magicLvl" val="1" />
