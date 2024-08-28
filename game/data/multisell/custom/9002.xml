@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
-	<npcs>
-		<!-- Lyanna (na mpei edw to ID ths) -->
-		<npc>573</npc>
-	</npcs>
+
+<list enabled="true" maintainEnchantment="false"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 	<item>
 		<!-- Pc Bang Point -->
 		<ingredient count="200" id="40007" />
