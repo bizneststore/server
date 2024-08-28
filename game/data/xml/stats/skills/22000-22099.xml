@@ -693,9 +693,9 @@
 		<set name="operateType" val="A1" />
 		<set name="targetType" val="SELF" />
 	</skill>
-	<skill id="22039" levels="2" name="Rune of Experience Points">
+	<skill id="22039" levels="3" name="Rune of Experience Points">
 		<!-- Confirmed CT2.5 -->
-		<table name="#bonusExp"> 30 50 </table>
+		<table name="#bonusExp"> 50 100 200 </table>
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />

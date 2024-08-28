@@ -520,7 +520,7 @@
 		<set name="item_skill" val="22038-1" />
 		<set name="for_npc" val="true" />
 	</item>
-	<item id="20335" type="EtcItem" name="Rune of Experience Points 30% - 5-hour limited period">
+	<item id="20335" type="EtcItem" name="Rune of Experience Points 50% - 1-hour limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
@@ -532,7 +532,7 @@
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22039-1" />
-		<set name="time" val="300" />
+		<set name="time" val="60" />
 	</item>
 	<item id="20336" type="EtcItem" name="Rune of Experience Points 50% - 5-hour limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
@@ -545,10 +545,10 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="22039-2" />
+		<set name="item_skill" val="22039-1" />
 		<set name="time" val="300" />
 	</item>
-	<item id="20337" type="EtcItem" name="Rune of Experience Points 30% - 10-hour limited period">
+	<item id="20337" type="EtcItem" name="Rune of Experience Points 50% - 20-min limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
@@ -560,23 +560,9 @@
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22039-1" />
-		<set name="time" val="600" />
+		<set name="time" val="20" />
 	</item>
-	<item id="20338" type="EtcItem" name="Rune of Experience Points 50% - 10-hour limited period">
-		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
-		<set name="etcitem_type" val="RUNE" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="PAPER" />
-		<set name="weight" val="120" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_sellable" val="false" />
-		<set name="is_premium" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="22039-2" />
-		<set name="time" val="600" />
-	</item>
-	<item id="20339" type="EtcItem" name="Rune of Experience Points 30% - 7-day limited period">
+	<item id="20338" type="EtcItem" name="Rune of Experience Points 50% - 7-day limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
@@ -590,7 +576,7 @@
 		<set name="item_skill" val="22039-1" />
 		<set name="time" val="10080" />
 	</item>
-	<item id="20340" type="EtcItem" name="Rune of Experience Points 50% - 7-day limited period">
+	<item id="20339" type="EtcItem" name="Rune of Experience Points 100% - 20-min limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
 		<set name="etcitem_type" val="RUNE" />
 		<set name="immediate_effect" val="true" />
@@ -602,7 +588,21 @@
 		<set name="is_premium" val="true" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="22039-2" />
-		<set name="time" val="10080" />
+		<set name="time" val="20" />
+	</item>
+	<item id="20340" type="EtcItem" name="Rune of Experience Points 100% - 1-hour limited period">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22039-2" />
+		<set name="time" val="60" />
 	</item>
 	<item id="20341" type="EtcItem" name="Rune of SP 30% - 5-hour limited period">
 		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
