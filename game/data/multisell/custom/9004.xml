@@ -45,4 +45,26 @@
         <ingredient count="350" id="40007" />
         <production count="1" id="20939" />
     </item>
+
+	<item>
+        <!-- Jet Bike Mount Bracelet - 30-day limited period -->
+        <ingredient count="200" id="40007" />
+        <production count="1" id="14819" />
+    </item>
+<item>
+        <!-- Jet Bike Mount Bracelet - 30-day limited period -->
+        <ingredient count="150" id="40007" />
+        <production count="1" id="4422" />
+    </item>
+	<item>
+        <!-- Jet Bike Mount Bracelet - 30-day limited period -->
+        <ingredient count="150" id="40007" />
+        <production count="1" id="4423" />
+    </item>
+	<item>
+        <!-- Jet Bike Mount Bracelet - 30-day limited period -->
+        <ingredient count="150" id="40007" />
+        <production count="1" id="4424" />
+    </item>
+
 </list>
