@@ -200,13 +200,13 @@
 		<!-- Pc Bang Point -->
 		<ingredient count="50" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="9571" />
+		<production count="1" id="9572" />
 	</item>
 	<item>
 		<!-- Pc Bang Point -->
 		<ingredient count="50" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="9572" />
+		<production count="1" id="9571" />
 	</item>
 	<item>
 		<!-- Pc Bang Point -->
@@ -218,13 +218,13 @@
 		<!-- Pc Bang Point -->
 		<ingredient count="65" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="10481" />
+		<production count="1" id="10482" />
 	</item>
 	<item>
 		<!-- Pc Bang Point -->
 		<ingredient count="50" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="1482" />
+		<production count="1" id="10481" />
 	</item>
 	<item>
 		<!-- Pc Bang Point -->
@@ -236,12 +236,12 @@
 		<!-- Pc Bang Point -->
 		<ingredient count="80" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="13072" />
+		<production count="1" id="13073" />
 	</item>
 	<item>
 		<!-- Pc Bang Point -->
 		<ingredient count="80" id="40009" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="13073" />
+		<production count="1" id="13072" />
 	</item>
 </list>
