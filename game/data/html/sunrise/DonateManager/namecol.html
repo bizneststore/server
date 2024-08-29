@@ -10,9 +10,11 @@
   <img src="l2ui.SquareGray" width=270 height=1><br>
 </center>
 <center>
-Exchange <font color="EBDF6C">250</font> Coins of Eternia to get max Recommendation.<br>
+Exchange <font color="EBDF6C">150</font> Coins of Eternia to change your Name Color.<br>
+<br>
 
-<button value="Get Reccomendation" action="bypass -h npc_%objectId%_recommend" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+<combobox width=80 var="namecol" list="Khaki;Mango;Turqoise;Teal;Sea green;Forest green;Light green;Olive;Gray;Dark Gray;Light Pink;Violet">
+<button value="Change Color" action="bypass -h npc_%objectId%_namecolor_$namecol" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
 <br>
 </center>
 </body></html>
