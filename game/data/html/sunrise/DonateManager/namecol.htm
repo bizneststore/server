@@ -14,22 +14,9 @@ Exchange <font color="EBDF6C">150</font> Coins of Eternia to change your Name Co
 <br><br>
 
 <font color="LEVEL">Select a color:</font><br>
-<combobox width=120 height=20 var="selectedColor">
-    <option value="F2F5A9"> <font color="F2F5A9">Khaki</font> </option>
-    <option value="DF7401"> <font color="DF7401">Mango</font> </option>
-    <option value="00FFFF"> <font color="00FFFF">Turquoise</font> </option>
-    <option value="4B486"> <font color="4B486">Teal</font> </option>
-    <option value="58FA82"> <font color="58FA82">Sea Green</font> </option>
-    <option value="04B404"> <font color="04B404">Forest Green</font> </option>
-    <option value="64FE2E"> <font color="64FE2E">Light Green</font> </option>
-    <option value="688A08"> <font color="688A08">Olive</font> </option>
-    <option value="A4A4A4"> <font color="A4A4A4">Gray</font> </option>
-    <option value="6E6E6E"> <font color="6E6E6E">Dark Gray</font> </option>
-    <option value="F78181"> <font color="F78181">Light Pink</font> </option>
-    <option value="7401DF"> <font color="7401DF">Violet</font> </option>
-</combobox>
+<combobox width=80 var="selectedColor" list="khaki;mango;turquoise;teal;sea_green;forest_green;light_green;olive;gray;dark_gray;light_pink;violet">
 <br>
-<button value="Change Color" action="bypass -h npc_%objectId%_namecolor $selectedColor" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+<button value="Change Color" action="bypass npc_%objectId%_namecolor $selectedColor" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
 
 <br>
 </center>
