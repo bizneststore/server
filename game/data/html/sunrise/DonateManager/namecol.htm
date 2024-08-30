@@ -11,26 +11,26 @@
 </center>
 <center>
 Exchange <font color="EBDF6C">150</font> Coins of Eternia to change your Name Color.<br>
-<br>
+<br><br>
 
 <font color="LEVEL">Select a color:</font><br>
 <combobox width=120 height=20 var="selectedColor">
-    <list width=120 height=20>
-        <font color="#F2F5A9"><a action="bypass -h npc_%objectId%_namecolor khaki">Khaki</a></font><br>
-        <font color="#DF7401"><a action="bypass -h npc_%objectId%_namecolor mango">Mango</a></font><br>
-        <font color="#00FFFF"><a action="bypass -h npc_%objectId%_namecolor turquoise">Turquoise</a></font><br>
-        <font color="#4B486"><a action="bypass -h npc_%objectId%_namecolor teal">Teal</a></font><br>
-        <font color="#58FA82"><a action="bypass -h npc_%objectId%_namecolor sea_green">Sea Green</a></font><br>
-        <font color="#04B404"><a action="bypass -h npc_%objectId%_namecolor forest_green">Forest Green</a></font><br>
-        <font color="#64FE2E"><a action="bypass -h npc_%objectId%_namecolor light_green">Light Green</a></font><br>
-        <font color="#688A08"><a action="bypass -h npc_%objectId%_namecolor olive">Olive</a></font><br>
-        <font color="#A4A4A4"><a action="bypass -h npc_%objectId%_namecolor gray">Gray</a></font><br>
-        <font color="#6E6E6E"><a action="bypass -h npc_%objectId%_namecolor dark_gray">Dark Gray</a></font><br>
-        <font color="#F78181"><a action="bypass -h npc_%objectId%_namecolor light_pink">Light Pink</a></font><br>
-        <font color="#7401DF"><a action="bypass -h npc_%objectId%_namecolor violet">Violet</a></font>
-    </list>
+    <option value="F2F5A9"> <font color="F2F5A9">Khaki</font> </option>
+    <option value="DF7401"> <font color="DF7401">Mango</font> </option>
+    <option value="00FFFF"> <font color="00FFFF">Turquoise</font> </option>
+    <option value="4B486"> <font color="4B486">Teal</font> </option>
+    <option value="58FA82"> <font color="58FA82">Sea Green</font> </option>
+    <option value="04B404"> <font color="04B404">Forest Green</font> </option>
+    <option value="64FE2E"> <font color="64FE2E">Light Green</font> </option>
+    <option value="688A08"> <font color="688A08">Olive</font> </option>
+    <option value="A4A4A4"> <font color="A4A4A4">Gray</font> </option>
+    <option value="6E6E6E"> <font color="6E6E6E">Dark Gray</font> </option>
+    <option value="F78181"> <font color="F78181">Light Pink</font> </option>
+    <option value="7401DF"> <font color="7401DF">Violet</font> </option>
 </combobox>
-<button value="Change Color" action="bypass -h npc_%objectId%_namecolor $namecol" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+<br>
+<button value="Change Color" action="bypass -h npc_%objectId%_namecolor $selectedColor" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
+
 <br>
 </center>
 </body></html>
