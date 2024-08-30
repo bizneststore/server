@@ -13,7 +13,23 @@
 Exchange <font color="EBDF6C">150</font> Coins of Eternia to change your Name Color.<br>
 <br>
 
-<combobox width=80 var="namecol" list="khaki;mango;turqoise;teal;sea green;forest green;light green;olive;gray;dark gray;light pink;violet">
+<font color="LEVEL">Select a color:</font><br>
+<combobox width=120 height=20 var="selectedColor">
+    <list width=120 height=20>
+        <font color="#F2F5A9"><a action="bypass -h npc_%objectId%_namecolor khaki">Khaki</a></font><br>
+        <font color="#DF7401"><a action="bypass -h npc_%objectId%_namecolor mango">Mango</a></font><br>
+        <font color="#00FFFF"><a action="bypass -h npc_%objectId%_namecolor turquoise">Turquoise</a></font><br>
+        <font color="#4B486"><a action="bypass -h npc_%objectId%_namecolor teal">Teal</a></font><br>
+        <font color="#58FA82"><a action="bypass -h npc_%objectId%_namecolor sea_green">Sea Green</a></font><br>
+        <font color="#04B404"><a action="bypass -h npc_%objectId%_namecolor forest_green">Forest Green</a></font><br>
+        <font color="#64FE2E"><a action="bypass -h npc_%objectId%_namecolor light_green">Light Green</a></font><br>
+        <font color="#688A08"><a action="bypass -h npc_%objectId%_namecolor olive">Olive</a></font><br>
+        <font color="#A4A4A4"><a action="bypass -h npc_%objectId%_namecolor gray">Gray</a></font><br>
+        <font color="#6E6E6E"><a action="bypass -h npc_%objectId%_namecolor dark_gray">Dark Gray</a></font><br>
+        <font color="#F78181"><a action="bypass -h npc_%objectId%_namecolor light_pink">Light Pink</a></font><br>
+        <font color="#7401DF"><a action="bypass -h npc_%objectId%_namecolor violet">Violet</a></font>
+    </list>
+</combobox>
 <button value="Change Color" action="bypass -h npc_%objectId%_namecolor $namecol" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">
 <br>
 </center>
