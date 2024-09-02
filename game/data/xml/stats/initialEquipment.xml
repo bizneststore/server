@@ -4,12 +4,12 @@
 	<equipment classId="0">
 		<item id="6354" count="1" equipped="true" /> <!-- Squire's Sword -->
 		<item id="4220" count="1" /> <!-- Dagger -->
-		<item id="23" count="1" equipped="true" /> <!-- Squire's Shirt -->
+		<item id="23" count="1" equipped="true" /> <!-- Wooden Breastplate -->
 		<item id="2386" count="1" equipped="true" /> <!-- Squire's Pants -->
-		<item id="43" count="1" equipped="true" /> <!-- Squire's Pants -->
-		<item id="115" count="2" equipped="false" /> <!-- Squire's Pants -->
-		<item id="877" count="2" equipped="false" /> <!-- Squire's Pants -->
-		<item id="908" count="1" equipped="false" /> <!-- Squire's Pants -->
+		<item id="43" count="1" equipped="true" /> <!-- Wooden helmet -->
+		<item id="115" count="2" equipped="false" /> <!-- Earring of Wisdom -->
+		<item id="877" count="2" equipped="false" /> <!-- Ring of wisdom -->
+		<item id="908" count="1" equipped="false" /> <!-- Necklace -->
 		<item id="5588" count="1" /> <!-- Tutorial Guide -->
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->

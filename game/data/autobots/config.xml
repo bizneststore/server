@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <settings>
   <thinkIteration>350</thinkIteration>
-  <defaultTitle>Welcome to L2</defaultTitle>
+  <defaultTitle></defaultTitle>
   <defaultTargetingRange>2000</defaultTargetingRange>
   <defaultAttackPlayerType>None</defaultAttackPlayerType>
   <defaultTargetingPreference>Random</defaultTargetingPreference>

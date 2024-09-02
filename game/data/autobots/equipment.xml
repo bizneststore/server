@@ -2,7 +2,7 @@
 
 <equipmentSets>
 
-    <equipment classId="fighter" minLevel="1" maxLevel="19" rhand="2501" lhand="625" head="44" chest="26" legs="1104" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
+    <equipment classId="fighter" minLevel="1" maxLevel="19" rhand="6355" head="43" chest="23" legs="2386" hands="51" feet="39" neck="909" lear="846" rear="846" lring="878" rring="878"/>
     <equipment classId="warrior" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
     <equipment classId="knight" minLevel="20" maxLevel="39" rhand="129" lhand="629" head="47" chest="352" legs="2378" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
     <equipment classId="rogue" minLevel="20" maxLevel="39" rhand="279" lhand="" head="47" chest="395" legs="417" hands="606" feet="1124" neck="913" lear="850" rear="850" lring="881" rring="881"/>
