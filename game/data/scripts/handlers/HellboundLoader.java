@@ -113,11 +113,12 @@ public final class HellboundLoader extends ABLoader
 		HellboundSpawns.getInstance();
 		// Engine
 		HellboundEngine.getInstance();
+		
 		for (Class<?> script : getScripts())
 		{
 			try
 			{
-				final Object instance = script.newInstance();
+				final Object instance = script;
 				if (instance instanceof IAdminCommandHandler)
 				{
 					AdminCommandHandler.getInstance().registerHandler((IAdminCommandHandler) instance);
