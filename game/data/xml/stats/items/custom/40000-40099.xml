@@ -74,7 +74,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40007" type="EtcItem" name="Coin of Eternia">
-		<set name="icon" val="icon.etc_magic_coin_gold_i01" />
+		<set name="icon" val="icon.etc_kyles_gold_golem_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="is_tradable" val="true" />
@@ -114,6 +114,16 @@
 	</item>
 	<item id="40011" type="EtcItem" name="Blood Coin">
 		<set name="icon" val="icon.etc_magic_coin_blood_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40012" type="EtcItem" name="Gracia Coin">
+		<set name="icon" val="icon.etc_magic_coin_gold_i01" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="is_tradable" val="true" />

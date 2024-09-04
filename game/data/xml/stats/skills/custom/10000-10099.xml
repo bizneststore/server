@@ -42,4 +42,119 @@
 			<add stat="weightLimit" val="500000" />
 		</for>
 	</skill>
+	<skill id="10004" levels="1" name="Curse of Rheumatism">
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#pDef"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
+		<table name="#rCrit"> 30 50 80 100 50 0 0 0 0 0 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="600" />
+		
+		<set name="aggroPoints" val="-100" />
+		<set name="hitTime" val="500" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="75" />
+		<set name="mpConsume" val="55" />
+		<set name="mpInitialConsume" val="14" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="100" />
+		<set name="offensive" val="true" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="targetType" val="SELF" />
+		
+		<for>
+			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
+				<mul stat="pDef" val="#pDef" />
+				<add stat="critRate" val="#rCrit" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10005" levels="10" name="Curse of Cholera">
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#accCombat"> 3 6 8 10 6 0 0 0 0 0 </table>
+		<table name="#rEvas"> 0 3 3 3 5 5 5 8 8 10 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="600" />
+		
+		<set name="aggroPoints" val="-100" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="75" />
+		<set name="mpConsume" val="55" />
+		<set name="mpInitialConsume" val="14" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="100" />
+		<set name="offensive" val="true" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="targetType" val="SELF" />
+		
+		<for>
+			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_b" abnormalVisualEffect="poison">
+				<sub stat="rEvas" val="#rEvas" />
+				<add stat="accCombat" val="#accCombat" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10006" levels="10" name="Curse of Flu">
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#pAtk"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
+		<table name="#pAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="600" />
+		
+		<set name="aggroPoints" val="-100" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="75" />
+		<set name="mpConsume" val="55" />
+		<set name="mpInitialConsume" val="14" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="100" />
+		<set name="offensive" val="true" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="targetType" val="SELF" />
+		
+		<for>
+			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_c" abnormalVisualEffect="poison">
+				<mul stat="pAtkSpd" val="#pAtkSpd" />
+				<mul stat="pAtk" val="#pAtk" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="10007" levels="10" name="Curse of Malaria">
+		<table name="#abnormalLvls"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<table name="#mAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
+		<table name="#MpConsumeRate"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.84 </table>
+		<set name="abnormalLvl" val="#abnormalLvls" />
+		<set name="abnormalTime" val="600" />
+		
+		<set name="aggroPoints" val="-100" />
+		<set name="castRange" val="600" />
+		<set name="effectRange" val="1100" />
+		<set name="hitTime" val="500" />
+		<set name="isDebuff" val="true" />
+		<set name="isMagic" val="1" /> <!-- Magic Skill -->
+		<set name="magicLvl" val="75" />
+		<set name="mpConsume" val="55" />
+		<set name="mpInitialConsume" val="14" />
+		<set name="operateType" val="A2" />
+		<set name="power" val="100" />
+		<set name="offensive" val="true" />
+		<set name="skillType" val="DEBUFF" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Debuff" abnormalTime="600" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_d" abnormalVisualEffect="poison">
+				<mul stat="mAtkSpd" val="#mAtkSpd" />
+				<mul stat="magicalMpConsumeRate" val="#MpConsumeRate" />
+			</effect>
+		</for>
+	</skill>
 </list>
