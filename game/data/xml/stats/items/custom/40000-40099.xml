@@ -83,7 +83,7 @@
 		<set name="is_depositable" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="40008" type="EtcItem" name="Event - Medal">
+	<item id="40008" type="EtcItem" name="Medal">
 		<set name="icon" val="icon.etc_event_medal_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
@@ -92,7 +92,7 @@
 		<set name="is_dropable" val="true" />
 		<set name="is_depositable" val="true" />
 	</item>
-	<item id="40009" type="EtcItem" name="Event - Glittering Medal">
+	<item id="40009" type="EtcItem" name="Glittering Medal">
 		<set name="icon" val="icon.etc_event_glitter_medal_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
@@ -100,5 +100,26 @@
 		<set name="is_tradable" val="true" />
 		<set name="is_dropable" val="true" />
 		<set name="is_depositable" val="true" />
+	</item>
+
+	<item id="40010" type="EtcItem" name="Hellbound Coin">
+		<set name="icon" val="icon.etc_magic_coin_silver_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="40011" type="EtcItem" name="Blood Coin">
+		<set name="icon" val="icon.etc_magic_coin_blood_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
 	</item>
 </list>
