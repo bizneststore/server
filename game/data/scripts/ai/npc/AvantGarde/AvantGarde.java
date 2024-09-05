@@ -188,7 +188,7 @@ public class AvantGarde extends AbstractNpcAI
 					int activeCertifications = 0;
 					for (String varName : QUEST_VAR_NAMES)
 					{
-						for (int i = 1; i <= Config.MAX_SUBCLASS; i++)
+						for (int i = 1; i <= player.getMaxSubclasses(); i++)
 						{
 							String qvar = st.getGlobalQuestVar(varName + i);
 							if (!qvar.isEmpty() && (qvar.endsWith(";") || !qvar.equals("0")))
@@ -205,7 +205,7 @@ public class AvantGarde extends AbstractNpcAI
 					{
 						for (String varName : QUEST_VAR_NAMES)
 						{
-							for (int i = 1; i <= Config.MAX_SUBCLASS; i++)
+							for (int i = 1; i <= player.getMaxSubclasses(); i++)
 							{
 								final String qvarName = varName + i;
 								final String qvar = st.getGlobalQuestVar(qvarName);

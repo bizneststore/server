@@ -12,7 +12,9 @@ import ai.modifier.NonLethalableNpcs;
 import ai.modifier.NonTalkingNpcs;
 import ai.modifier.RunningNpcs;
 import ai.modifier.SeeThroughSilentMove;
+import ai.modifier.SevenSignNpcs;
 import ai.modifier.dropEngine.FortressReward;
+import ai.modifier.pursueFunction.MaxPursueRange;
 
 /**
  * @author L2jSunrise Team
@@ -35,6 +37,12 @@ public final class ModifiersLoader extends ABLoader
 		
 		// Drop Modifiers
 		FortressReward.class,
+		
+		// Seven signs npcs
+		SevenSignNpcs.class,
+		
+		// Pursue Function
+		MaxPursueRange.class,
 	};
 	
 	public ModifiersLoader()

@@ -155,7 +155,7 @@ public final class SubClassSkills extends Quest
 		int id, index;
 		for (int i = VARS.length; --i >= 0;)
 		{
-			for (int j = Config.MAX_SUBCLASS; j > 0; j--)
+			for (int j = player.getMaxSubclasses(); j > 0; j--)
 			{
 				qName = VARS[i] + String.valueOf(j);
 				qValue = st.getGlobalQuestVar(qName);

@@ -90,13 +90,24 @@ public final class HotSprings extends AbstractNpcAI
 	
 	private void tryToInfect(L2Npc npc, L2Character player, int diseaseId)
 	{
-		int skillLevel = getRandom(10) + 1;
-		final L2Skill skill = SkillData.getInstance().getInfo(diseaseId, skillLevel);
-		
-		if ((skill != null) && !npc.isCastingNow() && npc.checkDoCastConditions(skill))
+		final L2Skill pcSkill = player.getKnownSkill(diseaseId);
+		if (pcSkill == null)
 		{
-			npc.setTarget(player);
-			npc.doCast(skill);
+			final L2Skill skill = SkillData.getInstance().getInfo(diseaseId, 1);
+			if ((skill != null) && !npc.isCastingNow() && npc.checkDoCastConditions(skill))
+			{
+				npc.setTarget(player);
+				npc.doCast(skill);
+			}
+		}
+		else
+		{
+			final L2Skill skill = SkillData.getInstance().getInfo(diseaseId, pcSkill.getLevel() + 1);
+			if ((skill != null) && !npc.isCastingNow() && npc.checkDoCastConditions(skill))
+			{
+				npc.setTarget(player);
+				npc.doCast(skill);
+			}
 		}
 	}
 }
