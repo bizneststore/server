@@ -15,9 +15,36 @@ Exchange <font color="EBDF6C">150</font> Coins of Eternia to change your Name Co
 <br><br>
 
 <font color="LEVEL">Select a color:</font><br>
-<combobox width=80 var="selectedColor" list="khaki;mango;turquoise;teal;sea_green;forest_green;light_green;olive;gray;dark_gray;light_pink;violet">
+<!-- <combobox width=80 var="selectedColor" list="khaki;mango;turquoise;teal;sea_green;forest_green;light_green;olive;gray;dark_gray;light_pink;violet">-->
 <br>
-<button value="Change Color" action="bypass npc_%objectId%_namecolor $selectedColor" width=120 height=25 back="EBDF6C" fore="EBDF6C">
+<table width="240" cellpadding="5" bgcolor="151515">
+<tr>
+<td><button value="Khaki" action="bypass npc_%objectId%_namecolor khaki width="120" height="25"></td>
+<td><button value="Mango" action="bypass npc_%objectId%_namecolor mango width="120" height="25"></td>
+</tr>
+<tr>
+<td><button value="Turquoise" action="bypass npc_%objectId%_namecolor turquoise width="120" height="25"></td>
+<td><button value="Teal" action="bypass npc_%objectId%_namecolor teal width="120" height="25"></td>
+</tr>
+<tr>
+<td><button value="Sea Green" action="bypass npc_%objectId%_namecolor sea_green width="120" height="25"></td>
+<td><button value="Forest Green" action="bypass npc_%objectId%_namecolor forest_green width="120" height="25"></td>
+</tr>
+<tr>
+<td><button value="Light Green" action="bypass npc_%objectId%_namecolor light_green width="120" height="25"></td>
+<td><button value="Olive" action="bypass npc_%objectId%_namecolor olive width="120" height="25"></td>
+</tr>
+<tr>
+<td><button value="Gray" action="bypass npc_%objectId%_namecolor gray width="120" height="25"></td>
+<td><button value="Dark Gray" action="bypass npc_%objectId%_namecolor dark_gray width="120" height="25"></td>
+</tr>
+<tr>
+<td><button value="Light Pink" action="bypass npc_%objectId%_namecolor light_pink width="120" height="25"></td>
+<td><button value="Violet" action="bypass npc_%objectId%_namecolor violet width="120" height="25"></td>
+</tr>
+</table>
+<!--<button value="Change Color" action="bypass npc_%objectId%_namecolor $selectedColor" width=120 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_ct1.button_df">-->
+
 
 <br>
 </center>
