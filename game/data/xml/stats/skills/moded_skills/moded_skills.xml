@@ -62,7 +62,7 @@
 		<table name="#rCrit"> 30 50 80 100 50 0 0 0 0 0 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="100" />
-		<set name="abnormalType" val="multi_buff"
+		<set name="abnormalType" val="multi_buff" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="hitTime" val="500" />
@@ -93,7 +93,7 @@
 		<set name="abnormalTime" val="100" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
-		<set name="abnormalType" val="multi_buff"
+		<set name="abnormalType" val="multi_buff" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
@@ -120,7 +120,7 @@
 		<table name="#pAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="100" />
-		<set name="abnormalType" val="multi_buff"
+		<set name="abnormalType" val="multi_buff" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="castRange" val="600" />
@@ -148,7 +148,7 @@
 		<table name="#mAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#MpConsumeRate"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.84 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalType" val="multi_buff"
+		<set name="abnormalType" val="multi_buff" />
 		<set name="abnormalTime" val="100" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
