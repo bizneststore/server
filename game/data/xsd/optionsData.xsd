@@ -57,6 +57,15 @@
 													<xs:simpleType>
 														<xs:restriction base="xs:token">
 															<xs:enumeration value="mpConsume" />
+															<xs:enumeration value="mAtk" />
+															<xs:enumeration value="darkRes" />
+															<xs:enumeration value="holyRes" />
+															<xs:enumeration value="mDef" />
+															<xs:enumeration value="waterRes" />
+															<xs:enumeration value="fireRes" />
+															<xs:enumeration value="pAtk" />
+															<xs:enumeration value="pDef" />
+															<xs:enumeration value="windRes" />
 														</xs:restriction>
 													</xs:simpleType>
 												</xs:attribute>
