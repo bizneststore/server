@@ -686,7 +686,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="mAtk" val="150"
+				<add stat="mAtk" val="150" />
 				<mul stat="mAtk" val="1.02" /> 
 				<mul stat="darkRes" val="1.01" /> 
 			</for>
