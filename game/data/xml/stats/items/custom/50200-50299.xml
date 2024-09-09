@@ -238,4 +238,99 @@
 		<set name="item_skill" val="22039-3" />
 		<set name="time" val="10800" />
 	</item>
+	<item id="50217" type="Armor" name="Shilen's Shadow Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="180000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3465-1" />
+		<for>
+			<enchant stat="mAtk" val="0" />
+		</for>
+	</item>
+		<item id="50218" type="Armor" name="Gran Kain's Might Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="B" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="400000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3471-1" />
+		<for>
+			<add order="0" stat="pDef" val="22" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="50219" type="Armor" name="Pa'agrio's Flame Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="59" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="880000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3477-1" />
+		<for>
+			<add order="0" stat="pDef" val="26" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="50220" type="Armor" name="Einhasad's Light Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_none_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="6100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="8" />
+		</for>
+	</item>
+	<item id="50221" type="Armor" name="Maphr's Earth Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_d_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="75" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="49000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="14" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="50222" type="Armor" name="Sayha's Wind Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="price" val="180000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0" stat="pDef" val="19" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
 </list>

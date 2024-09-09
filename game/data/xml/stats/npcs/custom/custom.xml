@@ -73,73 +73,121 @@
 			<height normal="33" />
 		</collision>
 	</npc>
-	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+<npc id="514" displayId="7560" name="Gautie" usingServerSideName="true" title="Tailor" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="8" />
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="70010" displayId="31606" name="Catrina" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+<npc id="515" displayId="4306" level="70" type="L2ClassMaster" name="Steve Shyagel" title="Class Master">
+		<!-- Confirmed CT2.5 -->
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="type" value="0" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444.46819" hpRegen="7.5" mp="1345.8" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> <!--Resist Full Magic Attack -->
+			<skill id="4408" level="1" /> <!--HP Increase (1x) -->
+			<skill id="4409" level="1" /> <!--MP Increase (1x) -->
+			<skill id="4410" level="11" /> <!--Average P. Atk. -->
+			<skill id="4411" level="11" /> <!--Average M. Atk. -->
+			<skill id="4412" level="11" /> <!--Average P. Def. -->
+			<skill id="4413" level="11" /> <!--Average M. Def. -->
+			<skill id="4414" level="2" /> <!--Standard Type -->
+			<skill id="4415" level="3" /> <!--One-handed Sword -->
+			<skill id="4416" level="7" /> <!--Spirits -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="70010" displayId="31606" name="Catrina" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="500" displayId="25350" name="Rebirth Skill Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Trainer">
+	<npc id="500" displayId="25350" name="Rebirth Skill Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Trainer">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="501" displayId="25350" name="Rebirth Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Rebirth">
+	<npc id="501" displayId="25350" name="Rebirth Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Rebirth">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="539" displayId="25350" name="Achievement Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="539" displayId="25350" name="Achievement Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="541" displayId="25350" name="Castle Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="541" displayId="25350" name="Castle Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="542" displayId="25350" name="Premium Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="542" displayId="25350" name="Premium Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="543" displayId="25350" name="GrandBoss Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="543" displayId="25350" name="GrandBoss Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="553" displayId="25350" name="Report Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="553" displayId="25350" name="Report Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="554" displayId="25350" name="Points Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="554" displayId="25350" name="Points Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="555" displayId="25350" name="Npc Buffer" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Buffer">
+	<npc id="555" displayId="25350" name="Npc Buffer" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Buffer">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="556" displayId="25350" name="Black market" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="556" displayId="25350" name="Black market" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
@@ -151,13 +199,13 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="560" displayId="25350" name="Delevel Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="560" displayId="25350" name="Delevel Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
@@ -175,7 +223,7 @@
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="572" displayId="32576" name="GmShop" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Merchant">
+	<npc id="572" displayId="32576" name="GmShop" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="8.5" />
 			<height normal="23.5" />
@@ -187,13 +235,13 @@
 			<height normal="27.5" />
 		</collision>
 	</npc>
-	<npc id="574" displayId="32597" name="Casino Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="574" displayId="32597" name="Casino Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="11" />
 			<height normal="24" />
 		</collision>
 	</npc>
-	<npc id="575" displayId="13298" name="Noble Manager" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="575" displayId="13298" name="Noble Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="10" />
 			<height normal="22" />
@@ -456,13 +504,13 @@
 			<height normal="80" />
 		</collision>
 	</npc>
-	<npc id="9994" displayId="35657" name="Pvp Zone" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9994" displayId="35657" name="Pvp Zone" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9995" displayId="35657" name="Party Matcher" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9995" displayId="35657" name="Party Matcher" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
@@ -487,19 +535,19 @@
 			<height normal="25" />
 		</collision>
 	</npc>
-	<npc id="9997" displayId="35657" name="Buffer" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9997" displayId="35657" name="Buffer" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9998" displayId="35657" name="Mini Events" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9998" displayId="35657" name="Mini Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9999" displayId="31690" name="Main Events" usingServerSideName="true" title="www.l2jsunrise.com" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9999" displayId="31690" name="Main Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="24" />
 			<height normal="72" />
