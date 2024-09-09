@@ -249,7 +249,6 @@
 		<set name="weight" val="130" />
 		<set name="price" val="180000" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3465-1" />
 		<for>
 			<enchant stat="mAtk" val="0" />
 		</for>

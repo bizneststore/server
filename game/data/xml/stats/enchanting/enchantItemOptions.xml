@@ -1139,4 +1139,8 @@
 		<options level="9" option1="24974" option2="24980" option3="24983" />
 		<options level="10" option1="24984" option2="24985" option3="24983" />
 	</item>
+	<item id="50217"> <!--vmilon shirts-->
+		<options level="1" option1="24986" />
+		<options level="2" option1="24987" />
+	</item>
 </list>
