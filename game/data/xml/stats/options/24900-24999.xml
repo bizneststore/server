@@ -674,7 +674,7 @@
 		<!-- vmilon shirt skills -->
 		<for>
 			<mul stat="mAtk" val="3" /> 
-			<mul stat="darkRes" val="2" /> 
+			<mul stat="darkRes" val="5" /> 
 			<mul stat="waterRes" val="2" /> 
 			<mul stat="fireRes" val="2" /> 
   			<mul stat="windRes" val="2" /> 
