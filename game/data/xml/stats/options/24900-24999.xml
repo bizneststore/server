@@ -675,6 +675,12 @@
 		<for>
 			<mul stat="mAtk" val="3" /> 
 			<mul stat="darkRes" val="2" /> 
+			<mul stat="waterRes" val="2" /> 
+			<mul stat="fireRes" val="2" /> 
+  			<mul stat="windRes" val="2" /> 
+			<mul stat="holyRes" val="2" /> 
+			<mul stat="mDef" val="2" /> 
+			<mul stat="pAtk" val="2" /> 
 		</for>
 	</option>
 	<option id="24987" name="high_five">
