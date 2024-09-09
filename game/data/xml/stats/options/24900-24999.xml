@@ -679,11 +679,11 @@
 	</option>
 	<option id="24987" name="high_five">
 		<!-- vmilon -->
-		<for>
+		
 			<for>
 			<mul stat="mAtk" val="1.02" /> 
 			<mul stat="darkRes" val="1.01" /> 
-		</for>
-		</for>
+			</for>
+		
 	</option>
 </list>
