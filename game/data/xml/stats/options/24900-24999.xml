@@ -674,7 +674,7 @@
 		<!-- vmilon shirt skills -->
 		<for>
 			<mul stat="mAtk" val="1.01" /> 
-			<mul stat="darkRes" val="1.005" /> 
+			<mul stat="darkRes" val="3" /> 
 		</for>
 	</option>
 	<option id="24987" name="high_five">
@@ -682,7 +682,7 @@
 		
 			<for>
 			<mul stat="mAtk" val="1.02" /> 
-			<mul stat="darkRes" val="1.01" /> 
+			<add stat="darkRes" val="6" /> 
 			</for>
 		
 	</option>
