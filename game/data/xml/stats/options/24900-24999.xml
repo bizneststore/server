@@ -687,8 +687,8 @@
 		
 			<for>
 				<add stat="mAtk" val="150" />
-				<mul stat="mAtk" val="1.02" /> 
-				<mul stat="darkRes" val="1.01" /> 
+				<add stat="mAtk" val="50" /> 
+				<add stat="darkRes" val="100" /> 
 			</for>
 		
 	</option>
