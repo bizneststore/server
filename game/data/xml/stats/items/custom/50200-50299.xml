@@ -314,7 +314,7 @@
 		</for>
 	</item>
 	<item id="50222" type="Armor" name="Sayha's Wind Shirt">
-		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
 		<set name="immediate_effect" val="true" />
