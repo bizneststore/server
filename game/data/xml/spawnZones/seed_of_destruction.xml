@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawnZones.xsd">
 	<spawnZones>
+
+
+<!-- APOTI KATALAVA TA FLAGS EINAI SAN GROUPS, APLA XWRIZEI TA NPCs GIA TON KWDIKA -->
 		<zone id="2" minZ="-10178" maxZ="-9978">
 			<point x="-240697" y="219193" />
 			<point x="-240699" y="220766" />

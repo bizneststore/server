@@ -66,6 +66,9 @@
 															<xs:enumeration value="pAtk" />
 															<xs:enumeration value="pDef" />
 															<xs:enumeration value="windRes" />
+															<xs:enumeration value="pvpMagicalDef" />
+															<xs:enumeration value="pvpPhysSkillsDef" />
+															<xs:enumeration value="pvpPhysDef" />
 														</xs:restriction>
 													</xs:simpleType>
 												</xs:attribute>

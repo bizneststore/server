@@ -671,15 +671,13 @@
 		</for>
 	</option>
 	<option id="24986" name="high_five">
-		<!-- vmilon shirt skills -->
+		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul stat="mAtk" val="3" /> 
-			<mul stat="darkRes" val="5" /> 
-			<mul stat="waterRes" val="2" /> 
-			<mul stat="fireRes" val="2" /> 
-  			<mul stat="windRes" val="2" /> 
-			<mul stat="holyRes" val="2" /> 
-			<mul stat="pAtk" val="2" /> 
+			<add stat="darkRes" val="5" /> 
+			<mul stat="mAtk" val="1.01" /> 
+			<mul stat="pvpMagicalDef" val="2" /> 
+			<mul stat="pvpPhysSkillDef" val="2" />
+			<mul stat="pvpPhysDef" val="2" />
 		</for>
 	</option>
 	<option id="24987" name="high_five">
