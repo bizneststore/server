@@ -2,6 +2,7 @@ package handlers.voicedcommandhandlers;
 
 import java.util.concurrent.ThreadLocalRandom;
 
+import l2r.gameserver.ThreadPoolManager;
 import l2r.gameserver.enums.ZoneIdType;
 import l2r.gameserver.handler.IVoicedCommandHandler;
 import l2r.gameserver.model.Location;
@@ -28,6 +29,8 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 		"schuttgart",
 		"oren"
 	};
+	
+	private static final int TELEPORT_DELAY = 3000; // Delay in milliseconds (3 seconds)
 	
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)
@@ -123,7 +126,11 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 				break;
 		}
 		
-		activeChar.teleToLocation(loc, false);
+		Location loc2 = loc;
+		// Schedule the teleport with a delay
+		ThreadPoolManager.getInstance().scheduleGeneral(() -> activeChar.teleToLocation(loc2, false), TELEPORT_DELAY);
+		activeChar.sendMessage("Teleporting in " + (TELEPORT_DELAY / 1000) + " seconds...");
+		// activeChar.teleToLocation(loc, false);
 		return true;
 	}
 	
