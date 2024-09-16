@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<!-- Lyanna (na mpei edw to ID ths) -->
+		<npc>514</npc>
+	</npcs>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50217" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF CP -->
+		<production count="1" id="50218" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- GREATER CP POT -->
+		<production count="1" id="50219" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- GREATER HP POT -->
+		<production count="1" id="50220" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- GREATER MP POT -->
+		<production count="1" id="50221" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- GREATER CP POT 500 -->
+		<production count="1" id="50222" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50000" id="57" />
+		<!-- GREATER CP POT 500 -->
+		<production count="1" id="21582" />
+	</item>
+</list>
