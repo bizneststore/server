@@ -13,6 +13,7 @@ import ai.modifier.NonTalkingNpcs;
 import ai.modifier.RunningNpcs;
 import ai.modifier.SeeThroughSilentMove;
 import ai.modifier.SevenSignNpcs;
+import ai.modifier.dropEngine.DropExample;
 import ai.modifier.dropEngine.FortressReward;
 import ai.modifier.pursueFunction.MaxPursueRange;
 
@@ -24,6 +25,7 @@ public final class ModifiersLoader extends ABLoader
 {
 	private final Class<?>[] SCRIPTS =
 	{
+		DropExample.class,
 		FlyingNpcs.class,
 		NoChampionMobs.class,
 		NoMovingNpcs.class,
