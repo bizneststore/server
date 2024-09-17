@@ -247,7 +247,6 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="180000" />
 		<set name="enchant_enabled" val="1" />
 	</item>
 		<item id="50218" type="Armor" name="Gran Kain's Might Shirt">
@@ -259,7 +258,6 @@
 		<set name="crystal_type" val="B" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="400000" />
 		<set name="enchant_enabled" val="1" />
 		<set name="enchant4_skill" val="3471-1" />
 		<for>
@@ -276,7 +274,6 @@
 		<set name="crystal_type" val="A" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="880000" />
 		<set name="enchant_enabled" val="1" />
 		<set name="enchant4_skill" val="3477-1" />
 		<for>
@@ -291,7 +288,6 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="6100" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0" stat="pDef" val="8" />
@@ -306,7 +302,6 @@
 		<set name="crystal_type" val="D" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="49000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0" stat="pDef" val="14" />
@@ -322,11 +317,60 @@
 		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="price" val="180000" />
 		<set name="enchant_enabled" val="1" />
 		<for>
 			<add order="0" stat="pDef" val="19" />
 			<enchant stat="pDef" val="0" />
 		</for>
+	</item>
+	<item id="50223" type="EtcItem" name="Blessed T-shirt Enchant Scroll">
+		<!-- Scroll for shirts -->
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="32512-1" />
+	</item>
+	<item id="50224" type="Armor" name="Mithril Belt - Mage">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="50225" type="Armor" name="Mithril Belt - Warrior">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="1" />
+	</item>
+	<item id="50226" type="EtcItem" name="Blessed Belt Enchant Scroll">
+		<!-- Scroll for shirts -->
+		<set name="icon" val="BranchSys2.icon.etc_scroll_of_enchant_shirt_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="120" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="32513-1" />
 	</item>
 </list>

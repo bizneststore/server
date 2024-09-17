@@ -6,10 +6,45 @@
 	</npcs>
 	<item>
 		<!-- Pc Bang Point -->
-		<ingredient count="50" id="40008" />
+		<ingredient count="10000" id="57" />
 		<!-- ELIXIR OF LIFE -->
-		<production count="1" id="40009" />
+		<production count="1" id="50217" />
+	</item>
+		<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50218" />
+	</item>
+		<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50219" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50220" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50221" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="10000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50222" />
+	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="50000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50223" />
 	</item>
 	
-
 </list>

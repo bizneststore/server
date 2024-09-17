@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/enchantItemData.xsd">
+	<!-- L2SOE TSHIRT SCROLL -->
+	<enchant id="50223" maxEnchant="10">
+		<item id="50217" /> <!-- Olf's T-shirt -->
+		<item id="50218" /> 
+		<item id="50219" />
+		<item id="50220" />
+		<item id="50221" />
+		<item id="50222" />
+	</enchant>
+	
+		<!-- L2SOE BELT SCROLL -->	
+	<enchant id="50226" maxEnchant="10">
+		<item id="50224" /> 
+		<item id="50225" /> 
+	</enchant>	
+
+
 	<!-- Scrolls: Enchant Weapon -->
 	<enchant id="729" targetGrade="A" />
 	<enchant id="947" targetGrade="B" />
@@ -274,4 +291,7 @@
 	<support id="14709" targetGrade="B" minEnchant="0" maxEnchant="9" bonusRate="23" />
 	<support id="14710" targetGrade="A" minEnchant="0" maxEnchant="9" bonusRate="18" />
 	<support id="14711" targetGrade="S" minEnchant="0" maxEnchant="9" bonusRate="15" />
+
+
+	
 </list>

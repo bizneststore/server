@@ -10,61 +10,61 @@
 <npc id="503" displayId="30538" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="17.5" />
 		</collision>
 	</npc>
 <npc id="504" displayId="30534" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="18.4" />
 		</collision>
 	</npc>
 <npc id="505" displayId="30557" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="17" />
 		</collision>
 	</npc>
 <npc id="506" displayId="30533" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="17" />
 		</collision>
 	</npc>
 <npc id="507" displayId="30537" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="17.5" />
 		</collision>
 	</npc>
 <npc id="508" displayId="30527" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="17.5" />
 		</collision>
 	</npc>
 <npc id="509" displayId="30532" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
-			<height normal="23" />
+			<height normal="18" />
 		</collision>
 	</npc>
 <npc id="510" displayId="30522" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
-			<radius normal="8" />
-			<height normal="23" />
+			<radius normal="7" />
+			<height normal="18" />
 		</collision>
 	</npc>
 <npc id="511" displayId="30519" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
-			<radius normal="8" />
-			<height normal="23" />
+			<radius normal="7" />
+			<height normal="18" />
 		</collision>
 	</npc>
 <npc id="512" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
 		<collision>
-			<radius normal="8" />
-			<height normal="23" />
+			<radius normal="7" />
+			<height normal="18.5" />
 		</collision>
 	</npc>
 <npc id="513" name="Tartarus" usingServerSideName="true" title="Event Manager" usingServerSideTitle="true" type="L2Merchant">
