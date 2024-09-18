@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
-<item id="60000" type="EtcItem" name="Cloak 1">
+<item id="60000" type="Armor" name="Cloak 1">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -10,7 +10,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60001" type="EtcItem" name="Cloak 2">
+<item id="60001" type="Armor" name="Cloak 2">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -20,7 +20,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60002" type="EtcItem" name="Cloak 3">
+<item id="60002" type="Armor" name="Cloak 3">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -30,7 +30,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60003" type="EtcItem" name="Cloak 4">
+<item id="60003" type="Armor" name="Cloak 4">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -40,7 +40,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60004" type="EtcItem" name="Cloak 5">
+<item id="60004" type="Armor" name="Cloak 5">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -50,7 +50,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60005" type="EtcItem" name="Cloak 6">
+<item id="60005" type="Armor" name="Cloak 6">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -60,7 +60,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60006" type="EtcItem" name="Cloak 7">
+<item id="60006" type="Armor" name="Cloak 7">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -70,7 +70,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60007" type="EtcItem" name="Cloak 8">
+<item id="60007" type="Armor" name="Cloak 8">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -80,7 +80,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="60008" type="EtcItem" name="Cloak 9">
+<item id="60008" type="Armor" name="Cloak 9">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
