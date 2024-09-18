@@ -463,13 +463,34 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50236" type="Armor" name="Cloak 9">
-		<set name="icon" val="icon.armor_t2000_ul_i00" />
+<item id="50236" type="Armor" name="AEGIS COSTUME">
+		<set name="icon" val="Aegis_Customtex_AS.uniform_aegis_00i" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
+	</item>
+<item id="50237" type="Armor" name="AEGIS SIGIL">
+		<set name="icon" val="Aegis_Weapons_AS.sigil_aegis_00i" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="307" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="930" />
+	</item>
+<item id="50238" type="Armor" name="AEGIS CLOAK">
+		<set name="icon" val="Aegis_Customtex_AS.cloak_aegis_00i" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 	</item>
 </list>
