@@ -517,4 +517,34 @@
 			<height normal="72" />
 		</collision>
 	</npc>
+<npc id="50000" name="NPC1" usingServerSideName="true" title="TEST NPC1" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
+<npc id="50001" name="NPC2" usingServerSideName="true" title="TEST NPC2" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
+<npc id="50002" name="NPC3" usingServerSideName="true" title="TEST NPC3" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
+<npc id="50004" name="NPC4" usingServerSideName="true" title="TEST NPC4" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
+<npc id="50005" name="NPC5" usingServerSideName="true" title="TEST NPC5" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
 </list>

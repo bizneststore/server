@@ -16,5 +16,11 @@
 		<!-- ELIXIR OF LIFE -->
 		<production count="1" id="50225" />
 	</item>
+	<item>
+		<!-- Pc Bang Point -->
+		<ingredient count="15000" id="57" />
+		<!-- ELIXIR OF LIFE -->
+		<production count="1" id="50226" />
+	</item>
 	
 </list>
