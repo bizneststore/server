@@ -373,4 +373,94 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="32513-1" />
 	</item>
+<item id="50227" type="Armor" name="Cloak 1">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50228" type="Armor" name="Cloak 2">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50229" type="Armor" name="Cloak 3">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50230" type="Armor" name="Cloak 4">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50231" type="Armor" name="Cloak 5">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50232" type="Armor" name="Cloak 6">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50233" type="Armor" name="Cloak 7">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50234" type="Armor" name="Cloak 8">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+<item id="50235" type="Armor" name="Cloak 9">
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="220" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
 </list>
