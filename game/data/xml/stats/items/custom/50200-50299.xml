@@ -506,10 +506,6 @@
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
-		<set name="weight" val="1000" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="50240" type="Armor" name="Assasin Costume">
 		<set name="icon" value="AssCostume.ico.Asm_ico"/>
@@ -519,9 +515,6 @@
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="50241" type="Armor" name="White Assasin Hood">
 		<set name="icon" value="AssCostume.ico.Hel_asmw_ico"/>
