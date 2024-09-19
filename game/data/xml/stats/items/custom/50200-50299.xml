@@ -489,7 +489,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50238" type="Armor" name="Aegis Cloak">
+	<item id="50238" type="Armor" name="Aegis Cloak">
 		<set name="icon" val="Aegis_Customtex_AS.cloak_aegis_00i" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -677,11 +677,9 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
-		<set name="is_tradable" val="false" />
-		<set name="is_dropable" val="false" />
-		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="50258" type="Armor" name="Astiell Costume II">
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_a_b_i00"/>
