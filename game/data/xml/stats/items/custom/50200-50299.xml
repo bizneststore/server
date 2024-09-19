@@ -502,7 +502,6 @@
 <item id="50239" type="Armor" name="White Assassin Costume">
 		<set name="icon" value="AssCostume.ico.Hel_asmw_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
@@ -514,7 +513,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="AssCostume.ico.Asm_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
@@ -525,7 +523,6 @@
 	<item id="50241" type="Armor" name="White Assasin Hood">
 		<set name="icon" value="AssCostume.ico.Hel_asmw_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
@@ -536,7 +533,6 @@
 	<item id="50242" type="Armor" name="Assasin Hood">
 		<set name="icon" value="AssCostume.ico.Hel_asm_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -646,7 +642,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_VesperNoble_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -657,7 +652,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_Vorpal_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -668,7 +662,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_Elegia_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -679,7 +672,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_u_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -690,7 +682,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_a_b_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -701,7 +692,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_b_g_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
@@ -712,7 +702,6 @@
 		<set name="crystal_type" value="NONE"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_c_g_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
