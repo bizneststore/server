@@ -489,7 +489,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-	<item id="50238" type="Armor" name="Aegis Cloak">
+<item id="50238" type="Armor" name="Aegis Cloak">
 		<set name="icon" val="Aegis_Customtex_AS.cloak_aegis_00i" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="back" />
@@ -501,10 +501,11 @@
 	</item>
 <item id="50239" type="Armor" name="White Assassin Costume">
 		<set name="crystal_type" value="NONE"/>
-		<set name="icon" value="AssCostume.ico.Hel_asmw_ico" />
+		<set name="icon" value="AssCostume.ico.Hel_asmw_ico"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
 		<set name="is_tradable" val="false" />
@@ -517,6 +518,7 @@
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
 		<set name="is_tradable" val="false" />
@@ -695,6 +697,7 @@
 	</item>
 	<item id="50257" type="Armor" name="Astiell Costume I">
 		<set name="crystal_type" value="NONE"/>
+		<set name="dropable" value="false"/>
 		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_u_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
