@@ -725,4 +725,82 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
+	<item id="50262" type="Armor" name="Antharas Cloak">
+		<set name="icon" val="Class_cloack.Class_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50263" type="Armor" name="Valakas Cloak">
+		<set name="icon" val="Class_cloack.Class_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50264" type="Armor" name="Lindvior Cloak">
+		<set name="icon" val="Class_cloack.Class_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50265" type="Armor" name="Gold Dragon Uniform">
+		<set name="icon" val="icon.armor_t2000_ul_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50266" type="Armor" name="Minecraft Hat">
+		<set name="icon" val="MinecraftHatTex.Minecraft_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+		<item id="50267" type="Armor" name="Ranker Costume">
+		<set name="icon" val="EisenCustom.Icons.Armor"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50268" type="Armor" name="Ranker Mask">
+		<set name="icon" val="EisenCustom.Icons.Armor"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50269" type="Armor" name="Ranker Cloak">
+		<set name="icon" val="EisenCustom.Icons.Cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
 </list>
