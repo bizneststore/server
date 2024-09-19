@@ -524,7 +524,7 @@
 	<item id="50241" type="Armor" name="White Assasin Hood">
 		<set name="icon" val="AssCostume.ico.Hel_asmw_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="hairall" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
 		<set name="is_tradable" val="false" />
@@ -534,7 +534,7 @@
 	<item id="50242" type="Armor" name="Assasin Hood">
 		<set name="icon" val="AssCostume.ico.Hel_asm_ico"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="hairall" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -642,7 +642,7 @@
 	<item id="50254" type="Armor" name="Astiell Noble Hood">
 		<set name="icon" val="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_VesperNoble_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="hairall" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -651,7 +651,7 @@
 	<item id="50255" type="Armor" name="Astiell Vorpal Hood">
 		<set name="icon" val="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_Vorpal_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="hairall" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -660,7 +660,7 @@
 	<item id="50256" type="Armor" name="Astiell Elegia Hood">
 		<set name="icon" val="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_Elegia_Hood_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="head" />
+		<set name="bodypart" val="hairall" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="1000" />
