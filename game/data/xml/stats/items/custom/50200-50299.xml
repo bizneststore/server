@@ -500,7 +500,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="50239" type="Armor" name="White Assassin Costume">
-		<set name="icon" val="Aegis_Customtex_AS.uniform_aegis_00i" />
+		<set name="icon" val="AssCostume.ico.Asmw_ico" />
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
@@ -702,7 +702,7 @@
 		<set name="is_destroyable" val="false" />
 	</item>
 	<item id="50260" type="Armor" name="Astiell Costume IV">
-		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_armor_c_g_i00"/>
+		<set name="icon" value="TexLa2_bz_MultiCrazY.la2_bz_MultiCrazY_Elegia_Cloak_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="alldress" />
