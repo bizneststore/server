@@ -1136,4 +1136,184 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
+	<item id="50299" type="Armor" name="White Angel Cloak">
+		<set name="icon" val="EisenCustom.Icons.Cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50300" type="Armor" name="White Angel Wings">
+		<set name="icon" val="EisenCustom.Icons.Cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50301" type="Armor" name="White Angel Full Set">
+		<set name="icon" val="EisenCustom.Icons.Cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50302" type="Armor" name="Corsair Cloak">
+		<set name="icon" val="wildcorsair.br_freya_cloak_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50303" type="Armor" name="Asgard Helmet">
+		<set name="icon" val="AsgardHelmetTex.Asgard_t00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50304" type="Armor" name="Cronos Reaver Breastplate">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t701_u_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50305" type="Armor" name="Cronos Reaver Gaiter">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t701_l_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50306" type="Armor" name="Cronos Reaver Gauntlets">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t701_g_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50307" type="Armor" name="Cronos Reaver Boots">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t701_b_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50308" type="Armor" name="Cronos Reaver Helmet">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_helmet_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50309" type="Armor" name="Cronos Reaver Leather Breastplate">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t702_u_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50310" type="Armor" name="Cronos Reaver Leather Leggings">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t702_l_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50311" type="Armor" name="Cronos Reaver Leather Gloves">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t702_g_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50312" type="Armor" name="Cronos Reaver Leather Boots">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t702_b_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50313" type="Armor" name="Cronos Reaver Leather Helmet">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_leather_helmet_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50314" type="Armor" name="Cronos Reaver Tunic">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t703_u_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50315" type="Armor" name="Cronos Reaver Stockings">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t703_l_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50316" type="Armor" name="Cronos Reaver Gloves">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t703_g_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50317" type="Armor" name="Cronos Reaver Shoes">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_t703_b_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50318" type="Armor" name="Cronos Reaver Circlet">
+		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_circlet_i00"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
 </list>
