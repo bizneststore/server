@@ -803,4 +803,114 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
+	</item>
+		<item id="50270" type="Armor" name="Beach Costume">
+		<set name="icon" val="BranchSys3.icon1.g_co_sexy_underwear"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	</item>
+		<item id="50271" type="Armor" name="Beach Costume 2">
+		<set name="icon" val="BranchSys3.icon1.g_co_maid_underwear_f01"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50272" type="Armor" name="Captain's Costume">
+		<set name="icon" val="LineageCustom5.captain_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50273" type="Armor" name="Pirate Costume">
+		<set name="icon" val="LineageCustom5.pirate_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50274" type="Armor" name="Musketeer Costume">
+		<set name="icon" val="LineageCustom5.mst_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50275" type="Armor" name="Wizard Costume">
+		<set name="icon" val="LineageCustom5.wzd_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50276" type="Armor" name="Captain's Hat">
+		<set name="icon" val="LineageCustom5.H_captain_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50277" type="Armor" name="Pirate Hat">
+		<set name="icon" val="LineageCustom5.H_pirate_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50278" type="Armor" name="Musketeer Hat">
+		<set name="icon" val="LineageCustom5.mst_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="50279" type="Armor" name="Wizard Hat">
+		<set name="icon" val="LineageCustom5.wzd_ico"/>
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="CLOTH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
 </list>
