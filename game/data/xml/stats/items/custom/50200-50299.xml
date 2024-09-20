@@ -947,7 +947,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50279" type="Armor" name="Tauti Armor - Light">
+<item id="50283" type="Armor" name="Tauti Armor - Light">
 		<set name="icon" val="Tauti_armor.upper_l_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -959,7 +959,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50275" type="Armor" name="Tauti Armor - Robe">
+<item id="50284" type="Armor" name="Tauti Armor - Robe">
 		<set name="icon" val="Tauti_armor.upper_r_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -971,7 +971,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50275" type="Armor" name="Eternal Armor - Heavy">
+<item id="50285" type="Armor" name="Eternal Armor - Heavy">
 		<set name="icon" val="Eternal_armor.armor_t701_u_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -983,7 +983,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50275" type="Armor" name="Eternal Armor - Light">
+<item id="50286" type="Armor" name="Eternal Armor - Light">
 		<set name="icon" val="Eternal_armor.armor_t702_u_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
@@ -995,7 +995,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-<item id="50275" type="Armor" name="Eternal Armor - Robe">
+<item id="50287" type="Armor" name="Eternal Armor - Robe">
 		<set name="icon" val="Eternal_armor.armor_t703_u_i00"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
