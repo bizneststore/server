@@ -2,7 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/enchantItemData.xsd">
 	<!-- L2SOE TSHIRT SCROLL -->
 	<enchant id="50223" maxEnchant="10">
-		<item id="50217" /> <!-- Olf's T-shirt -->
+		<item id="50217" /> 
 		<item id="50218" /> 
 		<item id="50219" />
 		<item id="50220" />

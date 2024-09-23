@@ -1140,8 +1140,103 @@
 		<options level="10" option1="24984" option2="24985" option3="24983" />
 	</item>
 	<item id="50217"> <!--vmilon shirts-->
+
+<!--SHIRT 1-->
 		<options level="1" option1="24986" />
 		<options level="2" option1="24987" />
-		<options level="3" option1="7" />
+		<options level="3" option1="24988" />
+		<options level="4" option1="24989" />
+		<options level="5" option1="24990" />
+		<options level="6" option1="24991" />
+		<options level="7" option1="24992" />
+		<options level="8" option1="24993" />
+		<options level="9" option1="24994" />
+		<options level="10" option1="24995" />
+	</item>
+
+
+
+		<item id="50218"> <!--vmilon shirts-->
+
+<!--SHIRT 2-->
+		<options level="1" option1="24996" />
+		<options level="2" option1="24997" />
+		<options level="3" option1="24998" />
+		<options level="4" option1="24999" />
+		<options level="5" option1="25000" />
+		<options level="6" option1="25001" />
+		<options level="7" option1="25002" />
+		<options level="8" option1="25003" />
+		<options level="9" option1="25004" />
+		<options level="10" option1="25005" />
+	</item>
+
+
+		<item id="50219"> <!--vmilon shirts-->
+
+<!--SHIRT 3-->
+		<options level="1" option1="25006" />
+		<options level="2" option1="25007" />
+		<options level="3" option1="25008" />
+		<options level="4" option1="25009" />
+		<options level="5" option1="25010" />
+		<options level="6" option1="25011" />
+		<options level="7" option1="25012" />
+		<options level="8" option1="25013" />
+		<options level="9" option1="25014" />
+		<options level="10" option1="25015" />
+	</item>
+
+
+		<item id="50220"> <!--vmilon shirts-->
+
+<!--SHIRT 4-->
+		<options level="1" option1="25016" />
+		<options level="2" option1="25017" />
+		<options level="3" option1="25018" />
+		<options level="4" option1="25019" />
+		<options level="5" option1="25020" />
+		<options level="6" option1="25021" />
+		<options level="7" option1="25022" />
+		<options level="8" option1="25023" />
+		<options level="9" option1="25024" />
+		<options level="10" option1="25025" />
+	</item>
+
+
+
+		<item id="50221"> <!--vmilon shirts-->
+
+<!--SHIRT 5-->
+		<options level="1" option1="25026" />
+		<options level="2" option1="25027" />
+		<options level="3" option1="25028" />
+		<options level="4" option1="25029" />
+		<options level="5" option1="25030" />
+		<options level="6" option1="25031" />
+		<options level="7" option1="25032" />
+		<options level="8" option1="25033" />
+		<options level="9" option1="25034" />
+		<options level="10" option1="25035" />
+	</item>
+
+
+
+
+
+
+		<item id="50222"> <!--vmilon shirts-->
+
+<!--SHIRT 6-->
+		<options level="1" option1="25036" />
+		<options level="2" option1="25037" />
+		<options level="3" option1="25038" />
+		<options level="4" option1="25039" />
+		<options level="5" option1="25040" />
+		<options level="6" option1="25041" />
+		<options level="7" option1="25042" />
+		<options level="8" option1="25043" />
+		<options level="9" option1="25044" />
+		<options level="10" option1="25045" />
 	</item>
 </list>

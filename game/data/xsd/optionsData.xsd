@@ -16,6 +16,8 @@
 													<xs:simpleType>
 														<xs:restriction base="xs:token">
 															<xs:enumeration value="accCombat" />
+		
+	<xs:enumeration value="pAtkSpd" />
 															<xs:enumeration value="critDmgAdd" />
 															<xs:enumeration value="CON" />
 															<xs:enumeration value="darkRes" />
@@ -56,13 +58,20 @@
 												<xs:attribute name="stat" use="required">
 													<xs:simpleType>
 														<xs:restriction base="xs:token">
+
+
+	<xs:enumeration value="pAtkSpd" />
 															<xs:enumeration value="mpConsume" />
 															<xs:enumeration value="mAtk" />
+	
+	<xs:enumeration value="mAtkSpd" />
 															<xs:enumeration value="darkRes" />
 															<xs:enumeration value="holyRes" />
 															<xs:enumeration value="mDef" />
 															<xs:enumeration value="waterRes" />
 															<xs:enumeration value="fireRes" />
+	
+	<xs:enumeration value="earthRes" />
 															<xs:enumeration value="pAtk" />
 															<xs:enumeration value="pDef" />
 															<xs:enumeration value="windRes" />

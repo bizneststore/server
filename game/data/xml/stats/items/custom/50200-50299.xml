@@ -259,11 +259,6 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3471-1" />
-		<for>
-			<add order="0" stat="pDef" val="22" />
-			<enchant stat="pDef" val="0" />
-		</for>
 	</item>
 	<item id="50219" type="Armor" name="Pa'agrio's Flame Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
@@ -275,11 +270,6 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
-		<set name="enchant4_skill" val="3477-1" />
-		<for>
-			<add order="0" stat="pDef" val="26" />
-			<enchant stat="pDef" val="0" />
-		</for>
 	</item>
 	<item id="50220" type="Armor" name="Einhasad's Light Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_none_i00" />
@@ -289,9 +279,6 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="8" />
-		</for>
 	</item>
 	<item id="50221" type="Armor" name="Maphr's Earth Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_d_i01" />
@@ -303,10 +290,6 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="14" />
-			<enchant stat="pDef" val="0" />
-		</for>
 	</item>
 	<item id="50222" type="Armor" name="Sayha's Wind Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
@@ -318,10 +301,6 @@
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
 		<set name="enchant_enabled" val="1" />
-		<for>
-			<add order="0" stat="pDef" val="19" />
-			<enchant stat="pDef" val="0" />
-		</for>
 	</item>
 	<item id="50223" type="EtcItem" name="Blessed T-shirt Enchant Scroll">
 		<!-- Scroll for shirts -->
@@ -334,7 +313,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="item_skill" val="32512-1" />
+		<set name="item_skill" val="35212-1" />
 	</item>
 	<item id="50224" type="Armor" name="Mithril Belt - Mage">
 		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
@@ -371,7 +350,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="EnchantScrolls" />
-		<set name="item_skill" val="32513-1" />
+		<set name="item_skill" val="35213-1" />
 	</item>
 <item id="50227" type="Armor" name="Cloak 1">
 		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
