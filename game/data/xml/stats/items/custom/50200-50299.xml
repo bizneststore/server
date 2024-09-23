@@ -510,7 +510,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_destroyable" val="false" />
 	</item>
-	<item id="50240" type="Armor" name="Assasin Costume">
+	<item id="50240" type="Armor" name="Black Assasin Costume">
 		<set name="icon" val="AssCostume.ico.Asm_ico"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
