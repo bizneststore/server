@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+
+<!-- SHIRT 2 CONTINUE -->
+	<option id="25000" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.025" />
+				<mul stat="mDef" val="1.05" />
+				<mul order="40" stat="pvpPhysDef" val="1.025" />
+				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+			</for>
+		
+	</option>
+	<option id="25001" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.03" />
+				<mul stat="mDef" val="1.06" />
+				<mul order="40" stat="pvpPhysDef" val="1.03" />
+				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+			</for>
+		
+	</option>
+	<option id="25002" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.035" />
+				<mul stat="mDef" val="1.07" />
+				<mul order="40" stat="pvpPhysDef" val="1.035" />
+				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+			</for>
+		
+	</option>
+		<option id="25003" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.04" />
+				<mul stat="mDef" val="1.08" />
+				<mul order="40" stat="pvpPhysDef" val="1.04" />
+				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+			</for>
+		
+	</option>
+		<option id="25004" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.045" />
+				<mul stat="mDef" val="1.09" />
+				<mul order="40" stat="pvpPhysDef" val="1.045" />
+				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+			</for>
+		
+	</option>
+	<option id="25005" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="holyRes" val="1.05" />
+				<mul stat="mDef" val="1.1" />
+				<mul order="40" stat="pvpPhysDef" val="1.05" />
+				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+
+
+
+
+
+
+
+
+
+
+
+<!---SHIRT 3-->
+
+
+
+
+
+
+<option id="25006" name="high_five">
+		<!-- vmilon shirt skills (1st Shirt)-->
+		<for>
+			<mul order="40" stat="waterRes" val="2" />
+			<mul stat="mAtkSpd" val="2" />
+			<mul order="40" stat="pvpPhysDef" val="2" />
+			<mul order="40" stat="pvpMagicalDef" val="2" />
+		</for>
+	</option>
+	<option id="25007" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.01" />
+				<mul stat="mAtkSpd" val="1.02" />
+				<mul order="40" stat="pvpPhysDef" val="1.01" />
+				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+			</for>
+		
+	</option>
+	<option id="25008" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.015" />
+				<mul stat="mAtkSpd" val="1.03" />
+				<mul order="40" stat="pvpPhysDef" val="1.015" />
+				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+			</for>
+		
+	</option>
+	<option id="25009" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.02" />
+				<mul stat="mAtkSpd" val="1.04" />
+				<mul order="40" stat="pvpPhysDef" val="1.02" />
+				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+			</for>
+		
+	</option>
+	<option id="25010" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.025" />
+				<mul stat="mAtkSpd" val="1.05" />
+				<mul order="40" stat="pvpPhysDef" val="1.025" />
+				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+			</for>
+		
+	</option>
+	<option id="25011" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.03" />
+				<mul stat="mAtkSpd" val="1.06" />
+				<mul order="40" stat="pvpPhysDef" val="1.03" />
+				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+			</for>
+		
+	</option>
+	<option id="25012" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.035" />
+				<mul stat="mAtkSpd" val="1.07" />
+				<mul order="40" stat="pvpPhysDef" val="1.035" />
+				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+			</for>
+		
+	</option>
+		<option id="25013" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.04" />
+				<mul stat="mAtkSpd" val="1.08" />
+				<mul order="40" stat="pvpPhysDef" val="1.04" />
+				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+			</for>
+		
+	</option>
+		<option id="25014" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.045" />
+				<mul stat="mAtkSpd" val="1.09" />
+				<mul order="40" stat="pvpPhysDef" val="1.045" />
+				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+			</for>
+		
+	</option>
+	<option id="25015" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="waterRes" val="1.05" />
+				<mul stat="mAtkSpd" val="1.1" />
+				<mul order="40" stat="pvpPhysDef" val="1.05" />
+				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+
+
+
+
+
+
+
+
+
+
+
+<!---SHIRT 4-->
+
+
+
+
+
+
+<option id="25016" name="high_five">
+		<!-- vmilon shirt skills (1st Shirt)-->
+		<for>
+			<mul order="40" stat="fireRes" val="2" />
+			<mul stat="pAtk" val="2" />
+			<mul order="40" stat="pvpPhysDef" val="2" />
+			<mul order="40" stat="pvpMagicalDef" val="2" />
+		</for>
+	</option>
+	<option id="25017" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.01" />
+				<mul stat="pAtk" val="1.02" />
+				<mul order="40" stat="pvpPhysDef" val="1.01" />
+				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+			</for>
+		
+	</option>
+	<option id="25018" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.015" />
+				<mul stat="pAtk" val="1.03" />
+				<mul order="40" stat="pvpPhysDef" val="1.015" />
+				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+			</for>
+		
+	</option>
+	<option id="25019" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.02" />
+				<mul stat="pAtk" val="1.04" />
+				<mul order="40" stat="pvpPhysDef" val="1.02" />
+				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+			</for>
+		
+	</option>
+	<option id="25020" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.025" />
+				<mul stat="pAtk" val="1.05" />
+				<mul order="40" stat="pvpPhysDef" val="1.025" />
+				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+			</for>
+		
+	</option>
+	<option id="25021" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.03" />
+				<mul stat="pAtk" val="1.06" />
+				<mul order="40" stat="pvpPhysDef" val="1.03" />
+				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+			</for>
+		
+	</option>
+	<option id="25022" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.035" />
+				<mul stat="pAtk" val="1.07" />
+				<mul order="40" stat="pvpPhysDef" val="1.035" />
+				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+			</for>
+		
+	</option>
+		<option id="25023" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.04" />
+				<mul stat="pAtk" val="1.08" />
+				<mul order="40" stat="pvpPhysDef" val="1.04" />
+				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+			</for>
+		
+	</option>
+		<option id="25024" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.045" />
+				<mul stat="pAtk" val="1.09" />
+				<mul order="40" stat="pvpPhysDef" val="1.045" />
+				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+			</for>
+		
+	</option>
+	<option id="25025" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="fireRes" val="1.05" />
+				<mul stat="pAtk" val="1.1" />
+				<mul order="40" stat="pvpPhysDef" val="1.05" />
+				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+	
+
+
+
+
+
+
+
+
+<!---SHIRT 5-->
+
+
+
+
+
+
+<option id="25026" name="high_five">
+		<!-- vmilon shirt skills (1st Shirt)-->
+		<for>
+			<mul order="40" stat="earthRes" val="2" />
+			<mul stat="pDef" val="2" />
+			<mul order="40" stat="pvpPhysDef" val="2" />
+			<mul order="40" stat="pvpMagicalDef" val="2" />
+		</for>
+	</option>
+	<option id="25027" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.01" />
+				<mul stat="pDef" val="1.02" />
+				<mul order="40" stat="pvpPhysDef" val="1.01" />
+				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+			</for>
+		
+	</option>
+	<option id="25028" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.015" />
+				<mul stat="pDef" val="1.03" />
+				<mul order="40" stat="pvpPhysDef" val="1.015" />
+				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+			</for>
+		
+	</option>
+	<option id="25029" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.02" />
+				<mul stat="pDef" val="1.04" />
+				<mul order="40" stat="pvpPhysDef" val="1.02" />
+				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+			</for>
+		
+	</option>
+	<option id="25030" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.025" />
+				<mul stat="pDef" val="1.05" />
+				<mul order="40" stat="pvpPhysDef" val="1.025" />
+				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+			</for>
+		
+	</option>
+	<option id="25031" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.03" />
+				<mul stat="pDef" val="1.06" />
+				<mul order="40" stat="pvpPhysDef" val="1.03" />
+				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+			</for>
+		
+	</option>
+	<option id="25032" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.035" />
+				<mul stat="pDef" val="1.07" />
+				<mul order="40" stat="pvpPhysDef" val="1.035" />
+				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+			</for>
+		
+	</option>
+		<option id="25033" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.04" />
+				<mul stat="pDef" val="1.08" />
+				<mul order="40" stat="pvpPhysDef" val="1.04" />
+				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+			</for>
+		
+	</option>
+		<option id="25034" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.045" />
+				<mul stat="pDef" val="1.09" />
+				<mul order="40" stat="pvpPhysDef" val="1.045" />
+				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+			</for>
+		
+	</option>
+	<option id="25035" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="earthRes" val="1.05" />
+				<mul stat="pDef" val="1.1" />
+				<mul order="40" stat="pvpPhysDef" val="1.05" />
+				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+
+
+
+
+
+
+
+
+
+
+
+
+<!---SHIRT 6-->
+
+
+
+
+
+
+<option id="25036" name="high_five">
+		<!-- vmilon shirt skills (1st Shirt)-->
+		<for>
+			<mul order="40" stat="windRes" val="2" />
+			<mul stat="pAtkSpd" val="2" />
+			<mul order="40" stat="pvpPhysDef" val="2" />
+			<mul order="40" stat="pvpMagicalDef" val="2" />
+		</for>
+	</option>
+	<option id="25037" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.01" />
+				<mul stat="pAtkSpd" val="1.02" />
+				<mul order="40" stat="pvpPhysDef" val="1.01" />
+				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+			</for>
+		
+	</option>
+	<option id="25038" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.015" />
+				<mul stat="pAtkSpd" val="1.03" />
+				<mul order="40" stat="pvpPhysDef" val="1.015" />
+				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+			</for>
+		
+	</option>
+	<option id="25039" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.02" />
+				<mul stat="pAtkSpd" val="1.04" />
+				<mul order="40" stat="pvpPhysDef" val="1.02" />
+				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+			</for>
+		
+	</option>
+	<option id="25040" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.025" />
+				<mul stat="pAtkSpd" val="1.05" />
+				<mul order="40" stat="pvpPhysDef" val="1.025" />
+				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+			</for>
+		
+	</option>
+	<option id="25041" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.03" />
+				<mul stat="pAtkSpd" val="1.06" />
+				<mul order="40" stat="pvpPhysDef" val="1.03" />
+				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+			</for>
+		
+	</option>
+	<option id="25042" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.035" />
+				<mul stat="pAtkSpd" val="1.07" />
+				<mul order="40" stat="pvpPhysDef" val="1.035" />
+				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+			</for>
+		
+	</option>
+		<option id="25043" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.04" />
+				<mul stat="pAtkSpd" val="1.08" />
+				<mul order="40" stat="pvpPhysDef" val="1.04" />
+				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+			</for>
+		
+	</option>
+		<option id="25044" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.045" />
+				<mul stat="pAtkSpd" val="1.09" />
+				<mul order="40" stat="pvpPhysDef" val="1.045" />
+				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+			</for>
+		
+	</option>
+	<option id="25045" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<mul order="40" stat="windRes" val="1.05" />
+				<mul stat="pAtkSpd" val="1.1" />
+				<mul order="40" stat="pvpPhysDef" val="1.05" />
+				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+</list>
