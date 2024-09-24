@@ -184,7 +184,7 @@
 	<skill id="10010" levels="10" name="Dark Resistance">
 		<!-- Increases Dark Res. -->
 		<table name="#darkRes"> 2.0 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05 </table>
-		<set name="icon" val="icon.skill3238" />
+		<set name="icon" val="icon.skill0003" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
