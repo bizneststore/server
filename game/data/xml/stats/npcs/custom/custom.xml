@@ -67,6 +67,12 @@
 			<height normal="18.5" />
 		</collision>
 	</npc>
+<npc id="513" name="Tartarus" usingServerSideName="true" title="Event Manager" usingServerSideTitle="true" type="L2Merchant">
+		<collision>
+			<radius normal="9" />
+			<height normal="33" />
+		</collision>
+	</npc>
 <npc id="514" displayId="30597" name="Gautie" usingServerSideName="true" title="Tailor" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="8" />
