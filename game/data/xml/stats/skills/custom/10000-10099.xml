@@ -189,7 +189,7 @@
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<mul stat="darkRes" val="#darkRes" />
+			<mul order="0x30" stat="darkRes" val="#darkRes" />
 		</for>
 	</skill>
 </list>
