@@ -6,10 +6,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.025" />
+				<add stat="holyRes" val="1.025" />
 				<mul stat="mDef" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+				<mul stat="pvpPhysDef" val="1.025" />
+				<mul stat="pvpMagicalDef" val="1.025" />
 			</for>
 		
 	</option>
@@ -17,10 +17,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.03" />
+				<add stat="holyRes" val="1.03" />
 				<mul stat="mDef" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
 			</for>
 		
 	</option>
@@ -28,10 +28,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.035" />
+				<add stat="holyRes" val="1.035" />
 				<mul stat="mDef" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+				<mul stat="pvpPhysDef" val="1.035" />
+				<mul stat="pvpMagicalDef" val="1.035" />
 			</for>
 		
 	</option>
@@ -39,10 +39,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.04" />
+				<add stat="holyRes" val="1.04" />
 				<mul stat="mDef" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
 			</for>
 		
 	</option>
@@ -50,10 +50,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.045" />
+				<add stat="holyRes" val="1.045" />
 				<mul stat="mDef" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
 			</for>
 		
 	</option>
@@ -61,10 +61,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.05" />
+				<add stat="holyRes" val="1.05" />
 				<mul stat="mDef" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
 	</option>
@@ -89,20 +89,20 @@
 <option id="25006" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="40" stat="waterRes" val="2" />
+			<add stat="waterRes" val="2" />
 			<mul stat="mAtkSpd" val="2" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
+			<mul stat="pvpPhysDef" val="2" />
+			<mul stat="pvpMagicalDef" val="2" />
 		</for>
 	</option>
 	<option id="25007" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.01" />
+				<add stat="waterRes" val="1.01" />
 				<mul stat="mAtkSpd" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+				<mul stat="pvpPhysDef" val="1.01" />
+				<mul stat="pvpMagicalDef" val="1.01" />
 			</for>
 		
 	</option>
@@ -110,10 +110,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.015" />
+				<add stat="waterRes" val="1.015" />
 				<mul stat="mAtkSpd" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+				<mul stat="pvpPhysDef" val="1.015" />
+				<mul stat="pvpMagicalDef" val="1.015" />
 			</for>
 		
 	</option>
@@ -121,10 +121,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.02" />
+				<add stat="waterRes" val="1.02" />
 				<mul stat="mAtkSpd" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+				<mul stat="pvpPhysDef" val="1.02" />
+				<mul stat="pvpMagicalDef" val="1.02" />
 			</for>
 		
 	</option>
@@ -132,10 +132,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.025" />
+				<add stat="waterRes" val="1.025" />
 				<mul stat="mAtkSpd" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+				<mul stat="pvpPhysDef" val="1.025" />
+				<mul stat="pvpMagicalDef" val="1.025" />
 			</for>
 		
 	</option>
@@ -143,10 +143,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.03" />
+				<add stat="waterRes" val="1.03" />
 				<mul stat="mAtkSpd" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
 			</for>
 		
 	</option>
@@ -154,10 +154,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.035" />
+				<add stat="waterRes" val="1.035" />
 				<mul stat="mAtkSpd" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+				<mul stat="pvpPhysDef" val="1.035" />
+				<mul stat="pvpMagicalDef" val="1.035" />
 			</for>
 		
 	</option>
@@ -165,10 +165,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.04" />
+				<add stat="waterRes" val="1.04" />
 				<mul stat="mAtkSpd" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
 			</for>
 		
 	</option>
@@ -176,10 +176,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.045" />
+				<add stat="waterRes" val="1.045" />
 				<mul stat="mAtkSpd" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
 			</for>
 		
 	</option>
@@ -187,10 +187,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="waterRes" val="1.05" />
+				<add stat="waterRes" val="1.05" />
 				<mul stat="mAtkSpd" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
 	</option>
@@ -215,20 +215,20 @@
 <option id="25016" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="40" stat="fireRes" val="2" />
+			<add stat="fireRes" val="2" />
 			<mul stat="pAtk" val="2" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
+			<mul stat="pvpPhysDef" val="2" />
+			<mul stat="pvpMagicalDef" val="2" />
 		</for>
 	</option>
 	<option id="25017" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.01" />
+				<add stat="fireRes" val="1.01" />
 				<mul stat="pAtk" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+				<mul stat="pvpPhysDef" val="1.01" />
+				<mul stat="pvpMagicalDef" val="1.01" />
 			</for>
 		
 	</option>
@@ -236,10 +236,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.015" />
+				<add stat="fireRes" val="1.015" />
 				<mul stat="pAtk" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+				<mul stat="pvpPhysDef" val="1.015" />
+				<mul stat="pvpMagicalDef" val="1.015" />
 			</for>
 		
 	</option>
@@ -247,10 +247,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.02" />
+				<add stat="fireRes" val="1.02" />
 				<mul stat="pAtk" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+				<mul stat="pvpPhysDef" val="1.02" />
+				<mul stat="pvpMagicalDef" val="1.02" />
 			</for>
 		
 	</option>
@@ -258,10 +258,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.025" />
+				<add stat="fireRes" val="1.025" />
 				<mul stat="pAtk" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+				<mul stat="pvpPhysDef" val="1.025" />
+				<mul stat="pvpMagicalDef" val="1.025" />
 			</for>
 		
 	</option>
@@ -269,10 +269,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.03" />
+				<add stat="fireRes" val="1.03" />
 				<mul stat="pAtk" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
 			</for>
 		
 	</option>
@@ -280,10 +280,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.035" />
+				<add stat="fireRes" val="1.035" />
 				<mul stat="pAtk" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+				<mul  stat="pvpPhysDef" val="1.035" />
+				<mul  stat="pvpMagicalDef" val="1.035" />
 			</for>
 		
 	</option>
@@ -291,10 +291,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.04" />
+				<add stat="fireRes" val="1.04" />
 				<mul stat="pAtk" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
 			</for>
 		
 	</option>
@@ -302,10 +302,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.045" />
+				<add stat="fireRes" val="1.045" />
 				<mul stat="pAtk" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
 			</for>
 		
 	</option>
@@ -313,10 +313,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="fireRes" val="1.05" />
+				<add stat="fireRes" val="1.05" />
 				<mul stat="pAtk" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
 	</option>
@@ -339,20 +339,20 @@
 <option id="25026" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="40" stat="earthRes" val="2" />
+			<add stat="earthRes" val="2" />
 			<mul stat="pDef" val="2" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
+			<mul stat="pvpPhysDef" val="2" />
+			<mul stat="pvpMagicalDef" val="2" />
 		</for>
 	</option>
 	<option id="25027" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.01" />
+				<add stat="earthRes" val="1.01" />
 				<mul stat="pDef" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+				<mul stat="pvpPhysDef" val="1.01" />
+				<mul stat="pvpMagicalDef" val="1.01" />
 			</for>
 		
 	</option>
@@ -360,10 +360,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.015" />
+				<add stat="earthRes" val="1.015" />
 				<mul stat="pDef" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+				<mul stat="pvpPhysDef" val="1.015" />
+				<mul stat="pvpMagicalDef" val="1.015" />
 			</for>
 		
 	</option>
@@ -371,10 +371,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.02" />
+				<add stat="earthRes" val="1.02" />
 				<mul stat="pDef" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+				<mul stat="pvpPhysDef" val="1.02" />
+				<mul stat="pvpMagicalDef" val="1.02" />
 			</for>
 		
 	</option>
@@ -382,10 +382,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.025" />
+				<add stat="earthRes" val="1.025" />
 				<mul stat="pDef" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+				<mul stat="pvpPhysDef" val="1.025" />
+				<mul stat="pvpMagicalDef" val="1.025" />
 			</for>
 		
 	</option>
@@ -393,10 +393,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.03" />
+				<add stat="earthRes" val="1.03" />
 				<mul stat="pDef" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+				<mul stat="pvpPhysDef" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
 			</for>
 		
 	</option>
@@ -404,10 +404,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.035" />
+				<add stat="earthRes" val="1.035" />
 				<mul stat="pDef" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+				<mul stat="pvpPhysDef" val="1.035" />
+				<mul stat="pvpMagicalDef" val="1.035" />
 			</for>
 		
 	</option>
@@ -415,10 +415,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.04" />
+				<add stat="earthRes" val="1.04" />
 				<mul stat="pDef" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
 			</for>
 		
 	</option>
@@ -426,10 +426,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.045" />
+				<add stat="earthRes" val="1.045" />
 				<mul stat="pDef" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
 			</for>
 		
 	</option>
@@ -437,10 +437,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="earthRes" val="1.05" />
+				<add stat="earthRes" val="1.05" />
 				<mul stat="pDef" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
 	</option>
@@ -466,20 +466,20 @@
 <option id="25036" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="40" stat="windRes" val="2" />
+			<add stat="windRes" val="2" />
 			<mul stat="pAtkSpd" val="2" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
+			<mul  stat="pvpPhysDef" val="2" />
+			<mul  stat="pvpMagicalDef" val="2" />
 		</for>
 	</option>
 	<option id="25037" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.01" />
+				<add stat="windRes" val="1.01" />
 				<mul stat="pAtkSpd" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+				<mul  stat="pvpPhysDef" val="1.01" />
+				<mul  stat="pvpMagicalDef" val="1.01" />
 			</for>
 		
 	</option>
@@ -487,10 +487,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.015" />
+				<add stat="windRes" val="1.015" />
 				<mul stat="pAtkSpd" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+				<mul  stat="pvpPhysDef" val="1.015" />
+				<mul  stat="pvpMagicalDef" val="1.015" />
 			</for>
 		
 	</option>
@@ -498,10 +498,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.02" />
+				<add stat="windRes" val="1.02" />
 				<mul stat="pAtkSpd" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+				<mul  stat="pvpPhysDef" val="1.02" />
+				<mul  stat="pvpMagicalDef" val="1.02" />
 			</for>
 		
 	</option>
@@ -509,10 +509,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.025" />
+				<add stat="windRes" val="1.025" />
 				<mul stat="pAtkSpd" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
+				<mul  stat="pvpPhysDef" val="1.025" />
+				<mul  stat="pvpMagicalDef" val="1.025" />
 			</for>
 		
 	</option>
@@ -520,10 +520,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.03" />
+				<add stat="windRes" val="1.03" />
 				<mul stat="pAtkSpd" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
+				<mul  stat="pvpPhysDef" val="1.03" />
+				<mul  stat="pvpMagicalDef" val="1.03" />
 			</for>
 		
 	</option>
@@ -531,10 +531,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.035" />
+				<add stat="windRes" val="1.035" />
 				<mul stat="pAtkSpd" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
+				<mul stat="pvpPhysDef" val="1.035" />
+				<mul stat="pvpMagicalDef" val="1.035" />
 			</for>
 		
 	</option>
@@ -542,10 +542,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.04" />
+				<add stat="windRes" val="1.04" />
 				<mul stat="pAtkSpd" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
 			</for>
 		
 	</option>
@@ -553,10 +553,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.045" />
+				<add stat="windRes" val="1.045" />
 				<mul stat="pAtkSpd" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
 			</for>
 		
 	</option>
@@ -564,10 +564,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="windRes" val="1.05" />
+				<add stat="windRes" val="1.05" />
 				<mul stat="pAtkSpd" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
 	</option>

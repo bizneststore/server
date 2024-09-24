@@ -688,7 +688,7 @@
 	<option id="24986" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="30" stat="darkRes" val="2" />
+			<add stat="darkRes" val="2" />
 			<mul stat="mAtk" val="2" />
 			<mul order="30" stat="pvpPhysDef" val="2" />
 			<mul order="30" stat="pvpMagicalDef" val="2" />
@@ -696,101 +696,92 @@
 	</option>
 	<option id="24987" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="2" />
-			<!--<for>
-				
+			<for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.01" />
+				<mul stat="pvpMagicalDef" val="1.01" />
+			</for>
 		
 	</option>
 	<option id="24988" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="3" />
-			<!-- <for>
-				
+			<for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.015" />
+				<mul stat="pvpMagicalDef" val="1.015" />
+			</for>
 		
 	</option>
 	<option id="24989" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="4" />
-			<!-- <for>
-				
+			<for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.02" />
+				<mul stat="pvpMagicalDef" val="1.02" />
+			</for>
 		
 	</option>
 	<option id="24990" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="5" />
-			<!-- <for>
-				
+			<for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.05" />
-				<mul order="40" stat="pvpPhysDef" val="1.025" />
-				<mul order="40" stat="pvpMagicalDef" val="1.025" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.025" />
+				<mul stat="pvpMagicalDef" val="1.025" />
+			</for>
 		
 	</option>
 	<option id="24991" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="6" />
-			<!-- <for>
-				
+			<for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.06" />
-				<mul order="40" stat="pvpPhysDef" val="1.03" />
-				<mul order="40" stat="pvpMagicalDef" val="1.03" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.03" />
+				<mul stat="pvpMagicalDef" val="1.03" />
+			</for> 
 		
 	</option>
 	<option id="24992" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="7" />
-			<!-- <for>
-				
+			 <for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.07" />
-				<mul order="40" stat="pvpPhysDef" val="1.035" />
-				<mul order="40" stat="pvpMagicalDef" val="1.035" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.035" />
+				<mul stat="pvpMagicalDef" val="1.035" />
+			</for> 
 		
 	</option>
-		<option id="24993" name="high_five">
+	<option id="24993" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="8" />
-			<!-- <for>
-				
+			 <for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.08" />
-				<mul order="40" stat="pvpPhysDef" val="1.04" />
-				<mul order="40" stat="pvpMagicalDef" val="1.04" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.04" />
+				<mul stat="pvpMagicalDef" val="1.04" />
+			</for> 
 		
 	</option>
-		<option id="24994" name="high_five">
+	<option id="24994" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="9" />
-			<!-- <for>
-				
+			 <for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.09" />
-				<mul order="40" stat="pvpPhysDef" val="1.045" />
-				<mul order="40" stat="pvpMagicalDef" val="1.045" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.045" />
+				<mul stat="pvpMagicalDef" val="1.045" />
+			</for> 
 		
 	</option>
 	<option id="24995" name="high_five">
 		<!-- vmilon -->
-		<passive_skill id="10010" level="10" />
-			<!-- <for>
-				
+			 <for>
+				<add stat="darkRes" val="2" />
 				<mul stat="mAtk" val="1.1" />
-				<mul order="40" stat="pvpPhysDef" val="1.05" />
-				<mul order="40" stat="pvpMagicalDef" val="1.05" />
-			</for> -->
+				<mul stat="pvpPhysDef" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+			</for>
 		
 	</option>
 
@@ -809,20 +800,20 @@
 <option id="24996" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="40" stat="holyRes" val="2" />
+			<add stat="holyRes" val="2" />
 			<mul stat="mDef" val="1.01" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
+			<mul stat="pvpPhysDef" val="2" />
+			<mul stat="pvpMagicalDef" val="2" />
 		</for>
 	</option>
 	<option id="24997" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.01" />
+				<add stat="holyRes" val="1.01" />
 				<mul stat="mDef" val="1.02" />
-				<mul order="40" stat="pvpPhysDef" val="1.01" />
-				<mul order="40" stat="pvpMagicalDef" val="1.01" />
+				<mul stat="pvpPhysDef" val="1.01" />
+				<mul stat="pvpMagicalDef" val="1.01" />
 			</for>
 		
 	</option>
@@ -830,10 +821,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.015" />
+				<add stat="holyRes" val="1.015" />
 				<mul stat="mDef" val="1.03" />
-				<mul order="40" stat="pvpPhysDef" val="1.015" />
-				<mul order="40" stat="pvpMagicalDef" val="1.015" />
+				<mul stat="pvpPhysDef" val="1.015" />
+				<mul stat="pvpMagicalDef" val="1.015" />
 			</for>
 		
 	</option>
@@ -841,10 +832,10 @@
 		<!-- vmilon -->
 		
 			<for>
-				<mul order="40" stat="holyRes" val="1.02" />
+				<add stat="holyRes" val="1.02" />
 				<mul stat="mDef" val="1.04" />
-				<mul order="40" stat="pvpPhysDef" val="1.02" />
-				<mul order="40" stat="pvpMagicalDef" val="1.02" />
+				<mul stat="pvpPhysDef" val="1.02" />
+				<mul stat="pvpMagicalDef" val="1.02" />
 			</for>
 		
 	</option>
