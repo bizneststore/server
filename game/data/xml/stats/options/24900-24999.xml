@@ -687,12 +687,12 @@
 <!-- VMILON l2SOE SHIRTS -->
 	<option id="24986" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
-		<passive_skill id="10010" level="1" />
-		<!--<for>
+		<for>
+			<mul order="30" stat="darkRes" val="2" />
 			<mul stat="mAtk" val="2" />
-			<mul order="40" stat="pvpPhysDef" val="2" />
-			<mul order="40" stat="pvpMagicalDef" val="2" />
-		</for> -->
+			<mul order="30" stat="pvpPhysDef" val="2" />
+			<mul order="30" stat="pvpMagicalDef" val="2" />
+		</for>
 	</option>
 	<option id="24987" name="high_five">
 		<!-- vmilon -->
