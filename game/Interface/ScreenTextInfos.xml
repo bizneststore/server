@@ -6,7 +6,7 @@
 -->
 <list>
 	<screen_text_info id="0" enabled="true" type="FPS" text_en="[FPS: %d]" text_ru="[FPS: %d]" font_name="TestCustomFont" font_color="99FFFF" anchor_point="TOP_RIGHT" relative_point="TOP_RIGHT" offset_x="-300" offset_y="5" alpha="255"/>
-	<screen_text_info id="1" enabled="true" type="CUSTOM" text_en="Welcome! © ServerName" text_ru="Добро пожаловать! © ServerName" font_name="TestCustomFont" font_color="99FFFF" anchor_point="TOP_RIGHT" relative_point="TOP_RIGHT" offset_x="-300" offset_y="19" alpha="255"/>
+	<screen_text_info id="1" enabled="true" type="CUSTOM" text_en="Welcome! © L2-SoE" text_ru="Welcome! © L2-SoE" font_name="TestCustomFont" font_color="99FFFF" anchor_point="TOP_RIGHT" relative_point="TOP_RIGHT" offset_x="-300" offset_y="19" alpha="255"/>
 </list>
 
 
