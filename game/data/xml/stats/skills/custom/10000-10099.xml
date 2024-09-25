@@ -32,14 +32,15 @@
 		<set name="isMagic" val="1" /> <!-- Magic Skill -->
 		<set name="operateType" val="P" />
 	</skill>
-	<skill id="10003" levels="1" name="Weight Limit Up">
-		<!-- Increases the weight limit by 500000. -->
+	<skill id="10003" levels="2" name="Weight Limit Up">
+		<!-- Increases the weight limit by 500000 or 10000. -->
+		<table name="#weight"> 500000 15000 </table>
 		<set name="icon" val="icon.skill3238" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<add stat="weightLimit" val="500000" />
+			<add stat="weightLimit" val="#weight" />
 		</for>
 	</skill>
 	<skill id="10004" levels="10" name="Curse of Rheumatism">

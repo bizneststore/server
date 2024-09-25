@@ -16,8 +16,15 @@
 													<xs:simpleType>
 														<xs:restriction base="xs:token">
 															<xs:enumeration value="accCombat" />
-		
-	<xs:enumeration value="pAtkSpd" />
+															<xs:enumeration value="pvpPhysSkillsDmg" />
+															<xs:enumeration value="pvpPhysDmg" />
+															<xs:enumeration value="pvpMagicalDmg" />
+															<xs:enumeration value="inventoryLimit" />
+															<xs:enumeration value="pvpPhysDef" />
+															<xs:enumeration value="pvpMagicalDef" />
+															<xs:enumeration value="cancelVuln" />
+															<xs:enumeration value="weightLimit" />
+															<xs:enumeration value="pAtkSpd" />
 															<xs:enumeration value="critDmgAdd" />
 															<xs:enumeration value="CON" />
 															<xs:enumeration value="darkRes" />
@@ -60,24 +67,31 @@
 														<xs:restriction base="xs:token">
 
 
-	<xs:enumeration value="pAtkSpd" />
+															<xs:enumeration value="pAtkSpd" />
 															<xs:enumeration value="mpConsume" />
 															<xs:enumeration value="mAtk" />
 	
-	<xs:enumeration value="mAtkSpd" />
+															<xs:enumeration value="mAtkSpd" />
 															<xs:enumeration value="darkRes" />
 															<xs:enumeration value="holyRes" />
 															<xs:enumeration value="mDef" />
 															<xs:enumeration value="waterRes" />
 															<xs:enumeration value="fireRes" />
 	
-	<xs:enumeration value="earthRes" />
+															<xs:enumeration value="earthRes" />
 															<xs:enumeration value="pAtk" />
 															<xs:enumeration value="pDef" />
 															<xs:enumeration value="windRes" />
 															<xs:enumeration value="pvpMagicalDef" />
 															<xs:enumeration value="pvpPhysSkillsDef" />
 															<xs:enumeration value="pvpPhysDef" />
+															<xs:enumeration value="pvpPhysSkillsDmg" />
+															<xs:enumeration value="pvpPhysDmg" />
+															<xs:enumeration value="pvpMagicalDmg" />
+															<xs:enumeration value="inventoryLimit" />
+															<xs:enumeration value="pvpPhysDef" />
+															<xs:enumeration value="cancelVuln" />
+															<xs:enumeration value="weightLimit" />
 														</xs:restriction>
 													</xs:simpleType>
 												</xs:attribute>

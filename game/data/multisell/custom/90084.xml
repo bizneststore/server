@@ -9,16 +9,16 @@
 
 	<!--vmilon l2soe-->
 	<item>
-		<ingredient id="57" count="1000" />
+		<ingredient id="57" count="1000000" />
 		<production id="1419" count="1" />
 	</item>
 	
 	<item>
-		<ingredient id="57" count="25000" />
+		<ingredient id="57" count="25000000" />
 		<production id="3874" count="1" />
 	</item>
 	<item>
-		<ingredient id="57" count="50000" />
+		<ingredient id="57" count="50000000" />
 		<production id="3870" count="1" />
 	</item>
 	<item>
@@ -34,8 +34,8 @@
 		<production id="4295" count="1" />
 	</item>
 	<item>
-		<ingredient id="40007" count="25" />
-		<production id="8073" count="1" />
+		<ingredient id="4665" count="1" />
+		<production id="4673" count="1" />
 	</item>
 	
 

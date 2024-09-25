@@ -571,4 +571,284 @@
 			</for>
 		
 	</option>
+
+
+
+
+
+
+
+
+
+<!--MITHRIL BELTS L2SOE -->
+
+
+<!--MAGE BELT -->
+<option id="25046" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+			</for>
+		
+	</option>
+<option id="25047" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+			</for>
+		
+	</option>
+<option id="25048" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+			</for>
+		
+	</option>
+<option id="25049" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+			</for>
+		
+	</option>
+<option id="25050" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+			</for>
+		
+	</option>
+<option id="25051" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxMp" val="100" />
+			</for>
+		
+	</option>
+<option id="25052" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxMp" val="100" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+			</for>
+		
+	</option>
+<option id="25053" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxMp" val="100" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+			</for>
+		
+	</option>
+<option id="25054" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxMp" val="100" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+			</for>
+		
+	</option>
+<option id="25055" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regMp" val="1.5" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxMp" val="100" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpPhysSkillsDef" val="1.05" />
+				<mul stat="cancelVuln" val="0.9" />
+				
+			</for>
+		
+	</option>
+
+
+
+
+
+<!--WARRIOR BELT -->
+
+<option id="25056" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+			</for>
+		
+	</option>
+<option id="25057" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+			</for>
+		
+	</option>
+<option id="25058" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+			</for>
+		
+	</option>
+<option id="25059" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+			</for>
+		
+	</option>
+<option id="25060" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+			</for>
+		
+	</option>
+<option id="25061" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxHp" val="100" />
+			</for>
+		
+	</option>
+<option id="25062" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxHp" val="100" />
+				<mul stat="pvpPhysDmg" val="1.08" />
+			</for>
+		
+	</option>
+<option id="25063" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxHp" val="100" />
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+<option id="25064" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxHp" val="100" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysSkillsDmg" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+			</for>
+		
+	</option>
+<option id="25065" name="high_five">
+		<!-- vmilon -->
+		
+			<for>
+				<add stat="weightLimit" val="15000" />
+				<add stat="inventoryLimit" val="36" />
+				<add stat="runSpd" val="3" />
+				<add stat="regHp" val="3" />
+				<add stat="maxCp" val="100" />
+				<add stat="maxHp" val="100" />
+				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysSkillsDmg" val="1.05" />
+				<mul stat="pvpMagicalDef" val="1.05" />
+				<mul stat="cancelVuln" val="0.9" />
+			</for>
+		
+	</option>
+
+
+
+
+
 </list>
