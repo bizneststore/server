@@ -6,10 +6,11 @@
 				<xs:element name="hat" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="price">
+							<xs:element name="price" minOccurs='0'>
 								<xs:complexType>
 									<xs:attribute name="id" type="xs:int"></xs:attribute>
 									<xs:attribute name="count" type="xs:int"></xs:attribute>
+									<xs:attribute name="payOnce" type="xs:boolean"></xs:attribute>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -17,6 +18,7 @@
 						<xs:attribute name="id" type="xs:int"></xs:attribute>
 						<xs:attribute name="name" type="xs:string"></xs:attribute>
 						<xs:attribute name="slot" type="xs:int"></xs:attribute>
+						<xs:attribute name="premiumOnly" type="xs:boolean"></xs:attribute>
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

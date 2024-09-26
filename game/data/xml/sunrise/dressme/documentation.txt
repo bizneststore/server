@@ -1,0 +1,13 @@
+Payment options system for transmog engine
+
+There are some custom payment ids example:
+PC_BANG_POINTS = -100;
+FAME = -300;
+
+// This option will consume the needed item only the first time
+// by default all items are payOnce="false"
+payOnce="true"
+
+Example:
+<price id="57" count="50" payOnce="true" />
+transmog engine will consume 50 items with id 57 only one time
