@@ -15,7 +15,7 @@
 		<set chest="50309" legs="50310" gloves="50311" feet="50312" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
-	<dress number="90002" name="Cronos Reaver Robe Set" type="ROBE">
+	<dress number="90003" name="Cronos Reaver Robe Set" type="ROBE">
 		<set chest="50314" legs="50315" gloves="50316" feet="50317" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
