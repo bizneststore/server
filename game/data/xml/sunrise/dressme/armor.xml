@@ -3,11 +3,11 @@
 	xsi:noNamespaceSchemaLocation="../../../xsd/dressme/armor.xsd">
 	<!-- ROBE ARMOR SETS -->
 	<!-- NO GRADE -->
-	<dress number="90000" name="White Assassin Costume (chest)" type="HEAVY">
+	<dress number="90000" name="White Assassin Costume (chest)" type="Armor">
 		<set chest="50239" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
-	<dress number="90001" name="White Assassin Costume (alldress)" type="HEAVY">
+	<dress number="90001" name="White Assassin Costume (alldress)" type="Armor">
 		<set alldress="50239" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
