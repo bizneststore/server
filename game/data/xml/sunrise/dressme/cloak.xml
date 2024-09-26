@@ -1,25 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../../xsd/dressme/cloak.xsd">
-	<cloak number="91001" id="13890" name="Holy Spirit's Cloak">
+	<cloak number="91001" id="50243" name="Astiell Buffer Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91002" id="21583" name="7th Anniversary Cloak - Pitch Black">
+	<cloak number="91002" id="50244" name="Astiell Healer Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91003" id="21587" name="7th Anniversary Cloak - Blood Red">
+	<cloak number="91003" id="50245" name="Astiell Knight Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91004" id="21588" name="7th Anniversary Cloak - Pearl White">
+	<cloak number="91004" id="50246" name="Astiell Ranger Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91005" id="21716" name="Soul Cloak of Zaken">
+	<cloak number="91005" id="50247" name="Astiell Rogue Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91006" id="21717" name="Soul Cloak of Freya">
+	<cloak number="91006" id="50248" name="Astiell Summoner Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
-	<cloak number="91007" id="21718" name="Soul Cloak of Frintezza">
+	<cloak number="91007" id="50249" name="Astiell Warrior Cloak">
 		<price id="57" count="50" payOnce="true" />
 	</cloak>
+	<cloak number="91008" id="50250" name="Astiell Wizard Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91009" id="50251" name="Astiell Noble Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91010" id="50252" name="Astiell Elegia Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91011" id="50253" name="Astiell Vorpal Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91012" id="50261" name="Bloody Maiden Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91013" id="50262" name="Antharas Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91014" id="50263" name="Valakas Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91015" id="50264" name="Lindvior Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91016" id="50299" name="White Angel Cloak">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91017" id="50301" name="Angel Cloak + Wings">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>
+	<cloak number="91018" id="50302" name="Cloak of Corsair">
+		<price id="57" count="50" payOnce="true" />
+	</cloak>				
 </list>
