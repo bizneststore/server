@@ -481,7 +481,7 @@
 	<item id="50239" type="Armor" name="White Assassin Costume">
 		<set name="icon" val="AssCostume.ico.Asmw_ico" />
 		<set name="default_action" val="EQUIP" />
-		<set name="armor_type" val="HEAVY" />
+		<set name="armor_type" val="SUIT" />
 		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
