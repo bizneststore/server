@@ -5,11 +5,11 @@
 		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<dress number="90001" name="Black Assassin Costume" type="SUIT">
+	<!--<dress number="90001" name="Black Assassin Costume" type="SUIT">
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
-	</dress>
-	<dress number="90002" name="Test SUIT" type="SUIT">
+	</dress> -->
+	<dress number="90002" name="Test" type="SUIT">
 		<set chest="14773" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
