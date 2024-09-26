@@ -493,7 +493,7 @@
 		<set name="icon" val="AssCostume.ico.Asm_ico"/>
 		<set name="default_action" val="EQUIP" />
 		<set name="armor_type" val="HEAVY" />
-		<set name="bodypart" val="chest" />
+		<set name="bodypart" val="alldress" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
