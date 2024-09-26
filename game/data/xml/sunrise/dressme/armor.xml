@@ -7,8 +7,8 @@
 		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
-	<dress number="90001" name="White Assassin Costume (alldress)" type="HEAVY">
-		<set alldress="50239" />
+	<dress number="90001" name="White Assassin Costume (all)" type="HEAVY">
+		<set chest="50239" legs="50239" gloves="50239" feet="50239" />
 		<price id="40007" count="50" payOnce="true" />
 	</dress>
 </list>
