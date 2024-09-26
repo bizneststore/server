@@ -5,24 +5,8 @@
 		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<!--<dress number="90001" name="Black Assassin Costume" type="SUIT">
+	<dress number="90001" name="Black Assassin Costume" type="SUIT">
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
-	</dress> -->
-	<dress number="90002" name="Test" type="SUIT">
-		<set chest="14773" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<!-- <dress number="90002" name="Cronos Reaver Heavy Set" type="HEAVY">
-		<set chest="50304" legs="50305" gloves="50306" feet="50307" />
-		<price id="40007" count="50" payOnce="true" />
-	</dress>
-	<dress number="90003" name="Cronos Reaver Light Set" type="LIGHT">
-		<set chest="50309" legs="50310" gloves="50311" feet="50312" />
-		<price id="40007" count="50" payOnce="true" />
-	</dress>
-	<dress number="90004" name="Cronos Reaver Robe Set" type="LIGHT">
-		<set chest="50314" legs="50315" gloves="50316" feet="50317" />
-		<price id="40007" count="50" payOnce="true" />
-	</dress> -->
 </list>
