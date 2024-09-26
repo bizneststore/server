@@ -9,4 +9,12 @@
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
+	<dress number="90002" name="(H)White Assassin Costume" type="HEAVY">
+		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90003" name="(H)Black Assassin Costume" type="HEAVY">
+		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
 </list>
