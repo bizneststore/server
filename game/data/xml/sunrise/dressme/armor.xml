@@ -7,15 +7,11 @@
 		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<dress number="90001" name="Black Assassin Costume" type="SUIT">
+	<dress number="90001" name="(H)Black Assassin Costume" type="HEAVY">
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<dress number="90002" name="Black Assassin Costume" type="HEAVY">
-		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
-	</dress>
-	<dress number="90003" name="Black Assassin Costume" type="LIGHT">
+	<dress number="90001" name="(S)Black Assassin Costume" type="SUIT">
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
