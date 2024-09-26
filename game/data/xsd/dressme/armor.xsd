@@ -12,6 +12,7 @@
 									<xs:attribute name="legs" type="xs:int"></xs:attribute>
 									<xs:attribute name="gloves" type="xs:int"></xs:attribute>
 									<xs:attribute name="feet" type="xs:int"></xs:attribute>
+									<xs:attribute name="alldress" type="xs:int"></xs:attribute>
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="price" minOccurs='0'>
