@@ -688,9 +688,10 @@
 	<option id="24986" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
+			<mul order="10" stat="darkRes" val="10" />
+			<mul order="20" stat="darkRes" val="2" />
 			<mul order="30" stat="darkRes" val="3" />
 			<mul order="40" stat="darkRes" val="4" />
-			<mul stat="darkRes" val="10" />
 			<mul stat="mAtk" val="2" />
 			<mul order="30" stat="pvpPhysDef" val="2" />
 			<mul order="30" stat="pvpMagicalDef" val="2" />
