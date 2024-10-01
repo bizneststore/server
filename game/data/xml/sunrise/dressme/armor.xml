@@ -1,20 +1,132 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../../xsd/dressme/armor.xsd">
-	<!-- <dress number="90000" name="White Assassin Costume" type="SUIT">
+	<dress number="90000" name="White Assassin Costume" type="SUIT">
 		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
 	<dress number="90001" name="Black Assassin Costume" type="SUIT">
 		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
-	</dress> -->
-	 <dress number="90002" name="(H)White Assassin Costume" type="HEAVY">
-		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
+	</dress>
+	<dress number="90004" name="Aegis Costume" type="SUIT">
+		<set chest="50236" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<dress number="90003" name="(H)Black Assassin Costume" type="HEAVY">
-		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
+	<dress number="90005" name="Astiel Costume I" type="SUIT">
+		<set chest="50257" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress> 
+	<dress number="90006" name="Astiel Costume II" type="SUIT">
+		<set chest="50258" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90007" name="Astiel Costume III" type="SUIT">
+		<set chest="50259" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90008" name="Astiel Costume IV" type="SUIT">
+		<set chest="50260" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90009" name="Gold Dragon Uniform" type="SUIT">
+		<set chest="50260" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90010" name="Ranker Costume" type="SUIT">
+		<set chest="50267" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90011" name="Beach Costume" type="SUIT">
+		<set chest="50270" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90012" name="Beach Costume" type="SUIT">
+		<set chest="50271" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> 
+	<dress number="90013" name="Captain's Costume" type="SUIT">
+		<set chest="50272" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90014" name="Pirate Costume" type="SUIT">
+		<set chest="50273" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90015" name="Musketeer Costume" type="SUIT">
+		<set chest="50274" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90016" name="Wizard Costume" type="SUIT">
+		<set chest="50275" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90017" name="Immortal Armor" type="SUIT">
+		<set chest="50281" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90018" name="Tauti Armor (Heavy)" type="SUIT">
+		<set chest="50282" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90019" name="Tauti Armor (Light)" type="SUIT">
+		<set chest="50283" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90020" name="Tauti Armor (Robe)" type="SUIT">
+		<set chest="50284" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90021" name="Eternal Armor (Heavy)" type="SUIT">
+		<set chest="50285" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90022" name="Eternal Armor (Light)" type="SUIT">
+		<set chest="50286" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90023" name="Eternal Armor (Robe)" type="SUIT">
+		<set chest="50287" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90024" name="School Uniform 1" type="SUIT">
+		<set chest="50288" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90025" name="School Uniform 2" type="SUIT">
+		<set chest="50289" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90026" name="Swimsuit 1" type="SUIT">
+		<set chest="50290" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90027" name="Swimsuit 2" type="SUIT">
+		<set chest="50291" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90028" name="Swimsuit 3" type="SUIT">
+		<set chest="50292" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90029" name="Swimsuit 4" type="SUIT">
+		<set chest="50293" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90030" name="Swimsuit 5" type="SUIT">
+		<set chest="50294" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90031" name="Swimsuit 6" type="SUIT">
+		<set chest="50295" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90032" name="Swimsuit 7" type="SUIT">
+		<set chest="50296" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90033" name="White Warrior Costume" type="SUIT">
+		<set chest="50297" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
 </list>
