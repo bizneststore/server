@@ -13,8 +13,8 @@
 		<set chest="50267" legs="-1" gloves="-1" feet="-1" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>
-	<dress number="90003" name=" (H) Beach Costume" type="HEAVY">
-		<set chest="50270" legs="-1" gloves="-1" feet="-1" />
+	<dress number="90003" name="Cronos Reaver Armor" type="HEAVY">
+		<set chest="50304" legs="50305" gloves="50306" feet="50307" />
 		<price id="57" count="50" payOnce="true" />
 	</dress>  
 	<dress number="90004" name="Aegis Costume" type="SUIT">
