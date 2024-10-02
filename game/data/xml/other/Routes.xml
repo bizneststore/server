@@ -23,7 +23,7 @@
 		<target id="9999" spawnX="84712" spawnY="148616" spawnZ="-3400" />	<!-- VMILON EVENT MANAGER -->
 		<point X="84648" Y="148152" Z="-3400" delay="0" run="false" />
 		<point X="84552" Y="148616" Z="-3400" delay="0" run="false" />
-		<point X="83448" Y="148632" Z="-3408" delay="5000" run="false" string="Event has started!" />
+		<point X="83448" Y="148632" Z="-3408" delay="0" run="false" string="Event has started!" />
 		
 	</route>
 	<!-- Hellbound Town routes for Patrols -->
