@@ -11,3 +11,14 @@ payOnce="true"
 Example:
 <price id="57" count="50" payOnce="true" />
 transmog engine will consume 50 items with id 57 only one time
+
+
+
+<!-<dress number="90000" name="White Assassin Costume" type="SUIT">
+		<set chest="50239" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress>
+	<dress number="90001" name="Black Assassin Costume" type="SUIT">
+		<set chest="50240" legs="-1" gloves="-1" feet="-1" />
+		<price id="57" count="50" payOnce="true" />
+	</dress> -->
