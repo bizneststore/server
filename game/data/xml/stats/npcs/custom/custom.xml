@@ -554,13 +554,13 @@
 	<npc id="9999" displayId="18187" name="Main Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<stats>
 			<speed>
-				<walk ground="180" />
-				<run ground="280" />
+				<walk ground="40" />
+				<run ground="160" />
 			</speed>
 		</stats>
 		<collision>
-			<radius normal="9" />
-			<height normal="34" />
+			<radius normal="21" />
+			<height normal="40" />
 		</collision>
 	</npc>
 </list>
