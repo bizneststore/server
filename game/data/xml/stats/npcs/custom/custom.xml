@@ -551,7 +551,7 @@
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9999" displayId="25350" name="Main Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9999" displayId="18187" name="Main Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<stats>
 			<speed>
 				<walk ground="180" />
