@@ -558,6 +558,7 @@
 				<run ground="160" />
 			</speed>
 		</stats>
+	<equipment rhand="78" />
 		<collision>
 			<radius normal="21" />
 			<height normal="40" />
