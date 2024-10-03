@@ -19,10 +19,9 @@
 		<point X="81918" Y="148352" Z="-3467" delay="0" run="true" />
 		<point X="81937" Y="149173" Z="-3469" delay="0" run="true" />
 	</route>
-	<route name="eventmanager" repeat="false" repeatStyle="conveyor">
-		<target id="9999" spawnX="84088" spawnY="148616" spawnZ="-3400" />	<!-- VMILON EVENT MANAGER -->
-		<point X="84648" Y="148456" Z="-3400" delay="1" run="false" />
-		<point X="84552" Y="148616" Z="-3400" delay="0" run="false" />
+	<route name="eventmanager" repeat="false" repeatStyle="random">
+		<target id="9999" spawnX="84648" spawnY="148456" spawnZ="-3400" />	<!-- VMILON EVENT MANAGER -->
+		<point X="84552" Y="148616" Z="-3400" delay="1" run="false" />
 		<point X="83448" Y="148632" Z="-3408" delay="0" run="false" />
 	</route>
 	<!-- Hellbound Town routes for Patrols -->
