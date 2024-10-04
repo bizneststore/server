@@ -196,6 +196,8 @@
 		</handler>
 		<items>
 			<item id="57" count="1" />
+			<item id="40007" count="1" />
+			
 		</items>
 	</reward>
 	<reward id="251" category="DAILY"  reward_id="302" name="Defeat Zaken!" description="Receive it when you take part in Zaken Raid. You must be in the Command Channel that defeats Zaken." requiredCompletion="1">
@@ -203,6 +205,7 @@
 			<param name="ids">29022</param>
 		</handler>
 		<items>
+			<item id="1467" count="1" />
 			<item id="57" count="1" />
 		</items>
 	</reward>
@@ -210,6 +213,7 @@
 		<handler name="siege" />
 		<items>
 			<item id="57" count="1" />
+			<item id="5151" count="1" />
 		</items>
 	</reward>
 	<reward id="254" category="DAILY"  reward_id="7" name="Daily Hunting (Lv. 20 or lower)" description="Receive it when you kill any 30 monsters. Monsters that are level 6 or lower than the character are not counted." requiredCompletion="30">
@@ -218,7 +222,7 @@
 			<param name="maxLevel">20</param>
 		</handler>
 		<items>
-			<item id="57" count="1" />
+			<item id="732" count="1" />
 		</items>
 	</reward>
 	<reward id="255" category="DAILY"  reward_id="8" name="Daily Hunting (Lv. 21-40)" description="Receive it when you kill any 30 monsters. Monsters that are level 6 or lower than the character are not counted." requiredCompletion="30">
