@@ -25,7 +25,7 @@
 		<!-- Red Soul Crystal - Stage 16 -->
 		<item auctionItemId="7" itemId="13071" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
 	</instance>
-	<instance id="505" interval="1" hour_of_day="11" minute_of_hour="20">
+	<instance id="506" interval="1" hour_of_day="11" minute_of_hour="30">
 		<!-- Top-Grade Life Stone - Level 80 -->
 		<item auctionItemId="2" itemId="9576" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
 		<!-- Top-Grade Life Stone - Level 82 -->
