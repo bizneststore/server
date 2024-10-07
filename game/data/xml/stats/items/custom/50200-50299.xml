@@ -1200,7 +1200,7 @@
 	<item id="50308" type="Armor" name="Cronos Reaver Helmet">
 		<set name="icon" val="AuraKyriadReaverCronos.Icone.armor_helmet_i00"/>
 		<set name="default_action" val="EQUIP" />
-		<set name="bodypart" val="hairall" />
+		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />

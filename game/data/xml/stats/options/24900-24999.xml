@@ -688,19 +688,16 @@
 	<option id="24986" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<mul order="10" stat="darkRes" val="10" />
-			<mul order="20" stat="darkRes" val="2" />
-			<mul order="30" stat="darkRes" val="3" />
-			<mul order="40" stat="darkRes" val="4" />
-			<mul stat="mAtk" val="2" />
-			<mul order="30" stat="pvpPhysDef" val="2" />
-			<mul order="30" stat="pvpMagicalDef" val="2" />
+			<add stat="darkRes" val="5" />
+			<mul stat="mAtk" val="1.01" />
+			<mul stat="pvpPhysDef" val="1.005" />
+			<mul stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="24987" name="high_five">
 		<!-- vmilon -->
 			<for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="10" />
 				<mul stat="mAtk" val="1.02" />
 				<mul stat="pvpPhysDef" val="1.01" />
 				<mul stat="pvpMagicalDef" val="1.01" />
@@ -710,7 +707,7 @@
 	<option id="24988" name="high_five">
 		<!-- vmilon -->
 			<for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="15" />
 				<mul stat="mAtk" val="1.03" />
 				<mul stat="pvpPhysDef" val="1.015" />
 				<mul stat="pvpMagicalDef" val="1.015" />
@@ -720,7 +717,7 @@
 	<option id="24989" name="high_five">
 		<!-- vmilon -->
 			<for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="20" />
 				<mul stat="mAtk" val="1.04" />
 				<mul stat="pvpPhysDef" val="1.02" />
 				<mul stat="pvpMagicalDef" val="1.02" />
@@ -730,7 +727,7 @@
 	<option id="24990" name="high_five">
 		<!-- vmilon -->
 			<for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="25" />
 				<mul stat="mAtk" val="1.05" />
 				<mul stat="pvpPhysDef" val="1.025" />
 				<mul stat="pvpMagicalDef" val="1.025" />
@@ -740,7 +737,7 @@
 	<option id="24991" name="high_five">
 		<!-- vmilon -->
 			<for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="30" />
 				<mul stat="mAtk" val="1.06" />
 				<mul stat="pvpPhysDef" val="1.03" />
 				<mul stat="pvpMagicalDef" val="1.03" />
@@ -750,7 +747,7 @@
 	<option id="24992" name="high_five">
 		<!-- vmilon -->
 			 <for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="35" />
 				<mul stat="mAtk" val="1.07" />
 				<mul stat="pvpPhysDef" val="1.035" />
 				<mul stat="pvpMagicalDef" val="1.035" />
@@ -760,7 +757,7 @@
 	<option id="24993" name="high_five">
 		<!-- vmilon -->
 			 <for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="40" />
 				<mul stat="mAtk" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -770,7 +767,7 @@
 	<option id="24994" name="high_five">
 		<!-- vmilon -->
 			 <for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="45" />
 				<mul stat="mAtk" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -780,7 +777,7 @@
 	<option id="24995" name="high_five">
 		<!-- vmilon -->
 			 <for>
-				<add stat="darkRes" val="2" />
+				<add stat="darkRes" val="50" />
 				<mul stat="mAtk" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -803,17 +800,17 @@
 <option id="24996" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<add stat="holyRes" val="2" />
+			<add stat="holyRes" val="5" />
 			<mul stat="mDef" val="1.01" />
-			<mul stat="pvpPhysDef" val="2" />
-			<mul stat="pvpMagicalDef" val="2" />
+			<mul stat="pvpPhysDef" val="1.005" />
+			<mul stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="24997" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.01" />
+				<add stat="holyRes" val="10" />
 				<mul stat="mDef" val="1.02" />
 				<mul stat="pvpPhysDef" val="1.01" />
 				<mul stat="pvpMagicalDef" val="1.01" />
@@ -824,7 +821,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.015" />
+				<add stat="holyRes" val="15" />
 				<mul stat="mDef" val="1.03" />
 				<mul stat="pvpPhysDef" val="1.015" />
 				<mul stat="pvpMagicalDef" val="1.015" />
@@ -835,7 +832,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.02" />
+				<add stat="holyRes" val="20" />
 				<mul stat="mDef" val="1.04" />
 				<mul stat="pvpPhysDef" val="1.02" />
 				<mul stat="pvpMagicalDef" val="1.02" />

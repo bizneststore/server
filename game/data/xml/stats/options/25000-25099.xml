@@ -6,7 +6,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.025" />
+				<add stat="holyRes" val="25" />
 				<mul stat="mDef" val="1.05" />
 				<mul stat="pvpPhysDef" val="1.025" />
 				<mul stat="pvpMagicalDef" val="1.025" />
@@ -17,7 +17,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.03" />
+				<add stat="holyRes" val="30" />
 				<mul stat="mDef" val="1.06" />
 				<mul stat="pvpPhysDef" val="1.03" />
 				<mul stat="pvpMagicalDef" val="1.03" />
@@ -28,7 +28,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.035" />
+				<add stat="holyRes" val="35" />
 				<mul stat="mDef" val="1.07" />
 				<mul stat="pvpPhysDef" val="1.035" />
 				<mul stat="pvpMagicalDef" val="1.035" />
@@ -39,7 +39,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.04" />
+				<add stat="holyRes" val="40" />
 				<mul stat="mDef" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -50,7 +50,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.045" />
+				<add stat="holyRes" val="45" />
 				<mul stat="mDef" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -61,7 +61,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="holyRes" val="1.05" />
+				<add stat="holyRes" val="50" />
 				<mul stat="mDef" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -89,17 +89,17 @@
 <option id="25006" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<add stat="waterRes" val="2" />
-			<mul stat="mAtkSpd" val="2" />
-			<mul stat="pvpPhysDef" val="2" />
-			<mul stat="pvpMagicalDef" val="2" />
+			<add stat="waterRes" val="5" />
+			<mul stat="mAtkSpd" val="1.01" />
+			<mul stat="pvpPhysDef" val="1.005" />
+			<mul stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="25007" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.01" />
+				<add stat="waterRes" val="10" />
 				<mul stat="mAtkSpd" val="1.02" />
 				<mul stat="pvpPhysDef" val="1.01" />
 				<mul stat="pvpMagicalDef" val="1.01" />
@@ -110,7 +110,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.015" />
+				<add stat="waterRes" val="15" />
 				<mul stat="mAtkSpd" val="1.03" />
 				<mul stat="pvpPhysDef" val="1.015" />
 				<mul stat="pvpMagicalDef" val="1.015" />
@@ -121,7 +121,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.02" />
+				<add stat="waterRes" val="20" />
 				<mul stat="mAtkSpd" val="1.04" />
 				<mul stat="pvpPhysDef" val="1.02" />
 				<mul stat="pvpMagicalDef" val="1.02" />
@@ -132,7 +132,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.025" />
+				<add stat="waterRes" val="25" />
 				<mul stat="mAtkSpd" val="1.05" />
 				<mul stat="pvpPhysDef" val="1.025" />
 				<mul stat="pvpMagicalDef" val="1.025" />
@@ -143,7 +143,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.03" />
+				<add stat="waterRes" val="30" />
 				<mul stat="mAtkSpd" val="1.06" />
 				<mul stat="pvpPhysDef" val="1.03" />
 				<mul stat="pvpMagicalDef" val="1.03" />
@@ -154,7 +154,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.035" />
+				<add stat="waterRes" val="35" />
 				<mul stat="mAtkSpd" val="1.07" />
 				<mul stat="pvpPhysDef" val="1.035" />
 				<mul stat="pvpMagicalDef" val="1.035" />
@@ -165,7 +165,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.04" />
+				<add stat="waterRes" val="40" />
 				<mul stat="mAtkSpd" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -176,7 +176,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.045" />
+				<add stat="waterRes" val="45" />
 				<mul stat="mAtkSpd" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -187,7 +187,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="waterRes" val="1.05" />
+				<add stat="waterRes" val="50" />
 				<mul stat="mAtkSpd" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -215,17 +215,17 @@
 <option id="25016" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<add stat="fireRes" val="2" />
-			<mul stat="pAtk" val="2" />
-			<mul stat="pvpPhysDef" val="2" />
-			<mul stat="pvpMagicalDef" val="2" />
+			<add stat="fireRes" val="5" />
+			<mul stat="pAtk" val="1.01" />
+			<mul stat="pvpPhysDef" val="1.005" />
+			<mul stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="25017" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.01" />
+				<add stat="fireRes" val="10" />
 				<mul stat="pAtk" val="1.02" />
 				<mul stat="pvpPhysDef" val="1.01" />
 				<mul stat="pvpMagicalDef" val="1.01" />
@@ -236,7 +236,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.015" />
+				<add stat="fireRes" val="15" />
 				<mul stat="pAtk" val="1.03" />
 				<mul stat="pvpPhysDef" val="1.015" />
 				<mul stat="pvpMagicalDef" val="1.015" />
@@ -247,7 +247,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.02" />
+				<add stat="fireRes" val="20" />
 				<mul stat="pAtk" val="1.04" />
 				<mul stat="pvpPhysDef" val="1.02" />
 				<mul stat="pvpMagicalDef" val="1.02" />
@@ -258,7 +258,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.025" />
+				<add stat="fireRes" val="25" />
 				<mul stat="pAtk" val="1.05" />
 				<mul stat="pvpPhysDef" val="1.025" />
 				<mul stat="pvpMagicalDef" val="1.025" />
@@ -269,7 +269,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.03" />
+				<add stat="fireRes" val="30" />
 				<mul stat="pAtk" val="1.06" />
 				<mul stat="pvpPhysDef" val="1.03" />
 				<mul stat="pvpMagicalDef" val="1.03" />
@@ -280,7 +280,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.035" />
+				<add stat="fireRes" val="35" />
 				<mul stat="pAtk" val="1.07" />
 				<mul  stat="pvpPhysDef" val="1.035" />
 				<mul  stat="pvpMagicalDef" val="1.035" />
@@ -291,7 +291,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.04" />
+				<add stat="fireRes" val="40" />
 				<mul stat="pAtk" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -302,7 +302,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.045" />
+				<add stat="fireRes" val="45" />
 				<mul stat="pAtk" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -313,7 +313,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="fireRes" val="1.05" />
+				<add stat="fireRes" val="50" />
 				<mul stat="pAtk" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -339,17 +339,17 @@
 <option id="25026" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<add stat="earthRes" val="2" />
-			<mul stat="pDef" val="2" />
-			<mul stat="pvpPhysDef" val="2" />
-			<mul stat="pvpMagicalDef" val="2" />
+			<add stat="earthRes" val="5" />
+			<mul stat="pDef" val="1.01" />
+			<mul stat="pvpPhysDef" val="1.005" />
+			<mul stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="25027" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.01" />
+				<add stat="earthRes" val="10" />
 				<mul stat="pDef" val="1.02" />
 				<mul stat="pvpPhysDef" val="1.01" />
 				<mul stat="pvpMagicalDef" val="1.01" />
@@ -360,7 +360,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.015" />
+				<add stat="earthRes" val="15" />
 				<mul stat="pDef" val="1.03" />
 				<mul stat="pvpPhysDef" val="1.015" />
 				<mul stat="pvpMagicalDef" val="1.015" />
@@ -371,7 +371,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.02" />
+				<add stat="earthRes" val="20" />
 				<mul stat="pDef" val="1.04" />
 				<mul stat="pvpPhysDef" val="1.02" />
 				<mul stat="pvpMagicalDef" val="1.02" />
@@ -382,7 +382,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.025" />
+				<add stat="earthRes" val="25" />
 				<mul stat="pDef" val="1.05" />
 				<mul stat="pvpPhysDef" val="1.025" />
 				<mul stat="pvpMagicalDef" val="1.025" />
@@ -393,7 +393,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.03" />
+				<add stat="earthRes" val="30" />
 				<mul stat="pDef" val="1.06" />
 				<mul stat="pvpPhysDef" val="1.03" />
 				<mul stat="pvpMagicalDef" val="1.03" />
@@ -404,7 +404,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.035" />
+				<add stat="earthRes" val="35" />
 				<mul stat="pDef" val="1.07" />
 				<mul stat="pvpPhysDef" val="1.035" />
 				<mul stat="pvpMagicalDef" val="1.035" />
@@ -415,7 +415,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.04" />
+				<add stat="earthRes" val="40" />
 				<mul stat="pDef" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -426,7 +426,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.045" />
+				<add stat="earthRes" val="45" />
 				<mul stat="pDef" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -437,7 +437,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="earthRes" val="1.05" />
+				<add stat="earthRes" val="50" />
 				<mul stat="pDef" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -466,17 +466,17 @@
 <option id="25036" name="high_five">
 		<!-- vmilon shirt skills (1st Shirt)-->
 		<for>
-			<add stat="windRes" val="2" />
-			<mul stat="pAtkSpd" val="2" />
-			<mul  stat="pvpPhysDef" val="2" />
-			<mul  stat="pvpMagicalDef" val="2" />
+			<add stat="windRes" val="5" />
+			<mul stat="pAtkSpd" val="1.01" />
+			<mul  stat="pvpPhysDef" val="1.005" />
+			<mul  stat="pvpMagicalDef" val="1.005" />
 		</for>
 	</option>
 	<option id="25037" name="high_five">
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.01" />
+				<add stat="windRes" val="10" />
 				<mul stat="pAtkSpd" val="1.02" />
 				<mul  stat="pvpPhysDef" val="1.01" />
 				<mul  stat="pvpMagicalDef" val="1.01" />
@@ -487,7 +487,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.015" />
+				<add stat="windRes" val="15" />
 				<mul stat="pAtkSpd" val="1.03" />
 				<mul  stat="pvpPhysDef" val="1.015" />
 				<mul  stat="pvpMagicalDef" val="1.015" />
@@ -498,7 +498,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.02" />
+				<add stat="windRes" val="20" />
 				<mul stat="pAtkSpd" val="1.04" />
 				<mul  stat="pvpPhysDef" val="1.02" />
 				<mul  stat="pvpMagicalDef" val="1.02" />
@@ -509,7 +509,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.025" />
+				<add stat="windRes" val="25" />
 				<mul stat="pAtkSpd" val="1.05" />
 				<mul  stat="pvpPhysDef" val="1.025" />
 				<mul  stat="pvpMagicalDef" val="1.025" />
@@ -520,7 +520,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.03" />
+				<add stat="windRes" val="30" />
 				<mul stat="pAtkSpd" val="1.06" />
 				<mul  stat="pvpPhysDef" val="1.03" />
 				<mul  stat="pvpMagicalDef" val="1.03" />
@@ -531,7 +531,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.035" />
+				<add stat="windRes" val="35" />
 				<mul stat="pAtkSpd" val="1.07" />
 				<mul stat="pvpPhysDef" val="1.035" />
 				<mul stat="pvpMagicalDef" val="1.035" />
@@ -542,7 +542,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.04" />
+				<add stat="windRes" val="40" />
 				<mul stat="pAtkSpd" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.04" />
 				<mul stat="pvpMagicalDef" val="1.04" />
@@ -553,7 +553,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.045" />
+				<add stat="windRes" val="45" />
 				<mul stat="pAtkSpd" val="1.09" />
 				<mul stat="pvpPhysDef" val="1.045" />
 				<mul stat="pvpMagicalDef" val="1.045" />
@@ -564,7 +564,7 @@
 		<!-- vmilon -->
 		
 			<for>
-				<add stat="windRes" val="1.05" />
+				<add stat="windRes" val="50" />
 				<mul stat="pAtkSpd" val="1.1" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
@@ -672,7 +672,7 @@
 				<add stat="maxCp" val="100" />
 				<add stat="maxMp" val="100" />
 				<mul stat="pvpMagicalDmg" val="1.05" />
-				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpPhysSkillsDef" val="1.05" />
 			</for>
 		
@@ -687,8 +687,8 @@
 				<add stat="regMp" val="1.5" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxMp" val="100" />
-				<mul stat="pvpMagicalDmg" val="1.08" />
-				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpPhysSkillsDef" val="1.05" />
 			</for>
 		
@@ -703,8 +703,8 @@
 				<add stat="regMp" val="1.5" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxMp" val="100" />
-				<mul stat="pvpMagicalDmg" val="1.08" />
-				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpPhysSkillsDef" val="1.05" />
 				<mul stat="cancelVuln" val="0.9" />
 				
@@ -791,7 +791,7 @@
 				<add stat="regHp" val="3" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxHp" val="100" />
-				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysDmg" val="1.05" />
 			</for>
 		
 	</option>
@@ -805,9 +805,7 @@
 				<add stat="regHp" val="3" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxHp" val="100" />
-				<mul stat="pvpPhysDmg" val="1.08" />
-				<mul stat="pvpMagicalDmg" val="1.05" />
-				<mul stat="pvpPhysDef" val="1.3" />
+				<mul stat="pvpPhysDmg" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
 		
@@ -822,8 +820,7 @@
 				<add stat="regHp" val="3" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxHp" val="100" />
-				<mul stat="pvpMagicalDmg" val="1.08" />
-				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysDmg" val="1.05" />
 				<mul stat="pvpPhysSkillsDmg" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
 			</for>
@@ -839,7 +836,7 @@
 				<add stat="regHp" val="3" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxHp" val="100" />
-				<mul stat="pvpPhysDmg" val="1.08" />
+				<mul stat="pvpPhysDmg" val="1.05" />
 				<mul stat="pvpPhysSkillsDmg" val="1.05" />
 				<mul stat="pvpMagicalDef" val="1.05" />
 				<mul stat="cancelVuln" val="0.9" />
