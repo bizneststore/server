@@ -687,7 +687,7 @@
 				<add stat="regMp" val="1.5" />
 				<add stat="maxCp" val="100" />
 				<add stat="maxMp" val="100" />
-				<mul stat="pvpMagicalDmg" val="1.05" />
+				<mul stat="pvpMagicalDmg" val="1.08" />
 				<mul stat="pvpPhysDef" val="1.05" />
 				<mul stat="pvpPhysSkillsDef" val="1.05" />
 			</for>

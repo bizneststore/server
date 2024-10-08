@@ -242,65 +242,49 @@
 		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="60" />
-		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 		<item id="50218" type="Armor" name="Gran Kain's Might Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="44" />
-		<set name="crystal_type" val="B" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50219" type="Armor" name="Pa'agrio's Flame Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="59" />
-		<set name="crystal_type" val="A" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50220" type="Armor" name="Einhasad's Light Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_none_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50221" type="Armor" name="Maphr's Earth Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_d_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="75" />
-		<set name="crystal_type" val="D" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50222" type="Armor" name="Sayha's Wind Shirt">
 		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="underwear" />
-		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="60" />
-		<set name="crystal_type" val="C" />
 		<set name="material" val="CRYSTAL" />
 		<set name="weight" val="130" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50223" type="EtcItem" name="Blessed Shirt Enchant Scroll">
 		<!-- Scroll for shirts -->
@@ -340,7 +324,7 @@
 		<set name="enchant_enabled" val="1" />
 	</item>
 	<item id="50226" type="EtcItem" name="Blessed Belt Enchant Scroll">
-		<!-- Scroll for shirts -->
+		<!-- Scroll for belts -->
 		<set name="icon" val="icon.event_energy_enchant_scroll_i00" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
