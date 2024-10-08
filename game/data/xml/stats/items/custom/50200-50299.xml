@@ -305,11 +305,9 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="waist" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="92" />
-		<set name="crystal_type" val="S" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="440" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50225" type="Armor" name="Mithril Belt - Warrior">
 		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
@@ -317,11 +315,9 @@
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="waist" />
 		<set name="immediate_effect" val="true" />
-		<set name="crystal_count" val="92" />
-		<set name="crystal_type" val="S" />
 		<set name="material" val="CLOTH" />
 		<set name="weight" val="440" />
-		<set name="enchant_enabled" val="1" />
+		<set name="enchant_enabled" val="2" />
 	</item>
 	<item id="50226" type="EtcItem" name="Blessed Belt Enchant Scroll">
 		<!-- Scroll for belts -->
