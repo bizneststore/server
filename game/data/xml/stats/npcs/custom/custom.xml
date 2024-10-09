@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/npcs.xsd">
 
-<npc id="502" displayId="13177" name="Lyanna" usingServerSideName="true" title="Loyalty Shop" usingServerSideTitle="true" type="L2Merchant">
+<npc id="502" displayId="13177" name="Lyanna" usingServerSideName="true" title="Loyalty Shop" usingServerSideTitle="true" type="L2DonateManager">
 		<collision>
 			<radius normal="8" />
 			<height normal="23" />
