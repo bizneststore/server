@@ -17,6 +17,18 @@
 	</enchant>	
 
 
+
+	<!--L2SOE DIVINE WEAPON SCROLLS -->
+	<enchant id="50321" minEnchant="3" maxEnchant="8" targetGrade="S" bonusRate="20" />	
+	<enchant id="50322" minEnchant="8" maxEnchant="14" targetGrade="S" bonusRate="15" />
+	<enchant id="50323" minEnchant="14" maxEnchant="19" targetGrade="S" bonusRate="10" />
+
+	<!--L2SOE DIVINE ARMOR SCROLLS -->
+	<enchant id="50324" minEnchant="4" maxEnchant="8" targetGrade="S" bonusRate="20" />	
+	<enchant id="50325" minEnchant="8" maxEnchant="12" targetGrade="S" bonusRate="15" />
+	<enchant id="50326" minEnchant="12" maxEnchant="15" targetGrade="S" bonusRate="10" />
+
+
 	<!-- Scrolls: Enchant Weapon -->
 	<enchant id="729" targetGrade="A" />
 	<enchant id="947" targetGrade="B" />
