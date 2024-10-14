@@ -125,6 +125,30 @@
 			<height normal="20.5" />
 		</collision>
 	</npc>
+<npc id="518" level="70" type="L2Npc" name="bronzekey" usingServerSideName="true" title="NPC1" usingServerSideTitle="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="519" level="70" type="L2Npc" name="Elquiness" usingServerSideName="true" title="NPC 2" usingServerSideTitle="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="520" level="70" type="L2Npc" name="giorgos" usingServerSideName="true" title="Npc 3" usingServerSideTitle="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
+<npc id="521" level="70" type="L2Npc" name="Vaggelis" usingServerSideName="true" title="Npc 4" usingServerSideTitle="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc>
 	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
