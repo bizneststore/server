@@ -162,10 +162,10 @@
 		<set lang="en" val="Experience Lost" />
 		<set lang="es" val="Experiencia Perdida" />
 	</message>
-	<!--<message id="rank_top_adena_acquired">
+	<message id="rank_top_adena_acquired">
 		<set lang="en" val="Adena Acquired" />
 		<set lang="es" val="Adena Obtenida" />
-	</message> -->
+	</message>
 	<message id="rank_top_fame_acquired">
 		<set lang="en" val="Fame Acquired" />
 		<set lang="es" val="Fama Obtenida" />
