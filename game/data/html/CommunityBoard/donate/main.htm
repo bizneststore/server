@@ -28,7 +28,7 @@
 														<td FIXWIDTH=10 align=right valign=top bgcolor=8B0000>
 															<center>
 																<img src="icon.skill19226" width=32 height=32>
-															</center>
+																</center>
 															<button value="Open" action="bypass %command%_nav;gold" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 														</td>
 														<td FIXWIDTH=230 align=center valign=top>
@@ -42,6 +42,7 @@
 															<center>
 															<img src="icon.skill19226" width=32 height=32>
 															</center>
+															<!--Price: <font color="BCEE68">%prem_pr1% - %prem_pr3%</font>-->
 															<button value="Open" action="bypass %command%_nav;platinum" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 														</td>
 													</tr>
@@ -76,7 +77,7 @@
 														</td>
 													</tr>
 												</table>
-												
+								
 												<table height=74 background="l2ui_ct1.Windows_DF_TooltipBG">
 													<tr>
 														<td>
@@ -154,18 +155,38 @@
 																		<font color="B59A75" name="hs12">Base Class</font> &nbsp;<br><font color="B5B5B5" name="CreditTextSmall">Use this service to change your base class.</font>
 																	</td>
 																	<td FIXWIDTH=155 align=right valign=top bgcolor=8B0000>
-																		Price: <font color="BCEE68">%base_pr%</font>
-																		<button value="Open" action="bypass voice .baseclass" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
+																		Price: <font color="BCEE68">%bscls_pr%</font>
+																		<button value="Open" action="bypass %command%_nav;baseclass" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 																	</td>
 																</tr>
 															</table>
 														</td>
 													</tr>
 												</table>
+												<table height=74 background="l2ui_ct1.Windows_DF_TooltipBG">
+													<tr>
+														<td>
+															<table border=0 cellspacing=4 cellpadding=4 bgcolor=8B6969>
+																<tr>
+																	<td FIXWIDTH=10 align=right valign=top bgcolor=8B0000>
+																		<img src="L2UI_CT1.SkillWnd_DF_Icon_Enchant_add_defence" width=32 height=32>
+																	</td>
+																	<td FIXWIDTH=230 align=left valign=top>
+																		<font color="B59A75" name="hs12">Maximumize Clan</font> &nbsp;<br><font color="B5B5B5" name="CreditTextSmall">Use this service to maximumize you clan level and skills</font>
+																	</td>
+																	<td FIXWIDTH=155 align=right valign=top bgcolor=8B0000>
+																		Price: <font color="BCEE68">%maxc_pr%</font>
+																		<button value="Buy" action="bypass %command%;donateFullClan" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+								
 											</td>
 										</tr>
 									</table>
-									
 									<br><br>
 									<table border=0 cellspacing=0 cellpadding=0 width=755>
 										<tr>
