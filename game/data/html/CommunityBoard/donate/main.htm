@@ -28,7 +28,7 @@
 														<td FIXWIDTH=10 align=right valign=top bgcolor=8B0000>
 															<center>
 																<img src="icon.skill19226" width=32 height=32>
-																</center>
+															</center>
 															<button value="Open" action="bypass %command%_nav;gold" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 														</td>
 														<td FIXWIDTH=230 align=center valign=top>
@@ -42,7 +42,6 @@
 															<center>
 															<img src="icon.skill19226" width=32 height=32>
 															</center>
-															<!--Price: <font color="BCEE68">%prem_pr1% - %prem_pr3%</font>-->
 															<button value="Open" action="bypass %command%_nav;platinum" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 														</td>
 													</tr>
@@ -77,7 +76,7 @@
 														</td>
 													</tr>
 												</table>
-								
+												
 												<table height=74 background="l2ui_ct1.Windows_DF_TooltipBG">
 													<tr>
 														<td>
@@ -155,38 +154,18 @@
 																		<font color="B59A75" name="hs12">Base Class</font> &nbsp;<br><font color="B5B5B5" name="CreditTextSmall">Use this service to change your base class.</font>
 																	</td>
 																	<td FIXWIDTH=155 align=right valign=top bgcolor=8B0000>
-																		Price: <font color="BCEE68">%bscls_pr%</font>
-																		<button value="Open" action="bypass %command%_nav;baseclass" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
+																		Price: <font color="BCEE68">%base_pr%</font>
+																		<button value="Open" action="bypass voice .baseclass" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
 																	</td>
 																</tr>
 															</table>
 														</td>
 													</tr>
 												</table>
-												<table height=74 background="l2ui_ct1.Windows_DF_TooltipBG">
-													<tr>
-														<td>
-															<table border=0 cellspacing=4 cellpadding=4 bgcolor=8B6969>
-																<tr>
-																	<td FIXWIDTH=10 align=right valign=top bgcolor=8B0000>
-																		<img src="L2UI_CT1.SkillWnd_DF_Icon_Enchant_add_defence" width=32 height=32>
-																	</td>
-																	<td FIXWIDTH=230 align=left valign=top>
-																		<font color="B59A75" name="hs12">Maximumize Clan</font> &nbsp;<br><font color="B5B5B5" name="CreditTextSmall">Use this service to maximumize you clan level and skills</font>
-																	</td>
-																	<td FIXWIDTH=155 align=right valign=top bgcolor=8B0000>
-																		Price: <font color="BCEE68">%maxc_pr%</font>
-																		<button value="Buy" action="bypass %command%;donateFullClan" back="l2ui_ct1.button.button_df_small_down" fore="l2ui_ct1.button.button_df_small" width="82" height="32"/>
-																	</td>
-																</tr>
-															</table>
-														</td>
-													</tr>
-												</table>
-								
 											</td>
 										</tr>
 									</table>
+									
 									<br><br>
 									<table border=0 cellspacing=0 cellpadding=0 width=755>
 										<tr>
@@ -201,7 +180,9 @@
 												<td>
 													<table width=700 cellspacing=4 cellpadding=4 bgcolor=6E7B8B>
 														<tr>
+															<!-- Change Name -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%ccn_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.etc_nobless_teleport_coupon_i00">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -210,9 +191,11 @@
 																	</tr>
 																</table><br>
 																<center>Change Name</center>
-																
 															</td>
+
+															<!-- Clan Name -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%ccc_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.seal_lev_97">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -222,7 +205,10 @@
 																</table><br>
 																<center>Clan Name</center>
 															</td>
+
+															<!-- Name Color -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%ncol_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.color_name_i00">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -232,7 +218,10 @@
 																</table><br>
 																<center>Name Color</center>
 															</td>
+
+															<!-- Title Color -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%tcol_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.color_name_i00">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -242,7 +231,10 @@
 																</table><br>
 																<center>Title Color</center>
 															</td>
+
+															<!-- 10 Subclass -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%mxsb_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.skill4408_x10">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -252,7 +244,10 @@
 																</table><br>
 																<center>10 Subclass</center>
 															</td>
+
+															<!-- PK Remove (Already included) -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%pk_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.love_potion_blessed">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -260,9 +255,12 @@
 																		</td>
 																	</tr>
 																</table><br>
-																<center>Remove PK</center>
+																<center>Remove 5PK</center>
 															</td>
+
+															<!-- Clan Reputation -->
 															<td width=100 align=center valign=top>
+																<font color="BCEE68">%rep_pr%</font> <!-- Price -->
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.Icon.etc_blessed_kalie_i00">
 																	<tr>
 																		<td width=32 height=32 align=center valign=top>
@@ -272,6 +270,8 @@
 																</table><br>
 																<center>Clan Rep.</center>
 															</td>
+
+															<!-- Consumables -->
 															<td width=100 align=center valign=top>
 																<table border=0 cellspacing=0 cellpadding=0 width=32 height=32 background="Icon.bm_sayha_gold_blessed">
 																	<tr>
@@ -284,17 +284,12 @@
 															</td>
 															
 														</tr>
-														
-														
 												</table>
 												</td>
 											</tr>
 											<tr><td height=2></td></tr>
-											
 										</table>
-										
 									</center>
-									
 								</td>
 							</tr>
 						</table>
@@ -304,4 +299,5 @@
 		</td></center>
 	</tr>
 </table>
-</body></html>
+</body>
+</html>
