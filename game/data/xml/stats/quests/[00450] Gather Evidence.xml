@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!-- TODO -->
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quests.xsd">
+	<quest id="450" nameEn="Gather the Flames" nameRu="Горящие факелы">
+		<rewardlist>
+
+
+			<!--REWARDS ARE DYNASTY WEAPONS. IGNORE THE COMMENTS -->
+			<variant id="1">
+				<item id="9967" min="1" rateable="false" /> <!--Recipe: Forgotten Blade (60%)-->
+			</variant>
+			<variant id="2">
+				<item id="9968" min="1" rateable="false" /> <!--Recipe: Basalt Battlehammer (60%)-->
+			</variant>
+			<variant id="3">
+				<item id="9969" min="1" rateable="false" /> <!--Recipe: Imperial Staff (60%)-->
+			</variant>
+			<variant id="4">
+				<item id="9970" min="1" rateable="false" /> <!--Recipe: Angel Slayer (60%)-->
+			</variant>
+			<variant id="5">
+				<item id="9971" min="1" rateable="false" /> <!--Recipe: Dragon Hunter Axe (60%)-->
+			</variant>
+			<variant id="6">
+				<item id="9972" min="1" rateable="false" /> <!--Recipe: Saint Spear (60%)-->
+			</variant>
+			<variant id="7">
+				<item id="9973" min="1" rateable="false" /> <!--Recipe: Demon Splinter (60%)-->
+			</variant>
+			<variant id="8">
+				<item id="9974" min="1" rateable="false" /> <!--Recipe: Heavens Divider (60%)-->
+			</variant>
+			<variant id="9">
+				<item id="9975" min="1" rateable="false" /> <!--Recipe: Arcana Mace (60%)-->
+			</variant>
+			<variant id="10">
+				<item id="9976" min="1" rateable="false" /> <!--Recipe: Draconic Bow (60%)-->
+			</variant>
+		</rewardlist>
+	</quest>
+</list>

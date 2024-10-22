@@ -358,7 +358,7 @@ import quests.Q00423_TakeYourBestShot.Q00423_TakeYourBestShot;
 import quests.Q00426_QuestForFishingShot.Q00426_QuestForFishingShot;
 import quests.Q00431_WeddingMarch.Q00431_WeddingMarch;
 import quests.Q00432_BirthdayPartySong.Q00432_BirthdayPartySong;
-import quests.Q00450_GraveRobberRescue.Q00450_GraveRobberRescue;
+import quests.Q00450_GatherEvidence.Q00450_GatherEvidence;
 import quests.Q00451_LuciensAltar.Q00451_LuciensAltar;
 import quests.Q00452_FindingtheLostSoldiers.Q00452_FindingtheLostSoldiers;
 import quests.Q00453_NotStrongEnoughAlone.Q00453_NotStrongEnoughAlone;
@@ -876,7 +876,7 @@ public class QuestLoader extends ABLoader
 		Q00426_QuestForFishingShot.class,
 		Q00431_WeddingMarch.class,
 		Q00432_BirthdayPartySong.class,
-		Q00450_GraveRobberRescue.class,
+		Q00450_GatherEvidence.class,
 		Q00451_LuciensAltar.class,
 		Q00452_FindingtheLostSoldiers.class,
 		Q00453_NotStrongEnoughAlone.class,
