@@ -106,6 +106,7 @@ public class Q00450_GatherEvidence extends Quest
 				st.startQuest();
 				break;
 			case "32650-10.html":
+				st.takeItems(EVIDENCE_OF_MIGRATION, st.getQuestItemsCount(EVIDENCE_OF_MIGRATION));
 				st.exitQuest(QuestType.DAILY, true);
 				st.giveItems(REWARD[getRandom(REWARD.length)], 1);
 				break;
@@ -120,7 +121,6 @@ public class Q00450_GatherEvidence extends Quest
 			case "9975":
 				st.giveItems(Integer.valueOf(event), 1);
 				st.takeItems(EVIDENCE_OF_MIGRATION, 1600);
-				htmltext = "32650-12.html";
 				st.exitQuest(QuestType.DAILY, true);
 				break;
 			default:
@@ -141,18 +141,14 @@ public class Q00450_GatherEvidence extends Quest
 		}
 		
 		// vmilon condition is set to 2 if player has 1200 evidence, and set to 3 when player has 1600
-		if ((st.isCond(1) || st.isCond(2)) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) < 1600))
+		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) < 1600))
 		{
 			st.giveItems(EVIDENCE_OF_MIGRATION, 1);
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
-		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1200))
+		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1600))
 		{
 			st.setCond(2);
-		}
-		else if (st.isCond(2) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1600))
-		{
-			st.setCond(3);
 		}
 		
 		return super.onKill(npc, player, isPet);
@@ -186,17 +182,19 @@ public class Q00450_GatherEvidence extends Quest
 				case State.STARTED:
 					if (st.isCond(1))
 					{
+						if ((st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1200) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) < 1600))
+						{
+							htmltext = "32650-12.html";
+							break;
+						}
 						htmltext = (!st.hasQuestItems(EVIDENCE_OF_MIGRATION)) ? "32650-08.html" : "32650-09.html";
+						break;
+						
 					}
-					else if (st.isCond(3))
+					else if (st.isCond(2))
 					{
 						// st.giveAdena(65000, true); // Glory days reward: 6 886 980 exp, 8 116 410 sp, 371 400 Adena
 						htmltext = "32650-11.html";
-						break;
-					}
-					else
-					{
-						htmltext = "32650-12.html";
 						break;
 					}
 					
