@@ -141,25 +141,20 @@ public class Q00450_GatherEvidence extends Quest
 		}
 		
 		// vmilon condition is set to 2 if player has 1200 evidence, and set to 3 when player has 1600
-		if (st.isCond(1))
+		if ((st.isCond(1) || st.isCond(2)) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) < 1600))
 		{
 			st.giveItems(EVIDENCE_OF_MIGRATION, 1);
-			if (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1200)
-			{
-				st.setCond(2);
-			}
-			
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
-		else if (st.isCond(2))
+		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1200))
 		{
-			st.giveItems(EVIDENCE_OF_MIGRATION, 1);
-			if (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1600)
-			{
-				st.setCond(3);
-			}
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+			st.setCond(2);
 		}
+		else if (st.isCond(2) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1600))
+		{
+			st.setCond(3);
+		}
+		
 		return super.onKill(npc, player, isPet);
 	}
 	
