@@ -105,10 +105,14 @@ public class Q00450_GatherEvidence extends Quest
 			case "32650-07.htm":
 				st.startQuest();
 				break;
-			case "32650-10.html":
-				st.takeItems(EVIDENCE_OF_MIGRATION, st.getQuestItemsCount(EVIDENCE_OF_MIGRATION));
+			case "10":
+				htmltext = "32650-10.html";
+				st.takeItems(EVIDENCE_OF_MIGRATION, 1200);
 				st.exitQuest(QuestType.DAILY, true);
 				st.giveItems(REWARD[getRandom(REWARD.length)], 1);
+				break;
+			case "13":
+				htmltext = "32650-13.html";
 				break;
 			case "9967":
 			case "9968":
@@ -140,12 +144,10 @@ public class Q00450_GatherEvidence extends Quest
 			return super.onKill(npc, player, isPet);
 		}
 		
-		// vmilon condition is set to 2 if player has 1200 evidence, and set to 3 when player has 1600
-		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) < 1600))
-		{
-			st.giveItems(EVIDENCE_OF_MIGRATION, 1);
-			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
-		}
+		// vmilon condition is set to 2 if player has 1600 evidence but player can keep farming
+		st.giveItems(EVIDENCE_OF_MIGRATION, 1);
+		st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+		
 		if (st.isCond(1) && (st.getQuestItemsCount(EVIDENCE_OF_MIGRATION) >= 1600))
 		{
 			st.setCond(2);
