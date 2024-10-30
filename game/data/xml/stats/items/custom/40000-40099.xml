@@ -74,7 +74,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="40007" type="EtcItem" name="Coin of Eternia">
-		<set name="icon" val="icon.etc_kyles_gold_golem_i00" />
+		<set name="icon" val="SOE_Icons.donate_coin_i00" />
 		<set name="immediate_effect" val="true" />
 		<set name="material" val="GOLD" />
 		<set name="is_tradable" val="true" />
