@@ -209,7 +209,7 @@
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="555" displayId="25350" name="Npc Buffer" usingServerSideName="true" title="Buffer" usingServerSideTitle="true" type="L2Buffer">
+	<npc id="555" displayId="13155" name="Buffer" usingServerSideName="true" title="Buffer" usingServerSideTitle="true" type="L2Buffer">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
