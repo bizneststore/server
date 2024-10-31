@@ -275,6 +275,12 @@
 			<height normal="22" />
 		</collision>
 	</npc>
+	<npc id="576" displayId="13155" name="Buffer" usingServerSideName="true" title="Buffer" usingServerSideTitle="true" type="L2Buffer">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
 	<npc id="8983" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
 		<sex>MALE</sex>
 		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
@@ -563,7 +569,7 @@
 			<height normal="25" />
 		</collision>
 	</npc>
-	<npc id="9997" displayId="35657" name="Buffer" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9997" displayId="35657" name="Buffer" usingServerSideName="true" title="Buffer" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
