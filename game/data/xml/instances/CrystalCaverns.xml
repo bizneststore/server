@@ -5,7 +5,7 @@
 	<emptyDestroyTime val="1200" />
 	<exitPoint x="149442" y="173520" z="-5024" />
 	<reenter additionStyle="ON_INSTANCE_ENTER" >
-		<reset time="86400000" />
+		<reset time="1" />
 	</reenter>
 	<geodata mapX="24" mapY="22" />
 	<doorlist>
