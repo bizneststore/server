@@ -70,7 +70,7 @@
 <npc id="513" displayId="518" name="Sigrid" usingServerSideName="true" title="Event Manager" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
-			<height normal="10" />
+			<height normal="11" />
 		</collision>
 	</npc>
 <npc id="514" displayId="30597" name="Gautie" usingServerSideName="true" title="Tailor" usingServerSideTitle="true" type="L2Merchant">
