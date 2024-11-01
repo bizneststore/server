@@ -256,7 +256,7 @@
 		<fishing_z>0</fishing_z>
 		<invisible>0</invisible>
 	</npc>
-	<npc>
+	<!-- <npc>
 		<npc_id>555</npc_id>
 		<race>5</race>
 		<sex>1</sex>
@@ -319,7 +319,7 @@
 		<fishing_y>0</fishing_y>
 		<fishing_z>0</fishing_z>
 		<invisible>0</invisible>
-	</npc>
+	</npc> -->
 	<npc>
 		<npc_id>554</npc_id>
 		<race>0</race>
