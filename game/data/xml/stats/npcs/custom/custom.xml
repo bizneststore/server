@@ -599,7 +599,7 @@
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9998" displayId="35657" name="Mini Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9998" displayId="35657" name="Pillar of Champions" usingServerSideName="true" title="Mini Events" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="46" />
 			<height normal="72" />
