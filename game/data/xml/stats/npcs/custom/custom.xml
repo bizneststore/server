@@ -67,13 +67,13 @@
 			<height normal="18.5" />
 		</collision>
 	</npc>
-<npc id="512" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="513" displayId="518" name="Sigrid" usingServerSideName="true" title="Event Manager" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18.5" />
 		</collision>
 	</npc>
-<npc id="514" displayId="518" name="Sigrid" usingServerSideName="true" title="Event Manager" usingServerSideTitle="true" type="L2Merchant">
+<npc id="514" displayId="30597" name="Gautie" usingServerSideName="true" title="Tailor" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="8" />
 			<height normal="23" />
