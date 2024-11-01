@@ -230,7 +230,7 @@
 	<npc id="555" displayId="521" name="Buffer" usingServerSideName="true" title="SoE Buffer" usingServerSideTitle="true" type="L2Buffer">
 		<collision>
 			<radius normal="9" />
-			<height normal="34" />
+			<height normal="23" />
 		</collision>
 	</npc>
 	<npc id="556" displayId="25350" name="Black market" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
