@@ -149,6 +149,24 @@
 			<height normal="23" />
 		</collision>
 	</npc>
+<npc id="522" level="70" type="L2Npc" name="Dwarf" usingServerSideName="true" title="Npc 5" usingServerSideTitle="true">
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+<npc id="523" level="70" type="L2Npc" name="Dwarf" usingServerSideName="true" title="Npc 6" usingServerSideTitle="true">
+		<collision>
+			<radius normal="37" />
+			<height normal="41" />
+		</collision>
+	</npc>
+<npc id="523" level="70" type="L2Npc" name="Orc Rider" usingServerSideName="true" title="Npc 7" usingServerSideTitle="true">
+		<collision>
+			<radius normal="25" />
+			<height normal="27" />
+		</collision>
+	</npc>
 	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
