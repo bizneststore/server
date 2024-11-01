@@ -605,17 +605,17 @@
 			<height normal="72" />
 		</collision>
 	</npc>
-	<npc id="9999" displayId="18660" name="Main Events" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+	<npc id="9999" displayId="25638" name="Tartarus" usingServerSideName="true" title="Main Events" usingServerSideTitle="true" type="L2Npc">
 		<stats>
 			<speed>
-				<walk ground="1" />
-				<run ground="80" />
+				<walk ground="46" />
+				<run ground="200" />
 			</speed>
 		</stats>
 	<equipment rhand="78" />
 		<collision>
-			<radius normal="21" />
-			<height normal="40" />
+			<radius normal="31.68" />
+			<height normal="60.72" />
 		</collision>
 	</npc>
 </list>
