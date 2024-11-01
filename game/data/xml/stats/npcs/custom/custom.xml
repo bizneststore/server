@@ -161,7 +161,7 @@
 			<height normal="41" />
 		</collision>
 	</npc>
-<npc id="523" level="70" type="L2Npc" name="Orc Rider" usingServerSideName="true" title="Npc 7" usingServerSideTitle="true">
+<npc id="524" level="70" type="L2Npc" name="Orc Rider" usingServerSideName="true" title="Npc 7" usingServerSideTitle="true">
 		<collision>
 			<radius normal="25" />
 			<height normal="27" />
