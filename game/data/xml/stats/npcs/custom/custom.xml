@@ -161,7 +161,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-<npc id="523" level="70" type="L2Npc" name="Fire Stand" usingServerSideName="true" title="Npc 6" usingServerSideTitle="true">
+<npc id="523" level="70" type="L2Npc" name="Mammon's Forge" usingServerSideName="true" title="Mammon Services" usingServerSideTitle="true">
 		<collision>
 			<radius normal="37" />
 			<height normal="41" />
