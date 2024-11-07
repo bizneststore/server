@@ -29,8 +29,8 @@
 
 	<!-- [RU] Айди предмета и задержка (в мс, 1 секунда = 1000 мс) для слота 1 -->
 	<!-- [EN] ItemID and delay (in ms, 1 second = 1000 ms) for slot 1 -->
-	<interface_setting name="ItemIdSlot1" type="TYPE_ARR_INT" value="8627"/>
-	<interface_setting name="DelaySlot1" type="TYPE_ARR_INT" value="300000"/>
+	<interface_setting name="ItemIdSlot1" type="TYPE_ARR_INT" value="8627;1061"/>
+	<interface_setting name="DelaySlot1" type="TYPE_ARR_INT" value="20000;20000"/>
 	<!-- [RU] Фоновая текстура для слота 1 -->
 	<!-- [EN] Background texture for slot 1 -->
 	<interface_setting name="BackTextureSlot1" type="TYPE_TEXT" value="L2UI_CT2.AutoPotionsWnd.Potions_Elixir_BoxHP"/>
