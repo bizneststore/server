@@ -251,7 +251,7 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
+	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2PromoInstance">
 		<collision>
 			<radius normal="9" />
 			<height normal="34" />
