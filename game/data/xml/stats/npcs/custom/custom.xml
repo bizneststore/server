@@ -305,6 +305,12 @@
 			<height normal="34" />
 		</collision>
 	</npc>
+	<npc id="577" displayId="31324" name="Zeus" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2Promo">
+		<collision>
+			<radius normal="9" />
+			<height normal="34" />
+		</collision>
+	</npc>
 	<npc id="8983" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
 		<sex>MALE</sex>
 		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
