@@ -31,6 +31,8 @@ import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.SystemMessageId;
 
+import gr.sr.configsEngine.configs.impl.EliteMobsConfigs;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -268,6 +270,10 @@ public class AdminMenu implements IAdminCommandHandler
 			else if (Config.L2JMOD_CHAMPION_ENABLE && target.isChampion())
 			{
 				target.reduceCurrentHp((target.getMaxHp() * Config.L2JMOD_CHAMPION_HP) + 1, activeChar, null);
+			}
+			else if (EliteMobsConfigs.ELITE_ENABLE && target.isElite())
+			{
+				target.reduceCurrentHp((target.getMaxHp() * EliteMobsConfigs.ELITE_HP) + 1, activeChar, null);
 			}
 			else
 			{

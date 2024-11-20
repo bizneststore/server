@@ -43,7 +43,7 @@ public class AdminPremium implements IAdminCommandHandler
 			try
 			{
 				String val = command.substring(19);
-				PremiumHandler.addPremiumServices(1, val);
+				// PremiumHandler.addPremiumServices(1, val);
 				activeChar.sendMessage("Added premium status for 1 month, account: " + val + ".");
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -56,7 +56,7 @@ public class AdminPremium implements IAdminCommandHandler
 			try
 			{
 				String val = command.substring(19);
-				PremiumHandler.addPremiumServices(2, val);
+				// PremiumHandler.addPremiumServices(2, val);
 				activeChar.sendMessage("Added premium status for 2 months, account: " + val + ".");
 			}
 			catch (StringIndexOutOfBoundsException e)
@@ -69,7 +69,7 @@ public class AdminPremium implements IAdminCommandHandler
 			try
 			{
 				String val = command.substring(19);
-				PremiumHandler.addPremiumServices(3, val);
+				// PremiumHandler.addPremiumServices(3, val);
 				activeChar.sendMessage("Added premium status for 3 months, account: " + val + ".");
 			}
 			catch (StringIndexOutOfBoundsException e)
