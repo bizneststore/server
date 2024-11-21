@@ -1,6 +1,8 @@
 package ai.npc.AioSigns;
 
-import java.time.LocalTime;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 import l2r.Config;
 import l2r.gameserver.SevenSigns;
@@ -174,8 +176,14 @@ public final class AioSigns extends AbstractNpcAI
 				{
 					case 3:
 					{
-						if (!exchangeAvailable())
+						if (!exchangeAvailable(player))
 						{
+							long remainingTimeMillis = getExchangeRemainingTime(player);
+							long hours = remainingTimeMillis / 3600000;
+							long minutes = (remainingTimeMillis % 3600000) / 60000;
+							String text = "You need to wait " + hours + " hour(s) and " + minutes + " minute(s) before using the exchange again.";
+							
+							player.sendMessageS(text, 6);
 							return "AioSignsmark002e.htm";
 						}
 						
@@ -209,7 +217,6 @@ public final class AioSigns extends AbstractNpcAI
 						
 						if ((player.getInventory().getSize(false) >= (player.getInventoryLimit() * WEIGHT_LIMIT)) || (player.getCurrentLoad() >= (player.getMaxLoad() * WEIGHT_LIMIT)))
 						{
-							
 							player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
 							return null;
 						}
@@ -218,8 +225,19 @@ public final class AioSigns extends AbstractNpcAI
 						takeItems(player, Inventory.ADENA_ID, 2000000);
 						giveItems(player, Inventory.ANCIENT_ADENA_ID, 500000);
 						qs.exitQuest(QuestType.DAILY, false);
-						return "AioSignsmark004.htm";
 						
+						// Set the variables
+						// player.setVar("Exchange", "DONE");
+						player.setVar("ExchangeTime", String.valueOf(System.currentTimeMillis()));
+						
+						// Schedule the unset of the variable in 24 hours
+						ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
+						scheduler.schedule(() ->
+						{
+							player.unsetVar("ExchangeTime");
+						} , 2, TimeUnit.MINUTES);
+						
+						return "AioSignsmark004.htm";
 					}
 				}
 				break;
@@ -235,9 +253,27 @@ public final class AioSigns extends AbstractNpcAI
 		return "AioSigns.htm";
 	}
 	
-	private boolean exchangeAvailable()
+	private long getExchangeRemainingTime(L2PcInstance player)
 	{
-		LocalTime localTime = LocalTime.now();
-		return (localTime.isAfter(LocalTime.parse("20:00:00")) && localTime.isBefore(LocalTime.MAX));
+		String exchangeTimeStr = player.getVar("ExchangeTime", "");
+		if (exchangeTimeStr.isEmpty())
+		{
+			return 0; // No ExchangeTime set
+		}
+		
+		long exchangeTime = Long.parseLong(exchangeTimeStr);
+		long currentTime = System.currentTimeMillis();
+		
+		// Calculate remaining time (24 hours = 86,400,000 milliseconds)
+		long remainingTime = (exchangeTime + 86_400_000) - currentTime;
+		return Math.max(remainingTime, 0); // Ensure no negative values
+	}
+	
+	private boolean exchangeAvailable(L2PcInstance player)
+	{
+		long remainingTime = getExchangeRemainingTime(player);
+		
+		// Return false if remaining time is greater than 0
+		return remainingTime <= 0;
 	}
 }
