@@ -38,7 +38,6 @@ public final class AioSigns extends AbstractNpcAI
 	@Override
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
-		String htmltext = event;
 		if (event.endsWith(".htm"))
 		{
 			return "AioSigns" + event;
@@ -133,27 +132,23 @@ public final class AioSigns extends AbstractNpcAI
 			
 			if (player.getAncientAdena() < ancientAdena)
 			{
-				htmltext = "AioSigns_q0506_12.htm";
+				return "AioSigns_q0506_12.htm";
 			}
-			else
+			
+			if (ancientAdena <= 0)
 			{
-				if (ancientAdena <= 0)
-				{
-					htmltext = "AioSigns_q0506_14.htm";
-				}
-				else
-				{
-					if ((player.getInventory().getSize(false) >= (player.getInventoryLimit() * WEIGHT_LIMIT)) || (player.getCurrentLoad() >= (player.getMaxLoad() * WEIGHT_LIMIT)))
-					{
-						player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
-						return null;
-					}
-					takeItems(player, Inventory.ANCIENT_ADENA_ID, ancientAdena);
-					giveItems(player, Inventory.ADENA_ID, ancientAdena);
-					htmltext = "AioSigns_q0506_13.htm";
-				}
+				return "AioSigns_q0506_14.htm";
 			}
-			return htmltext;
+			
+			if ((player.getInventory().getSize(false) >= (player.getInventoryLimit() * WEIGHT_LIMIT)) || (player.getCurrentLoad() >= (player.getMaxLoad() * WEIGHT_LIMIT)))
+			{
+				player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
+				return null;
+			}
+			takeItems(player, Inventory.ANCIENT_ADENA_ID, ancientAdena);
+			giveItems(player, Inventory.ADENA_ID, ancientAdena);
+			return "AioSigns_q0506_13.htm";
+			
 		}
 		
 		int ask = Integer.parseInt(event.split(";")[0]);
@@ -168,8 +163,7 @@ public final class AioSigns extends AbstractNpcAI
 					case 4:
 					case 5:
 					{
-						htmltext = "AioSigns_q0506_04.htm";
-						break;
+						return "AioSigns_q0506_04.htm";
 					}
 				}
 				break;
@@ -182,13 +176,11 @@ public final class AioSigns extends AbstractNpcAI
 					{
 						if (!exchangeAvailable())
 						{
-							htmltext = "AioSignsmark002e.htm";
+							return "AioSignsmark002e.htm";
 						}
-						else
-						{
-							htmltext = "AioSignsmark003.htm";
-						}
-						break;
+						
+						return "AioSignsmark003.htm";
+						
 					}
 				}
 				break;
@@ -201,39 +193,33 @@ public final class AioSigns extends AbstractNpcAI
 					{
 						if (player.getAdena() < 2000000)
 						{
-							htmltext = "AioSignsmark002c.htm";
+							return "AioSignsmark002c.htm";
 						}
-						else
+						
+						final QuestState qs = getQuestState(player, true);
+						if (!qs.isNowAvailable())
 						{
-							final QuestState qs = getQuestState(player, true);
-							if (!qs.isNowAvailable())
-							{
-								htmltext = "AioSignsmark002b.htm";
-							}
-							else
-							{
-								if (player.getLevel() < MIN_LEVEL)
-								{
-									htmltext = "AioSignsmark002d.htm";
-								}
-								else
-								{
-									if ((player.getInventory().getSize(false) >= (player.getInventoryLimit() * WEIGHT_LIMIT)) || (player.getCurrentLoad() >= (player.getMaxLoad() * WEIGHT_LIMIT)))
-									{
-										
-										player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
-										return null;
-									}
-									
-									qs.setState(State.STARTED);
-									takeItems(player, Inventory.ADENA_ID, 2000000);
-									giveItems(player, Inventory.ANCIENT_ADENA_ID, 500000);
-									qs.exitQuest(QuestType.DAILY, false);
-									htmltext = "AioSignsmark004.htm";
-								}
-							}
+							return "AioSignsmark002b.htm";
 						}
-						break;
+						
+						if (player.getLevel() < MIN_LEVEL)
+						{
+							return "AioSignsmark002d.htm";
+						}
+						
+						if ((player.getInventory().getSize(false) >= (player.getInventoryLimit() * WEIGHT_LIMIT)) || (player.getCurrentLoad() >= (player.getMaxLoad() * WEIGHT_LIMIT)))
+						{
+							
+							player.sendPacket(SystemMessageId.INVENTORY_LESS_THAN_80_PERCENT);
+							return null;
+						}
+						
+						qs.setState(State.STARTED);
+						takeItems(player, Inventory.ADENA_ID, 2000000);
+						giveItems(player, Inventory.ANCIENT_ADENA_ID, 500000);
+						qs.exitQuest(QuestType.DAILY, false);
+						return "AioSignsmark004.htm";
+						
 					}
 				}
 				break;
