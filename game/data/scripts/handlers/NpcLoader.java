@@ -4,6 +4,7 @@ import gr.sr.handler.ABLoader;
 
 import ai.npc.Abercrombie.Abercrombie;
 import ai.npc.Alarm.Alarm;
+import ai.npc.AioSigns.AioSigns;
 import ai.npc.Alexandria.Alexandria;
 import ai.npc.ArenaManager.ArenaManager;
 import ai.npc.Asamah.Asamah;
@@ -70,6 +71,7 @@ public final class NpcLoader extends ABLoader
 	private final Class<?>[] SCRIPTS =
 	{
 		Abercrombie.class,
+		AioSigns.class,
 		Alarm.class,
 		Alexandria.class,
 		ArenaManager.class,

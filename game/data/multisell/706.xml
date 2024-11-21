@@ -3,6 +3,7 @@
 	<npcs>
 		<npc>32478</npc> <!-- Dimensional Merchant -->
 		<npc>32635</npc> <!-- Master Dugi -->
+		<npc>523</npc>		<!-- MAMMON FORGE L2SoE -->
 	</npcs>
 	<item>
 		<!-- Great Sword -->
