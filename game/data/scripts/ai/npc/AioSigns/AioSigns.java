@@ -44,7 +44,7 @@ public final class AioSigns extends AbstractNpcAI
 			return "AioSigns" + event;
 		}
 		
-		if (event.startsWith("blacksmith") && !player.isGM())
+		if (event.startsWith("blacksmith"))
 		{
 			final int compWinner = SevenSigns.getInstance().getCabalHighestScore();
 			final int sealGnosisOwner = SevenSigns.getInstance().getSealOwner(SevenSigns.SEAL_GNOSIS);
@@ -67,6 +67,11 @@ public final class AioSigns extends AbstractNpcAI
 						}
 						break;
 					case SevenSigns.CABAL_NULL:
+						if (player.isGM())
+						{
+							return "blacksmith.htm";
+						}
+						
 						return "blacksmith-no.htm";
 						
 				}
@@ -102,6 +107,10 @@ public final class AioSigns extends AbstractNpcAI
 						}
 						break;
 					case SevenSigns.CABAL_NULL:
+						if (player.isGM())
+						{
+							return "merchant.htm";
+						}
 						return "merchant-no.htm";
 				}
 			}
