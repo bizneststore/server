@@ -245,7 +245,7 @@
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="558" displayId="13298" name="Carol" usingServerSideName="true" title="Eternia Shop" usingServerSideTitle="true" type="L2AioNpc">
+	<npc id="558" displayId="13298" name="Carol" usingServerSideName="true" title="Eternia Shop" usingServerSideTitle="true" type="L2Merchant">
 		<collision>
 			<radius normal="9" />
 			<height normal="23.5" />
