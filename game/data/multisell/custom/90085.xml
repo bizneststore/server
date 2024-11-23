@@ -6,64 +6,112 @@
 <list enabled="true" maintainEnchantment="false"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4577" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4578" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4579" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4580" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4581" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4582" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4583" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4584" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4585" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4586" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4587" count="10" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4588" count="10" />
+	</item>
 	<!-- Greater Dye of Strength <Str +4 Con -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4613" count="10" />
 	</item>
 	<!-- Greater Dye of Strength <Str +4 Dex -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4614" count="10" />
 	</item>
 	<!-- Greater Dye of Constitution <Con +4 Str -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4615" count="10" />
 	</item>
 	<!-- Greater Dye of Constitution <Con +4 Dex -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4616" count="10" />
 	</item>
 	<!-- Greater Dye of Dexterity <Dex +4 Str -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4617" count="10" />
 	</item>
 	<!-- Greater Dye of Dexterity <Dex +4 Con -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4618" count="10" />
 	</item>
 	<!-- Greater Dye of Intelligence <Int +4 Men -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4619" count="10" />
 	</item>
 	<!-- Greater Dye of Intelligence <Int +4 Wit -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4620" count="10" />
 	</item>
 	<!-- Greater Dye of Mental Strength <Men +4 Int -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4621" count="10" />
 	</item>
 	<!-- Greater Dye of Mental Strength <Men +4 Wit -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4622" count="10" />
 	</item>
 	<!-- Greater Dye of Wit <Wit +4 Int -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4623" count="10" />
 	</item>
 	<!-- Greater Dye of Wit <Wit +4 Men -4> for 174000 Ancient Adena -->
 	<item>
-		<ingredient id="57" count="1450000" />
+		<ingredient id="57" count="10000000" />
 		<production id="4624" count="10" />
 	</item>
 
