@@ -1,63 +1,45 @@
-<html noscrollbar>
-<title>L2SoE Community Board</title>
-<body><br>
-<table width=755>
-	<tr>
-		<center><td align=center valign="top">
-			<table border=0 cellpadding=0 cellspacing=0 width=769 height=492 background="l2ui_ct1.Windows_DF_TooltipBG">
-				<tr>
-					<td valign="top" align="center">
-						<table width=755 height=468>
-							<tr>
-								<td width=755>
-									<br>
-									<table border=0 cellspacing=0 cellpadding=0 width=755>
-										<tr>
-											<td width=755 height=38 align=center valign=top>
-												<font name="hs12">L2-SoE Donate Manager</font>
-											</td>
-										</tr>
-									</table>
-									<center>
-										<table height=142 width=500 background="l2ui_ct1.Windows_DF_TooltipBG">
-											<tr>
-												<td>
-													<table height=136 background="l2ui_ct1.Windows_DF_TooltipBG">
-														<tr>
-															<td>
-																<table width=500 border=0 cellspacing=4 cellpadding=4 bgcolor=6E7B8B>
-																	<tr>
-																		
-																		<td FIXWIDTH=230 align=center valign=top>
-																			<font color="B5B5B5" name="CreditTextSmall">No more class changes available.</font>
-																		</td>
-																		
-																	</tr>
-																</table>
-																
-																
-															</td>
-														</tr>
-													</table>
-												</td>
-											</tr>
-											<tr><td height=2></td></tr>
-										</table><br><br>
-										<table width=600>
-											<tr>
-												<td height=43 align=center>
-													<button value="Back" action="bypass %command%" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Back_Down" fore="L2UI_ct1.OlympiadWnd_DF_Back">
-												</td>
-											</tr>
-										</table>
-									</center>
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
-			</table>
-		</td></center>
-	</tr>
+<html noscrollbar><body>
+<title>Donate Manager</title>
+<center>
+  <table width="255" cellpadding="5" bgcolor="151515">
+    <tr>
+      <td valign="top"><center><font color="EBDF6C">L2-SoE</font> Donate manager<br></center></td>
+    </tr>
+  </table><br1>
+  <img src="l2ui.SquareGray" width=270 height=1><br>
+</center>
+<center>
+Changing Class costs <font color="EBDF6C">500</font> Coins of Eternia.<br>
+Below you can find all classes!<br>
+<center>
+Please avoid spamming this feature. It may cause issues with your character.<br>
+We also recommend you restart after changing.<br>
+</center>
+
+
+<table width="240" border="0" bgcolor="000000">
+<tr>
+<td><button value="Human Fighter" action="bypass -h npc_%objectId%_Chat_setclass/humanfighter.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Human Mage" action="bypass -h npc_%objectId%_Chat_setclass/humanmage.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Elf Fighter" action="bypass -h npc_%objectId%_Chat_setclass/elffighter.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Elf Mage" action="bypass -h npc_%objectId%_Chat_setclass/elfmage.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Dark Elf Fighter" action="bypass -h npc_%objectId%_Chat_setclass/darkelffighter.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Dark Elf Mage" action="bypass -h npc_%objectId%_Chat_setclass/darkelfmage.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Orc Fghter" action="bypass -h npc_%objectId%_Chat_setclass/orcfighter.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Orc Mage" action="bypass -h npc_%objectId%_Chat_setclass/orcmage.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="Dwarf" action="bypass -h npc_%objectId%_Chat_setclass/dwarf.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="Kamael" action="bypass -h npc_%objectId%_Chat_setclass/kamael.htm" width="120" height="25" back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
 </table>
+<br>
+<center><button action="bypass -h npc_%objectId%_Chat_services.htm" value="Back" width=120 height=25 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></center>
+</center>
 </body></html>
