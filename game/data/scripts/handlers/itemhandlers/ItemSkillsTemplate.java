@@ -21,6 +21,7 @@ package handlers.itemhandlers;
 import java.util.Calendar;
 import java.util.List;
 
+import l2r.gameserver.data.xml.impl.ItemData;
 import l2r.gameserver.handler.IItemHandler;
 import l2r.gameserver.model.actor.L2Playable;
 import l2r.gameserver.model.holders.SkillHolder;
@@ -145,6 +146,10 @@ public class ItemSkillsTemplate implements IItemHandler
 				if (itemSkill.isSimultaneousCast() || ((item.getItem().hasImmediateEffect() || item.getItem().hasExImmediateEffect()) && itemSkill.isStatic()))
 				{
 					playable.doSimultaneousCast(itemSkill);
+					if (item.getItem().hasExImmediateEffect())
+					{
+						ItemData.getInstance().destroyItem("Consume", item, playable.getActingPlayer(), null);
+					}
 				}
 				else
 				{

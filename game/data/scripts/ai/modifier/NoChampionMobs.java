@@ -95,6 +95,7 @@ public class NoChampionMobs extends AbstractNpcAI
 		if (npc.isAttackable())
 		{
 			((L2Attackable) npc).setChampion(false);
+			((L2Attackable) npc).setElite(false);
 		}
 		return super.onSpawn(npc);
 	}

@@ -314,6 +314,10 @@ public class MC_Show extends AbstractNpcAI
 	
 	private void autoChat(L2Npc npc, NpcStringId npcString, int type)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
 		npc.broadcastPacket(new NpcSay(npc.getObjectId(), type, npc.getId(), npcString));
 	}
 	

@@ -441,13 +441,16 @@ public class FeedableBeasts extends AbstractNpcAI
 			// also, perform a rare random chat
 			if (getRandom(20) == 0)
 			{
-				NpcStringId message = NpcStringId.getNpcStringId(getRandom(2024, 2029));
-				NpcSay packet = new NpcSay(nextNpc, 0, message);
-				if (message.getParamCount() > 0) // player name, $s1
+				if (npc.isInActiveRegion())
 				{
-					packet.addStringParameter(player.getName());
+					NpcStringId message = NpcStringId.getNpcStringId(getRandom(2024, 2029));
+					NpcSay packet = new NpcSay(nextNpc, 0, message);
+					if (message.getParamCount() > 0) // player name, $s1
+					{
+						packet.addStringParameter(player.getName());
+					}
+					npc.broadcastPacket(packet);
 				}
-				npc.broadcastPacket(packet);
 			}
 			// @formatter:off
 			/*
@@ -570,13 +573,16 @@ public class FeedableBeasts extends AbstractNpcAI
 			// rare random talk...
 			if (getRandom(20) == 0)
 			{
-				NpcStringId message = TEXT[growthLevel][getRandom(TEXT[growthLevel].length)];
-				NpcSay packet = new NpcSay(npc, 0, message);
-				if (message.getParamCount() > 0) // player name, $s1
+				if (npc.isInActiveRegion())
 				{
-					packet.addStringParameter(caster.getName());
+					NpcStringId message = TEXT[growthLevel][getRandom(TEXT[growthLevel].length)];
+					NpcSay packet = new NpcSay(npc, 0, message);
+					if (message.getParamCount() > 0) // player name, $s1
+					{
+						packet.addStringParameter(caster.getName());
+					}
+					npc.broadcastPacket(packet);
 				}
-				npc.broadcastPacket(packet);
 			}
 			
 			if ((growthLevel > 0) && (_FeedInfo.get(objectId) != caster.getObjectId()))
@@ -598,13 +604,16 @@ public class FeedableBeasts extends AbstractNpcAI
 			if (skillId == beast.getFoodType())
 			{
 				beast.onReceiveFood();
-				NpcStringId message = TAMED_TEXT[getRandom(TAMED_TEXT.length)];
-				NpcSay packet = new NpcSay(npc, 0, message);
-				if (message.getParamCount() > 0)
+				if (npc.isInActiveRegion())
 				{
-					packet.addStringParameter(caster.getName());
+					NpcStringId message = TAMED_TEXT[getRandom(TAMED_TEXT.length)];
+					NpcSay packet = new NpcSay(npc, 0, message);
+					if (message.getParamCount() > 0)
+					{
+						packet.addStringParameter(caster.getName());
+					}
+					beast.broadcastPacket(packet);
 				}
-				beast.broadcastPacket(packet);
 			}
 		}
 		return super.onSkillSee(npc, caster, skill, targets, isSummon);

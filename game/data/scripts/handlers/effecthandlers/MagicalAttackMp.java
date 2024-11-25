@@ -81,7 +81,7 @@ public final class MagicalAttackMp extends EffectInstant
 		boolean sps = getSkill().useSpiritShot() && activeChar.isChargedShot(ShotType.SPIRITSHOTS);
 		boolean bss = getSkill().useSpiritShot() && activeChar.isChargedShot(ShotType.BLESSED_SPIRITSHOTS);
 		final byte shld = SkillFormulas.calcShldUse(activeChar, target, getSkill());
-		final boolean mcrit = SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
+		final boolean mcrit = false;// SkillFormulas.calcMCrit(activeChar.getMCriticalHit(target, getSkill()));
 		double damage = SkillFormulas.calculate(FormulaType.CALC_MANA_DMG, activeChar, target, getSkill(), new FormulaEnv(shld, false, sps, bss, mcrit));
 		double mp = (damage > target.getCurrentMp() ? target.getCurrentMp() : damage);
 		

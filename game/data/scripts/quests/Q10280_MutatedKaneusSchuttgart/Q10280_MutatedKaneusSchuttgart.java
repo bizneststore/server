@@ -68,7 +68,8 @@ public class Q10280_MutatedKaneusSchuttgart extends Quest
 				st.startQuest();
 				break;
 			case "31972-03.htm":
-				st.giveAdena(210000, true);
+				st.calcExpAndSp(getId());
+				st.calcExpAndSp(getId());
 				st.exitQuest(false, true);
 				break;
 		}
@@ -128,7 +129,7 @@ public class Q10280_MutatedKaneusSchuttgart extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 57) ? "31981-01.htm" : "31981-00.htm";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "31981-01.htm" : "31981-00.htm";
 						break;
 					case State.STARTED:
 						htmltext = (st.hasQuestItems(TISSUE_VS) && st.hasQuestItems(TISSUE_KB)) ? "31981-05.htm" : "31981-04.htm";

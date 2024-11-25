@@ -42,11 +42,12 @@ public class BigHead extends L2Effect
 	@Override
 	public boolean onStart()
 	{
-		return true;
+		return super.onStart();
 	}
 	
 	@Override
 	public void onExit()
 	{
+		super.onExit();
 	}
 }

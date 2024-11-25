@@ -34,8 +34,6 @@ public class Q00020_BringUpWithLove extends Quest
 	private static final int TUNATUN = 31537;
 	// Items
 	private static final int INNOCENCE_JEWEL = 15533;
-	// Misc
-	private static final int MIN_LEVEL = 82;
 	
 	public Q00020_BringUpWithLove()
 	{
@@ -110,7 +108,7 @@ public class Q00020_BringUpWithLove extends Quest
 				break;
 			}
 			case State.CREATED:
-				htmltext = player.getLevel() >= MIN_LEVEL ? "31537-01.htm" : "31537-13.html";
+				htmltext = player.getLevel() >= getMinLvl(getId()) ? "31537-01.htm" : "31537-13.html";
 				break;
 			case State.STARTED:
 				switch (st.getCond())

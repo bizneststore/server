@@ -18,9 +18,6 @@
  */
 package quests.Q00032_AnObviousLie;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.holders.ItemHolder;
@@ -45,16 +42,6 @@ public final class Q00032_AnObviousLie extends Quest
 	private static final ItemHolder SPIRIT_ORE = new ItemHolder(3031, 500);
 	private static final ItemHolder THREAD = new ItemHolder(1868, 1000);
 	private static final ItemHolder SUEDE = new ItemHolder(1866, 500);
-	// Misc
-	private static final int MIN_LVL = 45;
-	// Reward
-	private static final Map<String, Integer> EARS = new HashMap<>();
-	
-	{
-		EARS.put("cat", 6843); // Cat Ears
-		EARS.put("raccoon", 7680); // Raccoon ears
-		EARS.put("rabbit", 7683); // Rabbit ears
-	}
 	
 	public Q00032_AnObviousLie()
 	{
@@ -155,7 +142,20 @@ public final class Q00032_AnObviousLie extends Quest
 			{
 				if (qs.isCond(8) && takeAllItems(player, THREAD, SUEDE))
 				{
-					giveItems(player, EARS.get(event), 1);
+					switch (event)
+					{
+						case "cat":
+							qs.calcReward(getId(), 1);
+							break;
+						case "raccoon":
+							qs.calcReward(getId(), 2);
+							break;
+						case "rabbit":
+							qs.calcReward(getId(), 3);
+							break;
+					}
+					
+					qs.calcExpAndSp(getId());
 					qs.exitQuest(false, true);
 					htmltext = "30094-16.html";
 				}
@@ -196,7 +196,7 @@ public final class Q00032_AnObviousLie extends Quest
 			{
 				if (qs.isCreated())
 				{
-					htmltext = ((player.getLevel() >= MIN_LVL) ? "30120-01.htm" : "30120-03.htm");
+					htmltext = ((player.getLevel() >= getMinLvl(getId())) ? "30120-01.htm" : "30120-03.htm");
 				}
 				else if (qs.isStarted())
 				{

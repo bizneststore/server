@@ -37,8 +37,6 @@ public class Q00010_IntoTheWorld extends Quest
 	private static final int GERALD = 30650;
 	// Items
 	private static final int VERY_EXPENSIVE_NECKLACE = 7574;
-	// Misc
-	private static final int MIN_LEVEL = 3;
 	
 	public Q00010_IntoTheWorld()
 	{
@@ -106,7 +104,7 @@ public class Q00010_IntoTheWorld extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getLevel() >= MIN_LEVEL) && (player.getRace() == Race.DWARF)) ? "30533-01.htm" : "30533-02.html";
+						htmltext = ((player.getLevel() >= getMinLvl(getId())) && (player.getRace() == Race.DWARF)) ? "30533-01.htm" : "30533-02.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

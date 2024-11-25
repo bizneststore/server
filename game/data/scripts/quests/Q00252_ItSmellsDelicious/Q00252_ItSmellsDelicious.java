@@ -84,8 +84,8 @@ public class Q00252_ItSmellsDelicious extends Quest
 			case "30200-08.html":
 				if (qs.isCond(2))
 				{
-					giveAdena(player, 147656, true);
-					addExpAndSp(player, 716238, 78324);
+					qs.calcExpAndSp(getId());
+					qs.calcReward(getId());
 					qs.exitQuest(false, true);
 					htmltext = event;
 				}
@@ -143,7 +143,7 @@ public class Q00252_ItSmellsDelicious extends Quest
 		
 		if (qs.isCreated())
 		{
-			htmltext = ((player.getLevel() >= 82) ? "30200-01.htm" : "30200-02.htm");
+			htmltext = ((player.getLevel() >= getMinLvl(getId())) ? "30200-01.htm" : "30200-02.htm");
 		}
 		else if (qs.isStarted())
 		{

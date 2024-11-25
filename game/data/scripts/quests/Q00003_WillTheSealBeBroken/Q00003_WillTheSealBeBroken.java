@@ -45,8 +45,6 @@ public class Q00003_WillTheSealBeBroken extends Quest
 	private static final int OMEN_BEAST_EYE = 1081;
 	private static final int TAINT_STONE = 1082;
 	private static final int SUCCUBUS_BLOOD = 1083;
-	// Misc
-	private static final int MIN_LEVEL = 16;
 	
 	public Q00003_WillTheSealBeBroken()
 	{
@@ -121,7 +119,7 @@ public class Q00003_WillTheSealBeBroken extends Quest
 		switch (st.getState())
 		{
 			case State.CREATED:
-				htmltext = (player.getRace() != Race.DARK_ELF) ? "30141-00.htm" : (player.getLevel() >= MIN_LEVEL) ? "30141-02.htm" : "30141-01.html";
+				htmltext = (player.getRace() != Race.DARK_ELF) ? "30141-00.htm" : (player.getLevel() >= getMinLvl(getId())) ? "30141-02.htm" : "30141-01.html";
 				break;
 			case State.STARTED:
 				if (st.isCond(1))

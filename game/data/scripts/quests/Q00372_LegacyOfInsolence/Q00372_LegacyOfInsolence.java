@@ -461,7 +461,7 @@ public final class Q00372_LegacyOfInsolence extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 3, npc);
 				if (qs != null)
 				{
-					giveItems(qs.getPlayer(), item.getId(), item.getCount() * 3);
+					giveItems(qs.getPlayer(), item.getId(), item.getCount());
 					playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
 				}
 			}
@@ -499,7 +499,7 @@ public final class Q00372_LegacyOfInsolence extends Quest
 			
 			if ((rewardedPlayer != null) && Util.checkIfInRange(1500, npc, rewardedPlayer, true))
 			{
-				giveItems(rewardedPlayer, item.getId(), item.getCount() * 3);
+				giveItems(rewardedPlayer, item.getId(), item.getCount());
 				playSound(rewardedPlayer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 			}
 		}

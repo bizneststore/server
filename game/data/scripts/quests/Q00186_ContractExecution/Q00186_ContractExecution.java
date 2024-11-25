@@ -45,9 +45,7 @@ public final class Q00186_ContractExecution extends Quest
 	private static final int METALLOGRAPH_RESEARCH_REPORT = 10366;
 	private static final int LETO_LIZARDMAN_ACCESSORY = 10367;
 	// Misc
-	private static final int MIN_LEVEL = 41;
 	private static final int MAX_LEVEL_FOR_EXP_SP = 47;
-	// Monsters
 	private static final Map<Integer, Integer> MONSTERS = new HashMap<>();
 	
 	static
@@ -83,7 +81,7 @@ public final class Q00186_ContractExecution extends Quest
 		{
 			case "30673-03.htm":
 			{
-				if ((player.getLevel() >= MIN_LEVEL) && hasQuestItems(player, LORAINES_CERTIFICATE))
+				if ((player.getLevel() >= getMinLvl(getId())) && hasQuestItems(player, LORAINES_CERTIFICATE))
 				{
 					qs.startQuest();
 					qs.setMemoState(1);
@@ -132,11 +130,11 @@ public final class Q00186_ContractExecution extends Quest
 			{
 				if (qs.isMemoState(3))
 				{
-					giveAdena(player, 105083, true);
 					if (player.getLevel() < MAX_LEVEL_FOR_EXP_SP)
 					{
-						addExpAndSp(player, 285935, 18711);
+						qs.calcExpAndSp(getId());
 					}
+					qs.calcReward(getId());
 					qs.exitQuest(false, true);
 					htmltext = event;
 				}
@@ -174,7 +172,7 @@ public final class Q00186_ContractExecution extends Quest
 				final QuestState q184 = player.getQuestState(Q00184_ArtOfPersuasion.class.getSimpleName());
 				if ((q184 != null) && q184.isCompleted() && hasQuestItems(player, LORAINES_CERTIFICATE))
 				{
-					htmltext = player.getLevel() >= MIN_LEVEL ? "30673-01.htm" : "30673-02.htm";
+					htmltext = player.getLevel() >= getMinLvl(getId()) ? "30673-01.htm" : "30673-02.htm";
 				}
 			}
 		}

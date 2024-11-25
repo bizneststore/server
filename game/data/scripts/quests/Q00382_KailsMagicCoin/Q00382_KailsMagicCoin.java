@@ -57,9 +57,6 @@ public final class Q00382_KailsMagicCoin extends Quest
 		MONSTER_DROPS.put(FALLEN_ORC_SHAMAN, new ItemChanceHolder(KAILS_BLOOD_DRAGON, 0.073));
 	}
 	
-	// Misc
-	private static final int MIN_LVL = 55;
-	
 	public Q00382_KailsMagicCoin()
 	{
 		super(382, Q00382_KailsMagicCoin.class.getSimpleName(), "Kail's Magic Coin");
@@ -109,7 +106,7 @@ public final class Q00382_KailsMagicCoin extends Quest
 		String htmltext = getNoQuestMsg(talker);
 		if (qs.isCreated())
 		{
-			htmltext = (((talker.getLevel() >= MIN_LVL) && hasQuestItems(talker, ROYAL_MEMBERSHIP)) ? "30687-02.htm" : "30687-01.htm");
+			htmltext = (((talker.getLevel() >= getMinLvl(getId())) && hasQuestItems(talker, ROYAL_MEMBERSHIP)) ? "30687-02.htm" : "30687-01.htm");
 		}
 		else if (qs.isStarted())
 		{

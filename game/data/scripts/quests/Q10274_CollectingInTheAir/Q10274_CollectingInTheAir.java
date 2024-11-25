@@ -141,7 +141,7 @@ public class Q10274_CollectingInTheAir extends Quest
 				}
 				else
 				{
-					htmltext = ((player.getLevel() >= 75) && st.isCompleted()) ? "32557-01.htm" : "32557-00.html";
+					htmltext = ((player.getLevel() >= getMinLvl(getId())) && st.isCompleted()) ? "32557-01.htm" : "32557-00.html";
 				}
 				break;
 			case State.STARTED:

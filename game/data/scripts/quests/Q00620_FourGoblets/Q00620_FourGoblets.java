@@ -464,17 +464,17 @@ public class Q00620_FourGoblets extends Quest
 					int npcId = npc.getId();
 					if (MOB1.containsKey(npcId))
 					{
-						st.giveItemRandomly(npc, SEALED_BOX, 5, 0, MOB1.get(npcId), true);
+						st.giveItemRandomly(npc, SEALED_BOX, 1, 0, MOB1.get(npcId), true);
 					}
 					else if (MOB2.containsKey(npcId))
 					{
 						final int itemCount = ((getRandom(100) < MOB2.get(npc.getId())) ? 2 : 1);
-						st.giveItemRandomly(npc, SEALED_BOX, itemCount * 5, 0, 1.0, true);
+						st.giveItemRandomly(npc, SEALED_BOX, itemCount, 0, 1.0, true);
 					}
 					else
 					{
 						final int itemCount = ((getRandom(100) < MOB3.get(npc.getId())) ? 5 : 4);
-						st.giveItemRandomly(npc, SEALED_BOX, itemCount * 5, 0, 1.0, true);
+						st.giveItemRandomly(npc, SEALED_BOX, itemCount, 0, 1.0, true);
 					}
 				}
 				break;
@@ -490,7 +490,7 @@ public class Q00620_FourGoblets extends Quest
 		String htmltext = getNoQuestMsg(player);
 		if (st.isCreated())
 		{
-			htmltext = (player.getLevel() >= MIN_LEVEL) ? "31453-01.htm" : "31453-13.html";
+			htmltext = (player.getLevel() >= MIN_LEVEL) ? "31453-01.htm" : "31453-13.htm";
 		}
 		else if (st.isStarted())
 		{

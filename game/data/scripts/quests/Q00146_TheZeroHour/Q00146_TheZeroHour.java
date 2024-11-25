@@ -28,7 +28,7 @@ import quests.Q00109_InSearchOfTheNest.Q00109_InSearchOfTheNest;
 
 /**
  * The Zero Hour (146)
- * @author Gnacik, malyelfik,edited by vmilon
+ * @author Gnacik, malyelfik
  */
 public class Q00146_TheZeroHour extends Quest
 {
@@ -73,7 +73,7 @@ public class Q00146_TheZeroHour extends Quest
 			final QuestState st = partyMember.getQuestState(getName());
 			if (!st.hasQuestItems(FANG))
 			{
-				st.giveItems(FANG, 10);
+				st.giveItems(FANG, 1);
 				st.setCond(2, true);
 			}
 		}

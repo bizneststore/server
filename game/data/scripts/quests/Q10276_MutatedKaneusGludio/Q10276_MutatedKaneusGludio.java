@@ -68,7 +68,8 @@ public class Q10276_MutatedKaneusGludio extends Quest
 				st.startQuest();
 				break;
 			case "30344-03.htm":
-				st.giveAdena(8500, true);
+				st.calcExpAndSp(getId());
+				st.calcExpAndSp(getId());
 				st.exitQuest(false, true);
 				break;
 		}
@@ -128,7 +129,7 @@ public class Q10276_MutatedKaneusGludio extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 17) ? "30332-01.htm" : "30332-00.htm";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "30332-01.htm" : "30332-00.htm";
 						break;
 					case State.STARTED:
 						htmltext = (st.hasQuestItems(TISSUE_TK) && st.hasQuestItems(TISSUE_OA)) ? "30332-05.htm" : "30332-04.htm";

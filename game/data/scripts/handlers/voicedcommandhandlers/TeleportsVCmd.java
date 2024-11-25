@@ -30,7 +30,7 @@ public class TeleportsVCmd implements IVoicedCommandHandler
 		"oren"
 	};
 	
-	private static final int TELEPORT_DELAY = 3000; // Delay in milliseconds (3 seconds)
+	private static final int TELEPORT_DELAY = 15000; // Delay in milliseconds (3 seconds)
 	
 	@Override
 	public boolean useVoicedCommand(String command, L2PcInstance activeChar, String target)

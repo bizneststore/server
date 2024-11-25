@@ -51,7 +51,10 @@ public class OlAriosh extends AbstractNpcAI
 			int objId = npc.getObjectId();
 			if (!_spawnedGuards.containsValue(objId))
 			{
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getId(), NpcStringId.WHAT_ARE_YOU_DOING_HURRY_UP_AND_HELP_ME));
+				if (npc.isInActiveRegion())
+				{
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), 0, npc.getId(), NpcStringId.WHAT_ARE_YOU_DOING_HURRY_UP_AND_HELP_ME));
+				}
 				_guard = addSpawn(GUARD, npc.getX() + 100, npc.getY() + 100, npc.getZ(), 0, false, 0L, false, npc.getInstanceId());
 				_lockedSpawns.remove(Integer.valueOf(objId));
 				_spawnedGuards.put(_guard.getObjectId(), Integer.valueOf(objId));

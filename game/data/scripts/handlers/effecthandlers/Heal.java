@@ -63,6 +63,18 @@ public class Heal extends EffectInstant
 			return false;
 		}
 		
+		// vmilon
+		if (target.isRaid() || target.isRaidMinion())
+		{
+			return false;
+		}
+		
+		// vmilon
+		if (target.isRaid() || target.isRaidMinion())
+		{
+			return false;
+		}
+		
 		double amount = getValue();
 		double staticShotBonus = 0;
 		int mAtkMul = 1;

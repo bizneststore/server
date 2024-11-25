@@ -45,13 +45,6 @@ public final class Q00038_DragonFangs extends Quest
 	private static final ItemHolder TOTEM_TOOTH_2ND = new ItemHolder(7175, 50);
 	private static final int LETTER_1ST = 7176;
 	private static final int LETTER_2ND = 7177;
-	// Rewards
-	private static final int BONE_HELMET = 45;
-	private static final int LEATHER_GAUNTLET = 605;
-	private static final int ASPIS = 627;
-	private static final int BLUE_BUCKSKIN_BOOTS = 1123;
-	// Misc
-	private static final int MIN_LVL = 19;
 	
 	public Q00038_DragonFangs()
 	{
@@ -142,27 +135,23 @@ public final class Q00038_DragonFangs extends Quest
 				{
 					if (hasItem(player, TOTEM_TOOTH_2ND))
 					{
-						addExpAndSp(player, 435117, 23977);
+						qs.calcExpAndSp(getId());
 						final int chance = getRandom(1000);
 						if (chance < 250)
 						{
-							rewardItems(player, BONE_HELMET, 1);
-							giveAdena(player, 5200, true);
+							qs.calcReward(getId(), 2);
 						}
 						else if (chance < 500)
 						{
-							rewardItems(player, ASPIS, 1);
-							giveAdena(player, 1500, true);
+							qs.calcReward(getId(), 4);
 						}
 						else if (chance < 750)
 						{
-							rewardItems(player, BLUE_BUCKSKIN_BOOTS, 1);
-							giveAdena(player, 3200, true);
+							qs.calcReward(getId(), 1);
 						}
 						else if (chance < 1000)
 						{
-							rewardItems(player, LEATHER_GAUNTLET, 1);
-							giveAdena(player, 3200, true);
+							qs.calcReward(getId(), 3);
 						}
 						qs.exitQuest(false, true);
 						htmltext = event;
@@ -255,7 +244,7 @@ public final class Q00038_DragonFangs extends Quest
 			{
 				if (qs.isCreated())
 				{
-					htmltext = (talker.getLevel() >= MIN_LVL) ? "30386-01.htm" : "30386-02.htm";
+					htmltext = (talker.getLevel() >= getMinLvl(getId())) ? "30386-01.htm" : "30386-02.htm";
 				}
 				else if (qs.isStarted())
 				{

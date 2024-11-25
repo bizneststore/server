@@ -94,7 +94,10 @@ public class NevitsHerald extends AbstractNpcAI
 		else if (event.equalsIgnoreCase("text_spam"))
 		{
 			cancelQuestTimer("text_spam", npc, player);
-			npc.broadcastPacket(new NpcSay(NevitsHerald, Say2.SHOUT, NevitsHerald, spam[Rnd.get(0, spam.length - 1)]));
+			if (npc.isInActiveRegion())
+			{
+				npc.broadcastPacket(new NpcSay(NevitsHerald, Say2.SHOUT, NevitsHerald, spam[Rnd.get(0, spam.length - 1)]));
+			}
 			startQuestTimer("text_spam", 60000, npc, player);
 			return null;
 		}

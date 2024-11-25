@@ -103,7 +103,7 @@ public class Q00012_SecretMeetingWithVarkaSilenos extends Quest
 			case State.CREATED:
 				if (npcId == CADMON)
 				{
-					htmltext = (player.getLevel() >= 74) ? "31296-01.htm" : "31296-02.html";
+					htmltext = (player.getLevel() >= getMinLvl(getId())) ? "31296-01.htm" : "31296-02.html";
 				}
 				break;
 			case State.STARTED:

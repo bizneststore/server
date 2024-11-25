@@ -30,7 +30,6 @@ import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.model.events.EventDispatcher;
 import l2r.gameserver.model.events.EventType;
 import l2r.gameserver.model.events.impl.character.npc.OnNpcFirstTalk;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
 import l2r.gameserver.util.Util;
 
 import dev.l2j.autobots.Autobot;
@@ -85,12 +84,12 @@ public class L2NpcAction implements IActionHandler
 			}
 			
 			// Send a Server->Client packet ValidateLocation to correct the L2Npc position and heading on the client
-			activeChar.sendPacket(new ValidateLocation(npc));
+			activeChar.sendPacket(npc.validateLocationPacket());
 		}
 		else if (interact)
 		{
 			// Send a Server->Client packet ValidateLocation to correct the L2Npc position and heading on the client
-			activeChar.sendPacket(new ValidateLocation(npc));
+			activeChar.sendPacket(npc.validateLocationPacket());
 			
 			// Check if the activeChar is attackable (without a forced attack) and isn't dead
 			if (npc.isAutoAttackable(activeChar) && !npc.isAlikeDead())

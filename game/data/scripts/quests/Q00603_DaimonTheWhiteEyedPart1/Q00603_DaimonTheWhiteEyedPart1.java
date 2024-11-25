@@ -52,11 +52,6 @@ public final class Q00603_DaimonTheWhiteEyedPart1 extends Quest
 		MONSTER_CHANCES.put(21304, 0.673); // Grendel Slave
 	}
 	
-	// Reward
-	private static final int UNFINISHED_CRYSTAL = 7192;
-	// Misc
-	private static final int MIN_LVL = 73;
-	
 	public Q00603_DaimonTheWhiteEyedPart1()
 	{
 		super(603, Q00603_DaimonTheWhiteEyedPart1.class.getSimpleName(), "Daimon the White-Eyed - Part 1");
@@ -124,7 +119,10 @@ public final class Q00603_DaimonTheWhiteEyedPart1 extends Quest
 					if (getQuestItemsCount(player, SPIRIT_OF_DARKNESS) >= 200)
 					{
 						takeItems(player, SPIRIT_OF_DARKNESS, -1);
-						giveItems(player, UNFINISHED_CRYSTAL, 1);
+						
+						qs.calcExpAndSp(getId());
+						qs.calcReward(getId());
+						
 						qs.exitQuest(true, true);
 						htmltext = event;
 					}
@@ -150,7 +148,7 @@ public final class Q00603_DaimonTheWhiteEyedPart1 extends Quest
 			{
 				if (npc.getId() == EYE_OF_ARGOS)
 				{
-					htmltext = ((talker.getLevel() < MIN_LVL) ? "31683-02.html" : "31683-01.htm");
+					htmltext = ((talker.getLevel() < getMinLvl(getId())) ? "31683-02.html" : "31683-01.htm");
 				}
 				break;
 			}

@@ -95,6 +95,10 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, String text)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
 		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), text));
 	}
 	
@@ -106,6 +110,10 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
 		Broadcast.toKnownPlayers(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId));
 	}
 	
@@ -118,6 +126,11 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId, String... parameters)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
+		
 		final NpcSay say = new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId);
 		if (parameters != null)
 		{
@@ -138,6 +151,11 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, String text, int radius)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
+		
 		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), text), radius);
 	}
 	
@@ -150,6 +168,11 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastNpcSay(L2Npc npc, int type, NpcStringId stringId, int radius)
 	{
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
+		
 		Broadcast.toKnownPlayersInRadius(npc, new NpcSay(npc.getObjectId(), type, npc.getTemplate().getDisplayId(), stringId), radius);
 	}
 	
@@ -160,6 +183,11 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastSocialAction(L2Character character, int actionId)
 	{
+		if (!character.isInActiveRegion())
+		{
+			return;
+		}
+		
 		Broadcast.toSelfAndKnownPlayers(character, new SocialAction(character.getObjectId(), actionId));
 	}
 	
@@ -171,6 +199,11 @@ public abstract class AbstractNpcAI extends Quest
 	 */
 	protected void broadcastSocialAction(L2Character character, int actionId, int radius)
 	{
+		if (!character.isInActiveRegion())
+		{
+			return;
+		}
+		
 		Broadcast.toSelfAndKnownPlayersInRadius(character, new SocialAction(character.getObjectId(), actionId), radius);
 	}
 	

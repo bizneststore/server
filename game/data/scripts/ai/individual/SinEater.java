@@ -168,6 +168,11 @@ public final class SinEater extends AbstractNpcAI
 	
 	private void broadcastSummonSay(L2Summon summon, NpcStringId npcstringId)
 	{
+		if (!summon.isInActiveRegion())
+		{
+			return;
+		}
+		
 		summon.broadcastPacket(new NpcSay(summon.getObjectId(), Say2.NPC_ALL, summon.getId(), npcstringId));
 	}
 }

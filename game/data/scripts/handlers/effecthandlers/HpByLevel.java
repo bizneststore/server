@@ -53,6 +53,13 @@ public class HpByLevel extends EffectInstant
 		{
 			return false;
 		}
+		
+		// vmilon
+		if (getEffected().isRaid() || getEffected().isRaidMinion())
+		{
+			return false;
+		}
+		
 		// Calculation
 		final double abs = _power;
 		final double absorb = ((getEffector().getCurrentHp() + abs) > getEffector().getMaxHp() ? getEffector().getMaxHp() : (getEffector().getCurrentHp() + abs));

@@ -136,7 +136,7 @@ public class Q10273_GoodDayToFly extends Quest
 				htmltext = "32557-0a.html";
 				break;
 			case State.CREATED:
-				htmltext = (player.getLevel() < 75) ? "32557-00.html" : "32557-01.htm";
+				htmltext = (player.getLevel() < getMinLvl(getId())) ? "32557-00.html" : "32557-01.htm";
 				break;
 			default:
 				if (st.getQuestItemsCount(MARK) >= 5)
@@ -144,14 +144,13 @@ public class Q10273_GoodDayToFly extends Quest
 					htmltext = "32557-14.html";
 					if (transform == 1)
 					{
-						st.giveItems(13553, 1);
+						st.calcReward(getId(), 1);
 					}
 					else if (transform == 2)
 					{
-						st.giveItems(13554, 1);
+						st.calcReward(getId(), 2);
 					}
-					st.giveItems(13857, 1);
-					st.addExpAndSp(25160, 2525);
+					st.calcExpAndSp(getId());
 					st.exitQuest(false, true);
 				}
 				else if (transform == 0)

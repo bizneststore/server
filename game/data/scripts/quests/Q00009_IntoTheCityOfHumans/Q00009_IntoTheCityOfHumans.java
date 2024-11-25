@@ -35,8 +35,6 @@ public class Q00009_IntoTheCityOfHumans extends Quest
 	private static final int PETUKAI = 30583;
 	private static final int TANAPI = 30571;
 	private static final int TAMIL = 30576;
-	// Misc
-	private static final int MIN_LEVEL = 3;
 	
 	public Q00009_IntoTheCityOfHumans()
 	{
@@ -91,7 +89,7 @@ public class Q00009_IntoTheCityOfHumans extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() >= MIN_LEVEL) ? (player.getRace() == Race.ORC) ? "30583-01.htm" : "30583-02.html" : "30583-03.html";
+						htmltext = (player.getLevel() >= getMinLvl(getId())) ? (player.getRace() == Race.ORC) ? "30583-01.htm" : "30583-02.html" : "30583-03.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

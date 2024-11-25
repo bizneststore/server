@@ -29,7 +29,7 @@ import l2r.gameserver.util.Util;
 
 /**
  * Relics of the Old Empire (619)
- * @author Adry_85, jurchiks, edited by vmilon
+ * @author Adry_85, jurchiks
  */
 public final class Q00619_RelicsOfTheOldEmpire extends Quest
 {
@@ -261,7 +261,7 @@ public final class Q00619_RelicsOfTheOldEmpire extends Quest
 			int npcId = npc.getId();
 			if (Util.contains(ARCHON_OF_HALISHA, npcId))
 			{
-				final int itemCount = ((getRandom(100) < 89) ? 4 : 3);
+				final int itemCount = ((getRandom(100) < 79) ? 4 : 3);
 				giveItemRandomly(player, npc, BROKEN_RELIC_PART, itemCount, 0, 1.0, true);
 			}
 			else
@@ -271,11 +271,11 @@ public final class Q00619_RelicsOfTheOldEmpire extends Quest
 				
 				if (info.doubleItemChance > 0)
 				{
-					itemCount = ((getRandom(100) < info.doubleItemChance) ? 4 : 3);
+					itemCount = ((getRandom(100) < info.doubleItemChance) ? 2 : 1);
 				}
 				else
 				{
-					itemCount = 2;
+					itemCount = 1;
 				}
 				
 				giveItemRandomly(player, npc, BROKEN_RELIC_PART, itemCount, 0, info.dropChance, true);

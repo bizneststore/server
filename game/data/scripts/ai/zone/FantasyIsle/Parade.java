@@ -122,7 +122,7 @@ public class Parade extends AbstractNpcAI
 	// @formatter:on
 	
 	int npcIndex;
-	CopyOnWriteArrayList<L2Npc> spawns;
+	CopyOnWriteArrayList<L2Npc> spawns = new CopyOnWriteArrayList<>();
 	ScheduledFuture<?> spawnTask;
 	ScheduledFuture<?> deleteTask;
 	ScheduledFuture<?> cleanTask;
@@ -142,7 +142,7 @@ public class Parade extends AbstractNpcAI
 	protected void load()
 	{
 		npcIndex = 0;
-		spawns = new CopyOnWriteArrayList<>();
+		clean();
 	}
 	
 	protected void clean()
@@ -151,7 +151,7 @@ public class Parade extends AbstractNpcAI
 		{
 			spawns.forEach(L2Npc::deleteMe);
 		}
-		spawns = null;
+		spawns.clear();
 	}
 	
 	private long timeLeftMilli(int hh, int mm, int ss)

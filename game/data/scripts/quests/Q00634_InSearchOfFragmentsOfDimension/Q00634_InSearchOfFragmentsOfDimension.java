@@ -160,8 +160,8 @@ public final class Q00634_InSearchOfFragmentsOfDimension extends Quest
 		final QuestState qs = getRandomPartyMemberState(player, -1, 3, npc);
 		if (qs != null)
 		{
-			final int i0 = (int) ((0.15 * npc.getLevel()) + 2);
-			if (getRandom(100) < 50)
+			final int i0 = (int) ((0.15 * npc.getLevel()) + 1.6);
+			if (getRandom(100) < 10)
 			{
 				giveItemRandomly(qs.getPlayer(), npc, DIMENSIONAL_FRAGMENT, i0, 0, 1.0, true);
 			}

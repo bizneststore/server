@@ -59,7 +59,7 @@ public class Q00018_MeetingWithTheGoldenRam extends Quest
 		switch (event)
 		{
 			case "31314-03.html":
-				if (player.getLevel() >= 66)
+				if (player.getLevel() >= getMinLvl(getId()))
 				{
 					st.startQuest();
 				}

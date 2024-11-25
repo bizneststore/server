@@ -95,7 +95,7 @@ public class Q00015_SweetWhispers extends Quest
 			case State.CREATED:
 				if (npcId == VLADIMIR)
 				{
-					htmltext = (player.getLevel() >= 60) ? "31302-00.htm" : "31302-00a.html";
+					htmltext = (player.getLevel() >= getMinLvl(getId())) ? "31302-00.htm" : "31302-00a.html";
 				}
 				break;
 			case State.STARTED:

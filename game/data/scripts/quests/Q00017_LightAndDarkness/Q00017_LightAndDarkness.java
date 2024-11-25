@@ -63,7 +63,7 @@ public class Q00017_LightAndDarkness extends Quest
 		switch (event)
 		{
 			case "31517-02.html":
-				if (player.getLevel() >= 61)
+				if (player.getLevel() >= getMinLvl(getId()))
 				{
 					st.startQuest();
 					st.giveItems(BLOOD_OF_SAINT, 4);

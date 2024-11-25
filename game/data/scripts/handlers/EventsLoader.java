@@ -3,8 +3,6 @@ package handlers;
 import gr.sr.handler.ABLoader;
 
 import events.CharacterBirthday.CharacterBirthday;
-import events.NewEra.NewEra;
-import events.SquashEvent.SquashEvent;
 
 /**
  * @author L2jSunrise Team
@@ -23,8 +21,8 @@ public final class EventsLoader extends ABLoader
 		// LoveYourGatekeeper.class,
 		// MasterOfEnchanting.class,
 		// SavingSanta.class,
-		SquashEvent.class,
-		NewEra.class,
+		// SquashEvent.class,
+		// NewEra.class,
 		// TheValentineEvent.class,
 	};
 	

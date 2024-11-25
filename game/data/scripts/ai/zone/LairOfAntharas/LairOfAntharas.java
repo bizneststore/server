@@ -23,7 +23,8 @@ import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
 import l2r.gameserver.network.NpcStringId;
 import l2r.gameserver.network.clientpackets.Say2;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
+
+import gr.sr.utils.Rnd;
 
 import ai.npc.AbstractNpcAI;
 
@@ -41,6 +42,12 @@ public final class LairOfAntharas extends AbstractNpcAI
 	
 	final private static int DRAGON_GUARD = 22852;
 	final private static int DRAGON_MAGE = 22853;
+	
+	private static final int DRAKE_LEADER = 22848;
+	private static final int DRAKE_WARRIOR = 22849;
+	private static final int DRAKE_SCOUT = 22850;
+	private static final int DRAKE_MAGE = 22851;
+	
 	// Misc
 	final private static int KNIGHT_CHANCE = 30;
 	final private static int KNORIKS_CHANCE = 60;
@@ -50,7 +57,7 @@ public final class LairOfAntharas extends AbstractNpcAI
 	{
 		super(LairOfAntharas.class.getSimpleName(), "ai/zone/LairOfAntharas");
 		addKillId(DRAGON_KNIGHT, DRAGON_KNIGHT2, DRAGON_GUARD, DRAGON_MAGE);
-		addSpawnId(DRAGON_KNIGHT, DRAGON_KNIGHT2, DRAGON_GUARD, DRAGON_MAGE);
+		addSpawnId(DRAGON_KNIGHT, DRAGON_KNIGHT2, DRAGON_GUARD, DRAGON_MAGE, DRAKE_LEADER);
 		addMoveFinishedId(DRAGON_GUARD, DRAGON_MAGE);
 		addAggroRangeEnterId(KNORIKS);
 	}
@@ -67,7 +74,7 @@ public final class LairOfAntharas extends AbstractNpcAI
 			else if ((npc.getHeading() != npc.getSpawn().getHeading()) && !npc.isInCombat())
 			{
 				npc.setHeading(npc.getSpawn().getHeading());
-				npc.broadcastPacket(new ValidateLocation(npc));
+				npc.broadcastPacket(npc.validateLocationPacket());
 			}
 		}
 		return super.onAdvEvent(event, npc, player);
@@ -133,6 +140,26 @@ public final class LairOfAntharas extends AbstractNpcAI
 			mob.setIsNoRndWalk(true);
 			startQuestTimer("CHECK_HOME", 30000, npc, null, true);
 		}
+		else if (npc.getId() == DRAKE_LEADER)
+		{
+			for (int i = 0; i < 4; i++)
+			{
+				final int minionType = Rnd.get(3);
+				switch (minionType)
+				{
+					case 0:
+						addMinion(npc.getAsMonster(), DRAKE_WARRIOR);
+						break;
+					case 1:
+						addMinion(npc.getAsMonster(), DRAKE_SCOUT);
+						break;
+					case 2:
+						addMinion(npc.getAsMonster(), DRAKE_MAGE);
+						break;
+				}
+			}
+		}
+		
 		return super.onSpawn(npc);
 	}
 }

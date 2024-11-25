@@ -68,7 +68,8 @@ public class Q10279_MutatedKaneusOren extends Quest
 				st.startQuest();
 				break;
 			case "30189-03.htm":
-				st.giveAdena(100000, true);
+				st.calcExpAndSp(getId());
+				st.calcExpAndSp(getId());
 				st.exitQuest(false, true);
 				break;
 		}
@@ -128,7 +129,7 @@ public class Q10279_MutatedKaneusOren extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 47) ? "30196-01.htm" : "30196-00.htm";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "30196-01.htm" : "30196-00.htm";
 						break;
 					case State.STARTED:
 						htmltext = (st.hasQuestItems(TISSUE_KA) && st.hasQuestItems(TISSUE_KM)) ? "30196-05.htm" : "30196-04.htm";

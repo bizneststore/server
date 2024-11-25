@@ -870,7 +870,7 @@ public final class TullyWorkshop extends AbstractNpcAI
 					}
 				}
 			}
-			htmltext = null;
+			// htmltext = null;
 		}
 		else if (npcId == INGENIOUS_CONTRAPTION)
 		{

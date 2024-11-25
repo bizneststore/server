@@ -437,7 +437,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 			}
 			if (_fortDungeons.containsKey(npcId) && (cond == 0))
 			{
-				if (player.getLevel() >= 60)
+				if (player.getLevel() >= getMinLvl(getId()))
 				{
 					htmltext = "FortressWarden-09.htm";
 				}
@@ -470,7 +470,7 @@ public final class Q00511_AwlUnderFoot extends Quest
 		QuestState st = player.getQuestState(getName());
 		if (st.isCond(1))
 		{
-			st.giveItems(DL_MARK, 140);
+			st.calcReward(getId());
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 	}

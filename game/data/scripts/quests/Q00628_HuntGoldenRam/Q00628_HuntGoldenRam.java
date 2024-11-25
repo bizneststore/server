@@ -49,16 +49,16 @@ public final class Q00628_HuntGoldenRam extends Quest
 	
 	static
 	{
-		MOBS_DROP_CHANCES.put(21508, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.700, 1)); // splinter_stakato
-		MOBS_DROP_CHANCES.put(21509, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.630, 1)); // splinter_stakato_worker
-		MOBS_DROP_CHANCES.put(21510, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.721, 1)); // splinter_stakato_soldier
-		MOBS_DROP_CHANCES.put(21511, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.775, 1)); // splinter_stakato_drone
-		MOBS_DROP_CHANCES.put(21512, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.846, 1)); // splinter_stakato_drone_a
-		MOBS_DROP_CHANCES.put(21513, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.700, 2)); // needle_stakato
-		MOBS_DROP_CHANCES.put(21514, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.630, 2)); // needle_stakato_worker
-		MOBS_DROP_CHANCES.put(21515, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.720, 2)); // needle_stakato_soldier
-		MOBS_DROP_CHANCES.put(21516, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.731, 2)); // needle_stakato_drone
-		MOBS_DROP_CHANCES.put(21517, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.844, 2)); // needle_stakato_drone_a
+		MOBS_DROP_CHANCES.put(21508, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.500, 1)); // splinter_stakato
+		MOBS_DROP_CHANCES.put(21509, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.430, 1)); // splinter_stakato_worker
+		MOBS_DROP_CHANCES.put(21510, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.521, 1)); // splinter_stakato_soldier
+		MOBS_DROP_CHANCES.put(21511, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.575, 1)); // splinter_stakato_drone
+		MOBS_DROP_CHANCES.put(21512, new ItemChanceHolder(SPLINTER_STAKATO_CHITIN, 0.746, 1)); // splinter_stakato_drone_a
+		MOBS_DROP_CHANCES.put(21513, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.500, 2)); // needle_stakato
+		MOBS_DROP_CHANCES.put(21514, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.430, 2)); // needle_stakato_worker
+		MOBS_DROP_CHANCES.put(21515, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.520, 2)); // needle_stakato_soldier
+		MOBS_DROP_CHANCES.put(21516, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.531, 2)); // needle_stakato_drone
+		MOBS_DROP_CHANCES.put(21517, new ItemChanceHolder(NEEDLE_STAKATO_CHITIN, 0.744, 2)); // needle_stakato_drone_a
 	}
 	
 	public Q00628_HuntGoldenRam()
@@ -146,7 +146,7 @@ public final class Q00628_HuntGoldenRam extends Quest
 			final ItemChanceHolder item = MOBS_DROP_CHANCES.get(npc.getId());
 			if ((item.getCount() <= qs.getCond()) && !qs.isCond(3))
 			{
-				giveItemRandomly(qs.getPlayer(), npc, item.getId(), 10, REQUIRED_ITEM_COUNT, item.getChance(), true);
+				giveItemRandomly(qs.getPlayer(), npc, item.getId(), 1, REQUIRED_ITEM_COUNT, item.getChance(), true);
 			}
 		}
 		return super.onKill(npc, killer, isSummon);

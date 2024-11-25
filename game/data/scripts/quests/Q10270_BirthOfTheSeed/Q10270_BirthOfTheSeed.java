@@ -63,9 +63,10 @@ public class Q10270_BirthOfTheSeed extends Quest
 		{
 			qs.setState(State.COMPLETED);
 			playSound(player, Sound.ITEMSOUND_QUEST_FINISH);
+			
+			qs.calcExpAndSp(getId());
+			qs.calcExpAndSp(getId());
 			qs.exitQuest(false);
-			qs.addExpAndSp(251602, 25244);
-			qs.giveAdena(41677, true);
 		}
 		else if (event.equalsIgnoreCase("32566-05.htm"))
 		{
@@ -102,7 +103,7 @@ public class Q10270_BirthOfTheSeed extends Quest
 				switch (qs.getState())
 				{
 					case State.CREATED:
-						if (player.getLevel() < 75)
+						if (player.getLevel() < getMinLvl(getId()))
 						{
 							htmltext = "32563-02.htm";
 						}

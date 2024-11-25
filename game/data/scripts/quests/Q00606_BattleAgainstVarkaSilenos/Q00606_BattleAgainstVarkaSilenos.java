@@ -116,7 +116,7 @@ public class Q00606_BattleAgainstVarkaSilenos extends Quest
 		if ((member != null) && (getRandom(1000) < MOBS.get(npc.getId())))
 		{
 			final QuestState st = member.getQuestState(getName());
-			st.giveItems(MANE, 5);
+			st.giveItems(MANE, 1);
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 		return super.onKill(npc, killer, isSummon);

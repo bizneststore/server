@@ -64,6 +64,18 @@ public class HealOverTime extends OverTimeEffect
 			return false;
 		}
 		
+		// vmilon
+		if (getEffected().isRaid() || getEffected().isRaidMinion())
+		{
+			return false;
+		}
+		
+		// vmilon
+		if (getEffected().isRaid() || getEffected().isRaidMinion())
+		{
+			return false;
+		}
+		
 		double hp = getEffected().getCurrentHp();
 		double maxhp = getEffected().getMaxRecoverableHp();
 		

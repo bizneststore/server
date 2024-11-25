@@ -37,8 +37,6 @@ public class Q00008_AnAdventureBegins extends Quest
 	private static final int HARNE = 30144;
 	// Items
 	private static final int ROSELYNS_NOTE = 7573;
-	// Misc
-	private static final int MIN_LEVEL = 3;
 	
 	public Q00008_AnAdventureBegins()
 	{
@@ -103,7 +101,7 @@ public class Q00008_AnAdventureBegins extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getRace() == Race.DARK_ELF) && (player.getLevel() >= MIN_LEVEL)) ? "30134-02.htm" : "30134-01.html";
+						htmltext = ((player.getRace() == Race.DARK_ELF) && (player.getLevel() >= getMinLvl(getId()))) ? "30134-02.htm" : "30134-01.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

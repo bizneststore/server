@@ -227,8 +227,11 @@ public class PrisonGuards extends AbstractNpcAI
 	{
 		if (fromAttack)
 		{
-			NpcStringId npcString = (npc.getId() == GUARD_HEAD ? NpcStringId.ITS_NOT_EASY_TO_OBTAIN : NpcStringId.YOURE_OUT_OF_YOUR_MIND_COMING_HERE);
-			npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), npcString));
+			if (npc.isInActiveRegion())
+			{
+				NpcStringId npcString = (npc.getId() == GUARD_HEAD ? NpcStringId.ITS_NOT_EASY_TO_OBTAIN : NpcStringId.YOURE_OUT_OF_YOUR_MIND_COMING_HERE);
+				npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), npcString));
+			}
 		}
 		
 		L2Skill skill = SkillData.getInstance().getInfo(effectId, isSpell ? 9 : 1);

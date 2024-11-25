@@ -206,6 +206,19 @@ public final class DropExample extends AbstractNpcAI
 					npc.dropItem(player, itemId, tempCount);
 				}
 			}
+			else if (player.isPlatinum())
+			{
+				long tempCount = itemCount;
+				tempCount *= player.calcPlatinumDropMultipliers(itemId);
+				if ((npc.isRaid() && Config.AUTO_LOOT_RAIDS) || (!npc.isRaid() && Config.AUTO_LOOT))
+				{
+					player.addItem("drop", itemId, tempCount, player, true);
+				}
+				else
+				{
+					npc.dropItem(player, itemId, tempCount);
+				}
+			}
 			else
 			{
 				if ((npc.isRaid() && Config.AUTO_LOOT_RAIDS) || (!npc.isRaid() && Config.AUTO_LOOT))

@@ -306,7 +306,6 @@ public class HallOfSufferingDefence extends Quest
 			case 4:
 				return ROOM_5_MOBS;
 		}
-		_log.warn("");
 		return new int[][] {};
 	}
 	

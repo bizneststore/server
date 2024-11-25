@@ -29,7 +29,7 @@ import l2r.gameserver.model.quest.State;
 
 /**
  * Yoke of the Past (385)
- * @author Pandragon, edited by vmilon
+ * @author Pandragon
  */
 public final class Q00385_YokeOfThePast extends Quest
 {
@@ -181,7 +181,7 @@ public final class Q00385_YokeOfThePast extends Quest
 		final QuestState qs = getRandomPartyMemberState(killer, -1, 3, npc);
 		if (qs != null)
 		{
-			giveItemRandomly(qs.getPlayer(), npc, ANCIENT_SCROLL, 5, 0, MONSTER_CHANCES.get(npc.getId()), true);
+			giveItemRandomly(qs.getPlayer(), npc, ANCIENT_SCROLL, 1, 0, MONSTER_CHANCES.get(npc.getId()), true);
 		}
 		return super.onKill(npc, killer, isSummon);
 	}

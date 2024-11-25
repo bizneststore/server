@@ -48,8 +48,6 @@ public class Q00004_LongLiveThePaagrioLord extends Quest
 	private static final int ANCESTOR_SKULL = 1544;
 	private static final int SPIDER_DUST = 1545;
 	private static final int DEEP_SEA_ORB = 1546;
-	// Misc
-	private static final int MIN_LEVEL = 2;
 	
 	public Q00004_LongLiveThePaagrioLord()
 	{
@@ -99,7 +97,7 @@ public class Q00004_LongLiveThePaagrioLord extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getRace() != Race.ORC) ? "30578-00.htm" : (player.getLevel() >= MIN_LEVEL) ? "30578-02.htm" : "30578-01.htm";
+						htmltext = (player.getRace() != Race.ORC) ? "30578-00.htm" : (player.getLevel() >= getMinLvl(getId())) ? "30578-02.htm" : "30578-01.htm";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

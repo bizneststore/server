@@ -144,6 +144,7 @@ public class Q00450_GatherEvidence extends Quest
 			return super.onKill(npc, player, isPet);
 		}
 		
+		// CHECK NA GINEI TO COND 2 STA 1200 KAI NA LEEI OR KEEP GATHERING
 		// vmilon condition is set to 2 if player has 1600 evidence but player can keep farming
 		st.giveItems(EVIDENCE_OF_MIGRATION, 1);
 		st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);

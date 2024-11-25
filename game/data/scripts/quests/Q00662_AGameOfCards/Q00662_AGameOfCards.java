@@ -115,8 +115,7 @@ public final class Q00662_AGameOfCards extends Quest
 			{
 				if (player.getLevel() >= MIN_LEVEL)
 				{
-					st.setState(State.STARTED);
-					st.playSound(QuestSound.ITEMSOUND_QUEST_ACCEPT);
+					st.startQuest();
 					htmltext = event;
 				}
 				break;

@@ -40,8 +40,6 @@ public class Q00001_LettersOfLove extends Quest
 	private static final int ROXXYS_KERCHIEF = 688;
 	private static final int DARINS_RECEIPT = 1079;
 	private static final int BAULROS_POTION = 1080;
-	// Misc
-	private static final int MIN_LEVEL = 2;
 	
 	public Q00001_LettersOfLove()
 	{
@@ -72,7 +70,7 @@ public class Q00001_LettersOfLove extends Quest
 			}
 			case "30048-06.htm":
 			{
-				if (player.getLevel() >= MIN_LEVEL)
+				if (player.getLevel() >= getMinLvl(getId()))
 				{
 					st.startQuest();
 					st.giveItems(DARINS_LETTER, 1);
@@ -98,7 +96,7 @@ public class Q00001_LettersOfLove extends Quest
 		{
 			case State.CREATED:
 			{
-				htmltext = (player.getLevel() < MIN_LEVEL) ? "30048-01.html" : "30048-02.html";
+				htmltext = (player.getLevel() < getMinLvl(getId())) ? "30048-01.html" : "30048-02.html";
 				break;
 			}
 			case State.STARTED:

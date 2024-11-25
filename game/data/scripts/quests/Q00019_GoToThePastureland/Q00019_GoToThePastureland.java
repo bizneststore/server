@@ -101,7 +101,7 @@ public class Q00019_GoToThePastureland extends Quest
 			switch (st.getState())
 			{
 				case State.CREATED:
-					if (player.getLevel() >= 82)
+					if (player.getLevel() >= getMinLvl(getId()))
 					{
 						htmltext = "31302-01.htm";
 					}

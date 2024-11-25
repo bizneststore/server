@@ -42,7 +42,7 @@ public class Q00605_AllianceWithKetraOrcs extends Quest
 		
 		public DropInfo(int chance, int minCond)
 		{
-			_chance = chance * (5 / 4);
+			_chance = chance;
 			_minCond = minCond;
 			switch (_minCond)
 			{
@@ -275,7 +275,7 @@ public class Q00605_AllianceWithKetraOrcs extends Quest
 			final DropInfo info = MOBS.get(npc.getId());
 			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getId()) && (getRandom(1000) < info.getChance()))
 			{
-				st.giveItems(info.getId(), 2);
+				st.giveItems(info.getId(), 1);
 			}
 		}
 		return super.onKill(npc, killer, isSummon);

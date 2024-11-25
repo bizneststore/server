@@ -96,7 +96,7 @@ public class Q00013_ParcelDelivery extends Quest
 			case State.CREATED:
 				if (npcId == FUNDIN)
 				{
-					htmltext = (player.getLevel() >= 74) ? "31274-00.htm" : "31274-01.html";
+					htmltext = (player.getLevel() >= getMinLvl(getId())) ? "31274-00.htm" : "31274-01.html";
 				}
 				break;
 			case State.STARTED:

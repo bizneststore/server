@@ -10,7 +10,6 @@ import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
 import l2r.gameserver.util.Util;
 
 public class TeleportToTarget extends EffectInstant
@@ -59,7 +58,7 @@ public class TeleportToTarget extends EffectInstant
 		activeChar.abortCast();
 		activeChar.setXYZ(loc);
 		activeChar.setHeading(target.getHeading());
-		activeChar.broadcastPacket(new ValidateLocation(activeChar));
+		activeChar.broadcastPacket(activeChar.validateLocationPacket());
 		return true;
 	}
 }

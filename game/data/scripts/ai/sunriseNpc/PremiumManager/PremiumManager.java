@@ -41,7 +41,7 @@ public final class PremiumManager extends AbstractNpcAI
 			return "";
 		}
 		
-		if (player.getLevel() <= CustomNpcsConfigs.PREMIUM_REQUIRED_LEVEL)
+		if (player.getLevel() < CustomNpcsConfigs.PREMIUM_REQUIRED_LEVEL)
 		{
 			player.sendMessage("Your level is too low to use this function, you must be at least " + String.valueOf(CustomNpcsConfigs.PREMIUM_REQUIRED_LEVEL + 1) + " level.");
 			sendMainHtmlWindow(player, npc);

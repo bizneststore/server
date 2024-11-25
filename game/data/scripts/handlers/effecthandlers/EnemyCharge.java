@@ -26,7 +26,6 @@ import l2r.gameserver.model.effects.L2EffectType;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -105,7 +104,7 @@ public class EnemyCharge extends EffectInstant
 		
 		// maybe is need force set X,Y,Z
 		getEffector().setXYZ(destination);
-		getEffector().broadcastPacket(new ValidateLocation(getEffector()));
+		getEffector().broadcastPacket(getEffector().validateLocationPacket());
 		
 		return true;
 	}

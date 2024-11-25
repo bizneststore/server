@@ -188,7 +188,10 @@ public final class PrimevalIsle extends AbstractNpcAI
 			{
 				if ((npc != null) && !npc.isDead())
 				{
-					npc.doCast((npc.getId() == SPRIGNANT[0] ? ANESTHESIA.getSkill() : DEADLY_POISON.getSkill()));
+					if (npc.isInActiveRegion())
+					{
+						npc.doCast((npc.getId() == SPRIGNANT[0] ? ANESTHESIA.getSkill() : DEADLY_POISON.getSkill()));
+					}
 					startQuestTimer("USE_SKILL", 15000, npc, null);
 				}
 				break;

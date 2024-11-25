@@ -71,7 +71,6 @@ public class Q00647_InfluxOfMachines extends Quest
 		7580, // Recipe: Draconic Bow (60%)
 	};
 	// Misc
-	private static final int MIN_LEVEL = 70;
 	private static final int FRAGMENT_COUNT = 500;
 	
 	public Q00647_InfluxOfMachines()
@@ -124,7 +123,9 @@ public class Q00647_InfluxOfMachines extends Quest
 			final QuestState st = member.getQuestState(getName());
 			if (st.isCond(1) && (getRandom(1000) < MOBS.get(npc.getId())))
 			{
-				st.giveItems(BROKEN_GOLEM_FRAGMENT, 1);
+				st.calcExpAndSp(getId());
+				st.calcReward(getId());
+				
 				if (st.getQuestItemsCount(BROKEN_GOLEM_FRAGMENT) >= FRAGMENT_COUNT)
 				{
 					st.setCond(2, true);
@@ -151,7 +152,7 @@ public class Q00647_InfluxOfMachines extends Quest
 		switch (st.getState())
 		{
 			case State.CREATED:
-				htmltext = (player.getLevel() >= MIN_LEVEL) ? "32069-01.htm" : "32069-02.htm";
+				htmltext = (player.getLevel() >= getMinLvl(getId())) ? "32069-01.htm" : "32069-02.htm";
 				break;
 			case State.STARTED:
 				if (st.isCond(1))

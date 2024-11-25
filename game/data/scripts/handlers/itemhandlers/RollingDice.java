@@ -82,10 +82,12 @@ public class RollingDice implements IItemHandler
 	private int rollDice(L2PcInstance player)
 	{
 		// Check if the dice is ready
-		if (!player.getFloodProtectors().getRollDice().tryPerformAction("roll dice"))
+		if (player.getQuickVarL("rolldice", 0) > System.currentTimeMillis())
 		{
 			return 0;
 		}
+		
+		player.setQuickVar("rolldice", System.currentTimeMillis() + 5000);
 		return Rnd.get(1, 6);
 	}
 }

@@ -30,7 +30,7 @@ import l2r.gameserver.model.quest.State;
 
 /**
  * Battle against Ketra Orcs (612)
- * @author malyelfik edited by vmilon
+ * @author malyelfik
  */
 public class Q00612_BattleAgainstKetraOrcs extends Quest
 {
@@ -116,7 +116,7 @@ public class Q00612_BattleAgainstKetraOrcs extends Quest
 		if ((member != null) && (getRandom(1000) < MOBS.get(npc.getId())))
 		{
 			final QuestState st = member.getQuestState(getName());
-			st.giveItems(MOLAR, 5);
+			st.giveItems(MOLAR, 1);
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 		return super.onKill(npc, killer, isSummon);

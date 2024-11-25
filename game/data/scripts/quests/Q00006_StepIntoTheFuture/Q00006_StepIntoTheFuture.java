@@ -37,8 +37,6 @@ public class Q00006_StepIntoTheFuture extends Quest
 	private static final int SIR_COLLIN = 30311;
 	// Items
 	private static final int BAULRO_LETTER = 7571;
-	// Misc
-	private static final int MIN_LEVEL = 3;
 	
 	public Q00006_StepIntoTheFuture()
 	{
@@ -103,7 +101,7 @@ public class Q00006_StepIntoTheFuture extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getRace() == Race.HUMAN) && (player.getLevel() >= MIN_LEVEL)) ? "30006-02.htm" : "30006-01.html";
+						htmltext = ((player.getRace() == Race.HUMAN) && (player.getLevel() >= getMinLvl(getId()))) ? "30006-02.htm" : "30006-01.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

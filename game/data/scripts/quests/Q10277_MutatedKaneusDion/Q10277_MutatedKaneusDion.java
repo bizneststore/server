@@ -68,7 +68,8 @@ public class Q10277_MutatedKaneusDion extends Quest
 				st.startQuest();
 				break;
 			case "30461-03.html":
-				st.giveAdena(20000, true);
+				st.calcExpAndSp(getId());
+				st.calcExpAndSp(getId());
 				st.exitQuest(false, true);
 				break;
 		}
@@ -128,7 +129,7 @@ public class Q10277_MutatedKaneusDion extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 27) ? "30071-01.htm" : "30071-00.html";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "30071-01.htm" : "30071-00.html";
 						break;
 					case State.STARTED:
 						htmltext = (st.hasQuestItems(TISSUE_CH) && st.hasQuestItems(TISSUE_SF)) ? "30071-05.html" : "30071-04.html";

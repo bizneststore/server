@@ -55,8 +55,6 @@ public class Q00021_HiddenTruth extends Quest
 	private static final Location PAGE_LOC = new Location(51446, -54514, -3136, 0);
 	// Items
 	private static final int CROSS_OF_EINHASAD = 7140;
-	// Misc
-	private static final int MIN_LVL = 63;
 	private static final String PAGE_ROUTE_NAME = "rune_ghost1b";
 	private static int PAGE_COUNT = 0;
 	private static boolean GHOST_SPAWNED = false;
@@ -116,7 +114,7 @@ public class Q00021_HiddenTruth extends Quest
 				}
 				case "31522-02.htm":
 				{
-					if (player.getLevel() < MIN_LVL)
+					if (player.getLevel() < getMinLvl(getId()))
 					{
 						htmltext = "31522-03.htm";
 					}

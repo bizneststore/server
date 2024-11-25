@@ -25,6 +25,8 @@ import l2r.gameserver.model.zone.type.L2ClanHallZone;
 import l2r.gameserver.model.zone.type.L2FortZone;
 import l2r.gameserver.model.zone.type.L2MotherTreeZone;
 
+import gr.sr.configsEngine.configs.impl.EliteMobsConfigs;
+
 public final class CalcHpRegen implements IFFormulas
 {
 	@Override
@@ -40,6 +42,10 @@ public final class CalcHpRegen implements IFFormulas
 		if (Config.L2JMOD_CHAMPION_ENABLE && cha.isChampion())
 		{
 			hpRegenMultiplier *= Config.L2JMOD_CHAMPION_HP_REGEN;
+		}
+		else if (EliteMobsConfigs.ELITE_ENABLE && cha.isElite())
+		{
+			hpRegenMultiplier *= EliteMobsConfigs.ELITE_HP_REGEN;
 		}
 		
 		if (cha.isPlayer())

@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2004-2013 L2J DataPack
  * 
@@ -24,6 +25,11 @@ import l2r.gameserver.model.quest.Quest;
 import l2r.gameserver.model.quest.QuestState;
 import l2r.gameserver.model.quest.State;
 import l2r.gameserver.network.NpcStringId;
+
+/**
+ * Supply Check (174)
+ * @author malyelfik
+ */
 
 /**
  * Supply Check (174)
@@ -100,7 +106,15 @@ public class Q00174_SupplyCheck extends Quest
 								break;
 							case 4:
 								st.calcExpAndSp(getId());
-								st.calcReward(getId());
+								
+								if (player.getClassId().isMage() || player.getClassId().isSummoner())
+								{
+									st.calcReward(getId(), 1);
+								}
+								else
+								{
+									st.calcReward(getId(), 2);
+								}
 								st.exitQuest(false, true);
 								// Newbie Guide
 								showOnScreenMsg(player, NpcStringId.DELIVERY_DUTY_COMPLETE_N_GO_FIND_THE_NEWBIE_GUIDE, 2, 5000);

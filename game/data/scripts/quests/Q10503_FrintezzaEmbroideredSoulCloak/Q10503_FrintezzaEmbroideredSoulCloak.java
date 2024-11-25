@@ -39,9 +39,7 @@ public class Q10503_FrintezzaEmbroideredSoulCloak extends Quest
 	private static final int SCARLET_VAN_HALISHA = 29047;
 	// Items
 	private static final int FRINTEZZAS_SOUL_FRAGMENT = 21724;
-	private static final int SOUL_CLOAK_OF_FRINTEZZA = 21721;
 	// Misc
-	private static final int MIN_LEVEL = 80;
 	private static final int FRAGMENT_COUNT = 20;
 	
 	public Q10503_FrintezzaEmbroideredSoulCloak()
@@ -78,7 +76,7 @@ public class Q10503_FrintezzaEmbroideredSoulCloak extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(getName());
-		if ((st != null) && (player.getLevel() >= MIN_LEVEL) && event.equals("32612-04.html"))
+		if ((st != null) && (player.getLevel() >= getMinLvl(getId())) && event.equals("32612-04.html"))
 		{
 			st.startQuest();
 			return event;
@@ -107,7 +105,7 @@ public class Q10503_FrintezzaEmbroideredSoulCloak extends Quest
 		{
 			case State.CREATED:
 			{
-				htmltext = (player.getLevel() < MIN_LEVEL) ? "32612-02.html" : "32612-01.htm";
+				htmltext = (player.getLevel() < getMinLvl(getId())) ? "32612-02.html" : "32612-01.htm";
 				break;
 			}
 			case State.STARTED:
@@ -123,8 +121,11 @@ public class Q10503_FrintezzaEmbroideredSoulCloak extends Quest
 					{
 						if (st.getQuestItemsCount(FRINTEZZAS_SOUL_FRAGMENT) >= FRAGMENT_COUNT)
 						{
-							st.giveItems(SOUL_CLOAK_OF_FRINTEZZA, 1);
 							st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							
+							st.calcExpAndSp(getId());
+							st.calcReward(getId());
+							
 							st.exitQuest(false, true);
 							htmltext = "32612-06.html";
 						}

@@ -134,7 +134,11 @@ public class SeerUgoros extends AbstractNpcAI
 					_weed = null;
 					_weed_attack = false;
 					_ugoros.getStatus().setCurrentHp(_ugoros.getStatus().getCurrentHp() + (_ugoros.getMaxHp() * 0.2));
-					_ugoros.broadcastPacket(new NpcSay(_ugoros.getObjectId(), 0, _ugoros.getId(), "What a formidable foe! But i have the Abyss Weed given to me by the Black Abyss! Let me see..."));
+					
+					if (_ugoros.isInActiveRegion())
+					{
+						_ugoros.broadcastPacket(new NpcSay(_ugoros.getObjectId(), 0, _ugoros.getId(), "What a formidable foe! But i have the Abyss Weed given to me by the Black Abyss! Let me see..."));
+					}
 				}
 				else
 				{
@@ -223,7 +227,10 @@ public class SeerUgoros extends AbstractNpcAI
 					// Set it
 					_weed_killed_by_player = true;
 					// Complain
-					_ugoros.broadcastPacket(new NpcSay(_ugoros.getObjectId(), 0, _ugoros.getId(), "No! How dare you to stop me from using the Abyss Weed... Do you know what you have done?!"));
+					if (_ugoros.isInActiveRegion())
+					{
+						_ugoros.broadcastPacket(new NpcSay(_ugoros.getObjectId(), 0, _ugoros.getId(), "No! How dare you to stop me from using the Abyss Weed... Do you know what you have done?!"));
+					}
 					// Cancel current think-task
 					if (_thinkTask != null)
 					{
@@ -290,6 +297,12 @@ public class SeerUgoros extends AbstractNpcAI
 		{
 			return;
 		}
+		
+		if (!npc.isInActiveRegion())
+		{
+			return;
+		}
+		
 		NpcSay cs = new NpcSay(npc.getObjectId(), 1, npc.getId(), _text);
 		L2MapRegion region = MapRegionManager.getInstance().getMapRegion(npc.getX(), npc.getY());
 		for (L2PcInstance player : L2World.getInstance().getPlayers())

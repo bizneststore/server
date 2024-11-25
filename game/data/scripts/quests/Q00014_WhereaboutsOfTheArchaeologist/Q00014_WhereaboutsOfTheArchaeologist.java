@@ -96,7 +96,7 @@ public class Q00014_WhereaboutsOfTheArchaeologist extends Quest
 			case State.CREATED:
 				if (npcId == LIESEL)
 				{
-					htmltext = (player.getLevel() < 74) ? "31263-01.html" : "31263-00.htm";
+					htmltext = (player.getLevel() < getMinLvl(getId())) ? "31263-01.html" : "31263-00.htm";
 				}
 				break;
 			case State.STARTED:

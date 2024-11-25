@@ -43,12 +43,6 @@ public final class Q00039_RedEyedInvaders extends Quest
 	private static final ItemHolder LIZ_NECKLACE_B = new ItemHolder(7179, 100);
 	private static final ItemHolder LIZ_PERFUME = new ItemHolder(7180, 30);
 	private static final ItemHolder LIZ_GEM = new ItemHolder(7181, 30);
-	// Rewards
-	private static final ItemHolder GREEN_HIGH_LURE = new ItemHolder(6521, 60);
-	private static final ItemHolder BABYDUCK_ROD = new ItemHolder(6529, 1);
-	private static final ItemHolder FISHING_SHOT_NONE = new ItemHolder(6535, 500);
-	// Misc
-	private static final int MIN_LVL = 20;
 	
 	public Q00039_RedEyedInvaders()
 	{
@@ -111,10 +105,8 @@ public final class Q00039_RedEyedInvaders extends Quest
 				{
 					if (hasAllItems(player, true, LIZ_PERFUME, LIZ_GEM))
 					{
-						rewardItems(player, GREEN_HIGH_LURE);
-						rewardItems(player, BABYDUCK_ROD);
-						rewardItems(player, FISHING_SHOT_NONE);
-						addExpAndSp(player, 62366, 2783);
+						qs.calcExpAndSp(getId());
+						qs.calcReward(getId());
 						qs.exitQuest(false, true);
 						htmltext = event;
 					}
@@ -172,7 +164,7 @@ public final class Q00039_RedEyedInvaders extends Quest
 			{
 				if (qs.isCreated())
 				{
-					htmltext = (talker.getLevel() >= MIN_LVL) ? "30334-01.htm" : "30334-02.htm";
+					htmltext = (talker.getLevel() >= getMinLvl(getId())) ? "30334-01.htm" : "30334-02.htm";
 				}
 				else if (qs.isStarted() && qs.isCond(1))
 				{

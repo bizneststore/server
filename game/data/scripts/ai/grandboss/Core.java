@@ -184,14 +184,20 @@ public final class Core extends AbstractNpcAI
 			{
 				if (getRandom(100) == 0)
 				{
-					npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.REMOVING_INTRUDERS));
+					if (npc.isInActiveRegion())
+					{
+						npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.REMOVING_INTRUDERS));
+					}
 				}
 			}
 			else
 			{
 				_firstAttacked = true;
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.A_NON_PERMITTED_TARGET_HAS_BEEN_DISCOVERED));
-				npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.INTRUDER_REMOVAL_SYSTEM_INITIATED));
+				if (npc.isInActiveRegion())
+				{
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.A_NON_PERMITTED_TARGET_HAS_BEEN_DISCOVERED));
+					npc.broadcastPacket(new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), NpcStringId.INTRUDER_REMOVAL_SYSTEM_INITIATED));
+				}
 			}
 		}
 		return super.onAttack(npc, attacker, damage, isSummon);
@@ -203,10 +209,13 @@ public final class Core extends AbstractNpcAI
 		if (npc.getId() == CORE)
 		{
 			int objId = npc.getObjectId();
-			npc.broadcastPacket(Music.BS02_D_10000.getPacket());
-			npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.A_FATAL_ERROR_HAS_OCCURRED));
-			npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.SYSTEM_IS_BEING_SHUT_DOWN));
-			npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.DOT_DOT_DOT_DOT_DOT_DOT));
+			if (npc.isInActiveRegion())
+			{
+				npc.broadcastPacket(Music.BS02_D_10000.getPacket());
+				npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.A_FATAL_ERROR_HAS_OCCURRED));
+				npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.SYSTEM_IS_BEING_SHUT_DOWN));
+				npc.broadcastPacket(new NpcSay(objId, Say2.NPC_ALL, npc.getId(), NpcStringId.DOT_DOT_DOT_DOT_DOT_DOT));
+			}
 			_firstAttacked = false;
 			GrandBossManager.getInstance().setBossStatus(CORE, DEAD);
 			

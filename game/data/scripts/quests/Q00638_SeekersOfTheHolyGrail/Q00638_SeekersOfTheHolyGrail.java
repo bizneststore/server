@@ -207,7 +207,7 @@ public final class Q00638_SeekersOfTheHolyGrail extends Quest
 		if (qs != null)
 		{
 			final DropInfo info = MOBS_DROP_CHANCES.get(npc.getId());
-			if (giveItemRandomly(qs.getPlayer(), npc, info.itemId, 3, 0, info.chance, true))
+			if (giveItemRandomly(qs.getPlayer(), npc, info.itemId, 1, 0, info.chance, true))
 			{
 				if ((info.keyId > 0) && (getRandom(100) < info.keyChance))
 				{

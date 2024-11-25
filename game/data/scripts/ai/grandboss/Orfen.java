@@ -250,9 +250,12 @@ public final class Orfen extends AbstractNpcAI
 			L2Character originalCaster = isSummon ? caster.getSummon() : caster;
 			if ((skill.getAggroPoints() > 0) && (getRandom(5) == 0) && npc.isInsideRadius(originalCaster, 1000, false, false))
 			{
-				NpcSay packet = new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), TEXT[getRandom(4)]);
-				packet.addStringParameter(caster.getName().toString());
-				npc.broadcastPacket(packet);
+				if (npc.isInActiveRegion())
+				{
+					NpcSay packet = new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npc.getId(), TEXT[getRandom(4)]);
+					packet.addStringParameter(caster.getName().toString());
+					npc.broadcastPacket(packet);
+				}
 				originalCaster.teleToLocation(npc.getLocation());
 				npc.setTarget(originalCaster);
 				npc.doCast(SkillData.getInstance().getInfo(4064, 1));
@@ -305,9 +308,12 @@ public final class Orfen extends AbstractNpcAI
 			}
 			else if (npc.isInsideRadius(attacker, 1000, false, false) && !npc.isInsideRadius(attacker, 300, false, false) && (getRandom(10) == 0))
 			{
-				NpcSay packet = new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npcId, TEXT[getRandom(3)]);
-				packet.addStringParameter(attacker.getName().toString());
-				npc.broadcastPacket(packet);
+				if (npc.isInActiveRegion())
+				{
+					NpcSay packet = new NpcSay(npc.getObjectId(), Say2.NPC_ALL, npcId, TEXT[getRandom(3)]);
+					packet.addStringParameter(attacker.getName().toString());
+					npc.broadcastPacket(packet);
+				}
 				attacker.teleToLocation(npc.getLocation());
 				npc.setTarget(attacker);
 				npc.doCast(SkillData.getInstance().getInfo(4064, 1));

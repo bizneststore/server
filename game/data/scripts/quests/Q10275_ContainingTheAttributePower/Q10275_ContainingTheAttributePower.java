@@ -123,7 +123,8 @@ public class Q10275_ContainingTheAttributePower extends Quest
 		{
 			htmltext = Integer.toString(npc.getId()) + "-1" + event + ".html";
 			st.giveItems(10520 + Integer.valueOf(event), 2);
-			st.addExpAndSp(202160, 20375);
+			
+			st.calcExpAndSp(getId());
 			st.exitQuest(false, true);
 		}
 		
@@ -191,7 +192,7 @@ public class Q10275_ContainingTheAttributePower extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 75) ? "30839-01.htm" : "30839-00.html";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "30839-01.htm" : "30839-00.html";
 						break;
 					case State.STARTED:
 						switch (st.getCond())
@@ -215,7 +216,7 @@ public class Q10275_ContainingTheAttributePower extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() > 75) ? "31307-01.htm" : "31307-00.html";
+						htmltext = (player.getLevel() > getMinLvl(getId())) ? "31307-01.htm" : "31307-00.html";
 						break;
 					case State.STARTED:
 						switch (st.getCond())

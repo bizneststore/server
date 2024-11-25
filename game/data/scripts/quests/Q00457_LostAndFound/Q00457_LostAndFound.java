@@ -197,9 +197,9 @@ public final class Q00457_LostAndFound extends Quest
 	{
 		final QuestState st = getQuestState(player, true);
 		
-		if ((getRandom(100) < CHANCE_SPAWN) && st.isNowAvailable() && (player.getLevel() >= MIN_LV))
+		if ((getRandom(1000) < CHANCE_SPAWN) && st.isNowAvailable() && (player.getLevel() >= MIN_LV))
 		{
-			addSpawn(GUMIEL, npc);
+			addSpawn(GUMIEL, npc, false, 5 * 60 * 1000);
 		}
 		return super.onKill(npc, player, isSummon);
 	}

@@ -33,8 +33,6 @@ public class Q00112_WalkOfFate extends Quest
 	// NPCs
 	private static final int LIVINA = 30572;
 	private static final int KARUDA = 32017;
-	// Misc
-	private static final int MIN_LEVEL = 20;
 	
 	public Q00112_WalkOfFate()
 	{
@@ -47,7 +45,7 @@ public class Q00112_WalkOfFate extends Quest
 	public String onAdvEvent(String event, L2Npc npc, L2PcInstance player)
 	{
 		final QuestState st = player.getQuestState(getName());
-		if ((st == null) || (player.getLevel() < MIN_LEVEL))
+		if ((st == null) || (player.getLevel() < getMinLvl(getId())))
 		{
 			return null;
 		}
@@ -85,7 +83,7 @@ public class Q00112_WalkOfFate extends Quest
 		switch (st.getState())
 		{
 			case State.CREATED:
-				htmltext = (player.getLevel() < MIN_LEVEL) ? "30572-03.html" : "30572-01.htm";
+				htmltext = (player.getLevel() < getMinLvl(getId())) ? "30572-03.html" : "30572-01.htm";
 				break;
 			case State.STARTED:
 				switch (npc.getId())

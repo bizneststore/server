@@ -107,7 +107,7 @@ public class Q00016_TheComingDarkness extends Quest
 				htmltext = getAlreadyCompletedMsg(player);
 				break;
 			case State.CREATED:
-				htmltext = (player.getLevel() >= 62) ? "31517-00.htm" : "31517-05.html";
+				htmltext = (player.getLevel() >= getMinLvl(getId())) ? "31517-00.htm" : "31517-05.html";
 				break;
 			case State.STARTED:
 				final int npcId = npc.getId();

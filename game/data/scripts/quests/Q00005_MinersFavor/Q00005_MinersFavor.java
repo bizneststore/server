@@ -45,8 +45,6 @@ public class Q00005_MinersFavor extends Quest
 	private static final int BOOMBOOM_POWDER = 1550;
 	private static final int REDSTONE_BEER = 1551;
 	private static final int BOLTERS_SMELLY_SOCKS = 1552;
-	// Misc
-	private static final int MIN_LEVEL = 2;
 	
 	public Q00005_MinersFavor()
 	{
@@ -107,7 +105,7 @@ public class Q00005_MinersFavor extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = (player.getLevel() >= MIN_LEVEL) ? "30554-02.htm" : "30554-01.html";
+						htmltext = (player.getLevel() >= getMinLvl(getId())) ? "30554-02.htm" : "30554-01.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

@@ -58,6 +58,18 @@ public class HealPercent extends EffectInstant
 			return false;
 		}
 		
+		// vmilon
+		if (target.isRaid() || target.isRaidMinion())
+		{
+			return false;
+		}
+		
+		// vmilon
+		if (target.isRaid() || target.isRaidMinion())
+		{
+			return false;
+		}
+		
 		double amount = 0;
 		double power = getValue();
 		boolean full = (power == 100.0);

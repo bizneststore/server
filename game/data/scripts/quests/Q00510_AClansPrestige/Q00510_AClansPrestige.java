@@ -100,7 +100,7 @@ public class Q00510_AClansPrestige extends Quest
 		
 		if ((st != null) && st.isStarted())
 		{
-			st.rewardItems(TYRANNOSAURUS_CLAW, 5);
+			st.rewardItems(TYRANNOSAURUS_CLAW, 1);
 			st.playSound(QuestSound.ITEMSOUND_QUEST_ITEMGET);
 		}
 		return null;

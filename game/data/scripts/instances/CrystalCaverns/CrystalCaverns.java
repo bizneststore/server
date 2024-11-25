@@ -59,7 +59,6 @@ import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
 import l2r.gameserver.network.serverpackets.MagicSkillUse;
 import l2r.gameserver.network.serverpackets.SpecialCamera;
 import l2r.gameserver.network.serverpackets.SystemMessage;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
 import l2r.gameserver.util.Util;
 
 import instances.AbstractInstance;
@@ -686,7 +685,7 @@ public final class CrystalCaverns extends AbstractInstance
 		
 		// maybe is need force set X,Y,Z
 		effected.setXYZ(destination);
-		effected.broadcastPacket(new ValidateLocation(effected));
+		effected.broadcastPacket(effected.validateLocationPacket());
 	}
 	
 	@Override
@@ -1429,6 +1428,8 @@ public final class CrystalCaverns extends AbstractInstance
 					dx = npc.getX() - 139494;
 					dy = npc.getY() - 151668;
 					int d2 = (dx * dx) + (dy * dy);
+					
+					// GOLEM EVENT TO OPEN DOOR FOR TEARS
 					if ((d1 < 10000) || (d2 < 10000))
 					{
 						npc.broadcastPacket(new MagicSkillUse(npc, npc, 5441, 1, 1, 0));
@@ -1915,14 +1916,11 @@ public final class CrystalCaverns extends AbstractInstance
 					int x = (int) (radius * Math.cos((i * 2 * Math.PI) / members));
 					int y = (int) (radius * Math.sin((i++ * 2 * Math.PI) / members));
 					p.teleToLocation(new Location(153571 + x, 142075 + y, -12737));
-					L2Summon pet = p.getSummon();
-					if (pet != null)
-					{
-						pet.teleToLocation(new Location(153571 + x, 142075 + y, -12737), true);
-						pet.broadcastPacket(new ValidateLocation(pet));
-					}
 					p.setIsParalyzed(true);
-					p.broadcastPacket(new ValidateLocation(p));
+					if (p.hasSummon())
+					{
+						p.getSummon().teleToLocation(new Location(153571 + x, 142075 + y, -12737), true);
+					}
 				}
 				startQuestTimer("Baylor", 30000, npc, null);
 			}

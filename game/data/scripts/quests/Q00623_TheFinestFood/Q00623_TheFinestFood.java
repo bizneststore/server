@@ -54,9 +54,9 @@ public final class Q00623_TheFinestFood extends Quest
 	
 	static
 	{
-		MONSTER_DROPS.put(THERMAL_BUFFALO, new ItemHolder(7200, 100));
-		MONSTER_DROPS.put(THERMAL_FLAVA, new ItemHolder(7199, 100));
-		MONSTER_DROPS.put(THERMAL_ANTELOPE, new ItemHolder(7201, 100)); // Item holders to drop 2x items
+		MONSTER_DROPS.put(THERMAL_BUFFALO, BUFFALO_MEAT);
+		MONSTER_DROPS.put(THERMAL_FLAVA, LEAF_OF_FLAVA);
+		MONSTER_DROPS.put(THERMAL_ANTELOPE, HORN_OF_ANTELOPE);
 	}
 	
 	public Q00623_TheFinestFood()
@@ -173,7 +173,7 @@ public final class Q00623_TheFinestFood extends Quest
 	{
 		final QuestState qs = getRandomPartyMemberState(killer, 1, 3, npc);
 		final ItemHolder holder = MONSTER_DROPS.get(npc.getId());
-		if ((qs != null) && giveItemRandomly(qs.getPlayer(), npc, holder.getId(), 2, holder.getCount(), 1, true))
+		if ((qs != null) && giveItemRandomly(qs.getPlayer(), npc, holder.getId(), 1, holder.getCount(), 1, true))
 		{
 			if (hasAllItems(qs.getPlayer(), true, BUFFALO_MEAT, HORN_OF_ANTELOPE, LEAF_OF_FLAVA))
 			{

@@ -43,8 +43,6 @@ public class Q00002_WhatWomenWant extends Quest
 	private static final int ARUJIENS_LETTER3 = 1094;
 	private static final int POETRY_BOOK = 689;
 	private static final int GREENIS_LETTER = 693;
-	// Misc
-	private static final int MIN_LEVEL = 2;
 	
 	public Q00002_WhatWomenWant()
 	{
@@ -109,7 +107,7 @@ public class Q00002_WhatWomenWant extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getRace() != Race.ELF) && (player.getRace() != Race.HUMAN)) ? "30223-00.htm" : (player.getLevel() >= MIN_LEVEL) ? "30223-02.htm" : "30223-01.html";
+						htmltext = ((player.getRace() != Race.ELF) && (player.getRace() != Race.HUMAN)) ? "30223-00.htm" : (player.getLevel() >= getMinLvl(getId())) ? "30223-02.htm" : "30223-01.html";
 						break;
 					case State.STARTED:
 						switch (st.getCond())

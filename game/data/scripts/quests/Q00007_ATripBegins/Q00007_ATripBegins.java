@@ -37,8 +37,6 @@ public class Q00007_ATripBegins extends Quest
 	private static final int ASTERIOS = 30154;
 	// Items
 	private static final int ARIELS_RECOMMENDATION = 7572;
-	// Misc
-	private static final int MIN_LEVEL = 3;
 	
 	public Q00007_ATripBegins()
 	{
@@ -103,7 +101,7 @@ public class Q00007_ATripBegins extends Quest
 				switch (st.getState())
 				{
 					case State.CREATED:
-						htmltext = ((player.getRace() == Race.ELF) && (player.getLevel() >= MIN_LEVEL)) ? "30146-01.htm" : "30146-02.html";
+						htmltext = ((player.getRace() == Race.ELF) && (player.getLevel() >= getMinLvl(getId()))) ? "30146-01.htm" : "30146-02.html";
 						break;
 					case State.STARTED:
 						if (st.isCond(1))

@@ -22,7 +22,6 @@ import gr.sr.configsEngine.configs.impl.BankingConfigs;
 import gr.sr.configsEngine.configs.impl.BufferConfigs;
 import gr.sr.configsEngine.configs.impl.ChaoticZoneConfigs;
 import gr.sr.configsEngine.configs.impl.CustomServerConfigs;
-import gr.sr.configsEngine.configs.impl.MultilingualConfigs;
 import gr.sr.configsEngine.configs.impl.PremiumServiceConfigs;
 import gr.sr.configsEngine.configs.impl.WeddingConfigs;
 
@@ -312,8 +311,6 @@ import handlers.voicedcommandhandlers.ChatAdmin;
 import handlers.voicedcommandhandlers.Debug;
 import handlers.voicedcommandhandlers.EvenlyDistributeItems;
 import handlers.voicedcommandhandlers.Hellbound;
-import handlers.voicedcommandhandlers.ItemBufferVCmd;
-import handlers.voicedcommandhandlers.Lang;
 import handlers.voicedcommandhandlers.OnlineVCmd;
 import handlers.voicedcommandhandlers.PingVCmd;
 import handlers.voicedcommandhandlers.PremiumVCmd;
@@ -677,15 +674,15 @@ public class MasterHandler
 		(Config.L2JMOD_DEBUG_VOICE_COMMAND ? Debug.class : null),
 		(CustomServerConfigs.EVENLY_DISTRIBUTED_ITEMS ? EvenlyDistributeItems.class : null),
 		(Config.L2JMOD_HELLBOUND_STATUS ? Hellbound.class : null),
-		(BufferConfigs.ENABLE_ITEM_BUFFER && PremiumServiceConfigs.USE_PREMIUM_SERVICE ? ItemBufferVCmd.class : null),
-		(MultilingualConfigs.MULTILANG_ENABLE && MultilingualConfigs.MULTILANG_VOICED_ALLOW ? Lang.class : null),
+		// removed voiced buffer (vmilon)
+		// (BufferConfigs.ENABLE_ITEM_BUFFER && PremiumServiceConfigs.USE_PREMIUM_SERVICE ? ItemBufferVCmd.class : null),
+		// (MultilingualConfigs.MULTILANG_ENABLE && MultilingualConfigs.MULTILANG_VOICED_ALLOW ? Lang.class : null),
 		(CustomServerConfigs.ALLOW_ONLINE_COMMAND ? OnlineVCmd.class : null),
-		//(PremiumServiceConfigs.USE_PREMIUM_SERVICE ? PremiumVCmd.class : null),
+		(PremiumServiceConfigs.USE_PREMIUM_SERVICE ? PremiumVCmd.class : null),
 		(ChaoticZoneConfigs.ENABLE_CHAOTIC_ZONE ? PvpZoneVCmd.class : null),
 		(CustomServerConfigs.ALLOW_REPAIR_COMMAND ? RepairVCmd.class : null),
 		(CustomServerConfigs.ALLOW_TELEPORTS_COMMAND ? TeleportsVCmd.class : null),
 		PingVCmd.class,
-		PremiumVCmd.class,
 		(WeddingConfigs.L2JMOD_ALLOW_WEDDING ? Wedding.class : null),
 		CharStatsVCmd.class,
 	};

@@ -26,7 +26,6 @@ import l2r.gameserver.model.effects.EffectTemplate;
 import l2r.gameserver.model.stats.Env;
 import l2r.gameserver.network.serverpackets.FlyToLocation;
 import l2r.gameserver.network.serverpackets.FlyToLocation.FlyType;
-import l2r.gameserver.network.serverpackets.ValidateLocation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -90,7 +89,7 @@ public class ThrowUp extends EffectInstant
 		getEffected().broadcastPacket(new FlyToLocation(getEffected(), destination, FlyType.THROW_UP));
 		// TODO: Review.
 		getEffected().setXYZ(destination);
-		getEffected().broadcastPacket(new ValidateLocation(getEffected()));
+		getEffected().broadcastPacket(getEffected().validateLocationPacket());
 		return true;
 	}
 	

@@ -25,7 +25,6 @@ public final class ModifiersLoader extends ABLoader
 {
 	private final Class<?>[] SCRIPTS =
 	{
-		DropExample.class,
 		FlyingNpcs.class,
 		NoChampionMobs.class,
 		NoMovingNpcs.class,
@@ -45,6 +44,7 @@ public final class ModifiersLoader extends ABLoader
 		
 		// Pursue Function
 		MaxPursueRange.class,
+		DropExample.class,
 	};
 	
 	public ModifiersLoader()

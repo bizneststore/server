@@ -30,7 +30,7 @@ import l2r.gameserver.model.quest.State;
 
 /**
  * Alliance with Varka Silenos (611)
- * @author malyelfik, edited by vmilon
+ * @author malyelfik
  */
 public class Q00611_AllianceWithVarkaSilenos extends Quest
 {
@@ -81,29 +81,27 @@ public class Q00611_AllianceWithVarkaSilenos extends Quest
 	
 	static
 	{
-		// ALL CHANCES HAVE BEEN INCREASED. TO EDIT CHANGE THE NUMBER IN DROPINFO (VMILON)
-		// EXAMPLE: new DropInfo(700,1); 700=70% chance
-		MOBS.put(21324, new DropInfo(700, 1)); // Ketra Orc Footman
-		MOBS.put(21325, new DropInfo(700, 1)); // Ketra's War Hound
-		MOBS.put(21327, new DropInfo(720, 1)); // Ketra Orc Raider
-		MOBS.put(21328, new DropInfo(720, 1)); // Ketra Orc Scout
-		MOBS.put(21329, new DropInfo(720, 1)); // Ketra Orc Shaman
-		MOBS.put(21331, new DropInfo(720, 2)); // Ketra Orc Warrior
-		MOBS.put(21332, new DropInfo(720, 2)); // Ketra Orc Lieutenant
-		MOBS.put(21334, new DropInfo(720, 2)); // Ketra Orc Medium
-		MOBS.put(21335, new DropInfo(720, 2)); // Ketra Orc Elite Soldier
-		MOBS.put(21336, new DropInfo(720, 2)); // Ketra Orc White Captain
-		MOBS.put(21338, new DropInfo(730, 2)); // Ketra Orc Seer
-		MOBS.put(21339, new DropInfo(700, 3)); // Ketra Orc General
-		MOBS.put(21340, new DropInfo(700, 3)); // Ketra Orc Battalion Commander
-		MOBS.put(21342, new DropInfo(730, 3)); // Ketra Orc Grand Seer
-		MOBS.put(21343, new DropInfo(800, 2)); // Ketra Commander
-		MOBS.put(21344, new DropInfo(800, 2)); // Ketra Elite Guard
-		MOBS.put(21345, new DropInfo(800, 3)); // Ketra's Head Shaman
-		MOBS.put(21346, new DropInfo(800, 3)); // Ketra's Head Guard
-		MOBS.put(21347, new DropInfo(850, 3)); // Ketra Prophet
-		MOBS.put(21348, new DropInfo(850, 3)); // Prophet's Guard
-		MOBS.put(21349, new DropInfo(850, 3)); // Prophet's Aide
+		MOBS.put(21324, new DropInfo(500, 1)); // Ketra Orc Footman
+		MOBS.put(21325, new DropInfo(500, 1)); // Ketra's War Hound
+		MOBS.put(21327, new DropInfo(509, 1)); // Ketra Orc Raider
+		MOBS.put(21328, new DropInfo(521, 1)); // Ketra Orc Scout
+		MOBS.put(21329, new DropInfo(519, 1)); // Ketra Orc Shaman
+		MOBS.put(21331, new DropInfo(500, 2)); // Ketra Orc Warrior
+		MOBS.put(21332, new DropInfo(500, 2)); // Ketra Orc Lieutenant
+		MOBS.put(21334, new DropInfo(509, 2)); // Ketra Orc Medium
+		MOBS.put(21335, new DropInfo(518, 2)); // Ketra Orc Elite Soldier
+		MOBS.put(21336, new DropInfo(518, 2)); // Ketra Orc White Captain
+		MOBS.put(21338, new DropInfo(527, 2)); // Ketra Orc Seer
+		MOBS.put(21339, new DropInfo(500, 3)); // Ketra Orc General
+		MOBS.put(21340, new DropInfo(500, 3)); // Ketra Orc Battalion Commander
+		MOBS.put(21342, new DropInfo(508, 3)); // Ketra Orc Grand Seer
+		MOBS.put(21343, new DropInfo(628, 2)); // Ketra Commander
+		MOBS.put(21344, new DropInfo(604, 2)); // Ketra Elite Guard
+		MOBS.put(21345, new DropInfo(627, 3)); // Ketra's Head Shaman
+		MOBS.put(21346, new DropInfo(604, 3)); // Ketra's Head Guard
+		MOBS.put(21347, new DropInfo(649, 3)); // Ketra Prophet
+		MOBS.put(21348, new DropInfo(626, 3)); // Prophet's Guard
+		MOBS.put(21349, new DropInfo(626, 3)); // Prophet's Aide
 	}
 	
 	// Items
@@ -277,7 +275,7 @@ public class Q00611_AllianceWithVarkaSilenos extends Quest
 			final DropInfo info = MOBS.get(npc.getId());
 			if ((st.getCond() >= info.getMinCond()) && (st.getCond() < 6) && canGetItem(st, info.getId()) && (getRandom(1000) < info.getChance()))
 			{
-				st.giveItems(info.getId(), 2); // change number of badges dropped by npcs
+				st.giveItems(info.getId(), 1);
 			}
 		}
 		return super.onKill(npc, killer, isSummon);

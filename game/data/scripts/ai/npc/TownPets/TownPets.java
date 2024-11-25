@@ -64,10 +64,13 @@ public class TownPets extends AbstractNpcAI
 	{
 		if (event.equalsIgnoreCase("move"))
 		{
-			final int locX = (npc.getSpawn().getX() - 50) + getRandom(100);
-			final int locY = (npc.getSpawn().getY() - 50) + getRandom(100);
-			npc.setRunning();
-			npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new Location(locX, locY, npc.getZ(), 0));
+			if (npc.isInActiveRegion())
+			{
+				final int locX = (npc.getSpawn().getX() - 50) + getRandom(100);
+				final int locY = (npc.getSpawn().getY() - 50) + getRandom(100);
+				npc.setRunning();
+				npc.getAI().setIntention(CtrlIntention.AI_INTENTION_MOVE_TO, new Location(locX, locY, npc.getZ(), 0));
+			}
 			startQuestTimer("move", 10000, npc, null);
 		}
 		return null;
