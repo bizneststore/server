@@ -7,51 +7,51 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4577" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4578" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4579" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4580" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4581" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4582" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4583" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4584" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4585" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4586" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4587" count="10" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="2000000" />
 		<production id="4588" count="10" />
 	</item>
 	<!-- Greater Dye of Strength <Str +4 Con -4> for 174000 Ancient Adena -->
