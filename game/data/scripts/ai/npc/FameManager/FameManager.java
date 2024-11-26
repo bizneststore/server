@@ -33,6 +33,7 @@ public class FameManager extends AbstractNpcAI
 	// Npc
 	private static final int[] FAME_MANAGER =
 	{
+		513, // Sigrid
 		36479, // Rapidus
 		36480, // Scipio
 	};
@@ -57,6 +58,9 @@ public class FameManager extends AbstractNpcAI
 		String htmltext = null;
 		switch (event)
 		{
+			case "513.html":
+			case "513-02.html":
+			case "513-07.html":
 			case "36479.html":
 			case "36479-02.html":
 			case "36479-07.html":
