@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
+		<npc>513</npc> <!-- Sigrid (Reputation Manager) -->
 		<npc>36479</npc> <!-- Rapidus (Reputation Manager) -->
 		<npc>36480</npc> <!-- Scipio (Reputation Manager) -->
 	</npcs>
