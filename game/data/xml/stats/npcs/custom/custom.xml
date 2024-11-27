@@ -305,10 +305,10 @@
 			<height normal="34" />
 		</collision>
 	</npc>
-	<npc id="577" displayId="31324" name="Zeus" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2Promo">
+	<npc id="577" displayId="32237" name="Flora" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2Promo">
 		<collision>
 			<radius normal="9" />
-			<height normal="34" />
+			<height normal="23" />
 		</collision>
 	</npc>
 	<npc id="8983" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
