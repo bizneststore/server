@@ -54,28 +54,4 @@
 		<ingredient id="40002" count="550" />
 		<production id="9557" count="1" />
 	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9558" count="1" />
-	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9559" count="1" />
-	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9560" count="1" />
-	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9561" count="1" />
-	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9562" count="1" />
-	</item>
-	<item>
-		<ingredient id="40002" count="1500" />
-		<production id="9563" count="1" />
-	</item>
 </list>

@@ -251,10 +251,10 @@
 			<height normal="23.5" />
 		</collision>
 	</npc>
-	<npc id="559" displayId="31324" name="Zeus" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2Promo">
+	<npc id="559" displayId="32237" name="Flora" usingServerSideName="true" title="Promo Codes" usingServerSideTitle="true" type="L2Promo">
 		<collision>
 			<radius normal="9" />
-			<height normal="34" />
+			<height normal="23" />
 		</collision>
 	</npc>
 	<npc id="560" displayId="25350" name="Delevel Manager" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
