@@ -48,8 +48,8 @@
 		<table name="#pDef"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
 		<table name="#rCrit"> 30 50 80 100 50 0 0 0 0 0 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalTime" val="100" />
-		<set name="abnormalType" val="multi_buff" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="spa_disease_a" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="hitTime" val="500" />
@@ -62,11 +62,11 @@
 		<set name="mpInitialConsume" val="14" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="100" />
-		<set name="skillType" val="BUFF" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="targetType" val="SELF" />
 		
 		<for>
-			<effect name="Buff" abnormalTime="100" abnormalLvl="#abnormalLvls" abnormalType="multi_buff" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="1200" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_a" abnormalVisualEffect="poison">
 				<mul stat="pDef" val="#pDef" />
 				<add stat="critRate" val="#rCrit" />
 			</effect>
@@ -77,10 +77,10 @@
 		<table name="#accCombat"> 3 6 8 10 6 0 0 0 0 0 </table>
 		<table name="#rEvas"> 0 3 3 3 5 5 5 8 8 10 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalTime" val="100" />
+		<set name="abnormalTime" val="1200" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
-		<set name="abnormalType" val="multi_buff" />
+		<set name="abnormalType" val="spa_disease_b" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
@@ -91,11 +91,11 @@
 		<set name="mpInitialConsume" val="14" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="100" />
-		<set name="skillType" val="BUFF" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="targetType" val="SELF" />
 		
 		<for>
-			<effect name="Buff" abnormalTime="100" abnormalLvl="#abnormalLvls" abnormalType="multi_buff" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="1200" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_b" abnormalVisualEffect="poison">
 				<sub stat="rEvas" val="#rEvas" />
 				<add stat="accCombat" val="#accCombat" />
 			</effect>
@@ -106,8 +106,8 @@
 		<table name="#pAtk"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
 		<table name="#pAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalTime" val="100" />
-		<set name="abnormalType" val="multi_buff" />
+		<set name="abnormalTime" val="1200" />
+		<set name="abnormalType" val="spa_disease_c" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="castRange" val="600" />
@@ -120,11 +120,11 @@
 		<set name="mpInitialConsume" val="14" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="100" />
-		<set name="skillType" val="BUFF" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="targetType" val="SELF" />
 		
 		<for>
-			<effect name="Buff" abnormalTime="100" abnormalLvl="#abnormalLvls" abnormalType="multi_buff" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="1200" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_c" abnormalVisualEffect="poison">
 				<mul stat="pAtkSpd" val="#pAtkSpd" />
 				<mul stat="pAtk" val="#pAtk" />
 			</effect>
@@ -135,8 +135,8 @@
 		<table name="#mAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#MpConsumeRate"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.84 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
-		<set name="abnormalType" val="multi_buff" />
-		<set name="abnormalTime" val="100" />
+		<set name="abnormalType" val="spa_disease_d" />
+		<set name="abnormalTime" val="1200" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="castRange" val="600" />
@@ -149,10 +149,10 @@
 		<set name="mpInitialConsume" val="14" />
 		<set name="operateType" val="A2" />
 		<set name="power" val="100" />
-		<set name="skillType" val="BUFF" />
+		<set name="skillType" val="DEBUFF" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<effect name="Buff" abnormalTime="100" abnormalLvl="#abnormalLvls" abnormalType="multi_buff" abnormalVisualEffect="poison">
+			<effect name="Debuff" abnormalTime="1200" abnormalLvl="#abnormalLvls" abnormalType="spa_disease_d" abnormalVisualEffect="poison">
 				<mul stat="mAtkSpd" val="#mAtkSpd" />
 				<mul stat="magicalMpConsumeRate" val="#MpConsumeRate" />
 			</effect>
@@ -180,6 +180,22 @@
 		<set name="targetType" val="SELF" />
 		<for>
 			<effect name="SummonAgathion" noicon="1" />
+		</for>
+	</skill>
+<skill id="10010" levels="1" name="Hail">
+		<!-- CT2.5 retail confirmed -->
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<mul stat="mAtk" val="1.05" />
+		</for>
+	</skill>
+<skill id="10012" levels="1" name="Wrath">
+		<!-- CT2.5 retail confirmed -->
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<basemul stat="mCritRate" val="1.07" />
 		</for>
 	</skill>
 </list>
