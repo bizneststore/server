@@ -688,7 +688,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11222" type="Weapon" name="Arcana Mace - Nature">
+	<item id="11222" type="Weapon" name="Arcana Mace - Hail">
 		<set name="icon" val="icon.weapon_arcana_mace_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -707,7 +707,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3890-1" />
+		<set name="item_skill" val="10010-1" />
 		<for>
 			<set stat="pAtk" val="225" />
 			<set stat="mAtk" val="175" />
@@ -718,7 +718,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11223" type="Weapon" name="Arcana Mace - Nature - Acumen">
+	<item id="11223" type="Weapon" name="Arcana Mace - Hail - Acumen">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -737,7 +737,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3890-1;3047-2" />
+		<set name="item_skill" val="10010-1;3047-2" />
 		<for>
 			<set stat="pAtk" val="225" />
 			<set stat="mAtk" val="175" />
@@ -748,7 +748,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11224" type="Weapon" name="Arcana Mace - Nature - MP Regeneration">
+	<item id="11224" type="Weapon" name="Arcana Mace - Hail - MP Regeneration">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -767,7 +767,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3890-1;3576-1" />
+		<set name="item_skill" val="10010-1;3576-1" />
 		<for>
 			<set stat="pAtk" val="225" />
 			<set stat="mAtk" val="175" />
@@ -778,7 +778,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11225" type="Weapon" name="Arcana Mace - Nature - Mana Up">
+	<item id="11225" type="Weapon" name="Arcana Mace - Hail - Mana Up">
 		<set name="icon" val="icon.weapon_arcana_mace_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -797,7 +797,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3890-1;3014-2" />
+		<set name="item_skill" val="10010-1;3014-2" />
 		<for>
 			<set stat="pAtk" val="225" />
 			<set stat="mAtk" val="175" />
@@ -924,7 +924,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11230" type="Weapon" name="Imperial Staff - Nature">
+	<item id="11230" type="Weapon" name="Imperial Staff - Wrath">
 		<set name="icon" val="icon.weapon_imperial_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -943,7 +943,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3901-2" />
+		<set name="item_skill" val="10011-1" />
 		<for>
 			<set stat="pAtk" val="274" />
 			<set stat="mAtk" val="193" />
@@ -954,7 +954,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11231" type="Weapon" name="Imperial Staff - Nature - Empower">
+	<item id="11231" type="Weapon" name="Imperial Staff - Wrath - Empower">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -973,7 +973,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3901-2;3575-1" />
+		<set name="item_skill" val="10011-1;3575-1" />
 		<for>
 			<set stat="pAtk" val="274" />
 			<set stat="mAtk" val="193" />
@@ -984,7 +984,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11232" type="Weapon" name="Imperial Staff - Nature - MP Regeneration">
+	<item id="11232" type="Weapon" name="Imperial Staff - Wrath - MP Regeneration">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1003,7 +1003,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3901-2;3576-1" />
+		<set name="item_skill" val="10011-1;3576-1" />
 		<for>
 			<set stat="pAtk" val="274" />
 			<set stat="mAtk" val="193" />
@@ -1014,7 +1014,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11233" type="Weapon" name="Imperial Staff - Nature - Magic Hold">
+	<item id="11233" type="Weapon" name="Imperial Staff - Wrath - Magic Hold">
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1035,7 +1035,7 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="onmagic_chance" val="20" />
 		<set name="onmagic_skill" val="3577-1" />
-		<set name="item_skill" val="3901-2;3552-1" />
+		<set name="item_skill" val="10011-1;3552-1" />
 		<for>
 			<set stat="pAtk" val="274" />
 			<set stat="mAtk" val="193" />
@@ -2316,7 +2316,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11276" type="Weapon" name="Dynasty Staff - Holy Spirit">
+	<item id="11276" type="Weapon" name="Dynasty Staff - Wrath">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2335,7 +2335,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3900-2" />
+		<set name="item_skill" val="10011-1" />
 		<for>
 			<set stat="pAtk" val="325" />
 			<set stat="mAtk" val="222" />
@@ -2346,7 +2346,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11277" type="Weapon" name="Dynasty Staff - Holy Spirit - Mana Up">
+	<item id="11277" type="Weapon" name="Dynasty Staff - Wrath - Mana Up">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2365,7 +2365,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3900-2;3014-2" />
+		<set name="item_skill" val="10011-1;3014-2" />
 		<for>
 			<set stat="pAtk" val="325" />
 			<set stat="mAtk" val="222" />
@@ -2376,7 +2376,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11278" type="Weapon" name="Dynasty Staff - Holy Spirit - Conversion">
+	<item id="11278" type="Weapon" name="Dynasty Staff - Wrath - Conversion">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2395,7 +2395,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3900-2;3048-2" />
+		<set name="item_skill" val="10011-1;3048-2" />
 		<for>
 			<set stat="pAtk" val="325" />
 			<set stat="mAtk" val="222" />
@@ -2406,7 +2406,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11279" type="Weapon" name="Dynasty Staff - Holy Spirit - Acumen">
+	<item id="11279" type="Weapon" name="Dynasty Staff - Wrath - Acumen">
 		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2425,7 +2425,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3900-2;3047-2" />
+		<set name="item_skill" val="10011-1;3047-2" />
 		<for>
 			<set stat="pAtk" val="325" />
 			<set stat="mAtk" val="222" />
@@ -2804,7 +2804,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11292" type="Weapon" name="Dynasty Phantom - Nature">
+	<item id="11292" type="Weapon" name="Dynasty Phantom - Hail">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -2823,7 +2823,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-2" />
+		<set name="item_skill" val="10010-1" />
 		<for>
 			<set stat="pAtk" val="267" />
 			<set stat="mAtk" val="202" />
@@ -2833,7 +2833,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11293" type="Weapon" name="Dynasty Phantom - Nature - Acumen">
+	<item id="11293" type="Weapon" name="Dynasty Phantom - Hail - Acumen">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -2852,7 +2852,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-2;3047-2" />
+		<set name="item_skill" val="10010-1;3047-2" />
 		<for>
 			<set stat="pAtk" val="267" />
 			<set stat="mAtk" val="202" />
@@ -2862,7 +2862,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11294" type="Weapon" name="Dynasty Phantom - Nature - Mana Up">
+	<item id="11294" type="Weapon" name="Dynasty Phantom - Hail - Mana Up">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -2881,7 +2881,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-2;3014-2" />
+		<set name="item_skill" val="10010-1;3014-2" />
 		<for>
 			<set stat="pAtk" val="267" />
 			<set stat="mAtk" val="202" />
@@ -2891,7 +2891,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11295" type="Weapon" name="Dynasty Phantom - Nature - Conversion">
+	<item id="11295" type="Weapon" name="Dynasty Phantom - Hail - Conversion">
 		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -2910,7 +2910,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-2;3048-2" />
+		<set name="item_skill" val="10010-1;3048-2" />
 		<for>
 			<set stat="pAtk" val="267" />
 			<set stat="mAtk" val="202" />

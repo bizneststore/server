@@ -1238,7 +1238,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16044" type="Weapon" name="Vesper Buster - Cleverness">
+	<item id="16044" type="Weapon" name="Vesper Buster - Hail">
 		<set name="icon" val="icon.weapon_vesper_burster_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1257,7 +1257,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3853-2" />
+		<set name="item_skill" val="10010-1" />
 		<for>
 			<set stat="pAtk" val="317" />
 			<set stat="mAtk" val="234" />
@@ -1442,7 +1442,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16051" type="Weapon" name="Vesper Singer - Hail">
+	<item id="16051" type="Weapon" name="Vesper Singer - Wrath">
 		<set name="icon" val="icon.weapon_vesper_singer_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1461,7 +1461,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3899-3" />
+		<set name="item_skill" val="10011-1" />
 		<for>
 			<set stat="pAtk" val="386" />
 			<set stat="mAtk" val="257" />
@@ -1779,7 +1779,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16062" type="Weapon" name="Vesper Buster - Cleverness - Mana Up">
+	<item id="16062" type="Weapon" name="Vesper Buster - Hail - Mana Up">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1798,7 +1798,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3853-2;3014-2" />
+		<set name="item_skill" val="10010-1;3014-2" />
 		<for>
 			<set stat="pAtk" val="317" />
 			<set stat="mAtk" val="234" />
@@ -1808,7 +1808,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16063" type="Weapon" name="Vesper Buster - Cleverness - Acumen">
+	<item id="16063" type="Weapon" name="Vesper Buster - Hail - Acumen">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1827,7 +1827,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3853-2;3047-2" />
+		<set name="item_skill" val="10010-1;3047-2" />
 		<for>
 			<set stat="pAtk" val="317" />
 			<set stat="mAtk" val="234" />
@@ -1837,7 +1837,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16064" type="Weapon" name="Vesper Buster - Cleverness - Magic Hold">
+	<item id="16064" type="Weapon" name="Vesper Buster - Hail - Magic Hold">
 		<set name="icon" val="icon.weapon_vesper_burster_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1858,7 +1858,7 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="onmagic_chance" val="20" />
 		<set name="onmagic_skill" val="3577-2" />
-		<set name="item_skill" val="3853-2;3552-1" />
+		<set name="item_skill" val="10010-1;3552-1" />
 		<for>
 			<set stat="pAtk" val="317" />
 			<set stat="mAtk" val="234" />
@@ -2395,7 +2395,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16083" type="Weapon" name="Vesper Singer - Hail - Empower">
+	<item id="16083" type="Weapon" name="Vesper Singer - Wrath - Empower">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2414,7 +2414,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3899-3;3575-2" />
+		<set name="item_skill" val="10011-1;3575-2" />
 		<for>
 			<set stat="pAtk" val="386" />
 			<set stat="mAtk" val="257" />
@@ -2425,7 +2425,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16084" type="Weapon" name="Vesper Singer - Hail - MP Regeneration">
+	<item id="16084" type="Weapon" name="Vesper Singer - Wrath - MP Regeneration">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2444,7 +2444,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3899-3;3576-2" />
+		<set name="item_skill" val="10011-1;3576-2" />
 		<for>
 			<set stat="pAtk" val="386" />
 			<set stat="mAtk" val="257" />
@@ -2455,7 +2455,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="16085" type="Weapon" name="Vesper Singer - Hail - Magic Hold">
+	<item id="16085" type="Weapon" name="Vesper Singer - Wrath - Magic Hold">
 		<set name="icon" val="icon.weapon_vesper_singer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -2476,7 +2476,7 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="onmagic_chance" val="20" />
 		<set name="onmagic_skill" val="3577-2" />
-		<set name="item_skill" val="3899-3;3552-1" />
+		<set name="item_skill" val="10011-1;3552-1" />
 		<for>
 			<set stat="pAtk" val="386" />
 			<set stat="mAtk" val="257" />

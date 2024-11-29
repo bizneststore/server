@@ -533,7 +533,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11317" type="Weapon" name="Icarus Spirit - Nature">
+	<item id="11317" type="Weapon" name="Icarus Spirit - Holy Spirit">
 		<set name="icon" val="icon.weapon_icarus_spirits_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -552,7 +552,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-3" />
+		<set name="item_skill" val="3900-2" />
 		<for>
 			<set stat="pAtk" val="290" />
 			<set stat="mAtk" val="217" />
@@ -562,7 +562,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11318" type="Weapon" name="Icarus Spirit - Nature - Acumen">
+	<item id="11318" type="Weapon" name="Icarus Spirit - Holy Spirit - Acumen">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -581,7 +581,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-3;3047-2" />
+		<set name="item_skill" val="3900-2;3047-2" />
 		<for>
 			<set stat="pAtk" val="290" />
 			<set stat="mAtk" val="217" />
@@ -591,7 +591,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11319" type="Weapon" name="Icarus Spirit - Nature - Mana Up">
+	<item id="11319" type="Weapon" name="Icarus Spirit - Holy Spirit - Mana Up">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -610,7 +610,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-3;3014-2" />
+		<set name="item_skill" val="3900-2;3014-2" />
 		<for>
 			<set stat="pAtk" val="290" />
 			<set stat="mAtk" val="217" />
@@ -620,7 +620,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="11320" type="Weapon" name="Icarus Spirit - Nature - Conversion">
+	<item id="11320" type="Weapon" name="Icarus Spirit - Holy Spirit - Conversion">
 		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -639,7 +639,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="1" />
 		<set name="is_magic_weapon" val="true" />
-		<set name="item_skill" val="3852-3;3048-2" />
+		<set name="item_skill" val="3900-2;3048-2" />
 		<for>
 			<set stat="pAtk" val="290" />
 			<set stat="mAtk" val="217" />
