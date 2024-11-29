@@ -195,7 +195,7 @@
 		<set name="operateType" val="P" />
 		<set name="targetType" val="SELF" />
 		<for>
-			<basemul stat="mCritRate" val="1.07" />
+			<mul stat="mCritRate" val="1.07" />
 		</for>
 	</skill>
 </list>
