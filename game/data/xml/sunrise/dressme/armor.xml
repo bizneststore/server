@@ -3,139 +3,139 @@
 	xsi:noNamespaceSchemaLocation="../../../xsd/dressme/armor.xsd">
 	<dress number="90000" name="(H) Aegis Costume" type="HEAVY">
 		<set chest="50236" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90001" name="(H) Astiel Costume" type="HEAVY">
 		<set chest="50257" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90002" name="(H) Ranker Costume" type="HEAVY">
 		<set chest="50267" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90003" name="Cronos Reaver Armor" type="HEAVY">
 		<set chest="50304" legs="50305" gloves="50306" feet="50307" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>  
 	<dress number="90004" name="Aegis Costume" type="HEAVY">
 		<set chest="50236" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90005" name="Astiel Costume I" type="HEAVY">
 		<set chest="50257" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90006" name="Astiel Costume II" type="HEAVY">
 		<set chest="50258" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90007" name="Astiel Costume III" type="HEAVY">
 		<set chest="50259" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90008" name="Astiel Costume IV" type="HEAVY">
 		<set chest="50260" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90009" name="Gold Dragon Uniform" type="HEAVY">
 		<set chest="50260" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90010" name="Ranker Costume" type="HEAVY">
 		<set chest="50267" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90011" name="Beach Costume" type="HEAVY">
 		<set chest="50270" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90012" name="Beach Costume" type="HEAVY">
 		<set chest="50271" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress> 
 	<dress number="90013" name="Captain's Costume" type="HEAVY">
 		<set chest="50272" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90014" name="Pirate Costume" type="HEAVY">
 		<set chest="50273" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90015" name="Musketeer Costume" type="HEAVY">
 		<set chest="50274" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90016" name="Wizard Costume" type="HEAVY">
 		<set chest="50275" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90017" name="Immortal Armor" type="HEAVY">
 		<set chest="50281" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90018" name="Tauti Armor (Heavy)" type="HEAVY">
 		<set chest="50282" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90019" name="Tauti Armor (Light)" type="HEAVY">
 		<set chest="50283" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90020" name="Tauti Armor (Robe)" type="HEAVY">
 		<set chest="50284" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90021" name="Eternal Armor (Heavy)" type="HEAVY">
 		<set chest="50285" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90022" name="Eternal Armor (Light)" type="HEAVY">
 		<set chest="50286" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90023" name="Eternal Armor (Robe)" type="HEAVY">
 		<set chest="50287" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90024" name="School Uniform 1" type="HEAVY">
 		<set chest="50288" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90025" name="School Uniform 2" type="HEAVY">
 		<set chest="50289" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90026" name="Swimsuit 1" type="HEAVY">
 		<set chest="50290" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90027" name="Swimsuit 2" type="HEAVY">
 		<set chest="50291" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90028" name="Swimsuit 3" type="HEAVY">
 		<set chest="50292" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90029" name="Swimsuit 4" type="HEAVY">
 		<set chest="50293" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90030" name="Swimsuit 5" type="HEAVY">
 		<set chest="50294" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90031" name="Swimsuit 6" type="HEAVY">
 		<set chest="50295" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90032" name="Swimsuit 7" type="HEAVY">
 		<set chest="50296" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 	<dress number="90033" name="White Warrior Costume" type="HEAVY">
 		<set chest="50297" legs="-1" gloves="-1" feet="-1" />
-		<price id="57" count="50" payOnce="true" />
+		<price id="40007" count="250" payOnce="true" />
 	</dress>
 
 
@@ -144,139 +144,139 @@
 
 <dress number="90034" name="(H) Aegis Costume" type="SUIT">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90035" name="(H) Astiel Costume" type="SUIT">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90036" name="(H) Ranker Costume" type="SUIT">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90037" name="Cronos Reaver Armor" type="SUIT">
     <set chest="50304" legs="50305" gloves="50306" feet="50307" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90038" name="Aegis Costume" type="SUIT">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90039" name="Astiel Costume I" type="SUIT">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90040" name="Astiel Costume II" type="SUIT">
     <set chest="50258" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90041" name="Astiel Costume III" type="SUIT">
     <set chest="50259" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90042" name="Astiel Costume IV" type="SUIT">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90043" name="Gold Dragon Uniform" type="SUIT">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90044" name="Ranker Costume" type="SUIT">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90045" name="Beach Costume" type="SUIT">
     <set chest="50270" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90046" name="Beach Costume" type="SUIT">
     <set chest="50271" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90047" name="Captain's Costume" type="SUIT">
     <set chest="50272" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90048" name="Pirate Costume" type="SUIT">
     <set chest="50273" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90049" name="Musketeer Costume" type="SUIT">
     <set chest="50274" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90050" name="Wizard Costume" type="SUIT">
     <set chest="50275" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90051" name="Immortal Armor" type="SUIT">
     <set chest="50281" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90052" name="Tauti Armor (Heavy)" type="SUIT">
     <set chest="50282" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90053" name="Tauti Armor (Light)" type="SUIT">
     <set chest="50283" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90054" name="Tauti Armor (Robe)" type="SUIT">
     <set chest="50284" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90055" name="Eternal Armor (Heavy)" type="SUIT">
     <set chest="50285" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90056" name="Eternal Armor (Light)" type="SUIT">
     <set chest="50286" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90057" name="Eternal Armor (Robe)" type="SUIT">
     <set chest="50287" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90058" name="School Uniform 1" type="SUIT">
     <set chest="50288" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90059" name="School Uniform 2" type="SUIT">
     <set chest="50289" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90060" name="SwimSUIT 1" type="SUIT">
     <set chest="50290" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90061" name="SwimSUIT 2" type="SUIT">
     <set chest="50291" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90062" name="SwimSUIT 3" type="SUIT">
     <set chest="50292" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90063" name="SwimSUIT 4" type="SUIT">
     <set chest="50293" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90064" name="SwimSUIT 5" type="SUIT">
     <set chest="50294" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90065" name="SwimSUIT 6" type="SUIT">
     <set chest="50295" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90066" name="SwimSUIT 7" type="SUIT">
     <set chest="50296" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90067" name="White Warrior Costume" type="SUIT">
     <set chest="50297" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 
 
@@ -284,139 +284,139 @@
 
 <dress number="90068" name="(H) Aegis Costume" type="ROBE">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90069" name="(H) Astiel Costume" type="ROBE">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90070" name="(H) Ranker Costume" type="ROBE">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90071" name="Cronos Reaver Armor" type="ROBE">
     <set chest="50304" legs="50305" gloves="50306" feet="50307" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90072" name="Aegis Costume" type="ROBE">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90073" name="Astiel Costume I" type="ROBE">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90074" name="Astiel Costume II" type="ROBE">
     <set chest="50258" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90075" name="Astiel Costume III" type="ROBE">
     <set chest="50259" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90076" name="Astiel Costume IV" type="ROBE">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90077" name="Gold Dragon Uniform" type="ROBE">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90078" name="Ranker Costume" type="ROBE">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90079" name="Beach Costume" type="ROBE">
     <set chest="50270" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90080" name="Beach Costume" type="ROBE">
     <set chest="50271" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90081" name="Captain's Costume" type="ROBE">
     <set chest="50272" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90082" name="Pirate Costume" type="ROBE">
     <set chest="50273" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90083" name="Musketeer Costume" type="ROBE">
     <set chest="50274" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90084" name="Wizard Costume" type="ROBE">
     <set chest="50275" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90085" name="Immortal Armor" type="ROBE">
     <set chest="50281" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90086" name="Tauti Armor (Heavy)" type="ROBE">
     <set chest="50282" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90087" name="Tauti Armor (Light)" type="ROBE">
     <set chest="50283" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90088" name="Tauti Armor (Robe)" type="ROBE">
     <set chest="50284" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90089" name="Eternal Armor (Heavy)" type="ROBE">
     <set chest="50285" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90090" name="Eternal Armor (Light)" type="ROBE">
     <set chest="50286" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90091" name="Eternal Armor (Robe)" type="ROBE">
     <set chest="50287" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90092" name="School Uniform 1" type="ROBE">
     <set chest="50288" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90093" name="School Uniform 2" type="ROBE">
     <set chest="50289" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90094" name="SwimROBE 1" type="ROBE">
     <set chest="50290" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90095" name="SwimROBE 2" type="ROBE">
     <set chest="50291" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90096" name="SwimROBE 3" type="ROBE">
     <set chest="50292" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90097" name="SwimROBE 4" type="ROBE">
     <set chest="50293" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90098" name="SwimROBE 5" type="ROBE">
     <set chest="50294" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90099" name="SwimROBE 6" type="ROBE">
     <set chest="50295" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90100" name="SwimROBE 7" type="ROBE">
     <set chest="50296" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90101" name="White Warrior Costume" type="ROBE">
     <set chest="50297" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 
 
@@ -427,139 +427,139 @@
 
 <dress number="90102" name="(H) Aegis Costume" type="LIGHT">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90103" name="(H) Astiel Costume" type="LIGHT">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90104" name="(H) Ranker Costume" type="LIGHT">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90105" name="Cronos Reaver Armor" type="LIGHT">
     <set chest="50304" legs="50305" gloves="50306" feet="50307" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90106" name="Aegis Costume" type="LIGHT">
     <set chest="50236" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90107" name="Astiel Costume I" type="LIGHT">
     <set chest="50257" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90108" name="Astiel Costume II" type="LIGHT">
     <set chest="50258" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90109" name="Astiel Costume III" type="LIGHT">
     <set chest="50259" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90110" name="Astiel Costume IV" type="LIGHT">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90111" name="Gold Dragon Uniform" type="LIGHT">
     <set chest="50260" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90112" name="Ranker Costume" type="LIGHT">
     <set chest="50267" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90113" name="Beach Costume" type="LIGHT">
     <set chest="50270" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90114" name="Beach Costume" type="LIGHT">
     <set chest="50271" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90115" name="Captain's Costume" type="LIGHT">
     <set chest="50272" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90116" name="Pirate Costume" type="LIGHT">
     <set chest="50273" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90117" name="Musketeer Costume" type="LIGHT">
     <set chest="50274" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90118" name="Wizard Costume" type="LIGHT">
     <set chest="50275" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90119" name="Immortal Armor" type="LIGHT">
     <set chest="50281" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90120" name="Tauti Armor (Heavy)" type="LIGHT">
     <set chest="50282" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90121" name="Tauti Armor (Light)" type="LIGHT">
     <set chest="50283" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90122" name="Tauti Armor (Robe)" type="LIGHT">
     <set chest="50284" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90123" name="Eternal Armor (Heavy)" type="LIGHT">
     <set chest="50285" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90124" name="Eternal Armor (Light)" type="LIGHT">
     <set chest="50286" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90125" name="Eternal Armor (Robe)" type="LIGHT">
     <set chest="50287" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90126" name="School Uniform 1" type="LIGHT">
     <set chest="50288" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90127" name="School Uniform 2" type="LIGHT">
     <set chest="50289" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90128" name="SwimLIGHT 1" type="LIGHT">
     <set chest="50290" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90129" name="SwimLIGHT 2" type="LIGHT">
     <set chest="50291" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90130" name="SwimLIGHT 3" type="LIGHT">
     <set chest="50292" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90131" name="SwimLIGHT 4" type="LIGHT">
     <set chest="50293" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90132" name="SwimLIGHT 5" type="LIGHT">
     <set chest="50294" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90133" name="SwimLIGHT 6" type="LIGHT">
     <set chest="50295" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90134" name="SwimLIGHT 7" type="LIGHT">
     <set chest="50296" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 <dress number="90135" name="White Warrior Costume" type="LIGHT">
     <set chest="50297" legs="-1" gloves="-1" feet="-1" />
-    <price id="57" count="50" payOnce="true" />
+    <price id="40007" count="250" payOnce="true" />
 </dress>
 
 </list>
