@@ -211,6 +211,9 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="20" />
 		<set name="price" val="2000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SummonItems" />
 		<set name="item_skill" val="2046-1" />
@@ -226,6 +229,9 @@
 		<set name="material" val="STEEL" />
 		<set name="weight" val="20" />
 		<set name="price" val="2000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="SummonItems" />
 		<set name="item_skill" val="2046-1" />
@@ -239,6 +245,9 @@
 		<set name="default_action" val="SKILL_MAINTAIN" />
 		<set name="etcitem_type" val="PET_COLLAR" />
 		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
 		<set name="weight" val="20" />
 		<set name="price" val="2000" />
 		<set name="is_oly_restricted" val="true" />
