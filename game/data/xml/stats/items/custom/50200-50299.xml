@@ -1427,4 +1427,31 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="22078-1" />
 	</item>
+	<item id="50326" type="EtcItem" name="1st Place Treasure Sack - Event">
+		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2422-1" />
+	</item>
+	<item id="50327" type="EtcItem" name="1st Place Treasure Sack - Event">
+		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2422-1" />
+	</item>
+	<item id="50328" type="EtcItem" name="1st Place Treasure Sack - Event">
+		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2422-1" />
+	</item>
 </list>
