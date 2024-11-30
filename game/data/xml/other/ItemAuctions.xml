@@ -11,7 +11,6 @@
 	<!-- <item auctionItemId="1" itemId="10485" itemCount="1" auctionInitBid="100000" auctionLenght="300" /> -->
 	<!-- </instance> -->
 	<instance id="505" interval="1" hour_of_day="11" minute_of_hour="10">
-		<item auctionItemId="1" itemId="40007" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
 		<!-- Top-Grade Life Stone - Level 80 -->
 		<item auctionItemId="2" itemId="9576" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
 		<!-- Top-Grade Life Stone - Level 82 -->

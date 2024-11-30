@@ -37,9 +37,10 @@ public final class DropExample extends AbstractNpcAI
 	
 	private void fillDrops()
 	{
+		//COE
 		DROP_DATA.add(new DropDetails(1, 5, new DropItem(40007, 10, 10, 100)));
-		DROP_DATA.add(new DropDetails(80, 85, new DropItem(40007, 80, 80, 100)));
-		DROP_DATA.add(new DropDetails(50, 55, new DropItem(40007, 50, 50, 100)));
+		//DROP_DATA.add(new DropDetails(80, 85, new DropItem(40007, 80, 80, 100)));
+		//DROP_DATA.add(new DropDetails(50, 55, new DropItem(40007, 50, 50, 100)));
 		
 	}
 	

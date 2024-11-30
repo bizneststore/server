@@ -127,6 +127,10 @@ public final class HellboundLoader extends ABLoader
 				{
 					VoicedCommandHandler.getInstance().registerHandler((IVoicedCommandHandler) instance);
 				}
+				else
+				{
+					script.getDeclaredConstructor().newInstance();
+				}
 			}
 			catch (Exception e)
 			{

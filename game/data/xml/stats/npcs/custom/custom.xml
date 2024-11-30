@@ -311,7 +311,7 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-	<npc id="578" displayId="524" name="All In One" usingServerSideName="true" title="Beta AIO" usingServerSideTitle="true" type="L2AioNpc">
+	<npc id="578" displayId="524" name="Azog" usingServerSideName="true" title="Beta Shop" usingServerSideTitle="true" type="L2AioNpc">
 		<collision>
 			<radius normal="25" />
 			<height normal="27" />
