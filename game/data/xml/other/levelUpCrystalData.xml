@@ -562,6 +562,10 @@
 			<detail chance="20" absorbType="PARTY_ONE_RANDOM" levelList="10, 11" />
 			<detail chance="3" absorbType="PARTY_ONE_RANDOM" levelList="12, 13" />
 		</item>
+
+
+
+
 		<item npcId="29095"> <!-- Gordon -->
 			<detail chance="3" absorbType="PARTY_ONE_RANDOM" levelList="10, 11, 12, 13" />
 		</item>
