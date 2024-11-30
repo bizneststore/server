@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
-	<npc id="29001" level="85" type="L2GrandBoss" name="Queen Ant">
+	<npc id="29001" level="40" type="L2GrandBoss" name="Queen Ant">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="queen_ant" />
@@ -8,11 +8,11 @@
 		<race>BUG</race>
 		<sex>FEMALE</sex>
 		<equipment chest="0" rhand="0" lhand="0" /> <!-- chest: N/A rhand: N/A lhand: N/A -->
-		<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
+		<acquire expRate="1362.20985" sp="168888" raidPoints="1680" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="11611.6" magical="1611" random="50" critical="1" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="1033.5" evasion="3" />
+			<vitals hp="96596" hpRegen="208" mp="300.8" mpRegen="2.1" />
+			<attack physical="105" magical="8" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1252" magical="229" evasion="-18" />
 			<attribute>
 				<defence fire="-83" water="20" wind="20" earth="20" holy="20" dark="20" default="0" />
 			</attribute>
@@ -106,7 +106,7 @@
 			<height normal="53" />
 		</collision>
 	</npc>
-	<npc id="29002" level="85" type="L2Monster" name="Queen Ant Larva">
+	<npc id="29002" level="38" type="L2Monster" name="Queen Ant Larva">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="queen_ant_larva" />
@@ -152,7 +152,7 @@
 			<height normal="8" />
 		</collision>
 	</npc>
-	<npc id="29003" level="85" type="L2Monster" name="Nurse Ant">
+	<npc id="29003" level="35" type="L2Monster" name="Nurse Ant">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="nurse_ant" />
@@ -198,7 +198,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="29004" level="85" type="L2Monster" name="Guard Ant">
+	<npc id="29004" level="37" type="L2Monster" name="Guard Ant">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="guard_ant" />
@@ -247,7 +247,7 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-	<npc id="29005" level="85" type="L2Monster" name="Court Guard Ant">
+	<npc id="29005" level="39" type="L2Monster" name="Court Guard Ant">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="royal_guard_ant" />
@@ -296,16 +296,15 @@
 			<height normal="15" />
 		</collision>
 	</npc>
-
-	<npc id="29006" level="85" type="L2GrandBoss" name="Core">
+	<npc id="29006" level="50" type="L2GrandBoss" name="Core">
 		<!-- Confirmed CT2.5 -->
 		<race>CONSTRUCT</race>
 		<sex>MALE</sex>
-		<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
+		<acquire expRate="816.56286" sp="153786" raidPoints="1508" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="6000" magical="10151.3" random="50" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="1033.5" evasion="-18" />
+			<vitals hp="261551.926" hpRegen="441.65" mp="1708.8" mpRegen="20" />
+			<attack physical="722.31" magical="1398.68" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
 			<attribute>
 				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
 			</attribute>
@@ -736,15 +735,7 @@
 			<height normal="35" grown="43" />
 		</collision>
 	</npc>
-
-
-
-
-<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="11611.6" magical="1611" random="50" critical="1" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="1033.5" evasion="3" />
-	<npc id="29014" level="85" type="L2GrandBoss" name="Orfen">
+	<npc id="29014" level="50" type="L2GrandBoss" name="Orfen">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="MoveAroundSocial" value="80" />
@@ -753,11 +744,11 @@
 		</parameters>
 		<race>FAIRY</race>
 		<sex>FEMALE</sex>
-		<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
+		<acquire expRate="816.56286" sp="153786" raidPoints="1508" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="6000" magical="10151.3" random="50" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="1033.5" evasion="-18" />
+			<vitals hp="261551.926" hpRegen="441.65" mp="1708.8" mpRegen="20" />
+			<attack physical="722.31" magical="1398.68" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
 			<attribute>
 				<defence fire="-83" water="20" wind="53" earth="20" holy="20" dark="20" />
 			</attribute>
@@ -1370,16 +1361,15 @@
 			<height normal="80" />
 		</collision>
 	</npc>
-	<npc id="29022" level="85" type="L2GrandBoss" name="Zaken">
+	<npc id="29022" level="60" type="L2GrandBoss" name="Zaken">
 		<!-- Confirmed CT2.5 -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-
-<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
+		<acquire expRate="1355.48497" sp="423589" raidPoints="10448" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="11611.6" magical="5506" random="50" critical="4" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="1033.5" evasion="-18" />			
+			<vitals hp="360722" hpRegen="346.8" mp="180000.0" mpRegen="100" />
+			<attack physical="3616" magical="1520" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1981" magical="966.39" evasion="-18" />
 			<attribute>
 				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="53" />
 			</attribute>
@@ -1608,24 +1598,14 @@
 			<height normal="40" />
 		</collision>
 	</npc>
-
-
-
-
-
-		
-			
-			
-			
-	<npc id="29025" level="85" type="L2Npc" name="Baium">
+	<npc id="29025" level="75" type="L2Npc" name="Baium">
 		<!-- Confirmed CT2.5 -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
-			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="180" />
-			<attack physical="11611.6" magical="4810" random="50" critical="4" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3806.5" magical="2700" evasion="-18" />
+			<vitals hp="1709400" hpRegen="718" mp="18000.0" mpRegen="99" />
+			<attack physical="1874.18" magical="1596.95" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3300" magical="2200" evasion="-18" />
 			<attribute>
 				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="53" />
 			</attribute>
@@ -1767,11 +1747,11 @@
 		<acquire expRate="40983.4324219697" sp="34817181" raidPoints="38248" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
 			<vitals hp="39267037" hpRegen="1300" mp="2025740.40219378" mpRegen="1000" />
-			<attack physical="13611.6" magical="5810" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<attack physical="11611.6" magical="4810" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
 			<defence physical="3806.5" magical="1033.5" evasion="3" />
 			<attribute>
-				<attack type="FIRE" value="420" />
-				<defence fire="420" water="270" wind="320" earth="320" holy="320" dark="320" default="320" />
+				<attack type="FIRE" value="370" />
+				<defence fire="370" water="250" wind="300" earth="300" holy="300" dark="300" default="300" />
 			</attribute>
 			<speed>
 				<walk ground="120" />
@@ -4076,8 +4056,7 @@
 			<height normal="300" />
 		</collision>
 	</npc>
-
-	<npc id="29067" level="85" type="L2GrandBoss" name="Antharas">
+	<npc id="29067" level="79" type="L2GrandBoss" name="Antharas">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="ultra_respawn_time" value="5" />
@@ -4086,9 +4065,9 @@
 		<sex>MALE</sex>
 		<acquire expRate="56830" sp="39307416" raidPoints="34984" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="6950000" hpRegen="1200" mp="1950000.0" mpRegen="1200" />
-			<attack physical="5100" magical="2750" random="30" critical="4" accuracy="4.95" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="3756" magical="942.5" />
+			<vitals hp="6800000" hpRegen="1100" mp="1800000.0" mpRegen="1000" />
+			<attack physical="4900" magical="2550" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3456" magical="862.5" />
 			<attribute>
 				<defence fire="50" water="50" wind="-83" earth="300" holy="50" dark="50" />
 			</attribute>
