@@ -173,6 +173,18 @@
 			<height normal="27" />
 		</collision>
 	</npc>
+<npc id="525" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="7" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+<npc id="526" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+		<collision>
+			<radius normal="7" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
 	<npc id="50007" displayId="31324" name="Andromeda" usingServerSideName="true" title="" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
