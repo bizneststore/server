@@ -6,106 +6,104 @@
 <list enabled="true" maintainEnchantment="false"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
-	<item>
-		<ingredient id="57" count="8" />
-		<production id="2509" count="1" />
-	</item>
 <!-- formal wear -->
-	<item>
-		<ingredient id="57" count="18" />
-		<production id="3947" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="9" />
-		<production id="1835" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="18" />
-		<production id="2510" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="28" />
-		<production id="3948" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="14" />
-		<production id="1463" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="35" />
-		<production id="2511" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="42" />
-		<production id="3949" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="22" />
-		<production id="1464" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="100" />
-		<production id="2512" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="245" />
-		<production id="3950" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="50" />
-		<production id="1465" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="120" />
-		<production id="2513" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="290" />
-		<production id="3951" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="80" />
-		<production id="1466" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="150" />
-		<production id="2514" count="1" />
-	</item>
-<!-- formal wear -->
-	<item>
-		<ingredient id="57" count="350" />
-		<production id="3952" count="1" />
+<item>
+		<ingredient id="57" count="12000" />
+		<production id="3947" count="1000" />
 	</item>
 <item>
-		<ingredient id="57" count="100" />
-		<production id="1467" count="1" />
+		<ingredient id="57" count="22000" />
+		<production id="1839" count="1000" />
 	</item>
-<item>
-		<ingredient id="57" count="100" />
-		<production id="6647" count="1" />
+	<item>
+		<ingredient id="57" count="18000" />
+		<production id="2510" count="1000" />
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="20" />
-		<production id="6645" count="1" />
+		<ingredient id="57" count="28000" />
+		<production id="3948" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="14000" />
+		<production id="1463" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="35000" />
+		<production id="2511" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="42000" />
+		<production id="3949" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="22000" />
+		<production id="1464" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="100000" />
+		<production id="2512" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="245000" />
+		<production id="3950" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="50000" />
+		<production id="1465" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="120000" />
+		<production id="2513" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="290000" />
+		<production id="3951" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="80000" />
+		<production id="1466" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="150000" />
+		<production id="2514" count="1000" />
+	</item>
+<!-- formal wear -->
+	<item>
+		<ingredient id="57" count="350000" />
+		<production id="3952" count="1000" />
+	</item>
+<item>
+		<ingredient id="57" count="100000" />
+		<production id="1467" count="1000" />
+	</item>
+<item>
+		<ingredient id="57" count="10000" />
+		<production id="6646" count="1000" />
+	</item>
+<item>
+		<ingredient id="57" count="15000" />
+		<production id="6647" count="1000" />
+	</item>
+
+	<item>
+		<ingredient id="57" count="20000" />
+		<production id="6645" count="1000" />
 	</item>
 
 <item>
-		<ingredient id="57" count="35000" />
+		<ingredient id="57" count="12000" />
 		<production id="728" count="1" />
 	</item>
 <item>
@@ -160,32 +158,32 @@
 
 	<!-- Gemstones D -->
 	<item>
-		<ingredient id="57" count="1000" />
+		<ingredient id="57" count="1200" />
 		<production id="2130" count="1" />
 	</item>
 
 	<!-- Gemstones c -->
 	<item>
-		<ingredient id="57" count="3000" />
+		<ingredient id="57" count="3600" />
 		<production id="2131" count="1" />
 	</item>
 
 	<!-- Gemstones b -->
 	<item>
-		<ingredient id="57" count="10000" />
+		<ingredient id="57" count="12000" />
 		<production id="2132" count="1" />
 	</item>
 
 
 	<!-- Soul Ore -->
 	<item>
-		<ingredient id="57" count="250" />
+		<ingredient id="57" count="300" />
 		<production id="1785" count="1" />
 	</item>
 
 	<!-- Spirit Ore -->
 	<item>
-		<ingredient id="57" count="500" />
+		<ingredient id="57" count="480" />
 		<production id="3031" count="1" />
 	</item>
 
@@ -347,22 +345,15 @@
 		<production id="22153" count="1" />
 	</item>
 
-
-	<!-- Crystal: C-Grade -->
-	<item>
-		<ingredient id="57" count="3000000" />
-		<production id="1459" count="1000" />
-	</item>
-
-	<!-- Crystal: D-Grade -->
 	<item>
 		<ingredient id="57" count="650000" />
 		<production id="1458" count="1000" />
 	</item>
+	<!-- Crystal: C-Grade -->
 	<item>
-		<ingredient id="57" count="50000000" />
-		<production id="6408" count="1" />
-	</item>
+		<ingredient id="57" count="3000000" />
+		<production id="1459" count="1000" />
+	</item>	
 <item>
 		<ingredient id="57" count="1500" />
 		<production id="1661" count="1" />
@@ -384,7 +375,7 @@
 		<production id="1830" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="1000" />
+		<ingredient id="57" count="2000" />
 		<production id="8594" count="1" />
 	</item>
 <item>

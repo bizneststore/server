@@ -8,34 +8,551 @@
 	<!-- </instance> -->
 	<!-- instead of day_of_week you can use interval between auction in days -->
 	<!-- <instance id="NPC ID of the auctioneer" interval="1" hour_of_day="0-23" minute_of_hour="0-59"> -->
-	<!-- <item auctionItemId="1" itemId="10485" itemCount="1" auctionInitBid="100000" auctionLenght="300" /> -->
+	<!-- <item auctionItemId="1" itemId="10485" itemCount="1" auctionInitBid="100000" auctionLenght="120" /> -->
 	<!-- </instance> -->
-	<instance id="505" interval="1" hour_of_day="11" minute_of_hour="10">
-		<!-- Top-Grade Life Stone - Level 80 -->
-		<item auctionItemId="2" itemId="9576" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
-		<!-- Top-Grade Life Stone - Level 82 -->
-		<item auctionItemId="3" itemId="10486" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
-		<!-- Red Soul Crystal - Stage 15 -->
-		<item auctionItemId="4" itemId="10480" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
-		<!-- Green Soul Crystal - Stage 15 -->
-		<item auctionItemId="5" itemId="10482" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
-		<!-- Blue Soul Crystal - Stage 15 -->
-		<item auctionItemId="6" itemId="10481" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
-		<!-- Red Soul Crystal - Stage 16 -->
-		<item auctionItemId="7" itemId="13071" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+
+
+
+	<instance id="503" interval="1" hour_of_day="20" minute_of_hour="0">
+		
+<item auctionItemId="52" itemId="14678" itemCount="1" auctionInitBid="80000000" auctionLenght="120" />
+<item auctionItemId="53" itemId="14679" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+
+
+<!-- 2ND WEEK
+
+<item auctionItemId="54" itemId="14680" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+-->
+
+
+<!-- 3RD WEEK
+<item auctionItemId="55" itemId="14681" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+-->
+<!-- 4TH WEEK
+<item auctionItemId="56" itemId="21579" itemCount="1" auctionInitBid="400000000" auctionLenght="120" />
+
+
+-->
 	</instance>
+
+
+
+
+
+
+
+	<instance id="504" interval="1" hour_of_day="20" minute_of_hour="0">
+
+<item auctionItemId="9" itemId="9546" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+	
+<item auctionItemId="10" itemId="9547" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+<item auctionItemId="11" itemId="9548" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+<item auctionItemId="12" itemId="9549" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+<item auctionItemId="13" itemId="9550" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+<item auctionItemId="14" itemId="9551" itemCount="10" auctionInitBid="15000000" auctionLenght="120" />
+
+
+<!-- 2ND WEEK
+<item auctionItemId="30" itemId="9552" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+<item auctionItemId="31" itemId="9553" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+<item auctionItemId="32" itemId="9554" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+<item auctionItemId="33" itemId="9555" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+<item auctionItemId="34" itemId="9556" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+<item auctionItemId="35" itemId="9557" itemCount="10" auctionInitBid="25000000" auctionLenght="120" />
+
+-->
+	</instance>
+
+	
+
+
+
+
+
+
+
+	<instance id="505" interval="1" hour_of_day="20" minute_of_hour="0">
+
+<-- 7DAY
+	CORE 
+<item auctionItemId="20" itemId="CUSTOM" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+
+<item auctionItemId="21" itemId="20205" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+
+ORFEN
+<item auctionItemId="22" itemId="CUSTOM" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+
+BAIUM
+<item auctionItemId="23" itemId="CUSTOM" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+<item auctionItemId="24" itemId="20208" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+BELETH
+<item auctionItemId="25" itemId="CUSTOM" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+
+
+
+<item auctionItemId="26" itemId="VALAKAS" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="ANTHARAS" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="FRITEZZA" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="FREYA" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+
+
+-->
+
+
+<!--
+15 DAYS RINGS
+	CORE 
+<item auctionItemId="39" itemId="CUSTOM" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+
+
+QUEEN ANT
+<item auctionItemId="40" itemId="20206" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+
+ORFEN
+<item auctionItemId="41" itemId="CUSTOM" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+
+BAIUM
+<item auctionItemId="42" itemId="CUSTOM" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
+
+ZAKEN
+<item auctionItemId="43" itemId="20209" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
+
+BELETH
+<item auctionItemId="44" itemId="CUSTOM" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
+
+
+
+
+<item auctionItemId="45" itemId="VALAKAS" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="46" itemId="ANTHARAS" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="47" itemId="FRITEZZA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="48" itemId="FREYA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+
+-->
+	</instance>
+
+
+
+
+
+
+
 	<instance id="506" day_of_week="1" hour_of_day="12" minute_of_hour="20">
-		<!-- Top-Grade Life Stone - Level 80 -->
-		<item auctionItemId="2" itemId="9576" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+
+			<item auctionItemId="7" itemId="10552" itemCount="1" auctionInitBid="600000000" auctionLenght="120" />
+			<item auctionItemId="8" itemId="10553" itemCount="1" auctionInitBid="600000000" auctionLenght="120" />
+			<item auctionItemId="9" itemId="14219" itemCount="1" auctionInitBid="600000000" auctionLenght="120" />
+			
+
+			<!-- WEEK
+			<item auctionItemId="11" itemId="10549" itemCount="1" auctionInitBid="800000000" auctionLenght="120" />
+			<item auctionItemId="12" itemId="10550" itemCount="1" auctionInitBid="800000000" auctionLenght="120" />
+			<item auctionItemId="13" itemId="10551" itemCount="1" auctionInitBid="800000000" auctionLenght="120" />
+			-->
+	</instance>
+
+
+
+
+
+
+	<instance id="507" interval="1" hour_of_day="20" minute_of_hour="0">
+		
 		<!-- Top-Grade Life Stone - Level 82 -->
-		<item auctionItemId="3" itemId="10486" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+		<item auctionItemId="3" itemId="5580" itemCount="1" auctionInitBid="50000000" auctionLenght="120" />
 		<!-- Red Soul Crystal - Stage 15 -->
-		<item auctionItemId="4" itemId="10480" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+		<item auctionItemId="4" itemId="5581" itemCount="1" auctionInitBid="50000000" auctionLenght="120" />
 		<!-- Green Soul Crystal - Stage 15 -->
-		<item auctionItemId="5" itemId="10482" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+		<item auctionItemId="5" itemId="5579" itemCount="1" auctionInitBid="50000000" auctionLenght="120" />
 		<!-- Blue Soul Crystal - Stage 15 -->
-		<item auctionItemId="6" itemId="10481" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+		<item auctionItemId="6" itemId="5908" itemCount="1" auctionInitBid="80000000" auctionLenght="120" />
 		<!-- Red Soul Crystal - Stage 16 -->
-		<item auctionItemId="7" itemId="13071" itemCount="1" auctionInitBid="100000" auctionLenght="300" />
+		<item auctionItemId="7" itemId="5911" itemCount="1" auctionInitBid="80000000" auctionLenght="120" />
+		<item auctionItemId="8" itemId="5914" itemCount="1" auctionInitBid="80000000" auctionLenght="120" />
+
+
+
+
+
+<!-- 2nd WEEK -->
+
+<!--
+
+
+
+<item auctionItemId="17" itemId="9570" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+<item auctionItemId="18" itemId="9572" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+<item auctionItemId="19" itemId="9571" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+-->
+
+<!-- 3rd WEEK -->
+
+
+<!--
+<item auctionItemId="36" itemId="10480" itemCount="1" auctionInitBid="300000000" auctionLenght="120" />
+<item auctionItemId="37" itemId="10482" itemCount="1" auctionInitBid="300000000" auctionLenght="120" />
+<item auctionItemId="38" itemId="10481" itemCount="1" auctionInitBid="300000000" auctionLenght="120" />
+-->
+
+
+
+<!-- 4th WEEK -->
+
+<!--
+<item auctionItemId="49" itemId="13071" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="50" itemId="13073" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="51" itemId="13072" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+
+
+-->
+	</instance>
+
+
+
+
+
+
+
+<instance id="508" interval="1" hour_of_day="20" minute_of_hour="0">
+	
+		
+		<item auctionItemId="10" itemId="9451" itemCount="1" auctionInitBid="300000000" auctionLenght="120" />
+
+
+
+
+<!-- 2ND WEEK
+		<item auctionItemId="10" itemId="10413" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+-->
+
+<!-- 3RD WEEK
+		<item auctionItemId="10" itemId="14052" itemCount="1" auctionInitBid="600000000" auctionLenght="120" />
+
+-->
+
+</instance>
+
+
+
+<instance id="509" interval="1" hour_of_day="20" minute_of_hour="0">
+		<item auctionItemId="1" itemId="8619" itemCount="1" auctionInitBid="100000000" auctionLenght="120" />
+		<item auctionItemId="4" itemId="8620" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+		
+		<item auctionItemId="2" itemId="6622" itemCount="10" auctionInitBid="10000000" auctionLenght="120" />
+		
+		<item auctionItemId="3" itemId="5595" itemCount="3" auctionInitBid="10000000" auctionLenght="120" />
+
+
+
+<!-- 2nd WEEK -->
+
+
+<!--
+<item auctionItemId="6" itemId="8621" itemCount="1" auctionInitBid="400000000" auctionLenght="120" />
+<item auctionItemId="5" itemId="9627" itemCount="5" auctionInitBid="50000000" auctionLenght="120" />
+-->
+	</instance>
+
+
+
+
+
+
+	<instance id="510" interval="1" hour_of_day="20" minute_of_hour="0">
+		<!-- Top-Grade Life Stone - Level 80 -->
+		<item auctionItemId="1" itemId="1881" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 82 -->
+		<item auctionItemId="2" itemId="1877" itemCount="1000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 15 -->
+		<item auctionItemId="3" itemId="1872" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Green Soul Crystal - Stage 15 -->
+		<item auctionItemId="4" itemId="5553" itemCount="100" auctionInitBid="50000000" auctionLenght="120" />
+		<!-- Blue Soul Crystal - Stage 15 -->
+		<item auctionItemId="5" itemId="1891" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 16 -->
+		<item auctionItemId="6" itemId="4043" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="7" itemId="1892" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="8" itemId="1878" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="9" itemId="1871" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="10" itemId="1870" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="11" itemId="1879" itemCount="5000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="12" itemId="1889" itemCount="3000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="13" itemId="1884" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="14" itemId="1894" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="15" itemId="4047" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="16" itemId="5550" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="17" itemId="4042" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="18" itemId="1869" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="19" itemId="5551" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="20" itemId="4045" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="21" itemId="4046" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="22" itemId="4048" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="23" itemId="1895" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="24" itemId="5549" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="25" itemId="1890" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="26" itemId="1876" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="4039" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="4041" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="4040" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="30" itemId="9630" itemCount="500" auctionInitBid="50000000" auctionLenght="120" />
+<item auctionItemId="31" itemId="1893" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="32" itemId="1874" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="33" itemId="1880" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="34" itemId="1883" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="35" itemId="4044" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="36" itemId="1868" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="37" itemId="1865" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="38" itemId="1887" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="39" itemId="5554" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="40" itemId="5552" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+
+
+<!-- 2nd WEEK -->
+
+
+<!--
+
+<item auctionItemId="41" itemId="9629" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="42" itemId="9628" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+
+
+-->
+	</instance>
+
+
+
+
+
+	<instance id="511" day_of_week="1" hour_of_day="12" minute_of_hour="20">
+		<!-- Top-Grade Life Stone - Level 80 -->
+		<item auctionItemId="1" itemId="1881" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 82 -->
+		<item auctionItemId="2" itemId="1877" itemCount="1000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 15 -->
+		<item auctionItemId="3" itemId="1872" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Green Soul Crystal - Stage 15 -->
+		<item auctionItemId="4" itemId="5553" itemCount="100" auctionInitBid="50000000" auctionLenght="120" />
+		<!-- Blue Soul Crystal - Stage 15 -->
+		<item auctionItemId="5" itemId="1891" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 16 -->
+		<item auctionItemId="6" itemId="4043" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="7" itemId="1892" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="8" itemId="1878" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="9" itemId="1871" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="10" itemId="1870" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="11" itemId="1879" itemCount="5000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="12" itemId="1889" itemCount="3000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="13" itemId="1884" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="14" itemId="1894" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="15" itemId="4047" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="16" itemId="5550" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="17" itemId="4042" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="18" itemId="1869" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="19" itemId="5551" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="20" itemId="4045" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="21" itemId="4046" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="22" itemId="4048" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="23" itemId="1895" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="24" itemId="5549" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="25" itemId="1890" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="26" itemId="1876" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="4039" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="4041" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="4040" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="30" itemId="9630" itemCount="500" auctionInitBid="50000000" auctionLenght="120" />
+<item auctionItemId="31" itemId="1893" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="32" itemId="1874" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="33" itemId="1880" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="34" itemId="1883" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="35" itemId="4044" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="36" itemId="1868" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="37" itemId="1865" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="38" itemId="1887" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="39" itemId="5554" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="40" itemId="5552" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+
+
+<!-- 2nd WEEK -->
+
+
+<!--
+
+<item auctionItemId="41" itemId="9629" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="42" itemId="9628" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+
+
+-->
+	</instance>
+
+
+
+
+
+
+
+	<instance id="512" interval="1" hour_of_day="20" minute_of_hour="0">
+
+		<item auctionItemId="1" itemId="8762" itemCount="10" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 80 -->
+		<item auctionItemId="2" itemId="9576" itemCount="10" auctionInitBid="30000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 80 -->
+
+<!-- 2nd WEEK
+		
+		<item auctionItemId="15" itemId="10486" itemCount="10" auctionInitBid="50000000" auctionLenght="120" />
+<item auctionItemId="16" itemId="14169" itemCount="10" auctionInitBid="80000000" auctionLenght="120" />
+
+-->
+
+	</instance>
+	
+
+
+
+
+
+<instance id="525" day_of_week="1" hour_of_day="12" minute_of_hour="20">
+		<!-- Top-Grade Life Stone - Level 80 -->
+		<item auctionItemId="1" itemId="1881" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 82 -->
+		<item auctionItemId="2" itemId="1877" itemCount="1000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 15 -->
+		<item auctionItemId="3" itemId="1872" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Green Soul Crystal - Stage 15 -->
+		<item auctionItemId="4" itemId="5553" itemCount="100" auctionInitBid="50000000" auctionLenght="120" />
+		<!-- Blue Soul Crystal - Stage 15 -->
+		<item auctionItemId="5" itemId="1891" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 16 -->
+		<item auctionItemId="6" itemId="4043" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="7" itemId="1892" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="8" itemId="1878" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="9" itemId="1871" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="10" itemId="1870" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="11" itemId="1879" itemCount="5000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="12" itemId="1889" itemCount="3000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="13" itemId="1884" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="14" itemId="1894" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="15" itemId="4047" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="16" itemId="5550" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="17" itemId="4042" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="18" itemId="1869" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="19" itemId="5551" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="20" itemId="4045" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="21" itemId="4046" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="22" itemId="4048" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="23" itemId="1895" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="24" itemId="5549" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="25" itemId="1890" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="26" itemId="1876" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="4039" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="4041" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="4040" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="30" itemId="9630" itemCount="500" auctionInitBid="50000000" auctionLenght="120" />
+<item auctionItemId="31" itemId="1893" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="32" itemId="1874" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="33" itemId="1880" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="34" itemId="1883" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="35" itemId="4044" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="36" itemId="1868" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="37" itemId="1865" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="38" itemId="1887" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="39" itemId="5554" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="40" itemId="5552" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+
+
+<!-- 2nd WEEK -->
+
+
+<!--
+
+<item auctionItemId="41" itemId="9629" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="42" itemId="9628" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+
+
+-->
+	</instance>
+
+
+
+
+
+
+
+	<instance id="526" interval="1" hour_of_day="20" minute_of_hour="0">
+	<!-- Top-Grade Life Stone - Level 80 -->
+		<item auctionItemId="1" itemId="1881" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+		<!-- Top-Grade Life Stone - Level 82 -->
+		<item auctionItemId="2" itemId="1877" itemCount="1000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 15 -->
+		<item auctionItemId="3" itemId="1872" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+		<!-- Green Soul Crystal - Stage 15 -->
+		<item auctionItemId="4" itemId="5553" itemCount="100" auctionInitBid="50000000" auctionLenght="120" />
+		<!-- Blue Soul Crystal - Stage 15 -->
+		<item auctionItemId="5" itemId="1891" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+		<!-- Red Soul Crystal - Stage 16 -->
+		<item auctionItemId="6" itemId="4043" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="7" itemId="1892" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="8" itemId="1878" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="9" itemId="1871" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="10" itemId="1870" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="11" itemId="1879" itemCount="5000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="12" itemId="1889" itemCount="3000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="13" itemId="1884" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="14" itemId="1894" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="15" itemId="4047" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="16" itemId="5550" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="17" itemId="4042" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="18" itemId="1869" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="19" itemId="5551" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="20" itemId="4045" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="21" itemId="4046" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="22" itemId="4048" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="23" itemId="1895" itemCount="5000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="24" itemId="5549" itemCount="3000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="25" itemId="1890" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="26" itemId="1876" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="4039" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="4041" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="4040" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="30" itemId="9630" itemCount="500" auctionInitBid="50000000" auctionLenght="120" />
+<item auctionItemId="31" itemId="1893" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="32" itemId="1874" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="33" itemId="1880" itemCount="3000" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="34" itemId="1883" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+<item auctionItemId="35" itemId="4044" itemCount="1000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="36" itemId="1868" itemCount="10000" auctionInitBid="20000000" auctionLenght="120" />
+<item auctionItemId="37" itemId="1865" itemCount="10000" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="38" itemId="1887" itemCount="1000" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="39" itemId="5554" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+<item auctionItemId="40" itemId="5552" itemCount="100" auctionInitBid="40000000" auctionLenght="120" />
+
+
+
+<!-- 2nd WEEK -->
+
+
+<!--
+
+<item auctionItemId="41" itemId="9629" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+<item auctionItemId="42" itemId="9628" itemCount="500" auctionInitBid="30000000" auctionLenght="120" />
+
+
+-->
 	</instance>
 </list>

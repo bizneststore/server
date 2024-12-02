@@ -1,6 +1,7 @@
 package ai.modifier.dropEngine;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -37,11 +38,111 @@ public final class DropExample extends AbstractNpcAI
 	
 	private void fillDrops()
 	{
-		//COE
-		//DROP_DATA.add(new DropDetails(10, 85, new DropItem(1872, 10, 10, 100)));
 		
-		//DROP_DATA.add(new DropDetails(80, 85, new DropItem(40007, 80, 80, 100)));
-		//DROP_DATA.add(new DropDetails(50, 55, new DropItem(40007, 50, 50, 100)));
+		// 1-20 LEVEL
+		DROP_DATA.add(new DropDetails(1, 20, new DropItem(1871, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(1, 20, new DropItem(1872, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(1, 20, new DropItem(1868, 1, 3, 20)));
+		DROP_DATA.add(new DropDetails(1, 20, new DropItem(1870, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(1, 20, new DropItem(1878, 1, 3, 10)));
+		
+		// 21-40 LEVEL
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1871, 2, 4, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1872, 2, 4, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1868, 2, 4, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1870, 2, 4, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1878, 2, 4, 10)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1865, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1876, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1880, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1869, 2, 4, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1895, 2, 4, 10)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(5549, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1889, 2, 4, 10)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1894, 2, 4, 5)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1881, 2, 4, 5)));
+		DROP_DATA.add(new DropDetails(21, 40, new DropItem(1884, 1, 3, 10)));
+		
+		// 41-60 LEVEL
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1871, 3, 6, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1872, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1868, 3, 6, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1870, 3, 6, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1878, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1865, 2, 5, 20)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1876, 2, 5, 20)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1880, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1869, 3, 6, 20)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1895, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(5549, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1889, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1894, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1881, 2, 5, 10)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1884, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1879, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4043, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4042, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1877, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4044, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4039, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4040, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(4041, 1, 3, 5)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(1874, 1, 3, 2)));
+		DROP_DATA.add(new DropDetails(41, 60, new DropItem(5550, 1, 3, 2)));
+		
+		// 61-75
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1872, 3, 6, 5)));
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1870, 3, 6, 10)));
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1865, 2, 5, 20)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1876, 2, 5, 20)));
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1869, 3, 6, 20)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1895, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(5549, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1889, 3, 6, 10)));
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1884, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1879, 2, 5, 15)));
+		
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(4039, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(4040, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(4041, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(1874, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(61, 75, new DropItem(5550, 1, 3, 10)));
+		
+		// 76-85
+		
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1872, 3, 6, 2)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1870, 3, 6, 5)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1865, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1876, 2, 5, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1869, 3, 6, 10)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1895, 3, 6, 5)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(5549, 2, 5, 10)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1889, 3, 6, 2)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1884, 2, 5, 10)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1879, 2, 5, 10)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(4039, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(4040, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(4041, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(1874, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(5550, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(76, 85, new DropItem(9629, 1, 3, 10)));
+		
+		// MIXED DROPS
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1871, 3, 6, 2)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1868, 3, 6, 2)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1878, 3, 6, 2)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1880, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1894, 2, 5, 20)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1881, 2, 5, 20)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(4043, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(4042, 1, 3, 15)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(1877, 1, 3, 10)));
+		DROP_DATA.add(new DropDetails(61, 85, new DropItem(4044, 1, 3, 10)));
 		
 	}
 	
@@ -91,11 +192,28 @@ public final class DropExample extends AbstractNpcAI
 		if (npc.isAttackable())
 		{
 			final L2Attackable monster = (L2Attackable) npc;
-			// find drop data based on monster's level, can't do it any other way since drop data is stored in a list, not a map
 			
+			// Filter the DROP_DATA for the current mob's level range
+			List<DropDetails> applicableDrops = new ArrayList<>();
 			for (DropDetails dd : DROP_DATA)
 			{
 				if ((dd.isById() && (monster.getId() == dd.getMonsterId())) || (!dd.isById() && (monster.getLevel() >= dd.getMinLevel()) && (monster.getLevel() <= dd.getMaxLevel())))
+				{
+					applicableDrops.add(dd);
+				}
+			}
+			
+			// Limit to a maximum of 5 drops
+			if (!applicableDrops.isEmpty())
+			{
+				// Shuffle the list to randomize the selection
+				Collections.shuffle(applicableDrops);
+				
+				// Select up to 5 drops
+				List<DropDetails> selectedDrops = applicableDrops.subList(0, Math.min(applicableDrops.size(), 5));
+				
+				// Process the selected drops
+				for (DropDetails dd : selectedDrops)
 				{
 					for (DropItem di : dd.getDrops())
 					{
@@ -113,8 +231,6 @@ public final class DropExample extends AbstractNpcAI
 							
 							if (!toReward.isEmpty())
 							{
-								// Now we can actually distribute the item count for reward
-								// (Total item count split by the number of party members that are in range and must be rewarded)
 								long count = dropCount / toReward.size();
 								for (L2PcInstance member : toReward)
 								{
@@ -131,7 +247,6 @@ public final class DropExample extends AbstractNpcAI
 			}
 		}
 		return super.onKill(npc, player, isSummon);
-		
 	}
 	
 	private void rewardPlayer(L2PcInstance player, L2Character object, int itemId, long itemCount, int chance)
@@ -208,19 +323,6 @@ public final class DropExample extends AbstractNpcAI
 					npc.dropItem(player, itemId, tempCount);
 				}
 			}
-			else if (player.isPlatinum())
-			{
-				long tempCount = itemCount;
-				tempCount *= player.calcPlatinumDropMultipliers(itemId);
-				if ((npc.isRaid() && Config.AUTO_LOOT_RAIDS) || (!npc.isRaid() && Config.AUTO_LOOT))
-				{
-					player.addItem("drop", itemId, tempCount, player, true);
-				}
-				else
-				{
-					npc.dropItem(player, itemId, tempCount);
-				}
-			}
 			else
 			{
 				if ((npc.isRaid() && Config.AUTO_LOOT_RAIDS) || (!npc.isRaid() && Config.AUTO_LOOT))
@@ -282,6 +384,7 @@ public final class DropExample extends AbstractNpcAI
 			}
 		}
 		
+		@SuppressWarnings("unused")
 		public DropDetails(int monsterId, DropItem... drops)
 		{
 			_minLevel = 0;

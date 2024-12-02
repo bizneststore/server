@@ -7,61 +7,61 @@
 			<height normal="23" />
 		</collision>
 	</npc>
-<npc id="503" displayId="30538" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="503" displayId="32875" name="Eryndor" usingServerSideName="true" title="Neolithic Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="17.5" />
 		</collision>
 	</npc>
-<npc id="504" displayId="30534" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="504" displayId="30534" name="Kaelin" usingServerSideName="true" title="Elemental Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="18.4" />
 		</collision>
 	</npc>
-<npc id="505" displayId="30557" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="505" displayId="30557" name="Korwin" usingServerSideName="true" title="Epic Jewel Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="17" />
 		</collision>
 	</npc>
-<npc id="506" displayId="30533" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="506" displayId="30533" name="Varek" usingServerSideName="true" title="Forgotten Scroll Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="17" />
 		</collision>
 	</npc>
-<npc id="507" displayId="30537" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="507" displayId="31597" name="Drogan" usingServerSideName="true" title="Soul Crystal Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="17.5" />
 		</collision>
 	</npc>
-<npc id="508" displayId="30527" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="508" displayId="30527" name="Thalina" usingServerSideName="true" title="Crafting Gems Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="17.5" />
 		</collision>
 	</npc>
-<npc id="509" displayId="30532" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="509" displayId="30532" name="Gorath" usingServerSideName="true" title="Book Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="8" />
 			<height normal="18" />
 		</collision>
 	</npc>
-<npc id="510" displayId="30522" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="510" displayId="30522" name="Lyria" usingServerSideName="true" title="Material Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18" />
 		</collision>
 	</npc>
-<npc id="511" displayId="30519" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="511" displayId="30519" name="Alysara" usingServerSideName="true" title="Material Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18" />
 		</collision>
 	</npc>
-<npc id="512" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="512" displayId="30517" name="Zayra" usingServerSideName="true" title="Life Stone Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18.5" />
@@ -173,13 +173,13 @@
 			<height normal="27" />
 		</collision>
 	</npc>
-<npc id="525" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="525" displayId="32877" name="Sylvara" usingServerSideName="true" title="Material Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18.5" />
 		</collision>
 	</npc>
-<npc id="526" displayId="30517" name="Auctioneer" usingServerSideName="true" title="Item Auction" usingServerSideTitle="true" type="L2Npc">
+<npc id="526" displayId="32880" name="Targos" usingServerSideName="true" title="Material Auctions" usingServerSideTitle="true" type="L2Npc">
 		<collision>
 			<radius normal="7" />
 			<height normal="18.5" />

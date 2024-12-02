@@ -14,9 +14,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Human Mystic -->
 	<equipment classId="10">
@@ -32,9 +34,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Elven Fighter -->
 	<equipment classId="18">
@@ -50,9 +54,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Elven Mystic -->
 	<equipment classId="25">
@@ -68,9 +74,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Dark Fighter -->
 	<equipment classId="31">
@@ -86,9 +94,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Dark Mystic -->
 	<equipment classId="38">
@@ -104,9 +114,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Orc Fighter -->
 	<equipment classId="44">
@@ -122,9 +134,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Orc Mystic -->
 	<!-- NOTE: This is orc_mage (orc_shaman is retail typo) -->
@@ -141,9 +155,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Dwarf Fighter -->
 	<equipment classId="53">
@@ -159,9 +175,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Male Kamael Soldier -->
 	<equipment classId="123">
@@ -177,9 +195,11 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 	<!-- Female Kamael Soldier -->
 	<equipment classId="124">
@@ -195,8 +215,10 @@
 		<item id="10650" count="5" /> <!-- Adventurer's Scroll of Escape -->
 		<item id="12753" count="10" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7819" count="1" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="1539" count="20" /> <!-- Kamael Village Teleportation Scroll -->
-		<item id="728" count="20" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="1539" count="60" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="728" count="40" /> <!-- Kamael Village Teleportation Scroll -->
 		<item id="7126" count="5" /> <!-- Kamael Village Teleportation Scroll -->
+		<item id="3947" count="5000" />
+		<item id="1839" count="5000" />
 	</equipment>
 </list>
