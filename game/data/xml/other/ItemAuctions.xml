@@ -72,9 +72,9 @@
 
 
 
-	<instance id="505" interval="1" hour_of_day="20" minute_of_hour="0">
+<--	<instance id="505" interval="1" hour_of_day="20" minute_of_hour="0">
 
-<-- 7DAY
+ 7DAY
 	CORE 
 <item auctionItemId="20" itemId="CUSTOM" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
 
@@ -132,8 +132,8 @@ BELETH
 <item auctionItemId="47" itemId="FRITEZZA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
 <item auctionItemId="48" itemId="FREYA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
 
--->
-	</instance>
+
+	</instance>-->
 
 
 
