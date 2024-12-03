@@ -100,7 +100,7 @@
 			<enchant stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="20206" type="Armor" name="Queen Ant's Ring (Event) - 15-day limited period">
+	<item id="20206" type="Armor" name="Queen Ant's Ring - 15-day limited period">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />
@@ -140,7 +140,7 @@
 			<enchant stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="20208" type="Armor" name="Earring of Zaken (Event) - 7-day limited period">
+	<item id="20208" type="Armor" name="Earring of Zaken - 7-day limited period">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
@@ -160,7 +160,7 @@
 			<enchant stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="20209" type="Armor" name="Earring of Zaken (Event) - 15-day limited period">
+	<item id="20209" type="Armor" name="Earring of Zaken - 15-day limited period">
 		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rear;lear" />
