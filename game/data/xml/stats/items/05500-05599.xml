@@ -916,7 +916,7 @@
 		<set name="is_stackable" val="true" />
 		<set name="is_oly_restricted" val="true" />
 		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2167-3" />
+		<set name="item_skill" val="2167-5" />
 	</item>
 	<item id="5596" type="Weapon" name="Dasparion's Staff - Mana Up">
 		<set name="icon" val="icon.weapon_dasparions_staff_i01" />

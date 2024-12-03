@@ -17,7 +17,7 @@
 		<set name="is_dropable" val="false" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="22302" type="Armor" name="Antharas's Earring - 3-day limited period (event)">
+	<item id="22302" type="Armor" name="Antharas's Earring - 15-day limited period">
 		<!-- Description: MP +37, resistance to Bleed +40%, Bleed attack rate +40%, increases heal amount, vampiric rage effect, resistance to Stun/Mental attacks +30%, Stun/Mental attack rate +30%, decreases MP consumption, and increases heal amount and resistance to Earth. Only one effect is applied when two of the same earrings are equipped. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -27,13 +27,13 @@
 		<set name="weight" val="150" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
-		<set name="time" val="4320" />
+		<set name="time" val="21600" />
 		<for>
 			<add order="0" stat="mDef" val="94" />
 			<add stat="maxMp" val="37" />
 		</for>
 	</item>
-	<item id="22303" type="Armor" name="Antharas's Earring - 7-day limited period (event)">
+	<item id="22303" type="Armor" name="Antharas's Earring - 7-day limited period">
 		<!-- Description: MP +37, resistance to Bleed +40%, Bleed attack rate +40%, increases heal amount, vampiric rage effect, resistance to Stun/Mental attacks +30%, Stun/Mental attack rate +30%, decreases MP consumption, and increases heal amount and resistance to Earth. Only one effect is applied when two of the same earrings are equipped. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
 		<set name="default_action" val="EQUIP" />
@@ -65,7 +65,7 @@
 			<add stat="maxMp" val="21" />
 		</for>
 	</item>
-	<item id="22305" type="Armor" name="Baium's Ring - 7-day limited period (event)">
+	<item id="22305" type="Armor" name="Baium's Ring - 7-day limited period">
 		<!-- Description: MP +21, resistance to Poison +40%, Poison attack rate +40%, resistance to Hold +30%, Hold attack rate +30%, and increases Accuracy, Critical Damage, P. Atk., and Casting Spd. Only one effect is applied when two of the same ring are equipped. -->
 		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
 		<set name="default_action" val="EQUIP" />

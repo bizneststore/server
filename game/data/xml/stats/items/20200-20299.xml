@@ -80,7 +80,7 @@
 			<enchant stat="mDef" val="0" />
 		</for>
 	</item>
-	<item id="20205" type="Armor" name="Queen Ant's Ring (Event) - 7-day limited period">
+	<item id="20205" type="Armor" name="Queen Ant's Ring - 7-day limited period">
 		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="bodypart" val="rfinger;lfinger" />

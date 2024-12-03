@@ -72,68 +72,67 @@
 
 
 
-<--	<instance id="505" interval="1" hour_of_day="20" minute_of_hour="0">
+<instance id="505" interval="1" hour_of_day="20" minute_of_hour="0">
 
- 7DAY
-	CORE 
-<item auctionItemId="20" itemId="CUSTOM" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+ 
+<item auctionItemId="20" itemId="50330" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
 
 <item auctionItemId="21" itemId="20205" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
 
-ORFEN
-<item auctionItemId="22" itemId="CUSTOM" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
 
-BAIUM
-<item auctionItemId="23" itemId="CUSTOM" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+<item auctionItemId="22" itemId="50332" itemCount="1" auctionInitBid="120000000" auctionLenght="120" />
+
+
+<item auctionItemId="23" itemId="22305" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
 
 <item auctionItemId="24" itemId="20208" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
 
-BELETH
-<item auctionItemId="25" itemId="CUSTOM" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
+
+<item auctionItemId="25" itemId="50334" itemCount="1" auctionInitBid="150000000" auctionLenght="120" />
 
 
 
 
-<item auctionItemId="26" itemId="VALAKAS" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
-<item auctionItemId="27" itemId="ANTHARAS" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
-<item auctionItemId="28" itemId="FRITEZZA" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
-<item auctionItemId="29" itemId="FREYA" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="26" itemId="50329" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="27" itemId="22303" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="28" itemId="50336" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
+<item auctionItemId="29" itemId="50338" itemCount="1" auctionInitBid="180000000" auctionLenght="120" />
 
 
--->
 
 
-<!--
+
+<!-- 2nd Week
 15 DAYS RINGS
 	CORE 
-<item auctionItemId="39" itemId="CUSTOM" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+<item auctionItemId="39" itemId="50331" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
 
 
 QUEEN ANT
 <item auctionItemId="40" itemId="20206" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
 
 ORFEN
-<item auctionItemId="41" itemId="CUSTOM" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
+<item auctionItemId="41" itemId="50333" itemCount="1" auctionInitBid="250000000" auctionLenght="120" />
 
 BAIUM
-<item auctionItemId="42" itemId="CUSTOM" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
+<item auctionItemId="42" itemId="21219" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
 
 ZAKEN
 <item auctionItemId="43" itemId="20209" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
 
 BELETH
-<item auctionItemId="44" itemId="CUSTOM" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
+<item auctionItemId="44" itemId="50335" itemCount="1" auctionInitBid="360000000" auctionLenght="120" />
 
 
 
 
-<item auctionItemId="45" itemId="VALAKAS" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
-<item auctionItemId="46" itemId="ANTHARAS" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
-<item auctionItemId="47" itemId="FRITEZZA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
-<item auctionItemId="48" itemId="FREYA" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="45" itemId="21221" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="46" itemId="22302" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="47" itemId="50337" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+<item auctionItemId="48" itemId="50339" itemCount="1" auctionInitBid="500000000" auctionLenght="120" />
+-->
 
-
-	</instance>-->
+	</instance>
 
 
 

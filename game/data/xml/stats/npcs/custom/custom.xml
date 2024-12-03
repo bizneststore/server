@@ -329,6 +329,12 @@
 			<height normal="27" />
 		</collision>
 	</npc>
+	<npc id="579" displayId="13177" name="Giorgos" usingServerSideName="true" title="AIO NPC" usingServerSideTitle="true" type="L2AioNpc">
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
 	<npc id="8983" displayId="21804" name="Chest" usingServerSideName="true" title="THunt" usingServerSideTitle="true" type="L2Monster">
 		<sex>MALE</sex>
 		<stats str="10" int="10" dex="10" wit="10" con="10" men="10">
