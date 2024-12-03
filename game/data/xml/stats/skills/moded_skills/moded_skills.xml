@@ -65,7 +65,7 @@
 		<set name="abnormalType" val="spa_disease_a" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
-		<set name="reuseDelay" val="2400000" />
+		<set name="reuseDelay" val="240000000" />
 		<set name="hitTime" val="500" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -92,7 +92,7 @@
 		<table name="#rEvas"> 0 3 3 3 5 5 5 8 8 10 </table>
 		<set name="abnormalLvl" val="#abnormalLvls" />
 		<set name="abnormalTime" val="1200" />
-		<set name="reuseDelay" val="2400000" />
+		<set name="reuseDelay" val="240000000" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="abnormalType" val="spa_disease_b" />
@@ -125,7 +125,7 @@
 		<set name="abnormalType" val="spa_disease_c" />
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
-		<set name="reuseDelay" val="2400000" />
+		<set name="reuseDelay" val="240000000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
@@ -156,7 +156,7 @@
 		<set name="takeSlot" val="false" />
 		<set name="aggroPoints" val="-100" />
 		<set name="castRange" val="600" />
-		<set name="reuseDelay" val="2400000" />
+		<set name="reuseDelay" val="240000000" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
 		<set name="isDebuff" val="false" />
