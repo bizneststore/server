@@ -8,77 +8,76 @@
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 <item>
 		<ingredient id="57" count="18000" />
-		<production id="950" count="1" />
+		<production id="956" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="150000" />
-		<production id="949" count="1" />
+		<ingredient id="57" count="100000" />
+		<production id="955" count="1" />
 	</item>
 <item>
 		<ingredient id="57" count="50000" />
 		<production id="952" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="2500000" />
+		<ingredient id="57" count="1700000" />
 		<production id="951" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="1000000" />
+		<ingredient id="57" count="400000" />
 		<production id="948" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="3000000" />
 		<production id="947" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="2000000" />
-		<production id="4639" count="1" />
+		<ingredient id="57" count="1000000" />
+		<production id="730" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="2000000" />
-		<production id="4650" count="1" />
+		<ingredient id="57" count="5000000" />
+		<production id="729" count="1" />
 	</item>
 <item>
-		<ingredient id="57" count="2000000" />
-		<production id="4661" count="1" />
-	</item>
-<item>
-		<ingredient id="40007" count="100" />
-		<production id="5577" count="1" />
-	</item>
-
-<item>
-		<ingredient id="40007" count="100" />
-		<production id="5578" count="1" />
-	</item>
-<item>
-		<ingredient id="40007" count="100" />
-		<production id="5579" count="1" />
-	</item>
-<item>
-		<ingredient id="40007" count="200" />
+		<ingredient id="57" count="10000000" />
 		<production id="5580" count="1" />
 	</item>
 <item>
-		<ingredient id="40007" count="200" />
+		<ingredient id="57" count="10000000" />
 		<production id="5581" count="1" />
 	</item>
 <item>
-		<ingredient id="40007" count="200" />
+		<ingredient id="57" count="10000000" />
 		<production id="5582" count="1" />
 	</item>
 
 <item>
-		<ingredient id="40007" count="300" />
+		<ingredient id="40007" count="400" />
 		<production id="5908" count="1" />
 	</item>
 <item>
-		<ingredient id="40007" count="300" />
+		<ingredient id="40007" count="400" />
 		<production id="5911" count="1" />
 	</item>
 <item>
-		<ingredient id="40007" count="300" />
+		<ingredient id="40007" count="400" />
 		<production id="5914" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="2000000" />
+		<production id="8752" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="7000000" />
+		<production id="8762" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="4000000" />
+		<production id="7575" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="10000000" />
+		<production id="9576" count="1" />
 	</item>
 
 </list>
