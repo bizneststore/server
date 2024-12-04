@@ -9,55 +9,55 @@
 
 	<!-- Elemental Sword - Empower -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="22000000" />
 		<production id="5640" count="1" />
 	</item>
 
 	<!-- Elemental Sword - Magic Paralyze -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="22000000" />
 		<production id="5639" count="1" />
 	</item>
 
 	<!-- Elemental Sword - Magic Power -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="22000000" />
 		<production id="5638" count="1" />
 	</item>
 
 	<!-- Sword of Miracles - Acumen -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="25000000" />
 		<production id="5643" count="1" />
 	</item>
 
 	<!-- Sword of Miracles - Magic Power -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="25000000" />
 		<production id="5641" count="1" />
 	</item>
 
 	<!-- Sword of Miracles - Magic Silence -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="25000000" />
 		<production id="5642" count="1" />
 	</item>
 
 	<!-- Themis' Tongue - Magic Focus -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="30000000" />
 		<production id="8814" count="1" />
 	</item>
 
 	<!-- Themis' Tongue - Magic Mental Shield -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="30000000" />
 		<production id="8813" count="1" />
 	</item>
 
 	<!-- Themis' Tongue - Mana Up -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="30000000" />
 		<production id="8812" count="1" />
 	</item>
 
@@ -225,9 +225,7 @@
 
 	<!-- Bloody Orchid - Evasion -->
 	<item>
-		<ingredient id="57" count="75000000" />
-		<ingredient id="57" count="75000000" />
-		<production id="4783" count="1" />
+		<ingredient id="57" count="75000000" />	
 		<production id="5614" count="1" />
 	</item>
 

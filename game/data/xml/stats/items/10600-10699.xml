@@ -1502,7 +1502,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10692" type="Weapon" name="Themis' Tongue {PvP} - Mental Shield">
+	<item id="10692" type="Weapon" name="Themis' Tongue {PvP} - M. Atk.">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1525,7 +1525,7 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="onmagic_chance" val="50" />
 		<set name="onmagic_skill" val="1035-4" />
-		<set name="item_skill" val="3654-1;3552-3" />
+		<set name="item_skill" val="3073-2;3552-3" />
 		<for>
 			<set stat="pAtk" val="201" />
 			<set stat="mAtk" val="162" />
@@ -1535,7 +1535,7 @@
 			<enchant val="0" stat="mAtk" />
 		</for>
 	</item>
-	<item id="10693" type="Weapon" name="Themis' Tongue {PvP} - Magic Focus">
+	<item id="10693" type="Weapon" name="Themis' Tongue {PvP} - Acumen">
 		<set name="icon" val="icon.weapon_tongue_of_themis_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="SWORD" />
@@ -1558,7 +1558,7 @@
 		<set name="is_magic_weapon" val="true" />
 		<set name="onmagic_chance" val="20" />
 		<set name="onmagic_skill" val="1077-3" />
-		<set name="item_skill" val="3654-1;3552-3" />
+		<set name="item_skill" val="3654-1;3047-2" />
 		<for>
 			<set stat="pAtk" val="201" />
 			<set stat="mAtk" val="162" />

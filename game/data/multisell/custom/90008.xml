@@ -9,7 +9,7 @@
 
 	<!-- Blessed Necklace -->
 	<item>
-		<ingredient id="57" count="1500000" />
+		<ingredient id="57" count="1300000" />
 		<production id="919" count="1" />
 		<production id="857" count="1" />
 		<production id="857" count="1" />
@@ -19,7 +19,7 @@
 
 	<!-- Necklace of Binding -->
 	<item>
-		<ingredient id="57" count="1500000" />
+		<ingredient id="57" count="1300000" />
 		<production id="119" count="1" />
 		<production id="854" count="1" />
 		<production id="854" count="1" />
@@ -29,7 +29,7 @@
 
 	<!-- Necklace of Protection -->
 	<item>
-		<ingredient id="57" count="1500000" />
+		<ingredient id="57" count="1000000" />
 		<production id="916" count="1" />
 		<production id="853" count="1" />
 		<production id="853" count="1" />

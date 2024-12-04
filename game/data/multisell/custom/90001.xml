@@ -9,7 +9,7 @@
 
 	<!-- Majestic Plate Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2383" count="1" />
 		<production id="5774" count="1" />
 		<production id="5786" count="1" />
@@ -18,7 +18,7 @@
 
 	<!-- Majestic Leather Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2395" count="1" />
 		<production id="5775" count="1" />
 		<production id="5787" count="1" />
@@ -27,7 +27,7 @@
 
 	<!-- Majestic Robe -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2409" count="1" />
 		<production id="5776" count="1" />
 		<production id="5788" count="1" />
@@ -36,7 +36,7 @@
 
 	<!-- Armor of Nightmare -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="374" count="1" />
 		<production id="5771" count="1" />
 		<production id="5783" count="1" />
@@ -46,7 +46,7 @@
 
 	<!-- Nightmarish Leather Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2394" count="1" />
 		<production id="5772" count="1" />
 		<production id="5784" count="1" />
@@ -55,7 +55,7 @@
 
 	<!-- Nightmare Robe -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2408" count="1" />
 		<production id="5773" count="1" />
 		<production id="5785" count="1" />
@@ -64,7 +64,7 @@
 
 	<!-- Tallum Plate Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2382" count="1" />
 		<production id="5768" count="1" />
 		<production id="5780" count="1" />
@@ -73,7 +73,7 @@
 
 	<!-- Tallum Leather Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2393" count="1" />
 		<production id="5769" count="1" />
 		<production id="5781" count="1" />
@@ -82,7 +82,7 @@
 
 	<!-- Tallum Tunic -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2400" count="1" />
 		<production id="2405" count="1" />
 		<production id="5770" count="1" />
@@ -92,7 +92,7 @@
 
 	<!-- Dark Crystal Breastplate -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="365" count="1" />
 		<production id="388" count="1" />
 		<production id="5765" count="1" />
@@ -103,7 +103,7 @@
 
 	<!-- Dark Crystal Leather Armor -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2385" count="1" />
 		<production id="2389" count="1" />
 		<production id="5766" count="1" />
@@ -113,7 +113,7 @@
 
 	<!-- Dark Crystal Robe -->
 	<item>
-		<ingredient id="57" count="75000000" />
+		<ingredient id="57" count="52000000" />
 		<production id="2407" count="1" />
 		<production id="5767" count="1" />
 		<production id="5779" count="1" />
@@ -125,13 +125,13 @@
 
 	<!-- Dark Crystal Shield -->
 	<item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="3000000" />
 		<production id="641" count="1" />
 	</item>
 
 	<!-- Shield of Nightmare -->
 	<item>
-		<ingredient id="57" count="5000000" />
+		<ingredient id="57" count="3000000" />
 		<production id="2498" count="1" />
 	</item>
 

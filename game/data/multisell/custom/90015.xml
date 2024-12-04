@@ -6,43 +6,65 @@
 <list enabled="true" maintainEnchantment="false"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
-
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="6310" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="6311" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="6312" count="1" />
+	</item>
 	<!-- Homunkulus's Sword - Acumen -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="6313" count="1" />
 	</item>
 
 	<!-- Homunkulus's Sword - Conversion -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="6314" count="1" />
 	</item>
 
 	<!-- Homunkulus's Sword - Magic Paralyze -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="6315" count="1" />
 	</item>
 
 	<!-- Raid Sword - Critical Drain -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4694" count="1" />
 	</item>
 
 	<!-- Raid Sword - Critical Poison -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4695" count="1" />
 	</item>
 
 	<!-- Raid Sword - Focus -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4693" count="1" />
 	</item>
-
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4699" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4700" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="7" count="1" />
+	</item>
 	<!-- Samurai Longsword - Critical Damage -->
 	<item>
 		<ingredient id="57" count="6000000" />
@@ -61,23 +83,23 @@
 		<production id="4710" count="1" />
 	</item>
 
-	<!-- Orcish Glaive - Anger -->
 	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4837" count="1" />
+		<ingredient id="57" count="5000000" />
+		<production id="4846" count="1" />
 	</item>
 
-	<!-- Orcish Glaive - Critical Stun -->
+	
 	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4838" count="1" />
+		<ingredient id="57" count="5000000" />
+		<production id="4847" count="1" />
 	</item>
 
 	<!-- Orcish Glaive - Towering Blow -->
 	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4839" count="1" />
+		<ingredient id="57" count="5000000" />
+		<production id="4848" count="1" />
 	</item>
+	
 
 	<!-- Orcish Poleaxe - Wide Blow -->
 	<item>
@@ -117,19 +139,19 @@
 
 	<!-- Fisted Blade - Rsk. Haste -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4793" count="1" />
 	</item>
 
 	<!-- Fisted Blade - Rsk. Evasion -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4792" count="1" />
 	</item>
 
 	<!-- Fisted Blade - Haste -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4794" count="1" />
 	</item>
 
@@ -153,7 +175,7 @@
 
 	<!-- Stormbringer*Stormbringer -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="2561" count="1" />
 	</item>
 
@@ -175,27 +197,21 @@
 		<production id="4775" count="1" />
 	</item>
 
-	<!-- Crystal Dagger - Mortal Strike -->
-	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4776" count="1" />
-	</item>
-
 	<!-- Dark Screamer - Focus -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4772" count="1" />
 	</item>
 
 	<!-- Dark Screamer - Evasion -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4771" count="1" />
 	</item>
 
 	<!-- Dark Screamer - Critical Bleed -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4773" count="1" />
 	</item>
 
@@ -219,19 +235,19 @@
 
 	<!-- Elemental Bow - Guidance -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4813" count="1" />
 	</item>
 
 	<!-- Elemental Bow - Quick Recovery -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4815" count="1" />
 	</item>
 
 	<!-- Elemental Bow - Miser -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="4814" count="1" />
 	</item>
 
@@ -255,38 +271,20 @@
 
 	<!-- Ecliptic Axe - Conversion -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="8138" count="1" />
 	</item>
 
 	<!-- Ecliptic Axe - Magic Hold -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="8140" count="1" />
 	</item>
 
 	<!-- Ecliptic Axe - Magic Power -->
 	<item>
-		<ingredient id="57" count="6000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="8139" count="1" />
-	</item>
-
-	<!-- Big Hammer - Health -->
-	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4726" count="1" />
-	</item>
-
-	<!-- Big Hammer - Haste -->
-	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4728" count="1" />
-	</item>
-
-	<!-- Big Hammer - Rsk.Focus -->
-	<item>
-		<ingredient id="57" count="6000000" />
-		<production id="4727" count="1" />
 	</item>
 
 	<!-- Berserker Blade - Focus -->
@@ -343,5 +341,40 @@
 		<production id="4893" count="1" />
 	</item>
 
-
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="4888" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="4889" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="4890" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4894" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4895" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="5000000" />
+		<production id="4896" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="7716" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="7717" count="1" />
+	</item>
+<item>
+		<ingredient id="57" count="6000000" />
+		<production id="7718" count="1" />
+	</item>
 </list>

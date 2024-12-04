@@ -9,7 +9,7 @@
 
 	<!-- Majestic Necklace -->
 	<item>
-		<ingredient id="57" count="18000000" />
+		<ingredient id="57" count="14000000" />
 		<production id="924" count="1" />
 		<production id="862" count="1" />
 		<production id="862" count="1" />
@@ -19,7 +19,7 @@
 
 	<!-- Necklace of Phantom -->
 	<item>
-		<ingredient id="57" count="18000000" />
+		<ingredient id="57" count="12000000" />
 		<production id="930" count="1" />
 		<production id="868" count="1" />
 		<production id="868" count="1" />
@@ -29,7 +29,7 @@
 
 	<!-- Cerberus Necklace -->
 	<item>
-		<ingredient id="57" count="18000000" />
+		<ingredient id="57" count="12000000" />
 		<production id="934" count="1" />
 		<production id="872" count="1" />
 		<production id="872" count="1" />
@@ -39,7 +39,7 @@
 
 	<!-- Phoenix Necklace -->
 	<item>
-		<ingredient id="57" count="18000000" />
+		<ingredient id="57" count="12000000" />
 		<production id="933" count="1" />
 		<production id="871" count="1" />
 		<production id="871" count="1" />

@@ -9,7 +9,7 @@
 
 	<!-- Necklace of Black Ore -->
 	<item>
-		<ingredient id="57" count="8000000" />
+		<ingredient id="57" count="5000000" />
 		<production id="926" count="1" />
 		<production id="864" count="1" />
 		<production id="864" count="1" />
@@ -19,7 +19,7 @@
 
 	<!-- Adamantite Necklace -->
 	<item>
-		<ingredient id="57" count="8000000" />
+		<ingredient id="57" count="4000000" />
 		<production id="918" count="1" />
 		<production id="856" count="1" />
 		<production id="856" count="1" />
@@ -29,7 +29,7 @@
 
 	<!-- Necklace of Aid -->
 	<item>
-		<ingredient id="57" count="8000000" />
+		<ingredient id="57" count="4000000" />
 		<production id="935" count="1" />
 		<production id="873" count="1" />
 		<production id="873" count="1" />
@@ -39,7 +39,7 @@
 
 	<!-- Necklace of Mana -->
 	<item>
-		<ingredient id="57" count="8000000" />
+		<ingredient id="57" count="4000000" />
 		<production id="921" count="1" />
 		<production id="859" count="1" />
 		<production id="859" count="1" />
@@ -49,7 +49,7 @@
 
 	<!-- Necklace of Summoning -->
 	<item>
-		<ingredient id="57" count="8000000" />
+		<ingredient id="57" count="4000000" />
 		<production id="927" count="1" />
 		<production id="865" count="1" />
 		<production id="865" count="1" />
