@@ -1332,7 +1332,7 @@
 			<height normal="30" />
 		</collision>
 	</npc>
-	<npc id="25325" level="70" type="L2RaidBoss" name="Flame of Splendor Barakiel" title="Raid Boss">
+	<npc id="25325" level="82" type="L2RaidBoss" name="Flame of Splendor Barakiel" title="Raid Boss">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<minions name="Privates">

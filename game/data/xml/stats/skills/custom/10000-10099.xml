@@ -202,4 +202,13 @@
 			<mul stat="mCritRate" val="1.07" />
 		</for>
 	</skill>
+<skill id="10012" levels="1" name="Reflect Damage - RB">
+		<set name="icon" val="icon.skill0086" />
+		<set name="magicLvl" val="80" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<for>
+				<add stat="reflectDam" val="30" />	
+		</for>
+	</skill>
 </list>
