@@ -132,4 +132,54 @@
 		<set name="is_depositable" val="true" />
 		<set name="is_stackable" val="true" />
 	</item>
+<item id="40013" type="EtcItem" name="Neolithic Fragment - B">
+		<set name="icon" val="SOE_Icons.icons.cp_B_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+<item id="40014" type="EtcItem" name="Neolithic Fragment - A">
+		<set name="icon" val="SOE_Icons.icons.cp_A_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+<item id="40015" type="EtcItem" name="Neolithic Fragment - S">
+		<set name="icon" val="SOE_Icons.icons.cp_S_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+<item id="40016" type="EtcItem" name="Neolithic Fragment - S80">
+		<set name="icon" val="SOE_Icons.icons.cp_S80_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+<item id="40017" type="EtcItem" name="Neolithic Fragment - S84">
+		<set name="icon" val="SOE_Icons.icons.cp_S84_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
 </list>
