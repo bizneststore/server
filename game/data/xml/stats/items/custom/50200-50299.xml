@@ -1427,33 +1427,7 @@
 		<set name="handler" val="EnchantScrolls" />
 		<set name="item_skill" val="22078-1" />
 	</item>
-	<item id="50326" type="EtcItem" name="1st Place Treasure Sack - Event">
-		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
-		<set name="default_action" val="CAPSULE" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="PAPER" />
-		<set name="is_stackable" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2422-1" />
-	</item>
-	<item id="50327" type="EtcItem" name="1st Place Treasure Sack - Event">
-		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
-		<set name="default_action" val="CAPSULE" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="PAPER" />
-		<set name="is_stackable" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2422-1" />
-	</item>
-	<item id="50328" type="EtcItem" name="1st Place Treasure Sack - Event">
-		<set name="icon" val="icon.etc_treasure_sack_1_i00" />
-		<set name="default_action" val="CAPSULE" />
-		<set name="immediate_effect" val="true" />
-		<set name="material" val="PAPER" />
-		<set name="is_stackable" val="true" />
-		<set name="handler" val="ItemSkills" />
-		<set name="item_skill" val="2422-1" />
-	</item>
+	
 	<item id="50329" type="Armor" name="Valakas's Necklace - 7-day limited period">
 		<!-- Description: Dimensional item. MP +50, Resistance to Sleep +40%, sleep attack rate +40%, HP +445, reuse delay decrease, P. Atk. and M. Atk. increase, wild magic effect, damage shield effect, and Resistance to Fire increase. Only one effect is applied even when the two identical necklaces are worn. Can be used for 180 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
 		<set name="icon" val="icon.accessory_necklace_of_valakas_i00" />
@@ -1660,5 +1634,44 @@
 			<add stat="maxMp" val="50" />
 			<enchant stat="mDef" val="0" />
 		</for>
+	</item>
+<item id="50340" type="EtcItem" name="Adventurer's Pack">
+		<set name="icon" val="SOE_Icons.wooden_chest_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="5592,100,100,100;22025,100,100,100;728,100,100,100;13010,1,1,100" />
+	</item>
+	<item id="50341" type="EtcItem" name="Champion's Pack">
+		<set name="icon" val="SOE_Icons.silver_chest_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="5592,300,300,100;22025,300,300,100;728,300,300,100;13010,1,1,100;50201,1,1,100;50202,1,1,100;50203,1,1,100;50204,1,1,100;50205,1,1,100;50200,1,1,100" />
+	</item>
+	<item id="50342" type="EtcItem" name="Eternia Pack">
+		<set name="icon" val="SOE_Icons.gold_chest_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="5592,500,500,100;22025,500,500,100;728,500,500,100;13010,1,1,100;13012,1,1,100;50206,1,1,100;50207,1,1,100;50208,1,1,100;50209,1,1,100;50210,1,1,100;50200,1,1,100;8619,1,1,100" />
 	</item>
 </list>
