@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" maintainEnchantment="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>523</npc>		<!-- MAMMON FORGE L2SoE -->
+	</npcs>
+<item>
+		<!-- Neolithic Crystal - B -->
+		<ingredient count="100" id="40013" />
+		
+		<production count="1" id="14678" />
+	</item>
+<item>
+		<!-- Neolithic Crystal - A -->
+		<ingredient count="100" id="40014" />
+		
+		<production count="1" id="14679" />
+	</item>
+<item>
+		<!-- Neolithic Crystal - S -->
+		<ingredient count="100" id="40015" />
+		
+		<production count="1" id="14680" />
+	</item>
+<item>
+		<!-- Neolithic Crystal - S80 -->
+		<ingredient count="100" id="40016" />
+		
+		<production count="1" id="14681" />
+	</item>
+<item>
+		<!-- Neolithic Crystal - S84 -->
+		<ingredient count="100" id="40017" />
+		
+		<production count="1" id="21579" />
+	</item>
+	
+</list>
