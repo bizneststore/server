@@ -647,7 +647,7 @@
 			<height normal="60.72" />
 		</collision>
 	</npc>
-	<npc id="580" displayId="25793" level="82" type="L2RaidBoss" name="Guardian of Disciples" title="Raid Boss">
+	<npc id="580" displayId="25793" level="82" type="L2RaidBoss" name="Guardian of Disciples" usingServerSideName="true" usingServerSideTitle="true" title="Raid Boss">
 		<!-- Confirmed CT2.5 -->
 		<parameters>
 			<param name="RaidSpawnMusic" value="Rm02_A" />
