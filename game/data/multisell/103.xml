@@ -190,383 +190,201 @@
 		<production count="1" id="13750" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Seed of Revenge -->
-		<production count="1" id="14170" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Protection of Rune -->
+		<production count="1" id="10549" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Hell Scream -->
-		<production count="1" id="14171" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Protection of Elemental -->
+		<production count="1" id="10550" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Spirit of Phoenix -->
-		<production count="1" id="14172" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Protection of Alignment -->
+		<production count="1" id="10551" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Eva's Will / Touch of Eva -->
-		<production count="1" id="14173" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Fighter's Will -->
+		<production count="1" id="10552" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Pain of Shillien -->
-		<production count="1" id="14174" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Archer's Will -->
+		<production count="1" id="10553" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Exciting Adventure -->
-		<production count="1" id="14175" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Anti-Magic Armor -->
+		<production count="1" id="10554" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Wind Riding -->
-		<production count="1" id="14176" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Sixth Sense -->
+		<production count="1" id="10559" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Ghost Walking -->
-		<production count="1" id="14177" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Expose Weak Point -->
+		<production count="1" id="10560" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Flame Hawk -->
-		<production count="1" id="14178" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Servitor Barrier -->
+		<production count="1" id="10576" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Arrow Rain -->
-		<production count="1" id="14179" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Excessive Loyalty -->
+		<production count="1" id="10577" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Ghost Piercing -->
-		<production count="1" id="14180" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10578" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Dread Pool -->
-		<production count="1" id="14181" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10579" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Force of Destruction -->
-		<production count="1" id="14182" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10580" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Demolition Impact -->
-		<production count="1" id="14183" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10581" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Golem Armor -->
-		<production count="1" id="14184" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10582" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Wild Shot -->
-		<production count="1" id="14185" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10583" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Lightning Shock -->
-		<production count="1" id="14186" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10584" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Flame Armor -->
-		<production count="1" id="14187" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10585" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Frost Armor -->
-		<production count="1" id="14188" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10586" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Hurricane Armor -->
-		<production count="1" id="14189" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10587" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Vampiric Mist -->
-		<production count="1" id="14190" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10588" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Sublime Self Sacrifice -->
-		<production count="1" id="14193" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10589" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Blessing of Eva -->
-		<production count="1" id="14194" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10590" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Lord of Vampire -->
-		<production count="1" id="14195" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10591" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Song of Purification -->
-		<production count="1" id="14198" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10592" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Dance of Berserker -->
-		<production count="1" id="14199" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10593" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Summon Imperial Phoenix -->
-		<production count="1" id="14200" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10594" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Maximum Force Focus -->
-		<production count="1" id="14201" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Mutual Response -->
+		<production count="1" id="10595" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Maximum Sonic Focus -->
-		<production count="1" id="14202" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Evasion Counter -->
+		<production count="1" id="12768" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Spirit of the Cat -->
-		<production count="1" id="14204" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Evasion Chance -->
+		<production count="1" id="12769" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Spirit of the Phantom -->
-		<production count="1" id="14206" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Evasion Haste -->
+		<production count="1" id="12770" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Seal of Limit -->
-		<production count="1" id="14197" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Shadow Step -->
+		<production count="1" id="12771" />
 	</item>
 	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
 		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Spirit of the Unicorn -->
-		<production count="1" id="14205" />
-	</item>
-	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
-		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- This Forgotten Scroll can be used by Fortune Seekers level 83 and above to learn Lucky Strike. -->
-		<production count="1" id="14222" />
-	</item>
-	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
-		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- This Forgotten Scroll can be used by Doombringers level 83 and above to learn Eye for Eye. -->
-		<production count="1" id="14223" />
-	</item>
-	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
-		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Counter Critical -->
-		<production count="1" id="14225" />
-	</item>
-	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
-		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Onslaught of Pa'agrio -->
-		<production count="1" id="14226" />
-	</item>
-	<item>
-		<!-- Olympiad Token -->
-		<ingredient count="30000" id="13722" />
-		<!-- Fame Points -->
-		<ingredient count="800" id="-300" />
-		<!-- Adena -->
-		<ingredient count="12000000" id="57" />
-		<!-- Forgotten Scroll - Great Fury -->
-		<production count="1" id="14227" />
+		<ingredient count="10000000" id="57" />
+		<!-- Forgotten Scroll - Create Item Lv 10 -->
+		<production count="1" id="17030" />
 	</item>
 </list>
