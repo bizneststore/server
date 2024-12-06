@@ -189,202 +189,390 @@
 		<!-- Warrior's Temporary Healing Potion -->
 		<production count="1" id="13750" />
 	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Protection of Rune -->
-		<production count="1" id="10549" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Protection of Elemental -->
-		<production count="1" id="10550" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Protection of Alignment -->
-		<production count="1" id="10551" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Fighter's Will -->
-		<production count="1" id="10552" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Archer's Will -->
-		<production count="1" id="10553" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Anti-Magic Armor -->
-		<production count="1" id="10554" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Sixth Sense -->
-		<production count="1" id="10559" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Expose Weak Point -->
-		<production count="1" id="10560" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Servitor Barrier -->
-		<production count="1" id="10576" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Excessive Loyalty -->
-		<production count="1" id="10577" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10578" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10579" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10580" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10581" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10582" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10583" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10584" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10585" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10586" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10587" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10588" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10589" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10590" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10591" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10592" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10593" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10594" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Mutual Response -->
-		<production count="1" id="10595" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Evasion Counter -->
-		<production count="1" id="12768" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Evasion Chance -->
-		<production count="1" id="12769" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Evasion Haste -->
-		<production count="1" id="12770" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Shadow Step -->
-		<production count="1" id="12771" />
-	</item>
-	<item>
-		<!-- Adena -->
-		<ingredient count="10000000" id="57" />
-		<!-- Forgotten Scroll - Create Item Lv 10 -->
-		<production count="1" id="17030" />
-	</item>
+	<!-- Forgotten Scroll - Chant of Combat -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10608" />
+</item>
+<!-- Forgotten Scroll - Combat of Pa'agrio -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="14215" />
+</item>
+<!-- Forgotten Scroll - Condition of Pa'agrio -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="14217" />
+</item>
+<!-- Forgotten Scroll - Improve Combat -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10579" />
+</item>
+<!-- Forgotten Scroll - Improve Condition -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10581" />
+</item>
+<!-- Forgotten Scroll - Improve Critical Attack -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10582" />
+</item>
+<!-- Forgotten Scroll - Improve Magic -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10580" />
+</item>
+<!-- Forgotten Scroll - Improve Movement -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10584" />
+</item>
+<!-- Forgotten Scroll - Improve Shield Defense -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10583" />
+</item>
+<!-- Forgotten Scroll - Chant of Critical -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10609" />
+</item>
+<!-- Forgotten Scroll - Chant of Movement -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="14214" />
+</item>
+<!-- Forgotten Scroll - Chant of Blood Awakening -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10610" />
+</item>
+<!-- Forgotten Scroll - Critical of Pa'agrio -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="14216" />
+</item>
+<!-- Forgotten Scroll - Evasion Chance -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="12769" />
+</item>
+<!-- Forgotten Scroll - Evasion Counter -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="12768" />
+</item>
+<!-- Forgotten Scroll - Evasion Haste -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="12770" />
+</item>
+<!-- Forgotten Scroll - Dance of Blade Storm -->
+<item>
+	<ingredient count="100000" id="13722" />
+	<production count="1" id="10558" />
+</item>
+<!-- Forgotten Scroll - Shadow Step -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="12771" />
+</item>
+<!-- Forgotten Scroll - Song of Windstorm -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10557" />
+</item>
+<!-- Forgotten Scroll - Thorn Root -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10588" />
+</item>
+<!-- Forgotten Scroll - Anti-Magic Armor -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10554" />
+</item>
+<!-- Forgotten Scroll - Blessing of Eva -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10586" />
+</item>
+<!-- Forgotten Scroll - Deflect Magic -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14207" />
+</item>
+<!-- Forgotten Scroll - Dual Dagger Mastery -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14210" />
+</item>
+<!-- Forgotten Scroll - Enlightenment - Healer -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14213" />
+</item>
+<!-- Forgotten Scroll - Enlightenment - Wizard -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14212" />
+</item>
+<!-- Forgotten Scroll - Excessive Loyalty -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10577" />
+</item>
+<!-- Forgotten Scroll - Expose Weak Point -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10560" />
+</item>
+<!-- Forgotten Scroll - Final Secret -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14208" />
+</item>
+<!-- Forgotten Scroll - Hide -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14209" />
+</item>
+<!-- Forgotten Scroll - Meteor -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14191" />
+</item>
+<!-- Forgotten Scroll - Mutual Response -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10578" />
+</item>
+<!-- Forgotten Scroll - Servitor Barrier -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10576" />
+</item>
+<!-- Forgotten Scroll - Seven Arrow -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14211" />
+</item>
+<!-- Forgotten Scroll - Silent Mind -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14220" />
+</item>
+<!-- Forgotten Scroll - Sixth Sense -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="10559" />
+</item>
+<!-- Forgotten Scroll - Star Fall -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14192" />
+</item>
+<!-- Forgotten Scroll - Turn Stone -->
+<item>
+	<ingredient count="150000" id="13722" />
+	<production count="1" id="14221" />
+</item>
+<!-- Forgotten Scroll - Arrow Rain -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10565" />
+</item>
+<!-- Forgotten Scroll - Counter Critical -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14225" />
+</item>
+<!-- Forgotten Scroll - Dance of Berserker -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14199" />
+</item>
+<!-- Forgotten Scroll - Demolition Impact -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10570" />
+</item>
+<!-- Forgotten Scroll - Dread Pool -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10567" />
+</item>
+<!-- Forgotten Scroll - Dual Blow -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14218" />
+</item>
+<!-- Forgotten Scroll - Eva's Will -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10592" />
+</item>
+<!-- Forgotten Scroll - Exciting Adventure -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10561" />
+</item>
+<!-- Forgotten Scroll - Eye for Eye (Doombringers) -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14223" />
+</item>
+<!-- Forgotten Scroll - Flame Armor -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10572" />
+</item>
+<!-- Forgotten Scroll - Flame Hawk -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10564" />
+</item>
+<!-- Forgotten Scroll - Force of Destruction -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10569" />
+</item>
+<!-- Forgotten Scroll - Frost Armor -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10573" />
+</item>
+<!-- Forgotten Scroll - Ghost Piercing -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10566" />
+</item>
+<!-- Forgotten Scroll - Ghost Walking -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10563" />
+</item>
+<!-- Forgotten Scroll - Golem Armor -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10571" />
+</item>
+<!-- Forgotten Scroll - Great Fury -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14227" />
+</item>
+<!-- Forgotten Scroll - Hell Scream -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10556" />
+</item>
+<!-- Forgotten Scroll - Hurricane Armor -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10574" />
+</item>
+<!-- Forgotten Scroll - Lightning Shock -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10595" />
+</item>
+<!-- Forgotten Scroll - Lord of Vampire -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10587" />
+</item>
+<!-- Forgotten Scroll - Lucky Strike (Fortune Seekers) -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14222" />
+</item>
+<!-- Forgotten Scroll - Maximum Force Focus -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14201" />
+</item>
+<!-- Forgotten Scroll - Maximum Sonic Focus -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14202" />
+</item>
+<!-- Forgotten Scroll - Onslaught of Pa'agrio -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14226" />
+</item>
+<!-- Forgotten Scroll - Pain of Shilen / Spirit of Shilen -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10593" />
+</item>
+<!-- Forgotten Scroll - Seal of Limit -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10589" />
+</item>
+<!-- Forgotten Scroll - Seed of Revenge -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10555" />
+</item>
+<!-- Forgotten Scroll - Song of Purification -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14198" />
+</item>
+<!-- Forgotten Scroll - Spirit of Phoenix/Flame Icon -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10591" />
+</item>
+<!-- Forgotten Scroll - Spirit of the Cat -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14204" />
+</item>
+<!-- Forgotten Scroll - Spirit of the Phantom -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14206" />
+</item>
+<!-- Forgotten Scroll - Spirit of the Unicorn -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14205" />
+</item>
+<!-- Forgotten Scroll - Sublime Self Sacrifice -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10585" />
+</item>
+<!-- Forgotten Scroll - Summon Imperial Phoenix -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="14200" />
+</item>
+<!-- Forgotten Scroll - Vampiric Mist -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10575" />
+</item>
+<!-- Forgotten Scroll - Weapon Blockade -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10568" />
+</item>
+<!-- Forgotten Scroll - Wild Shot -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10594" />
+</item>
+<!-- Forgotten Scroll - Wind Riding -->
+<item>
+	<ingredient count="200000" id="13722" />
+	<production count="1" id="10562" />
+</item>
+
 </list>

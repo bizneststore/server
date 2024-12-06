@@ -8,11 +8,11 @@
 	xsi:noNamespaceSchemaLocation="../../xsd/multisell.xsd">
 <!-- formal wear -->
 <item>
-		<ingredient id="57" count="12000" />
+		<ingredient id="57" count="35000" />
 		<production id="3947" count="1000" />
 	</item>
 <item>
-		<ingredient id="57" count="22000" />
+		<ingredient id="57" count="14000" />
 		<production id="1835" count="1000" />
 	</item>
 	<item>
@@ -21,12 +21,12 @@
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="28000" />
+		<ingredient id="57" count="45000" />
 		<production id="3948" count="1000" />
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="14000" />
+		<ingredient id="57" count="24000" />
 		<production id="1463" count="1000" />
 	</item>
 <!-- formal wear -->
@@ -36,12 +36,12 @@
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="42000" />
+		<ingredient id="57" count="90000" />
 		<production id="3949" count="1000" />
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="22000" />
+		<ingredient id="57" count="36000" />
 		<production id="1464" count="1000" />
 	</item>
 <!-- formal wear -->
@@ -51,12 +51,12 @@
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="245000" />
+		<ingredient id="57" count="260000" />
 		<production id="3950" count="1000" />
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="50000" />
+		<ingredient id="57" count="60000" />
 		<production id="1465" count="1000" />
 	</item>
 <!-- formal wear -->
@@ -66,12 +66,12 @@
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="290000" />
+		<ingredient id="57" count="310000" />
 		<production id="3951" count="1000" />
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="80000" />
+		<ingredient id="57" count="100000" />
 		<production id="1466" count="1000" />
 	</item>
 <!-- formal wear -->
@@ -81,19 +81,19 @@
 	</item>
 <!-- formal wear -->
 	<item>
-		<ingredient id="57" count="350000" />
+		<ingredient id="57" count="370000" />
 		<production id="3952" count="1000" />
 	</item>
 <item>
-		<ingredient id="57" count="100000" />
+		<ingredient id="57" count="120000" />
 		<production id="1467" count="1000" />
 	</item>
 <item>
-		<ingredient id="57" count="10000" />
+		<ingredient id="57" count="100000" />
 		<production id="6646" count="1000" />
 	</item>
 <item>
-		<ingredient id="57" count="15000" />
+		<ingredient id="57" count="150000" />
 		<production id="6647" count="1000" />
 	</item>
 

@@ -211,4 +211,23 @@
 				<add stat="reflectDam" val="30" />	
 		</for>
 	</skill>
+<skill id="10013" levels="3" name="Gold Scroll">
+		<table name="#consume"> 40018 40019 40020 </table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeId" val="#consume" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+	</skill>
+<skill id="10014" levels="3" name="Plat Scroll">
+		<table name="#consume"> 40021 40022 40023 </table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeId" val="#consume" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="magicLvl" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		
+	</skill>
 </list>
