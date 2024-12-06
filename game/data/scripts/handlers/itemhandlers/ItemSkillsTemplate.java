@@ -30,6 +30,7 @@ import l2r.gameserver.model.items.type.ActionType;
 import l2r.gameserver.model.skills.L2Skill;
 import l2r.gameserver.model.skills.L2SkillType;
 import l2r.gameserver.network.SystemMessageId;
+import l2r.gameserver.network.serverpackets.MagicSkillUse;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 
 import gr.sr.premiumEngine.PremiumDuration;
@@ -129,21 +130,32 @@ public class ItemSkillsTemplate implements IItemHandler
 				}
 				
 				// vmilon premium scrolls
-				if (itemSkill.getId() == 10013)
+				if ((itemSkill.getId() == 10013) && !playable.getActingPlayer().isPlatinum())
 				{
 					switch (itemSkill.getLevel())
 					{
 						case 1:
 							PremiumHandler.addPremiumServices(1, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 1 week of gold account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 						case 2:
 							PremiumHandler.addPremiumServices(2, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 4 weeks of gold account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 						case 3:
 							PremiumHandler.addPremiumServices(4, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 4 weeks of gold account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 					}
 					
+				}
+				else
+				{
+					playable.getActingPlayer().sendMessage("You are a platinum member. Platinum members cannot downgrade!");
+					return false;
 				}
 				if (itemSkill.getId() == 10014)
 				{
@@ -151,12 +163,18 @@ public class ItemSkillsTemplate implements IItemHandler
 					{
 						case 1:
 							PremiumHandler.addPlatinumServices(1, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 1 week of platinum account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 						case 2:
 							PremiumHandler.addPlatinumServices(2, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 2 weeks of platinum account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 						case 3:
 							PremiumHandler.addPlatinumServices(4, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							playable.getActingPlayer().sendMessageS("You have added 4 weeks of platinum account!", 5);
+							playable.getActingPlayer().broadcastPacket(new MagicSkillUse(playable.getActingPlayer(), 6463, 1, 1000, 0));
 							break;
 					}
 					
@@ -206,8 +224,6 @@ public class ItemSkillsTemplate implements IItemHandler
 				return false;
 			}
 		}
-		
-		final boolean isPremScroll = (item.getItem().getDefaultAction() == ActionType.PREM_SCROLL) || item.getItem().mustConsume();
 		
 		return true;
 	}
