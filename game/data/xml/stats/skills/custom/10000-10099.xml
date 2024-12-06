@@ -230,4 +230,185 @@
 		<set name="targetType" val="SELF" />
 		
 	</skill>
+<skill id="10015" levels="1" name="Random Hair Accessory">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			6843,1,10;6845,1,10;7683,1,10;8184,1,10;8560,1,10;10243,1,10;13504,1,10;8563,1,10;8564,1,10;10242,1,10
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10016" levels="1" name="Random Agathion">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			10320,1,10;10326,1,10;10606,1,10;10659,1,10;10660,1,10;13544,1,10;13545,1,10;13756,1,10;14617,1,10;14675,1,10
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10017" levels="1" name="Random Forgotten Scroll">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+    10320,1,1;10326,1,1;10606,1,1;10659,1,1;10660,1,1;13544,1,1;13545,1,1;13756,1,1;14617,1,1;14675,1,1;10608,1,1;14215,1,1;14217,1,1;10579,1,1;10581,1,1;10582,1,1;10580,1,1;10584,1,1;10583,1,1;10609,1,1;14214,1,1;10610,1,1;14216,1,1;12769,1,1;12768,1,1;12770,1,1;10558,1,1;12771,1,1;10557,1,1;10588,1,1;10554,1,1;10586,1,1;14207,1,1;14210,1,1;14213,1,1;14212,1,1;10577,1,1;10560,1,1;14208,1,1;14209,1,1;14191,1,1;10578,1,1;10576,1,1;14211,1,1;14220,1,1;10559,1,1;14192,1,1;14221,1,1;10565,1,1;14225,1,1;14199,1,1;10570,1,1;10567,1,1;14218,1,1;10592,1,1;10561,1,1;14223,1,1;10572,1,1;10564,1,1;10569,1,1;10573,1,1;10566,1,1;10563,1,1;10571,1,1;14227,1,1;10556,1,1;10574,1,1;10595,1,1;10587,1,1;14222,1,1;14201,1,1;14202,1,1;14226,1,1;10593,1,1;10589,1,1;10555,1,1;14198,1,1;10591,1,1;14204,1,1;14206,1,1;14205,1,1;10585,1,1;14200,1,1;10575,1,1;10568,1,1;10594,1,1;10562,1,1
+</table>
+
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10018" levels="1" name="Random Life Stone - Top Grade">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			8762,1,40.00;9576,1,30.00;10486,1,20.00;14169,1,10
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10019" levels="1" name="Random Neolithic">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			40013,1,35.00;40014,1,25.00;40015,1,20.00;40016,1,15.00;40017,1,5.00
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10020" levels="1" name="Random EXP Rune">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			20337,1,16.66;20335,1,16.66;20339,1,16.66;20340,1,16.66;50213,1,16.66;50214,1,16.66
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10021" levels="1" name="Random Enchant">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			948,1,16.66;947,1,16.66;730,1,16.66;729,1,16.66;960,1,16.66;959,1,16.66
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10022" levels="1" name="Random Blessed Enchant">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			6572,1,16.66;6571,1,16.66;6570,1,16.66;6569,1,16.66;6578,1,16.66;6577,1,16.66
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
+<skill id="10023" levels="1" name="Random Kamaloka">
+		<!-- Confirmed CT2.5 -->
+		<table name="#extractableItems">
+			13010,1,40.00;13011,1,30.00;13012,1,30.00
+		</table>
+		<set name="capsuled_items_skill" val="#extractableItems" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<cond msgId="129">
+			<and>
+				<player invSize="10" />
+				<player weight="80" />
+			</and>
+		</cond>
+		<for>
+			<effect name="RestorationRandom" noicon="1" />
+		</for>
+	</skill>
 </list>

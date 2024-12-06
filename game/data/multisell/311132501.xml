@@ -6,7 +6,7 @@
 	</npcs>
 	<item>
 		<!-- Adena -->
-		<ingredient count="100000" id="57" />
+		<ingredient count="1000000" id="5575" />
 		<!-- Mammon's Varnish Enhancer -->
 		<production count="1" id="12374" />
 	</item>
@@ -77,6 +77,18 @@
 		<ingredient count="100000" id="5575" />
 		<!-- Gemstone S -->
 		<production count="1" id="2134" />
+	</item>
+<item>
+		<!-- Ancient Adena -->
+		<ingredient count="15000" id="5575" />
+		<!-- Gemstone S -->
+		<production count="1" id="1461" />
+	</item>
+	<item>
+		<!-- Ancient Adena -->
+		<ingredient count="25000" id="5575" />
+		<!-- Gemstone S -->
+		<production count="1" id="1462" />
 	</item>
 	<item>
 		<!-- Ancient Adena -->

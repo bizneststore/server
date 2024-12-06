@@ -1646,7 +1646,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="capsuled_items" val="5592,100,100,100;22025,100,100,100;728,100,100,100;13010,1,1,100" />
+		<set name="capsuled_items" val="5592,100,100,100;22025,100,100,100;728,100,100,100;13010,1,1,100;40023,1,1,100;50343,1,1,100" />
 	</item>
 	<item id="50341" type="EtcItem" name="Champion's Pack">
 		<set name="icon" val="SOE_Icons.silver_chest_i00" />
@@ -1659,7 +1659,7 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="capsuled_items" val="5592,300,300,100;22025,300,300,100;728,300,300,100;13010,1,1,100;50201,1,1,100;50202,1,1,100;50203,1,1,100;50204,1,1,100;50205,1,1,100;50200,1,1,100" />
+		<set name="capsuled_items" val="5592,300,300,100;22025,300,300,100;728,300,300,100;13010,1,1,100;50201,1,1,100;50202,1,1,100;50203,1,1,100;50204,1,1,100;50205,1,1,100;50200,1,1,100;40023,1,1,100;50343,1,1,100" />
 	</item>
 	<item id="50342" type="EtcItem" name="Eternia Pack">
 		<set name="icon" val="SOE_Icons.gold_chest_i00" />
@@ -1672,6 +1672,144 @@
 		<set name="is_sellable" val="false" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="ExtractableItems" />
-		<set name="capsuled_items" val="5592,500,500,100;22025,500,500,100;728,500,500,100;13010,1,1,100;13012,1,1,100;50206,1,1,100;50207,1,1,100;50208,1,1,100;50209,1,1,100;50210,1,1,100;50200,1,1,100;8619,1,1,100" />
+		<set name="capsuled_items" val="5592,500,500,100;22025,500,500,100;728,500,500,100;13010,1,1,100;13012,1,1,100;50206,1,1,100;50207,1,1,100;50208,1,1,100;50209,1,1,100;50210,1,1,100;50200,1,1,100;8619,1,1,100;40023,1,1,100;50343,1,1,100;50344,1,1,100" />
 	</item>
+<item id="50343" type="EtcItem" name="Random Hair Accessory Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10015-1" />
+	</item>
+<item id="50344" type="EtcItem" name="Random Agathion Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10016-1" />
+	</item>
+
+<item id="50345" type="EtcItem" name="Random Materials Pack - Low Grade">
+		<set name="icon" val="SOE_Icons.gold_chest_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="1871,10,20,3.70;1872,10,20,3.70;1868,10,20,3.70;1870,10,20,3.70;1878,10,20,3.70;1865,10,20,3.70;
+    1876,10,20,3.70;1880,10,20,3.70;1869,10,20,3.70;1895,10,20,3.70;5549,10,20,3.70;1889,10,20,3.70;
+    1894,10,20,3.70;1881,10,20,3.70;1884,10,20,3.70;1879,10,20,3.70;4043,10,20,3.70;4042,10,20,3.70;
+    1877,10,20,3.70;4044,10,20,3.70;4039,10,20,3.70;4040,10,20,3.70;4041,10,20,3.70;1874,10,20,3.70;
+    5550,10,20,3.70;9629,10,20,3.70;" />
+	</item>
+<item id="50346" type="EtcItem" name="Random Materials Pack - High Grade">
+		<set name="icon" val="SOE_Icons.gold_chest_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="1871,20,50,3.70;1872,20,50,3.70;1868,20,50,3.70;1870,20,50,3.70;1878,20,50,3.70;1865,20,50,3.70;
+    1876,20,50,3.70;1880,20,50,3.70;1869,20,50,3.70;1895,20,50,3.70;5549,20,50,3.70;1889,20,50,3.70;
+    1894,20,50,3.70;1881,20,50,3.70;1884,20,50,3.70;1879,20,50,3.70;4043,20,50,3.70;4042,20,50,3.70;
+    1877,20,50,3.70;4044,20,50,3.70;4039,20,50,3.70;4040,20,50,3.70;4041,20,50,3.70;1874,20,50,3.70;
+    5550,20,50,3.70;9629,20,50,3.70;" />
+	</item>
+<item id="50347" type="EtcItem" name="Random Forgotten Scroll Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10017-1" />
+	</item>
+<item id="50348" type="EtcItem" name="Random Life Stone Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10018-1" />
+	</item>
+<item id="50349" type="EtcItem" name="Random Neolithic Fragment Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10019-1" />
+	</item>
+<item id="50350" type="EtcItem" name="Random EXP Rune Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10020-1" />
+	</item>
+<item id="50351" type="EtcItem" name="Random Enchant Box">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10020-1" />
+	</item>
+<item id="50352" type="EtcItem" name="Random Blessed Enchant Box">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10021-1" />
+	</item>
+<item id="50353" type="EtcItem" name="Random Kamaloka Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10023-1" />
+	</item>
+
 </list>
