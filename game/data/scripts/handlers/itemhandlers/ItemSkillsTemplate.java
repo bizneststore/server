@@ -152,7 +152,7 @@ public class ItemSkillsTemplate implements IItemHandler
 					}
 					
 				}
-				else
+				else if ((itemSkill.getId() == 10013) && playable.getActingPlayer().isPlatinum())
 				{
 					playable.getActingPlayer().sendMessage("You are a platinum member. Platinum members cannot downgrade!");
 					return false;
