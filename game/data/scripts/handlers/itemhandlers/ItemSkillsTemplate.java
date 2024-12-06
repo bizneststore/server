@@ -32,6 +32,8 @@ import l2r.gameserver.model.skills.L2SkillType;
 import l2r.gameserver.network.SystemMessageId;
 import l2r.gameserver.network.serverpackets.SystemMessage;
 
+import gr.sr.premiumEngine.PremiumDuration;
+import gr.sr.premiumEngine.PremiumHandler;
 import gr.sr.rankEngine.templates.Ranking;
 
 /**
@@ -126,6 +128,40 @@ public class ItemSkillsTemplate implements IItemHandler
 					playable.getActingPlayer().addPlayerStats(Ranking.STAT_TOP_BSOES_USED);
 				}
 				
+				// vmilon premium scrolls
+				if (itemSkill.getId() == 10013)
+				{
+					switch (itemSkill.getLevel())
+					{
+						case 1:
+							PremiumHandler.addPremiumServices(1, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+						case 2:
+							PremiumHandler.addPremiumServices(2, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+						case 3:
+							PremiumHandler.addPremiumServices(4, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+					}
+					
+				}
+				if (itemSkill.getId() == 10014)
+				{
+					switch (itemSkill.getLevel())
+					{
+						case 1:
+							PremiumHandler.addPlatinumServices(1, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+						case 2:
+							PremiumHandler.addPlatinumServices(2, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+						case 3:
+							PremiumHandler.addPlatinumServices(4, playable.getActingPlayer().getAccountName(), PremiumDuration.WEEKS, playable.getActingPlayer());
+							break;
+					}
+					
+				}
+				
 				if (itemSkill.getReuseDelay() > 0)
 				{
 					playable.addTimeStamp(itemSkill, itemSkill.getReuseDelay());
@@ -170,6 +206,8 @@ public class ItemSkillsTemplate implements IItemHandler
 				return false;
 			}
 		}
+		
+		final boolean isPremScroll = (item.getItem().getDefaultAction() == ActionType.PREM_SCROLL) || item.getItem().mustConsume();
 		
 		return true;
 	}
