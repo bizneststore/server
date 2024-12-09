@@ -2,7 +2,7 @@
 <list enabled="true" maintainEnchantment="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
 	<npcs>
 		<npc>32615</npc> <!-- Ishuma (Maestro) -->
-		<npc>532</npc> <!-- MAMMON FORGE -->
+		<npc>523</npc> <!-- MAMMON FORGE -->
 	</npcs>
 	<item>
 		<!-- Dynasty Breast Plate - Weapon Master -->

@@ -259,8 +259,8 @@
 		<items>
 			<item id="50346" count="1" />
 		</items>
-	<!--</reward>
-	<reward id="259" category="DAILY"  reward_id="12" name="Daily Hunting (Lv. 71-75)" description="Receive it when you kill any 30 monsters. Monsters that are level 6 or lower than the character are not counted." requiredCompletion="30">
+	</reward>
+	<!--<reward id="259" category="DAILY"  reward_id="12" name="Daily Hunting (Lv. 71-75)" description="Receive it when you kill any 30 monsters. Monsters that are level 6 or lower than the character are not counted." requiredCompletion="30">
 		<handler name="monster">
 			<param name="minLevel">71</param>
 			<param name="maxLevel">75</param>
