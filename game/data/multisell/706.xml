@@ -8,14 +8,19 @@
 	<item>
 		<!-- Great Sword -->
 		<ingredient count="1" id="78" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Sword - Lightning -->
 		<production count="1" id="10870" />
+		
 	</item>
 	<item>
 		<!-- Great Sword - Health -->
 		<ingredient count="1" id="4723" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Sword - Lightning - Health -->
@@ -24,6 +29,8 @@
 	<item>
 		<!-- Great Sword - Critical Damage -->
 		<ingredient count="1" id="4724" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Sword - Lightning - Critical Damage -->
@@ -32,6 +39,8 @@
 	<item>
 		<!-- Great Sword - Focus -->
 		<ingredient count="1" id="4725" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Sword - Lightning - Focus -->
@@ -40,6 +49,8 @@
 	<item>
 		<!-- Great Axe -->
 		<ingredient count="1" id="300" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Axe - Thunder -->
@@ -48,6 +59,8 @@
 	<item>
 		<!-- Great Axe - Anger -->
 		<ingredient count="1" id="4855" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Axe - Thunder - Anger -->
@@ -56,6 +69,8 @@
 	<item>
 		<!-- Great Axe - Critical Stun -->
 		<ingredient count="1" id="4856" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Axe - Thunder - Critical Stun -->
@@ -64,6 +79,8 @@
 	<item>
 		<!-- Great Axe - Light -->
 		<ingredient count="1" id="4857" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Great Axe - Thunder - Light -->
@@ -72,6 +89,8 @@
 	<item>
 		<!-- Innominate Victory -->
 		<ingredient count="1" id="9308" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Innominate Victory - Lightning -->
@@ -80,6 +99,8 @@
 	<item>
 		<!-- Innominate Victory - Health -->
 		<ingredient count="1" id="9309" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Innominate Victory - Lightning - Health -->
@@ -88,6 +109,8 @@
 	<item>
 		<!-- Innominate Victory - Critical Damage -->
 		<ingredient count="1" id="9310" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Innominate Victory - Lightning - Critical Damage -->
@@ -96,6 +119,8 @@
 	<item>
 		<!-- Innominate Victory - Focus -->
 		<ingredient count="1" id="9311" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Innominate Victory - Lightning - Focus -->
@@ -104,6 +129,8 @@
 	<item>
 		<!-- Dark Elven Long Bow -->
 		<ingredient count="1" id="284" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dark Elven Long Bow - Concentration -->
@@ -112,6 +139,8 @@
 	<item>
 		<!-- Dark Elven Long Bow - Evasion -->
 		<ingredient count="1" id="4825" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dark Elven Long Bow - Concentration - Evasion -->
@@ -120,6 +149,8 @@
 	<item>
 		<!-- Dark Elven Long Bow - Critical Bleed -->
 		<ingredient count="1" id="4826" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dark Elven Long Bow - Concentration - Critical Bleed -->
@@ -128,6 +159,8 @@
 	<item>
 		<!-- Dark Elven Long Bow - Miser -->
 		<ingredient count="1" id="4827" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dark Elven Long Bow - Concentration - Miser -->
@@ -136,6 +169,8 @@
 	<item>
 		<!-- Sword of Valhalla -->
 		<ingredient count="1" id="148" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Valhalla - Nature -->
@@ -144,6 +179,8 @@
 	<item>
 		<!-- Sword of Valhalla - Acumen -->
 		<ingredient count="1" id="7722" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Valhalla - Nature - Acumen -->
@@ -152,6 +189,8 @@
 	<item>
 		<!-- Sword of Valhalla - Magic Weakness -->
 		<ingredient count="1" id="7723" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Valhalla - Nature - Magic Weakness -->
@@ -160,6 +199,8 @@
 	<item>
 		<!-- Sword of Valhalla - Magic Regeneration -->
 		<ingredient count="1" id="7724" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Valhalla - Nature - Magic Regeneration -->
@@ -168,6 +209,8 @@
 	<item>
 		<!-- Spell Breaker -->
 		<ingredient count="1" id="7892" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Spell Breaker - Hail -->
@@ -176,6 +219,8 @@
 	<item>
 		<!-- Spell Breaker - Acumen -->
 		<ingredient count="1" id="8141" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Spell Breaker - Hail - Acumen -->
@@ -184,6 +229,8 @@
 	<item>
 		<!-- Spell Breaker - Mental Shield -->
 		<ingredient count="1" id="8142" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Spell Breaker - Hail - Mental Shield -->
@@ -192,6 +239,8 @@
 	<item>
 		<!-- Spell Breaker - Magic Hold -->
 		<ingredient count="1" id="8143" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Spell Breaker - Hail - Magic Hold -->
@@ -200,6 +249,8 @@
 	<item>
 		<!-- Arthro Nail -->
 		<ingredient count="1" id="267" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Arthro Nail - Destruction -->
@@ -208,6 +259,8 @@
 	<item>
 		<!-- Arthro Nail - Critical Poison -->
 		<ingredient count="1" id="4801" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Arthro Nail - Destruction - Critical Poison -->
@@ -216,6 +269,8 @@
 	<item>
 		<!-- Arthro Nail - Rsk. Evasion -->
 		<ingredient count="1" id="4802" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Arthro Nail - Destruction - Rsk. Evasion -->
@@ -224,6 +279,8 @@
 	<item>
 		<!-- Arthro Nail - Rsk. Haste -->
 		<ingredient count="1" id="4803" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Arthro Nail - Destruction - Rsk. Haste -->
@@ -232,6 +289,8 @@
 	<item>
 		<!-- Ice Storm Hammer -->
 		<ingredient count="1" id="7900" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Ice Storm Hammer - Lightning -->
@@ -240,6 +299,8 @@
 	<item>
 		<!-- Ice Storm Hammer - Focus -->
 		<ingredient count="1" id="8129" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Ice Storm Hammer - Lightning - Focus -->
@@ -248,6 +309,8 @@
 	<item>
 		<!-- Ice Storm Hammer - Anger -->
 		<ingredient count="1" id="8130" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Ice Storm Hammer - Lightning - Anger -->
@@ -256,6 +319,8 @@
 	<item>
 		<!-- Ice Storm Hammer - Critical Bleed -->
 		<ingredient count="1" id="8131" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Ice Storm Hammer - Lightning - Critical Bleed -->
@@ -264,6 +329,8 @@
 	<item>
 		<!-- Military Fleuret -->
 		<ingredient count="1" id="9304" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Military Fleuret - Destruction -->
@@ -272,6 +339,8 @@
 	<item>
 		<!-- Military Fleuret - Guidance -->
 		<ingredient count="1" id="9305" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Military Fleuret - Destruction - Guidance -->
@@ -280,6 +349,8 @@
 	<item>
 		<!-- Military Fleuret - Focus -->
 		<ingredient count="1" id="9306" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Military Fleuret - Destruction - Focus -->
@@ -288,6 +359,8 @@
 	<item>
 		<!-- Military Fleuret - Back Blow -->
 		<ingredient count="1" id="9307" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Military Fleuret - Destruction - Back Blow -->
@@ -296,6 +369,8 @@
 	<item>
 		<!-- Sprite's Staff -->
 		<ingredient count="1" id="92" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sprite's Staff - Hail -->
@@ -304,6 +379,8 @@
 	<item>
 		<!-- Sprite's Staff - Magic Regeneration -->
 		<ingredient count="1" id="4897" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sprite's Staff - Hail - Magic Regeneration -->
@@ -312,6 +389,8 @@
 	<item>
 		<!-- Sprite's Staff - Mental Shield -->
 		<ingredient count="1" id="4898" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sprite's Staff - Hail - Mental Shield -->
@@ -320,6 +399,8 @@
 	<item>
 		<!-- Sprite's Staff - Magic Hold -->
 		<ingredient count="1" id="4899" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sprite's Staff - Hail - Magic Hold -->
@@ -328,6 +409,8 @@
 	<item>
 		<!-- Kris -->
 		<ingredient count="1" id="229" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kris - Confusion -->
@@ -336,6 +419,8 @@
 	<item>
 		<!-- Kris - Evasion -->
 		<ingredient count="1" id="4777" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kris - Confusion - Evasion -->
@@ -344,6 +429,8 @@
 	<item>
 		<!-- Kris - Focus -->
 		<ingredient count="1" id="4778" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kris - Confusion - Focus -->
@@ -352,6 +439,8 @@
 	<item>
 		<!-- Kris - Back Blow -->
 		<ingredient count="1" id="4779" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kris - Confusion - Back Blow -->
@@ -360,6 +449,8 @@
 	<item>
 		<!-- Keshanberk -->
 		<ingredient count="1" id="142" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Keshanberk - Destruction -->
@@ -368,6 +459,8 @@
 	<item>
 		<!-- Keshanberk - Guidance -->
 		<ingredient count="1" id="4714" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Keshanberk - Destruction - Guidance -->
@@ -376,6 +469,8 @@
 	<item>
 		<!-- Keshanberk - Focus -->
 		<ingredient count="1" id="4715" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Keshanberk - Destruction - Focus -->
@@ -384,6 +479,8 @@
 	<item>
 		<!-- Keshanberk - Back Blow -->
 		<ingredient count="1" id="4716" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Keshanberk - Destruction - Back Blow -->
@@ -392,6 +489,8 @@
 	<item>
 		<!-- Peacemaker -->
 		<ingredient count="1" id="9312" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Peacemaker - Concentration -->
@@ -400,6 +499,8 @@
 	<item>
 		<!-- Peacemaker - Evasion -->
 		<ingredient count="1" id="9313" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Peacemaker - Concentration - Evasion -->
@@ -408,6 +509,8 @@
 	<item>
 		<!-- Peacemaker - Critical Bleed -->
 		<ingredient count="1" id="9314" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Peacemaker - Concentration - Critical Bleed -->
@@ -416,6 +519,8 @@
 	<item>
 		<!-- Peacemaker - Miser -->
 		<ingredient count="1" id="9315" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374" />
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Peacemaker - Concentration - Miser -->
@@ -424,6 +529,8 @@
 	<item>
 		<!-- Heavy War Axe -->
 		<ingredient count="1" id="91" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Heavy War Axe - Earth -->
@@ -432,6 +539,8 @@
 	<item>
 		<!-- Heavy War Axe - Anger -->
 		<ingredient count="1" id="4747" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Heavy War Axe - Earth - Anger -->
@@ -440,6 +549,8 @@
 	<item>
 		<!-- Heavy War Axe - Health -->
 		<ingredient count="1" id="4748" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Heavy War Axe - Earth - Health -->
@@ -448,6 +559,8 @@
 	<item>
 		<!-- Heavy War Axe - Rsk. Focus -->
 		<ingredient count="1" id="4749" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Heavy War Axe - Earth - Rsk. Focus -->
@@ -456,6 +569,8 @@
 	<item>
 		<!-- Hell Knife -->
 		<ingredient count="1" id="243" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Knife - Confusion -->
@@ -464,6 +579,8 @@
 	<item>
 		<!-- Hell Knife - Magic Regeneration -->
 		<ingredient count="1" id="7813" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Knife - Confusion - Magic Regeneration -->
@@ -472,6 +589,8 @@
 	<item>
 		<!-- Hell Knife - Mental Shield -->
 		<ingredient count="1" id="7814" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Knife - Confusion - Mental Shield -->
@@ -480,6 +599,8 @@
 	<item>
 		<!-- Hell Knife - Magic Weakness -->
 		<ingredient count="1" id="7815" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Knife - Confusion - Magic Weakness -->
@@ -488,6 +609,8 @@
 	<item>
 		<!-- Guardian Sword -->
 		<ingredient count="1" id="7883" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Guardian Sword - Great Gale -->
@@ -496,6 +619,8 @@
 	<item>
 		<!-- Guardian Sword - Critical Drain -->
 		<ingredient count="1" id="8105" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Guardian Sword - Great Gale - Critical Drain -->
@@ -504,6 +629,8 @@
 	<item>
 		<!-- Guardian Sword - Health -->
 		<ingredient count="1" id="8106" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Guardian Sword - Great Gale - Health -->
@@ -512,6 +639,8 @@
 	<item>
 		<!-- Guardian Sword - Critical Bleed -->
 		<ingredient count="1" id="8107" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Guardian Sword - Great Gale - Critical Bleed -->
@@ -520,6 +649,8 @@
 	<item>
 		<!-- Sword of Damascus -->
 		<ingredient count="1" id="79" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Damascus - Earth -->
@@ -528,6 +659,8 @@
 	<item>
 		<!-- Sword of Damascus - Focus -->
 		<ingredient count="1" id="4717" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Damascus - Earth - Focus -->
@@ -536,6 +669,8 @@
 	<item>
 		<!-- Sword of Damascus - Critical Damage -->
 		<ingredient count="1" id="4718" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Damascus - Earth - Critical Damage -->
@@ -544,6 +679,8 @@
 	<item>
 		<!-- Sword of Damascus - Haste -->
 		<ingredient count="1" id="4719" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Sword of Damascus - Earth - Haste -->
@@ -552,6 +689,8 @@
 	<item>
 		<!-- Dismantler -->
 		<ingredient count="1" id="9320" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dismantler - Great Gale -->
@@ -560,6 +699,8 @@
 	<item>
 		<!-- Dismantler - Critical Drain -->
 		<ingredient count="1" id="9321" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dismantler - Great Gale - Critical Drain -->
@@ -568,6 +709,8 @@
 	<item>
 		<!-- Dismantler - Health -->
 		<ingredient count="1" id="9322" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dismantler - Great Gale - Health -->
@@ -576,6 +719,8 @@
 	<item>
 		<!-- Dismantler - Critical Bleed -->
 		<ingredient count="1" id="9323" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Dismantler - Great Gale - Critical Bleed -->
@@ -584,6 +729,8 @@
 	<item>
 		<!-- Lance -->
 		<ingredient count="1" id="97" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Lance - Earth -->
@@ -592,6 +739,8 @@
 	<item>
 		<!-- Lance - Anger -->
 		<ingredient count="1" id="4858" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Lance - Earth - Anger -->
@@ -600,6 +749,8 @@
 	<item>
 		<!-- Lance - Critical Stun -->
 		<ingredient count="1" id="4859" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Lance - Earth - Critical Stun -->
@@ -608,6 +759,8 @@
 	<item>
 		<!-- Lance - Towering Blow -->
 		<ingredient count="1" id="4860" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Lance - Earth - Towering Blow -->
@@ -616,6 +769,8 @@
 	<item>
 		<!-- Bellion Cestus -->
 		<ingredient count="1" id="268" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bellion Cestus - Great Gale -->
@@ -624,6 +779,8 @@
 	<item>
 		<!-- Bellion Cestus - Critical Drain -->
 		<ingredient count="1" id="4804" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bellion Cestus - Great Gale - Critical Drain -->
@@ -632,6 +789,8 @@
 	<item>
 		<!-- Bellion Cestus - Critical Poison -->
 		<ingredient count="1" id="4805" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bellion Cestus - Great Gale - Critical Poison -->
@@ -640,6 +799,8 @@
 	<item>
 		<!-- Bellion Cestus - Rsk. Haste -->
 		<ingredient count="1" id="4806" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bellion Cestus - Great Gale - Rsk. Haste -->
@@ -648,6 +809,8 @@
 	<item>
 		<!-- Staff of Evil Spirits -->
 		<ingredient count="1" id="210" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Staff of Evil Spirits - Holy Spirit -->
@@ -656,6 +819,8 @@
 	<item>
 		<!-- Staff of Evil Spirits - Magic Focus -->
 		<ingredient count="1" id="4900" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Staff of Evil Spirits - Holy Spirit - Magic Focus -->
@@ -664,6 +829,8 @@
 	<item>
 		<!-- Staff of Evil Spirits - Blessed Body -->
 		<ingredient count="1" id="4901" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Staff of Evil Spirits - Holy Spirit - Blessed Body -->
@@ -672,6 +839,8 @@
 	<item>
 		<!-- Staff of Evil Spirits - Magic Poison -->
 		<ingredient count="1" id="4902" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Staff of Evil Spirits - Holy Spirit - Magic Poison -->
@@ -680,6 +849,8 @@
 	<item>
 		<!-- Deadman's Glory -->
 		<ingredient count="1" id="171" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Deadman's Glory - Landslide -->
@@ -688,6 +859,8 @@
 	<item>
 		<!-- Deadman's Glory - Anger -->
 		<ingredient count="1" id="4750" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Deadman's Glory - Landslide - Anger -->
@@ -696,6 +869,8 @@
 	<item>
 		<!-- Deadman's Glory - Health -->
 		<ingredient count="1" id="4751" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Deadman's Glory - Landslide - Health -->
@@ -704,6 +879,8 @@
 	<item>
 		<!-- Deadman's Glory - Haste -->
 		<ingredient count="1" id="4752" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Deadman's Glory - Landslide - Haste -->
@@ -712,6 +889,8 @@
 	<item>
 		<!-- Star Buster -->
 		<ingredient count="1" id="7901" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Star Buster - Great Gale -->
@@ -720,6 +899,8 @@
 	<item>
 		<!-- Star Buster - Health -->
 		<ingredient count="1" id="8132" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Star Buster - Great Gale - Health -->
@@ -728,6 +909,8 @@
 	<item>
 		<!-- Star Buster - Haste -->
 		<ingredient count="1" id="8133" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Star Buster - Great Gale - Haste -->
@@ -736,6 +919,8 @@
 	<item>
 		<!-- Star Buster - Rsk. Focus -->
 		<ingredient count="1" id="8134" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Star Buster - Great Gale - Rsk. Focus -->
@@ -744,6 +929,8 @@
 	<item>
 		<!-- Art of Battle Axe -->
 		<ingredient count="1" id="175" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Art of Battle Axe - Landslide -->
@@ -752,6 +939,8 @@
 	<item>
 		<!-- Art of Battle Axe - Health -->
 		<ingredient count="1" id="4753" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Art of Battle Axe - Landslide - Health -->
@@ -760,6 +949,8 @@
 	<item>
 		<!-- Art of Battle Axe - Rsk. Focus -->
 		<ingredient count="1" id="4754" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Art of Battle Axe - Landslide - Rsk. Focus -->
@@ -768,6 +959,8 @@
 	<item>
 		<!-- Art of Battle Axe - Haste -->
 		<ingredient count="1" id="4755" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Art of Battle Axe - Landslide - Haste -->
@@ -776,6 +969,8 @@
 	<item>
 		<!-- Demon's Dagger -->
 		<ingredient count="1" id="234" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Demon's Dagger - Great Gale -->
@@ -784,6 +979,8 @@
 	<item>
 		<!-- Demon's Dagger - Critical Bleed -->
 		<ingredient count="1" id="4780" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Demon's Dagger - Great Gale - Critical Bleed -->
@@ -792,6 +989,8 @@
 	<item>
 		<!-- Demon's Dagger - Critical Poison -->
 		<ingredient count="1" id="4781" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Demon's Dagger - Great Gale - Critical Poison -->
@@ -800,6 +999,8 @@
 	<item>
 		<!-- Demon's Dagger - Critical Damage -->
 		<ingredient count="1" id="6359" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Demon's Dagger - Great Gale - Critical Damage -->
@@ -808,6 +1009,8 @@
 	<item>
 		<!-- Kaim Vanul's Bones -->
 		<ingredient count="1" id="7893" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kaim Vanul's Bones - Earth -->
@@ -816,6 +1019,8 @@
 	<item>
 		<!-- Kaim Vanul's Bones - Mana Up -->
 		<ingredient count="1" id="8144" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kaim Vanul's Bones - Earth - Mana Up -->
@@ -824,6 +1029,8 @@
 	<item>
 		<!-- Kaim Vanul's Bones - Magic Silence -->
 		<ingredient count="1" id="8145" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kaim Vanul's Bones - Earth - Magic Silence -->
@@ -832,6 +1039,8 @@
 	<item>
 		<!-- Kaim Vanul's Bones - Conversion -->
 		<ingredient count="1" id="8146" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Kaim Vanul's Bones - Earth - Conversion -->
@@ -840,6 +1049,8 @@
 	<item>
 		<!-- Colichemarde -->
 		<ingredient count="1" id="9316" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Colichemarde - Earth -->
@@ -848,6 +1059,8 @@
 	<item>
 		<!-- Colichemarde - Focus -->
 		<ingredient count="1" id="9317" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Colichemarde - Earth - Focus -->
@@ -856,6 +1069,8 @@
 	<item>
 		<!-- Colichemarde - Critical Damage -->
 		<ingredient count="1" id="9318" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Colichemarde - Earth - Critical Damage -->
@@ -864,6 +1079,8 @@
 	<item>
 		<!-- Colichemarde - Haste -->
 		<ingredient count="1" id="9319" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Colichemarde - Earth - Haste -->
@@ -872,6 +1089,8 @@
 	<item>
 		<!-- Wizard's Tear -->
 		<ingredient count="1" id="7889" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Wizard's Tear - Cleverness -->
@@ -880,6 +1099,8 @@
 	<item>
 		<!-- Wizard's Tear - Acumen -->
 		<ingredient count="1" id="8117" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Wizard's Tear - Cleverness - Acumen -->
@@ -888,6 +1109,8 @@
 	<item>
 		<!-- Wizard's Tear - M. Atk. -->
 		<ingredient count="1" id="8118" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Wizard's Tear - Cleverness - M. Atk. -->
@@ -896,6 +1119,8 @@
 	<item>
 		<!-- Wizard's Tear - Conversion -->
 		<ingredient count="1" id="8119" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Wizard's Tear - Cleverness - Conversion -->
@@ -904,6 +1129,8 @@
 	<item>
 		<!-- Bow of Peril -->
 		<ingredient count="1" id="287" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bow of Peril - Earth -->
@@ -912,6 +1139,8 @@
 	<item>
 		<!-- Bow of Peril - Guidance -->
 		<ingredient count="1" id="4828" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bow of Peril - Earth - Guidance -->
@@ -920,6 +1149,8 @@
 	<item>
 		<!-- Bow of Peril - Quick Recovery -->
 		<ingredient count="1" id="4829" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bow of Peril - Earth - Quick Recovery -->
@@ -928,6 +1159,8 @@
 	<item>
 		<!-- Bow of Peril - Cheap Shot -->
 		<ingredient count="1" id="4830" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Bow of Peril - Earth - Cheap Shot -->
@@ -936,6 +1169,8 @@
 	<item>
 		<!-- Hell Hound -->
 		<ingredient count="1" id="9324" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Hound - Earth -->
@@ -944,6 +1179,8 @@
 	<item>
 		<!-- Hell Hound - Guidance -->
 		<ingredient count="1" id="9325" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Hound - Earth - Guidance -->
@@ -952,6 +1189,8 @@
 	<item>
 		<!-- Hell Hound - Quick Recovery -->
 		<ingredient count="1" id="9326" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Hound - Earth - Quick Recovery -->
@@ -960,6 +1199,8 @@
 	<item>
 		<!-- Hell Hound - Cheap Shot -->
 		<ingredient count="1" id="9327" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="3" id="12374"/>
 		<!-- Neolithic Crystal - B -->
 		<ingredient count="1" id="14678" />
 		<!-- Hell Hound - Earth - Cheap Shot -->
@@ -968,6 +1209,8 @@
 	<item>
 		<!-- Dasparion's Staff -->
 		<ingredient count="1" id="212" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dasparion's Staff - Hail -->
@@ -976,6 +1219,8 @@
 	<item>
 		<!-- Dasparion's Staff - Mana Up -->
 		<ingredient count="1" id="5596" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dasparion's Staff - Hail - Mana Up -->
@@ -984,6 +1229,8 @@
 	<item>
 		<!-- Dasparion's Staff - Conversion -->
 		<ingredient count="1" id="5597" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dasparion's Staff - Hail - Conversion -->
@@ -992,6 +1239,8 @@
 	<item>
 		<!-- Dasparion's Staff - Acumen -->
 		<ingredient count="1" id="5598" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dasparion's Staff - Hail - Acumen -->
@@ -1000,6 +1249,8 @@
 	<item>
 		<!-- Doomchanter -->
 		<ingredient count="1" id="9336" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doomchanter - Concentration -->
@@ -1008,6 +1259,8 @@
 	<item>
 		<!-- Doomchanter - Light -->
 		<ingredient count="1" id="9337" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doomchanter - Concentration - Light -->
@@ -1016,6 +1269,8 @@
 	<item>
 		<!-- Doomchanter - Critical Bleed -->
 		<ingredient count="1" id="9338" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doomchanter - Concentration - Critical Bleed -->
@@ -1024,6 +1279,8 @@
 	<item>
 		<!-- Doomchanter - Mana Up -->
 		<ingredient count="1" id="9339" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doomchanter - Concentration - Mana Up -->
@@ -1032,6 +1289,8 @@
 	<item>
 		<!-- White Lightning -->
 		<ingredient count="1" id="9328" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- White Lightning - Destruction -->
@@ -1040,6 +1299,8 @@
 	<item>
 		<!-- White Lightning - Critical Poison -->
 		<ingredient count="1" id="9329" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- White Lightning - Destruction - Critical Poison -->
@@ -1048,6 +1309,8 @@
 	<item>
 		<!-- White Lightning - Haste -->
 		<ingredient count="1" id="9330" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- White Lightning - Destruction - Haste -->
@@ -1056,6 +1319,8 @@
 	<item>
 		<!-- White Lightning - Anger -->
 		<ingredient count="1" id="9331" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- White Lightning - Destruction - Anger -->
@@ -1064,6 +1329,8 @@
 	<item>
 		<!-- Meteor Shower -->
 		<ingredient count="1" id="2504" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Meteor Shower - Earth -->
@@ -1072,6 +1339,8 @@
 	<item>
 		<!-- Meteor Shower - Focus -->
 		<ingredient count="1" id="5599" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Meteor Shower - Earth - Focus -->
@@ -1080,6 +1349,8 @@
 	<item>
 		<!-- Meteor Shower - Critical Bleed -->
 		<ingredient count="1" id="5600" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Meteor Shower - Earth - Critical Bleed -->
@@ -1088,6 +1359,8 @@
 	<item>
 		<!-- Meteor Shower - Rsk. Haste -->
 		<ingredient count="1" id="5601" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Meteor Shower - Earth - Rsk. Haste -->
@@ -1096,6 +1369,8 @@
 	<item>
 		<!-- Blood Tornado -->
 		<ingredient count="1" id="269" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Blood Tornado - Destruction -->
@@ -1104,6 +1379,8 @@
 	<item>
 		<!-- Blood Tornado - Haste -->
 		<ingredient count="1" id="5620" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Blood Tornado - Destruction - Haste -->
@@ -1112,6 +1389,8 @@
 	<item>
 		<!-- Blood Tornado - Focus -->
 		<ingredient count="1" id="5621" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Blood Tornado - Destruction - Focus -->
@@ -1120,6 +1399,8 @@
 	<item>
 		<!-- Blood Tornado - Anger -->
 		<ingredient count="1" id="5622" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Blood Tornado - Destruction - Anger -->
@@ -1128,6 +1409,8 @@
 	<item>
 		<!-- Bloody Orchid -->
 		<ingredient count="1" id="235" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bloody Orchid - Confusion -->
@@ -1136,6 +1419,8 @@
 	<item>
 		<!-- Bloody Orchid - Focus -->
 		<ingredient count="1" id="5614" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bloody Orchid - Confusion - Focus -->
@@ -1144,6 +1429,8 @@
 	<item>
 		<!-- Bloody Orchid - Back Blow -->
 		<ingredient count="1" id="5615" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bloody Orchid - Confusion - Back Blow -->
@@ -1152,6 +1439,8 @@
 	<item>
 		<!-- Bloody Orchid - Critical Bleed -->
 		<ingredient count="1" id="5616" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bloody Orchid - Confusion - Critical Bleed -->
@@ -1160,6 +1449,8 @@
 	<item>
 		<!-- Elemental Sword -->
 		<ingredient count="1" id="150" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elemental Sword - Hail -->
@@ -1168,6 +1459,8 @@
 	<item>
 		<!-- Elemental Sword - M. Atk. -->
 		<ingredient count="1" id="5638" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elemental Sword - Hail - M. Atk. -->
@@ -1176,6 +1469,8 @@
 	<item>
 		<!-- Elemental Sword - Magic Paralyze -->
 		<ingredient count="1" id="5639" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elemental Sword - Hail - Magic Paralyze -->
@@ -1184,6 +1479,8 @@
 	<item>
 		<!-- Elemental Sword - Empower -->
 		<ingredient count="1" id="5640" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elemental Sword - Hail - Empower -->
@@ -1192,6 +1489,8 @@
 	<item>
 		<!-- Spiritual Eye -->
 		<ingredient count="1" id="7894" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Spiritual Eye - Hail -->
@@ -1200,6 +1499,8 @@
 	<item>
 		<!-- Spiritual Eye - Mana Up -->
 		<ingredient count="1" id="8147" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Spiritual Eye - Hail - Mana Up -->
@@ -1208,6 +1509,8 @@
 	<item>
 		<!-- Spiritual Eye - Magic Poison -->
 		<ingredient count="1" id="8148" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Spiritual Eye - Hail - Magic Poison -->
@@ -1216,6 +1519,8 @@
 	<item>
 		<!-- Spiritual Eye - Acumen -->
 		<ingredient count="1" id="8149" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Spiritual Eye - Hail - Acumen -->
@@ -1224,6 +1529,8 @@
 	<item>
 		<!-- Infernal Master -->
 		<ingredient count="1" id="7884" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Infernal Master - Concentration -->
@@ -1232,6 +1539,8 @@
 	<item>
 		<!-- Infernal Master - Haste -->
 		<ingredient count="1" id="8108" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Infernal Master - Concentration - Haste -->
@@ -1240,6 +1549,8 @@
 	<item>
 		<!-- Infernal Master - Critical Damage -->
 		<ingredient count="1" id="8109" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Infernal Master - Concentration - Critical Damage -->
@@ -1248,6 +1559,8 @@
 	<item>
 		<!-- Infernal Master - Focus -->
 		<ingredient count="1" id="8110" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Infernal Master - Concentration - Focus -->
@@ -1256,6 +1569,8 @@
 	<item>
 		<!-- Carnage Bow -->
 		<ingredient count="1" id="288" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Carnage Bow - Concentration -->
@@ -1264,6 +1579,8 @@
 	<item>
 		<!-- Carnage Bow - Light -->
 		<ingredient count="1" id="5608" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Carnage Bow - Concentration - Light -->
@@ -1272,6 +1589,8 @@
 	<item>
 		<!-- Carnage Bow - Critical Bleed -->
 		<ingredient count="1" id="5609" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Carnage Bow - Concentration - Critical Bleed -->
@@ -1280,6 +1599,8 @@
 	<item>
 		<!-- Carnage Bow - Mana Up -->
 		<ingredient count="1" id="5610" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Carnage Bow - Concentration - Mana Up -->
@@ -1288,6 +1609,8 @@
 	<item>
 		<!-- Keshanberk*Keshanberk -->
 		<ingredient count="1" id="5233" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Keshanberk*Keshanberk - Destruction -->
@@ -1296,6 +1619,8 @@
 	<item>
 		<!-- Tallum Blade -->
 		<ingredient count="1" id="80" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Blade - Destruction -->
@@ -1304,6 +1629,8 @@
 	<item>
 		<!-- Tallum Blade - Critical Poison -->
 		<ingredient count="1" id="5635" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Blade - Destruction - Critical Poison -->
@@ -1312,6 +1639,8 @@
 	<item>
 		<!-- Tallum Blade - Haste -->
 		<ingredient count="1" id="5636" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Blade - Destruction - Haste -->
@@ -1320,6 +1649,8 @@
 	<item>
 		<!-- Tallum Blade - Anger -->
 		<ingredient count="1" id="5637" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Blade - Destruction - Anger -->
@@ -1328,6 +1659,8 @@
 	<item>
 		<!-- Destroyer Hammer -->
 		<ingredient count="1" id="7899" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Destroyer Hammer - Lightning -->
@@ -1336,6 +1669,8 @@
 	<item>
 		<!-- Destroyer Hammer - Health -->
 		<ingredient count="1" id="8126" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Destroyer Hammer - Lightning - Health -->
@@ -1344,6 +1679,8 @@
 	<item>
 		<!-- Destroyer Hammer - Haste -->
 		<ingredient count="1" id="8127" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Destroyer Hammer - Lightning - Haste -->
@@ -1352,6 +1689,8 @@
 	<item>
 		<!-- Destroyer Hammer - Critical Drain -->
 		<ingredient count="1" id="8128" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Destroyer Hammer - Lightning - Critical Drain -->
@@ -1360,6 +1699,8 @@
 	<item>
 		<!-- Divine Pain -->
 		<ingredient count="1" id="9332" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Divine Pain - Concentration -->
@@ -1368,6 +1709,8 @@
 	<item>
 		<!-- Divine Pain - Haste -->
 		<ingredient count="1" id="9333" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Divine Pain - Concentration - Haste -->
@@ -1376,6 +1719,8 @@
 	<item>
 		<!-- Divine Pain - Critical Damage -->
 		<ingredient count="1" id="9334" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Divine Pain - Concentration - Critical Damage -->
@@ -1384,6 +1729,8 @@
 	<item>
 		<!-- Divine Pain - Focus -->
 		<ingredient count="1" id="9335" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Divine Pain - Concentration - Focus -->
@@ -1392,6 +1739,8 @@
 	<item>
 		<!-- Halberd -->
 		<ingredient count="1" id="98" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Halberd - Lightning -->
@@ -1400,6 +1749,8 @@
 	<item>
 		<!-- Halberd - Haste -->
 		<ingredient count="1" id="5626" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Halberd - Lightning - Haste -->
@@ -1408,6 +1759,8 @@
 	<item>
 		<!-- Halberd - Critical Stun -->
 		<ingredient count="1" id="5627" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Halberd - Lightning - Critical Stun -->
@@ -1416,6 +1769,8 @@
 	<item>
 		<!-- Halberd - Wide Blow -->
 		<ingredient count="1" id="5628" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Halberd - Lightning - Wide Blow -->
@@ -1424,6 +1779,8 @@
 	<item>
 		<!-- Keshanberk*Damascus -->
 		<ingredient count="1" id="5705" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Keshanberk*Damascus - Destruction -->
@@ -1432,6 +1789,8 @@
 	<item>
 		<!-- Lacerator -->
 		<ingredient count="1" id="9340" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Lacerator - Thunder -->
@@ -1440,6 +1799,8 @@
 	<item>
 		<!-- Lacerator - Critical Damage -->
 		<ingredient count="1" id="9341" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Lacerator - Thunder - Critical Damage -->
@@ -1448,6 +1809,8 @@
 	<item>
 		<!-- Lacerator - Health -->
 		<ingredient count="1" id="9342" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Lacerator - Thunder - Health -->
@@ -1456,6 +1819,8 @@
 	<item>
 		<!-- Lacerator - Rsk. Focus -->
 		<ingredient count="1" id="9343" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Lacerator - Thunder - Rsk. Focus -->
@@ -1464,6 +1829,8 @@
 	<item>
 		<!-- Damascus*Damascus -->
 		<ingredient count="1" id="5706" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Damascus*Damascus - Thunder -->
@@ -1472,6 +1839,8 @@
 	<item>
 		<!-- Dark Legion's Edge -->
 		<ingredient count="1" id="2500" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dark Legion's Edge - Thunder -->
@@ -1480,6 +1849,8 @@
 	<item>
 		<!-- Dark Legion's Edge - Critical Damage -->
 		<ingredient count="1" id="5647" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dark Legion's Edge - Thunder - Critical Damage -->
@@ -1488,6 +1859,8 @@
 	<item>
 		<!-- Dark Legion's Edge - Health -->
 		<ingredient count="1" id="5648" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dark Legion's Edge - Thunder - Health -->
@@ -1496,6 +1869,8 @@
 	<item>
 		<!-- Dark Legion's Edge - Rsk. Focus -->
 		<ingredient count="1" id="5649" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dark Legion's Edge - Thunder - Rsk. Focus -->
@@ -1504,6 +1879,8 @@
 	<item>
 		<!-- Undertaker -->
 		<ingredient count="1" id="9344" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Undertaker - Evil Spirit -->
@@ -1512,6 +1889,8 @@
 	<item>
 		<!-- Undertaker - Health -->
 		<ingredient count="1" id="9345" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Undertaker - Evil Spirit - Health -->
@@ -1520,6 +1899,8 @@
 	<item>
 		<!-- Undertaker - Critical Bleed -->
 		<ingredient count="1" id="9346" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Undertaker - Evil Spirit - Critical Bleed -->
@@ -1528,6 +1909,8 @@
 	<item>
 		<!-- Undertaker - Critical Drain -->
 		<ingredient count="1" id="9347" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Undertaker - Evil Spirit - Critical Drain -->
@@ -1536,6 +1919,8 @@
 	<item>
 		<!-- Doom Crusher -->
 		<ingredient count="1" id="7902" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doom Crusher - Thunder -->
@@ -1544,6 +1929,8 @@
 	<item>
 		<!-- Doom Crusher - Health -->
 		<ingredient count="1" id="8135" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doom Crusher - Thunder - Health -->
@@ -1552,6 +1939,8 @@
 	<item>
 		<!-- Doom Crusher - Anger -->
 		<ingredient count="1" id="8136" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doom Crusher - Thunder - Anger -->
@@ -1560,6 +1949,8 @@
 	<item>
 		<!-- Doom Crusher - Rsk. Haste -->
 		<ingredient count="1" id="8137" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Doom Crusher - Thunder - Rsk. Haste -->
@@ -1568,6 +1959,8 @@
 	<item>
 		<!-- Dragon Grinder -->
 		<ingredient count="1" id="270" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Grinder - Earth -->
@@ -1576,6 +1969,8 @@
 	<item>
 		<!-- Dragon Grinder - Rsk. Evasion -->
 		<ingredient count="1" id="5623" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Grinder - Earth - Rsk. Evasion -->
@@ -1584,6 +1979,8 @@
 	<item>
 		<!-- Dragon Grinder - Guidance -->
 		<ingredient count="1" id="5624" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Grinder - Earth - Guidance -->
@@ -1592,6 +1989,8 @@
 	<item>
 		<!-- Dragon Grinder - Health -->
 		<ingredient count="1" id="5625" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Grinder - Earth - Health -->
@@ -1600,6 +1999,8 @@
 	<item>
 		<!-- Dragon Slayer -->
 		<ingredient count="1" id="81" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Slayer - Evil Spirit -->
@@ -1608,6 +2009,8 @@
 	<item>
 		<!-- Dragon Slayer - Health -->
 		<ingredient count="1" id="5644" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Slayer - Evil Spirit - Health -->
@@ -1616,6 +2019,8 @@
 	<item>
 		<!-- Dragon Slayer - Critical Bleed -->
 		<ingredient count="1" id="5645" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Slayer - Evil Spirit - Critical Bleed -->
@@ -1624,6 +2029,8 @@
 	<item>
 		<!-- Dragon Slayer - Critical Drain -->
 		<ingredient count="1" id="5646" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Dragon Slayer - Evil Spirit - Critical Drain -->
@@ -1632,6 +2039,8 @@
 	<item>
 		<!-- Flaming Dragon Skull -->
 		<ingredient count="1" id="7895" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Flaming Dragon Skull - Wisdom -->
@@ -1640,6 +2049,8 @@
 	<item>
 		<!-- Flaming Dragon Skull - Acumen -->
 		<ingredient count="1" id="8150" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Flaming Dragon Skull - Wisdom - Acumen -->
@@ -1648,6 +2059,8 @@
 	<item>
 		<!-- Flaming Dragon Skull - M. Atk. -->
 		<ingredient count="1" id="8151" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Flaming Dragon Skull - Wisdom - M. Atk. -->
@@ -1656,6 +2069,8 @@
 	<item>
 		<!-- Flaming Dragon Skull - Magic Silence -->
 		<ingredient count="1" id="8152" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Flaming Dragon Skull - Wisdom - Magic Silence -->
@@ -1664,6 +2079,8 @@
 	<item>
 		<!-- Branch of the Mother Tree -->
 		<ingredient count="1" id="213" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Branch of the Mother Tree - Nature -->
@@ -1672,6 +2089,8 @@
 	<item>
 		<!-- Branch of the Mother Tree - Conversion -->
 		<ingredient count="1" id="5605" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Branch of the Mother Tree - Nature - Conversion -->
@@ -1680,6 +2099,8 @@
 	<item>
 		<!-- Branch of the Mother Tree - Magic Damage -->
 		<ingredient count="1" id="5606" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Branch of the Mother Tree - Nature - Magic Damage -->
@@ -1688,6 +2109,8 @@
 	<item>
 		<!-- Branch of the Mother Tree - Acumen -->
 		<ingredient count="1" id="5607" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Branch of the Mother Tree - Nature - Acumen -->
@@ -1696,6 +2119,8 @@
 	<item>
 		<!-- Sword of Miracles -->
 		<ingredient count="1" id="151" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Miracles - Holy Spirit -->
@@ -1704,6 +2129,8 @@
 	<item>
 		<!-- Sword of Miracles - M. Atk. -->
 		<ingredient count="1" id="5641" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Miracles - Holy Spirit - M. Atk. -->
@@ -1712,6 +2139,8 @@
 	<item>
 		<!-- Sword of Miracles - Magic Silence -->
 		<ingredient count="1" id="5642" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Miracles - Holy Spirit - Magic Silence -->
@@ -1720,6 +2149,8 @@
 	<item>
 		<!-- Sword of Miracles - Acumen -->
 		<ingredient count="1" id="5643" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Miracles - Holy Spirit - Acumen -->
@@ -1728,6 +2159,8 @@
 	<item>
 		<!-- Reaper -->
 		<ingredient count="1" id="9348" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Reaper - Clairvoyance -->
@@ -1736,6 +2169,8 @@
 	<item>
 		<!-- Reaper - Cheap Shot -->
 		<ingredient count="1" id="9349" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Reaper - Clairvoyance - Cheap Shot -->
@@ -1744,6 +2179,8 @@
 	<item>
 		<!-- Reaper - Quick Recovery -->
 		<ingredient count="1" id="9350" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Reaper - Clairvoyance - Quick Recovery -->
@@ -1752,6 +2189,8 @@
 	<item>
 		<!-- Reaper - Critical Poison -->
 		<ingredient count="1" id="9351" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Reaper - Clairvoyance - Critical Poison -->
@@ -1760,6 +2199,8 @@
 	<item>
 		<!-- Soul Separator -->
 		<ingredient count="1" id="236" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Separator - On Fire -->
@@ -1768,6 +2209,8 @@
 	<item>
 		<!-- Soul Separator - Guidance -->
 		<ingredient count="1" id="5617" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Separator - On Fire - Guidance -->
@@ -1776,6 +2219,8 @@
 	<item>
 		<!-- Soul Separator - Critical Damage -->
 		<ingredient count="1" id="5618" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Separator - On Fire - Critical Damage -->
@@ -1784,6 +2229,8 @@
 	<item>
 		<!-- Soul Separator - Rsk. Haste -->
 		<ingredient count="1" id="5619" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Separator - On Fire - Rsk. Haste -->
@@ -1792,6 +2239,8 @@
 	<item>
 		<!-- Elysian -->
 		<ingredient count="1" id="164" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elysian - Great Gale -->
@@ -1800,6 +2249,8 @@
 	<item>
 		<!-- Elysian - Health -->
 		<ingredient count="1" id="5602" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elysian - Great Gale - Health -->
@@ -1808,6 +2259,8 @@
 	<item>
 		<!-- Elysian - Anger -->
 		<ingredient count="1" id="5603" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elysian - Great Gale - Anger -->
@@ -1816,6 +2269,8 @@
 	<item>
 		<!-- Elysian - Critical Drain -->
 		<ingredient count="1" id="5604" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Elysian - Great Gale - Critical Drain -->
@@ -1824,6 +2279,8 @@
 	<item>
 		<!-- Soul Bow -->
 		<ingredient count="1" id="289" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Bow - Clairvoyance -->
@@ -1832,6 +2289,8 @@
 	<item>
 		<!-- Soul Bow - Cheap Shot -->
 		<ingredient count="1" id="5611" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Bow - Clairvoyance - Cheap Shot -->
@@ -1840,6 +2299,8 @@
 	<item>
 		<!-- Soul Bow - Quick Recovery -->
 		<ingredient count="1" id="5612" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Bow - Clairvoyance - Quick Recovery -->
@@ -1848,6 +2309,8 @@
 	<item>
 		<!-- Soul Bow - Critical Poison -->
 		<ingredient count="1" id="5613" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Soul Bow - Clairvoyance - Critical Poison -->
@@ -1856,6 +2319,8 @@
 	<item>
 		<!-- Tallum Glaive -->
 		<ingredient count="1" id="305" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Glaive - On Fire -->
@@ -1864,6 +2329,8 @@
 	<item>
 		<!-- Tallum Glaive - Guidance -->
 		<ingredient count="1" id="5632" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Glaive - On Fire - Guidance -->
@@ -1872,6 +2339,8 @@
 	<item>
 		<!-- Tallum Glaive - Health -->
 		<ingredient count="1" id="5633" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Glaive - On Fire - Health -->
@@ -1880,6 +2349,8 @@
 	<item>
 		<!-- Tallum Glaive - Wide Blow -->
 		<ingredient count="1" id="5634" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Glaive - On Fire - Wide Blow -->
@@ -1888,6 +2359,8 @@
 	<item>
 		<!-- Naga Storm -->
 		<ingredient count="1" id="8682" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Naga Storm - Molar -->
@@ -1896,6 +2369,8 @@
 	<item>
 		<!-- Naga Storm - Focus -->
 		<ingredient count="1" id="8800" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Naga Storm - Molar - Focus -->
@@ -1904,6 +2379,8 @@
 	<item>
 		<!-- Naga Storm - Critical Damage -->
 		<ingredient count="1" id="8801" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Naga Storm - Molar - Critical Damage -->
@@ -1912,6 +2389,8 @@
 	<item>
 		<!-- Naga Storm - Back Blow -->
 		<ingredient count="1" id="8802" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Naga Storm - Molar - Back Blow -->
@@ -1920,6 +2399,8 @@
 	<item>
 		<!-- Daimon Crystal -->
 		<ingredient count="1" id="8688" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Daimon Crystal - Wisdom -->
@@ -1928,6 +2409,8 @@
 	<item>
 		<!-- Daimon Crystal - Mana Up -->
 		<ingredient count="1" id="8818" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Daimon Crystal - Wisdom - Mana Up -->
@@ -1936,6 +2419,8 @@
 	<item>
 		<!-- Daimon Crystal - Acumen -->
 		<ingredient count="1" id="8819" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Daimon Crystal - Wisdom - Acumen -->
@@ -1944,6 +2429,8 @@
 	<item>
 		<!-- Daimon Crystal - Mental Shield -->
 		<ingredient count="1" id="8820" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Daimon Crystal - Wisdom - Mental Shield -->
@@ -1952,6 +2439,8 @@
 	<item>
 		<!-- Barakiel's Axe -->
 		<ingredient count="1" id="8680" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Barakiel's Axe - On Fire -->
@@ -1960,6 +2449,8 @@
 	<item>
 		<!-- Barakiel's Axe - Health -->
 		<ingredient count="1" id="8794" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Barakiel's Axe - On Fire - Health -->
@@ -1968,6 +2459,8 @@
 	<item>
 		<!-- Barakiel's Axe - Haste -->
 		<ingredient count="1" id="8795" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Barakiel's Axe - On Fire - Haste -->
@@ -1976,6 +2469,8 @@
 	<item>
 		<!-- Barakiel's Axe - Focus -->
 		<ingredient count="1" id="8796" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Barakiel's Axe - On Fire - Focus -->
@@ -1984,6 +2479,8 @@
 	<item>
 		<!-- Screaming Vengeance -->
 		<ingredient count="1" id="9360" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Screaming Vengeance - Concentration -->
@@ -1992,6 +2489,8 @@
 	<item>
 		<!-- Screaming Vengeance - Cheap Shot -->
 		<ingredient count="1" id="9361" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Screaming Vengeance - Concentration - Cheap Shot -->
@@ -2000,6 +2499,8 @@
 	<item>
 		<!-- Screaming Vengeance - Focus -->
 		<ingredient count="1" id="9362" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Screaming Vengeance - Concentration - Focus -->
@@ -2008,6 +2509,8 @@
 	<item>
 		<!-- Screaming Vengeance - Quick Recovery -->
 		<ingredient count="1" id="9363" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Screaming Vengeance - Concentration - Quick Recovery -->
@@ -2016,6 +2519,8 @@
 	<item>
 		<!-- Behemoth's Tuning Fork -->
 		<ingredient count="1" id="8681" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Behemoth's Tuning Fork - Destruction -->
@@ -2024,6 +2529,8 @@
 	<item>
 		<!-- Behemoth's Tuning Fork - Focus -->
 		<ingredient count="1" id="8797" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Behemoth's Tuning Fork - Destruction - Focus -->
@@ -2032,6 +2539,8 @@
 	<item>
 		<!-- Behemoth's Tuning Fork - Health -->
 		<ingredient count="1" id="8798" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Behemoth's Tuning Fork - Destruction - Health -->
@@ -2040,6 +2549,8 @@
 	<item>
 		<!-- Behemoth's Tuning Fork - Anger -->
 		<ingredient count="1" id="8799" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Behemoth's Tuning Fork - Destruction - Anger -->
@@ -2048,6 +2559,8 @@
 	<item>
 		<!-- Durendal -->
 		<ingredient count="1" id="9356" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bultgang - Earth -->
@@ -2056,6 +2569,8 @@
 	<item>
 		<!-- Durendal - Focus -->
 		<ingredient count="1" id="9357" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bultgang - Earth - Focus -->
@@ -2064,6 +2579,8 @@
 	<item>
 		<!-- Durendal - Haste -->
 		<ingredient count="1" id="9358" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bultgang - Earth - Haste -->
@@ -2072,6 +2589,8 @@
 	<item>
 		<!-- Durendal - Health -->
 		<ingredient count="1" id="9359" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Bultgang - Earth - Health -->
@@ -2080,6 +2599,8 @@
 	<item>
 		<!-- Shyeed's Bow -->
 		<ingredient count="1" id="8684" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Shyeed's Bow - Concentration -->
@@ -2088,6 +2609,8 @@
 	<item>
 		<!-- Shyeed's Bow - Cheap Shot -->
 		<ingredient count="1" id="8806" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Shyeed's Bow - Concentration - Cheap Shot -->
@@ -2096,6 +2619,8 @@
 	<item>
 		<!-- Shyeed's Bow - Focus -->
 		<ingredient count="1" id="8807" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Shyeed's Bow - Concentration - Focus -->
@@ -2104,6 +2629,8 @@
 	<item>
 		<!-- Shyeed's Bow - Quick Recovery -->
 		<ingredient count="1" id="8808" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Shyeed's Bow - Concentration - Quick Recovery -->
@@ -2112,6 +2639,8 @@
 	<item>
 		<!-- Sword of Ipos -->
 		<ingredient count="1" id="8679" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Ipos - Earth -->
@@ -2120,6 +2649,8 @@
 	<item>
 		<!-- Sword of Ipos - Focus -->
 		<ingredient count="1" id="8791" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Ipos - Earth - Focus -->
@@ -2128,6 +2659,8 @@
 	<item>
 		<!-- Sword of Ipos - Haste -->
 		<ingredient count="1" id="8792" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Ipos - Earth - Haste -->
@@ -2136,6 +2669,8 @@
 	<item>
 		<!-- Sword of Ipos - Health -->
 		<ingredient count="1" id="8793" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sword of Ipos - Earth - Health -->
@@ -2144,6 +2679,8 @@
 	<item>
 		<!-- Sobekk's Hurricane -->
 		<ingredient count="1" id="8685" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sobekk's Hurricane - Landslide -->
@@ -2152,6 +2689,8 @@
 	<item>
 		<!-- Sobekk's Hurricane - Rsk. Haste -->
 		<ingredient count="1" id="8809" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sobekk's Hurricane - Landslide - Rsk. Haste -->
@@ -2160,6 +2699,8 @@
 	<item>
 		<!-- Sobekk's Hurricane - Haste -->
 		<ingredient count="1" id="8810" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sobekk's Hurricane - Landslide - Haste -->
@@ -2168,6 +2709,8 @@
 	<item>
 		<!-- Sobekk's Hurricane - Critical Drain -->
 		<ingredient count="1" id="8811" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sobekk's Hurricane - Landslide - Critical Drain -->
@@ -2176,6 +2719,8 @@
 	<item>
 		<!-- Sirra's Blade -->
 		<ingredient count="1" id="8678" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sirra's Blade - Landslide -->
@@ -2184,6 +2729,8 @@
 	<item>
 		<!-- Sirra's Blade - Haste -->
 		<ingredient count="1" id="8788" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sirra's Blade - Landslide - Haste -->
@@ -2192,6 +2739,8 @@
 	<item>
 		<!-- Sirra's Blade - Health -->
 		<ingredient count="1" id="8789" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sirra's Blade - Landslide - Health -->
@@ -2200,6 +2749,8 @@
 	<item>
 		<!-- Sirra's Blade - Critical Poison -->
 		<ingredient count="1" id="8790" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Sirra's Blade - Landslide - Critical Poison -->
@@ -2208,6 +2759,8 @@
 	<item>
 		<!-- Eclair Bijou -->
 		<ingredient count="1" id="9352" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Eclair Bijou - Landslide -->
@@ -2216,6 +2769,8 @@
 	<item>
 		<!-- Eclair Bijou - Haste -->
 		<ingredient count="1" id="9353" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Eclair Bijou - Landslide - Haste -->
@@ -2224,6 +2779,8 @@
 	<item>
 		<!-- Eclair Bijou - Health -->
 		<ingredient count="1" id="9354" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Eclair Bijou - Landslide - Health -->
@@ -2232,6 +2789,8 @@
 	<item>
 		<!-- Eclair Bijou - Critical Poison -->
 		<ingredient count="1" id="9355" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Eclair Bijou - Landslide - Critical Poison -->
@@ -2240,6 +2799,8 @@
 	<item>
 		<!-- Tiphon's Spear -->
 		<ingredient count="1" id="8683" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tiphon's Spear - Landslide -->
@@ -2248,6 +2809,8 @@
 	<item>
 		<!-- Tiphon's Spear - Critical Stun -->
 		<ingredient count="1" id="8803" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tiphon's Spear - Landslide - Critical Stun -->
@@ -2256,6 +2819,8 @@
 	<item>
 		<!-- Tiphon's Spear - Towering Blow -->
 		<ingredient count="1" id="8804" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tiphon's Spear - Landslide - Towering Blow -->
@@ -2264,6 +2829,8 @@
 	<item>
 		<!-- Tiphon's Spear - Wild Blow -->
 		<ingredient count="1" id="8805" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tiphon's Spear - Landslide - Wild Blow -->
@@ -2272,6 +2839,8 @@
 	<item>
 		<!-- Damascus * Tallum Blade -->
 		<ingredient count="1" id="8938" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Tallum Blade*Damascus - Landslide -->
@@ -2280,6 +2849,8 @@
 	<item>
 		<!-- Themis' Tongue -->
 		<ingredient count="1" id="8686" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Themis' Tongue - Cleverness -->
@@ -2288,6 +2859,8 @@
 	<item>
 		<!-- Themis' Tongue - Mana Up -->
 		<ingredient count="1" id="8812" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Themis' Tongue - Cleverness - Mana Up -->
@@ -2296,6 +2869,8 @@
 	<item>
 		<!-- Themis' Tongue - Mental Shield -->
 		<ingredient count="1" id="8813" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Themis' Tongue - Cleverness - Mental Shield -->
@@ -2304,6 +2879,8 @@
 	<item>
 		<!-- Themis' Tongue - Magic Focus -->
 		<ingredient count="1" id="8814" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Themis' Tongue - Cleverness - Magic Focus -->
@@ -2312,6 +2889,8 @@
 	<item>
 		<!-- Cabrio's Hand -->
 		<ingredient count="1" id="8687" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Cabrio's Hand - Cleverness -->
@@ -2320,6 +2899,8 @@
 	<item>
 		<!-- Cabrio's Hand - Conversion -->
 		<ingredient count="1" id="8815" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Cabrio's Hand - Cleverness - Conversion -->
@@ -2328,6 +2909,8 @@
 	<item>
 		<!-- Cabrio's Hand - Mana Up -->
 		<ingredient count="1" id="8816" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Cabrio's Hand - Cleverness - Mana Up -->
@@ -2336,6 +2919,8 @@
 	<item>
 		<!-- Cabrio's Hand - Magic Silence -->
 		<ingredient count="1" id="8817" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient count="1" id="14679" />
 		<!-- Cabrio's Hand - Cleverness - Magic Silence -->
@@ -2344,6 +2929,8 @@
 	<item>
 		<!-- Gram -->
 		<ingredient count="1" id="9368" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Gram - Thunder -->
@@ -2352,6 +2939,8 @@
 	<item>
 		<!-- Gram - Haste -->
 		<ingredient count="1" id="9369" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Gram - Thunder - Haste -->
@@ -2360,6 +2949,8 @@
 	<item>
 		<!-- Gram - Health -->
 		<ingredient count="1" id="9370" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Gram - Thunder - Health -->
@@ -2368,6 +2959,8 @@
 	<item>
 		<!-- Gram - Focus -->
 		<ingredient count="1" id="9371" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Gram - Thunder - Focus -->
@@ -2376,6 +2969,8 @@
 	<item>
 		<!-- Demon Splinter -->
 		<ingredient count="1" id="6371" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Demon Splinter - Thunder -->
@@ -2384,6 +2979,8 @@
 	<item>
 		<!-- Demon Splinter - Focus -->
 		<ingredient count="1" id="6602" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Demon Splinter - Thunder - Focus -->
@@ -2392,6 +2989,8 @@
 	<item>
 		<!-- Demon Splinter - Health -->
 		<ingredient count="1" id="6603" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Demon Splinter - Thunder - Health -->
@@ -2400,6 +2999,8 @@
 	<item>
 		<!-- Demon Splinter - Critical Stun -->
 		<ingredient count="1" id="6604" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Demon Splinter - Thunder - Critical Stun -->
@@ -2408,6 +3009,8 @@
 	<item>
 		<!-- Draconic Bow -->
 		<ingredient count="1" id="7575" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Draconic Bow - Earth -->
@@ -2416,6 +3019,8 @@
 	<item>
 		<!-- Draconic Bow - Cheap Shot -->
 		<ingredient count="1" id="7576" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Draconic Bow - Earth - Cheap Shot -->
@@ -2424,6 +3029,8 @@
 	<item>
 		<!-- Draconic Bow - Focus -->
 		<ingredient count="1" id="7577" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Draconic Bow - Earth - Focus -->
@@ -2432,6 +3039,8 @@
 	<item>
 		<!-- Draconic Bow - Critical Slow -->
 		<ingredient count="1" id="7578" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Draconic Bow - Earth - Critical Slow -->
@@ -2440,6 +3049,8 @@
 	<item>
 		<!-- Dragon Hunter Axe -->
 		<ingredient count="1" id="6369" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dragon Hunter Axe - Thunder -->
@@ -2448,6 +3059,8 @@
 	<item>
 		<!-- Dragon Hunter Axe - HP Regeneration -->
 		<ingredient count="1" id="6596" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dragon Hunter Axe - Thunder - HP Regeneration -->
@@ -2456,6 +3069,8 @@
 	<item>
 		<!-- Dragon Hunter Axe - Health -->
 		<ingredient count="1" id="6597" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dragon Hunter Axe - Thunder - Health -->
@@ -2464,6 +3079,8 @@
 	<item>
 		<!-- Dragon Hunter Axe - HP Drain -->
 		<ingredient count="1" id="6598" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dragon Hunter Axe - Thunder - HP Drain -->
@@ -2472,6 +3089,8 @@
 	<item>
 		<!-- Laevateinn -->
 		<ingredient count="1" id="9364" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Laevateinn - Lightning -->
@@ -2480,6 +3099,8 @@
 	<item>
 		<!-- Laevateinn - Haste -->
 		<ingredient count="1" id="9365" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Laevateinn - Lightning - Haste -->
@@ -2488,6 +3109,8 @@
 	<item>
 		<!-- Laevateinn - Health -->
 		<ingredient count="1" id="9366" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Laevateinn - Lightning - Health -->
@@ -2496,6 +3119,8 @@
 	<item>
 		<!-- Laevateinn - Focus -->
 		<ingredient count="1" id="9367" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Laevateinn - Lightning - Focus -->
@@ -2504,6 +3129,8 @@
 	<item>
 		<!-- Basalt Battlehammer -->
 		<ingredient count="1" id="6365" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Basalt Battlehammer - Concentration -->
@@ -2512,6 +3139,8 @@
 	<item>
 		<!-- Basalt Battlehammer - HP Drain -->
 		<ingredient count="1" id="6584" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Basalt Battlehammer - Concentration - HP Drain -->
@@ -2520,6 +3149,8 @@
 	<item>
 		<!-- Basalt Battlehammer - Health -->
 		<ingredient count="1" id="6585" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Basalt Battlehammer - Concentration - Health -->
@@ -2528,6 +3159,8 @@
 	<item>
 		<!-- Basalt Battlehammer - HP Regeneration -->
 		<ingredient count="1" id="6586" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Basalt Battlehammer - Concentration - HP Regeneration -->
@@ -2536,6 +3169,8 @@
 	<item>
 		<!-- Sarunga -->
 		<ingredient count="1" id="9372" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Sarunga - Earth -->
@@ -2544,6 +3179,8 @@
 	<item>
 		<!-- Sarunga - Cheap Shot -->
 		<ingredient count="1" id="9373" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Sarunga - Earth - Cheap Shot -->
@@ -2552,6 +3189,8 @@
 	<item>
 		<!-- Sarunga - Focus -->
 		<ingredient count="1" id="9374" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Sarunga - Earth - Focus -->
@@ -2560,6 +3199,8 @@
 	<item>
 		<!-- Sarunga - Critical Slow -->
 		<ingredient count="1" id="9375" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Sarunga - Earth - Critical Slow -->
@@ -2568,6 +3209,8 @@
 	<item>
 		<!-- Saint Spear -->
 		<ingredient count="1" id="6370" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Saint Spear - Destruction -->
@@ -2576,6 +3219,8 @@
 	<item>
 		<!-- Saint Spear - Health -->
 		<ingredient count="1" id="6599" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Saint Spear - Destruction - Health -->
@@ -2584,6 +3229,8 @@
 	<item>
 		<!-- Saint Spear - Guidance -->
 		<ingredient count="1" id="6600" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Saint Spear - Destruction - Guidance -->
@@ -2592,6 +3239,8 @@
 	<item>
 		<!-- Saint Spear - Haste -->
 		<ingredient count="1" id="6601" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Saint Spear - Destruction - Haste -->
@@ -2600,6 +3249,8 @@
 	<item>
 		<!-- Arcana Mace -->
 		<ingredient count="1" id="6579" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Arcana Mace - Nature -->
@@ -2608,6 +3259,8 @@
 	<item>
 		<!-- Arcana Mace - Acumen -->
 		<ingredient count="1" id="6608" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Arcana Mace - Nature - Acumen -->
@@ -2616,6 +3269,8 @@
 	<item>
 		<!-- Arcana Mace - MP Regeneration -->
 		<ingredient count="1" id="6609" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Arcana Mace - Nature - MP Regeneration -->
@@ -2624,6 +3279,8 @@
 	<item>
 		<!-- Arcana Mace - Mana Up -->
 		<ingredient count="1" id="6610" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Arcana Mace - Nature - Mana Up -->
@@ -2632,6 +3289,8 @@
 	<item>
 		<!-- Angel Slayer -->
 		<ingredient count="1" id="6367" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Angel Slayer - Concentration -->
@@ -2640,6 +3299,8 @@
 	<item>
 		<!-- Angel Slayer - Critical Damage -->
 		<ingredient count="1" id="6590" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Angel Slayer - Concentration - Critical Damage -->
@@ -2648,6 +3309,8 @@
 	<item>
 		<!-- Angel Slayer - HP Drain -->
 		<ingredient count="1" id="6591" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Angel Slayer - Concentration - HP Drain -->
@@ -2656,6 +3319,8 @@
 	<item>
 		<!-- Angel Slayer - Haste -->
 		<ingredient count="1" id="6592" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Angel Slayer - Concentration - Haste -->
@@ -2664,6 +3329,8 @@
 	<item>
 		<!-- Imperial Staff -->
 		<ingredient count="1" id="6366" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Imperial Staff - Nature -->
@@ -2672,6 +3339,8 @@
 	<item>
 		<!-- Imperial Staff - Empower -->
 		<ingredient count="1" id="6587" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Imperial Staff - Nature - Empower -->
@@ -2680,6 +3349,8 @@
 	<item>
 		<!-- Imperial Staff - MP Regeneration -->
 		<ingredient count="1" id="6588" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Imperial Staff - Nature - MP Regeneration -->
@@ -2688,6 +3359,8 @@
 	<item>
 		<!-- Imperial Staff - Magic Hold -->
 		<ingredient count="1" id="6589" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Imperial Staff - Nature - Magic Hold -->
@@ -2696,6 +3369,8 @@
 	<item>
 		<!-- Tallum Blade*Dark Legion's Edge -->
 		<ingredient count="1" id="6580" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Tallum Blade*Dark Legion's Edge - Lightning -->
@@ -2704,6 +3379,8 @@
 	<item>
 		<!-- Forgotten Blade -->
 		<ingredient count="1" id="6364" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Forgotten Blade - Lightning -->
@@ -2712,6 +3389,8 @@
 	<item>
 		<!-- Forgotten Blade - Haste -->
 		<ingredient count="1" id="6581" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Forgotten Blade - Lightning - Haste -->
@@ -2720,6 +3399,8 @@
 	<item>
 		<!-- Forgotten Blade - Health -->
 		<ingredient count="1" id="6582" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Forgotten Blade - Lightning - Health -->
@@ -2728,6 +3409,8 @@
 	<item>
 		<!-- Forgotten Blade - Focus -->
 		<ingredient count="1" id="6583" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Forgotten Blade - Lightning - Focus -->
@@ -2736,6 +3419,8 @@
 	<item>
 		<!-- Heaven's Divider -->
 		<ingredient count="1" id="6372" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Heaven's Divider - Thunder -->
@@ -2744,6 +3429,8 @@
 	<item>
 		<!-- Heavens Divider - Haste -->
 		<ingredient count="1" id="6605" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Heaven's Divider - Thunder - Haste -->
@@ -2752,6 +3439,8 @@
 	<item>
 		<!-- Heavens Divider - Health -->
 		<ingredient count="1" id="6606" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Heaven's Divider - Thunder - Health -->
@@ -2760,6 +3449,8 @@
 	<item>
 		<!-- Heavens Divider - Focus -->
 		<ingredient count="1" id="6607" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Heaven's Divider - Thunder - Focus -->
@@ -2768,6 +3459,8 @@
 	<item>
 		<!-- Dynasty Ancient Sword -->
 		<ingredient count="1" id="9380" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Ancient Sword - Great Gale -->
@@ -2776,6 +3469,8 @@
 	<item>
 		<!-- Dynasty Ancient Sword - Focus -->
 		<ingredient count="1" id="9381" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Ancient Sword - Great Gale - Focus -->
@@ -2784,6 +3479,8 @@
 	<item>
 		<!-- Dynasty Ancient Sword - Health -->
 		<ingredient count="1" id="9382" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Ancient Sword - Great Gale - Health -->
@@ -2792,6 +3489,8 @@
 	<item>
 		<!-- Dynasty Ancient Sword - Light -->
 		<ingredient count="1" id="9383" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Ancient Sword - Great Gale - Light -->
@@ -2800,6 +3499,8 @@
 	<item>
 		<!-- Dynasty Knife -->
 		<ingredient count="1" id="9446" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Knife - Great Gale -->
@@ -2808,6 +3509,8 @@
 	<item>
 		<!-- Dynasty Knife - Focus -->
 		<ingredient count="1" id="9866" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Knife - Great Gale - Focus -->
@@ -2816,6 +3519,8 @@
 	<item>
 		<!-- Dynasty Knife - Evasion -->
 		<ingredient count="1" id="9867" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Knife - Great Gale - Evasion -->
@@ -2824,6 +3529,8 @@
 	<item>
 		<!-- Dynasty Knife - Critical Damage -->
 		<ingredient count="1" id="9868" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Knife - Great Gale - Critical Damage -->
@@ -2832,6 +3539,8 @@
 	<item>
 		<!-- Dynasty Dual Sword -->
 		<ingredient count="1" id="10004" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Dual Sword - Earth -->
@@ -2840,6 +3549,8 @@
 	<item>
 		<!-- Dynasty Rapier -->
 		<ingredient count="1" id="9376" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Rapier - Earth -->
@@ -2848,6 +3559,8 @@
 	<item>
 		<!-- Dynasty Rapier - Focus -->
 		<ingredient count="1" id="9377" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Rapier - Earth - Focus -->
@@ -2856,6 +3569,8 @@
 	<item>
 		<!-- Dynasty Rapier - Health -->
 		<ingredient count="1" id="9378" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Rapier - Earth - Health -->
@@ -2864,6 +3579,8 @@
 	<item>
 		<!-- Dynasty Rapier - Light -->
 		<ingredient count="1" id="9379" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Rapier - Earth - Light -->
@@ -2872,6 +3589,8 @@
 	<item>
 		<!-- Dynasty Mace -->
 		<ingredient count="1" id="9449" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Mace - Earth -->
@@ -2880,6 +3599,8 @@
 	<item>
 		<!-- Dynasty Mace - Mana Up -->
 		<ingredient count="1" id="9875" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Mace - Earth - Mana Up -->
@@ -2888,6 +3609,8 @@
 	<item>
 		<!-- Dynasty Mace - Conversion -->
 		<ingredient count="1" id="9876" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Mace - Earth - Conversion -->
@@ -2896,6 +3619,8 @@
 	<item>
 		<!-- Dynasty Mace - Acumen -->
 		<ingredient count="1" id="9877" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Mace - Earth - Acumen -->
@@ -2904,6 +3629,8 @@
 	<item>
 		<!-- Dynasty Bagh-Nakh -->
 		<ingredient count="1" id="9450" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bagh-Nakh - Great Gale -->
@@ -2912,6 +3639,8 @@
 	<item>
 		<!-- Dynasty Bagh-Nakh - Rsk. Evasion -->
 		<ingredient count="1" id="9878" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bagh-Nakh - Great Gale - Rsk. Evasion -->
@@ -2920,6 +3649,8 @@
 	<item>
 		<!-- Dynasty Bagh-Nakh - Focus -->
 		<ingredient count="1" id="9879" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bagh-Nakh - Great Gale - Focus -->
@@ -2928,6 +3659,8 @@
 	<item>
 		<!-- Dynasty Bagh-Nakh - Haste -->
 		<ingredient count="1" id="9880" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bagh-Nakh - Great Gale - Haste -->
@@ -2936,6 +3669,8 @@
 	<item>
 		<!-- Dynasty Bow -->
 		<ingredient count="1" id="9445" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bow - Great Gale -->
@@ -2944,6 +3679,8 @@
 	<item>
 		<!-- Dynasty Bow - Cheap Shot -->
 		<ingredient count="1" id="9863" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bow - Great Gale - Cheap Shot -->
@@ -2952,6 +3689,8 @@
 	<item>
 		<!-- Dynasty Bow - Guidance -->
 		<ingredient count="1" id="9864" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bow - Great Gale - Guidance -->
@@ -2960,6 +3699,8 @@
 	<item>
 		<!-- Dynasty Bow - Focus -->
 		<ingredient count="1" id="9865" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Bow - Great Gale - Focus -->
@@ -2968,6 +3709,8 @@
 	<item>
 		<!-- Dynasty Blade -->
 		<ingredient count="1" id="9443" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Blade - Great Gale -->
@@ -2976,6 +3719,8 @@
 	<item>
 		<!-- Dynasty Blade - Focus -->
 		<ingredient count="1" id="9857" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Blade - Great Gale - Focus -->
@@ -2984,6 +3729,8 @@
 	<item>
 		<!-- Dynasty Blade - Health -->
 		<ingredient count="1" id="9858" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Blade - Great Gale - Health -->
@@ -2992,6 +3739,8 @@
 	<item>
 		<!-- Dynasty Blade - Light -->
 		<ingredient count="1" id="9859" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Blade - Great Gale - Light -->
@@ -3000,6 +3749,8 @@
 	<item>
 		<!-- Dynasty Sword -->
 		<ingredient count="1" id="9442" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Sword - Earth -->
@@ -3008,6 +3759,8 @@
 	<item>
 		<!-- Dynasty Sword - Focus -->
 		<ingredient count="1" id="9854" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Sword - Earth - Focus -->
@@ -3016,6 +3769,8 @@
 	<item>
 		<!-- Dynasty Sword - Health -->
 		<ingredient count="1" id="9855" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Sword - Earth - Health -->
@@ -3024,6 +3779,8 @@
 	<item>
 		<!-- Dynasty Sword - Light -->
 		<ingredient count="1" id="9856" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Sword - Earth - Light -->
@@ -3032,6 +3789,8 @@
 	<item>
 		<!-- Dynasty Staff -->
 		<ingredient count="1" id="10252" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Staff - Holy Spirit -->
@@ -3040,6 +3799,8 @@
 	<item>
 		<!-- Dynasty Staff - Mana Up -->
 		<ingredient count="1" id="10527" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Staff - Holy Spirit - Mana Up -->
@@ -3048,6 +3809,8 @@
 	<item>
 		<!-- Dynasty Staff - Conversion -->
 		<ingredient count="1" id="10528" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Staff - Holy Spirit - Conversion -->
@@ -3056,6 +3819,8 @@
 	<item>
 		<!-- Dynasty Staff - Acumen -->
 		<ingredient count="1" id="10529" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Staff - Holy Spirit - Acumen -->
@@ -3066,12 +3831,16 @@
 		<ingredient count="1" id="9448" />
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Dynasty Cudgel - Landslide -->
 		<production count="1" id="11280" />
 	</item>
 	<item>
 		<!-- Dynasty Cudgel - Anger -->
 		<ingredient count="1" id="9872" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Cudgel - Landslide - Anger -->
@@ -3080,6 +3849,8 @@
 	<item>
 		<!-- Dynasty Cudgel - Health -->
 		<ingredient count="1" id="9873" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Cudgel - Landslide - Health -->
@@ -3088,6 +3859,8 @@
 	<item>
 		<!-- Dynasty Cudgel - Rsk. Focus -->
 		<ingredient count="1" id="9874" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Cudgel - Landslide - Rsk. Focus -->
@@ -3096,6 +3869,8 @@
 	<item>
 		<!-- Dynasty Crusher -->
 		<ingredient count="1" id="10253" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crusher - Great Gale -->
@@ -3104,6 +3879,8 @@
 	<item>
 		<!-- Dynasty Crusher - Anger -->
 		<ingredient count="1" id="10530" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crusher - Great Gale - Anger -->
@@ -3112,6 +3889,8 @@
 	<item>
 		<!-- Dynasty Crusher - Health -->
 		<ingredient count="1" id="10531" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crusher - Great Gale - Health -->
@@ -3120,6 +3899,8 @@
 	<item>
 		<!-- Dynasty Crusher - Rsk. Focus -->
 		<ingredient count="1" id="10532" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crusher - Great Gale - Rsk. Focus -->
@@ -3128,6 +3909,8 @@
 	<item>
 		<!-- Dynasty Crossbow -->
 		<ingredient count="1" id="9384" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crossbow - Great Gale -->
@@ -3136,6 +3919,8 @@
 	<item>
 		<!-- Dynasty Crossbow - Cheap Shot -->
 		<ingredient count="1" id="9385" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crossbow - Great Gale - Cheap Shot -->
@@ -3144,6 +3929,8 @@
 	<item>
 		<!-- Dynasty Crossbow - Guidance -->
 		<ingredient count="1" id="9386" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crossbow - Great Gale - Guidance -->
@@ -3152,6 +3939,8 @@
 	<item>
 		<!-- Dynasty Crossbow - Focus -->
 		<ingredient count="1" id="9387" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Crossbow - Great Gale - Focus -->
@@ -3160,6 +3949,8 @@
 	<item>
 		<!-- Dynasty Phantom -->
 		<ingredient count="1" id="9444" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Phantom - Nature -->
@@ -3168,6 +3959,8 @@
 	<item>
 		<!-- Dynasty Phantom - Acumen -->
 		<ingredient count="1" id="9860" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Phantom - Nature - Acumen -->
@@ -3176,6 +3969,8 @@
 	<item>
 		<!-- Dynasty Phantom - Mana Up -->
 		<ingredient count="1" id="9861" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Phantom - Nature - Mana Up -->
@@ -3184,6 +3979,8 @@
 	<item>
 		<!-- Dynasty Phantom - Conversion -->
 		<ingredient count="1" id="9862" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Phantom - Nature - Conversion -->
@@ -3192,6 +3989,8 @@
 	<item>
 		<!-- Dynasty Halberd -->
 		<ingredient count="1" id="9447" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Halberd - Earth -->
@@ -3200,6 +3999,8 @@
 	<item>
 		<!-- Dynasty Halberd - Anger -->
 		<ingredient count="1" id="9869" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Halberd - Earth - Anger -->
@@ -3208,6 +4009,8 @@
 	<item>
 		<!-- Dynasty Halberd - Critical Stun -->
 		<ingredient count="1" id="9870" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Halberd - Earth - Critical Stun -->
@@ -3216,6 +4019,8 @@
 	<item>
 		<!-- Dynasty Halberd - Light -->
 		<ingredient count="1" id="9871" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Halberd - Earth - Light -->
@@ -3224,6 +4029,8 @@
 	<item>
 		<!-- Icarus Dual Sword -->
 		<ingredient count="1" id="10415" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Dual Sword - Destruction -->
@@ -3232,6 +4039,8 @@
 	<item>
 		<!-- Icarus Disperser -->
 		<ingredient count="1" id="10216" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Disperser - Confusion -->
@@ -3240,6 +4049,8 @@
 	<item>
 		<!-- Icarus Disperser - Focus -->
 		<ingredient count="1" id="10446" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Disperser - Confusion - Focus -->
@@ -3248,6 +4059,8 @@
 	<item>
 		<!-- Icarus Disperser - Evasion -->
 		<ingredient count="1" id="10447" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Disperser - Confusion - Evasion -->
@@ -3256,6 +4069,8 @@
 	<item>
 		<!-- Icarus Disperser - Critical Damage -->
 		<ingredient count="1" id="10448" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Disperser - Confusion - Critical Damage -->
@@ -3264,6 +4079,8 @@
 	<item>
 		<!-- Icarus Sawsword -->
 		<ingredient count="1" id="10215" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Sawsword - Destruction -->
@@ -3272,6 +4089,8 @@
 	<item>
 		<!-- Icarus Sawsword - Focus -->
 		<ingredient count="1" id="10434" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Sawsword - Destruction - Focus -->
@@ -3280,6 +4099,8 @@
 	<item>
 		<!-- Icarus Sawsword - Health -->
 		<ingredient count="1" id="10435" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Sawsword - Destruction - Health -->
@@ -3288,6 +4109,8 @@
 	<item>
 		<!-- Icarus Sawsword - Light -->
 		<ingredient count="1" id="10436" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Sawsword - Destruction - Light -->
@@ -3296,6 +4119,8 @@
 	<item>
 		<!-- Icarus Shooter -->
 		<ingredient count="1" id="10226" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Shooter - Concentration -->
@@ -3304,6 +4129,8 @@
 	<item>
 		<!-- Icarus Shooter - Cheap Shot -->
 		<ingredient count="1" id="10467" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Shooter - Concentration - Cheap Shot -->
@@ -3312,6 +4139,8 @@
 	<item>
 		<!-- Icarus Shooter - Guidance -->
 		<ingredient count="1" id="10468" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Shooter - Concentration - Guidance -->
@@ -3320,6 +4149,8 @@
 	<item>
 		<!-- Icarus Shooter - Focus -->
 		<ingredient count="1" id="10469" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Shooter - Concentration - Focus -->
@@ -3328,6 +4159,8 @@
 	<item>
 		<!-- Icarus Stinger -->
 		<ingredient count="1" id="10224" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Stinger - Destruction -->
@@ -3336,6 +4169,8 @@
 	<item>
 		<!-- Icarus Stinger - Focus -->
 		<ingredient count="1" id="10461" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Stinger - Destruction - Focus -->
@@ -3344,6 +4179,8 @@
 	<item>
 		<!-- Icarus Stinger - Health -->
 		<ingredient count="1" id="10462" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Stinger - Destruction - Health -->
@@ -3352,6 +4189,8 @@
 	<item>
 		<!-- Icarus Stinger - Light -->
 		<ingredient count="1" id="10463" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Stinger - Destruction - Light -->
@@ -3360,6 +4199,8 @@
 	<item>
 		<!-- Icarus Spirit -->
 		<ingredient count="1" id="10217" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spirit - Nature -->
@@ -3368,6 +4209,8 @@
 	<item>
 		<!-- Icarus Spirit - Acumen -->
 		<ingredient count="1" id="10440" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spirit - Nature - Acumen -->
@@ -3376,6 +4219,8 @@
 	<item>
 		<!-- Icarus Spirit - Mana Up -->
 		<ingredient count="1" id="10441" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spirit - Nature - Mana Up -->
@@ -3384,6 +4229,8 @@
 	<item>
 		<!-- Icarus Spirit - Conversion -->
 		<ingredient count="1" id="10442" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spirit - Nature - Conversion -->
@@ -3392,6 +4239,8 @@
 	<item>
 		<!-- Icarus Spitter -->
 		<ingredient count="1" id="10223" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spitter - Concentration -->
@@ -3400,6 +4249,8 @@
 	<item>
 		<!-- Icarus Spitter - Cheap Shot -->
 		<ingredient count="1" id="10443" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spitter - Concentration - Cheap Shot -->
@@ -3408,6 +4259,8 @@
 	<item>
 		<!-- Icarus Spitter - Guidance -->
 		<ingredient count="1" id="10444" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spitter - Concentration - Guidance -->
@@ -3416,6 +4269,8 @@
 	<item>
 		<!-- Icarus Spitter - Focus -->
 		<ingredient count="1" id="10445" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Spitter - Concentration - Focus -->
@@ -3424,6 +4279,8 @@
 	<item>
 		<!-- Icarus Wingblade -->
 		<ingredient count="1" id="10225" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Wingblade - Lightning -->
@@ -3432,6 +4289,8 @@
 	<item>
 		<!-- Icarus Wingblade - Focus -->
 		<ingredient count="1" id="10464" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Wingblade - Lightning - Focus -->
@@ -3440,6 +4299,8 @@
 	<item>
 		<!-- Icarus Wingblade - Health -->
 		<ingredient count="1" id="10465" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Wingblade - Lightning - Health -->
@@ -3448,6 +4309,8 @@
 	<item>
 		<!-- Icarus Wingblade - Light -->
 		<ingredient count="1" id="10466" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Wingblade - Lightning - Light -->
@@ -3456,6 +4319,8 @@
 	<item>
 		<!-- Icarus Trident -->
 		<ingredient count="1" id="10219" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Trident - Thunder -->
@@ -3464,6 +4329,8 @@
 	<item>
 		<!-- Icarus Trident - Anger -->
 		<ingredient count="1" id="10449" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Trident - Thunder - Anger -->
@@ -3472,6 +4339,8 @@
 	<item>
 		<!-- Icarus Trident - Critical Stun -->
 		<ingredient count="1" id="10450" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Trident - Thunder - Critical Stun -->
@@ -3480,6 +4349,8 @@
 	<item>
 		<!-- Icarus Trident - Light -->
 		<ingredient count="1" id="10451" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Trident - Thunder - Light -->
@@ -3488,6 +4359,8 @@
 	<item>
 		<!-- Icarus Hammer -->
 		<ingredient count="1" id="10220" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hammer - Earth -->
@@ -3496,6 +4369,8 @@
 	<item>
 		<!-- Icarus Hammer - Anger -->
 		<ingredient count="1" id="10452" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hammer - Earth - Anger -->
@@ -3504,6 +4379,8 @@
 	<item>
 		<!-- Icarus Hammer - Health -->
 		<ingredient count="1" id="10453" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hammer - Earth - Health -->
@@ -3512,6 +4389,8 @@
 	<item>
 		<!-- Icarus Hammer - Rsk. Focus -->
 		<ingredient count="1" id="10454" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hammer - Earth - Rsk. Focus -->
@@ -3520,6 +4399,8 @@
 	<item>
 		<!-- Icarus Hand -->
 		<ingredient count="1" id="10221" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hand - Destruction -->
@@ -3528,6 +4409,8 @@
 	<item>
 		<!-- Icarus Hand - Rsk. Evasion -->
 		<ingredient count="1" id="10458" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hand - Destruction - Rsk. Evasion -->
@@ -3536,6 +4419,8 @@
 	<item>
 		<!-- Icarus Hand - Focus -->
 		<ingredient count="1" id="10459" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hand - Destruction - Focus -->
@@ -3544,6 +4429,8 @@
 	<item>
 		<!-- Icarus Hand - Haste -->
 		<ingredient count="1" id="10460" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hand - Destruction - Haste -->
@@ -3552,6 +4439,8 @@
 	<item>
 		<!-- Icarus Heavy Arms -->
 		<ingredient count="1" id="10218" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Heavy Arms - Lightning -->
@@ -3560,6 +4449,8 @@
 	<item>
 		<!-- Icarus Heavy Arms - Focus -->
 		<ingredient count="1" id="10437" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Heavy Arms - Lightning - Focus -->
@@ -3568,6 +4459,8 @@
 	<item>
 		<!-- Icarus Heavy Arms - Health -->
 		<ingredient count="1" id="10438" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Heavy Arms - Lightning - Health -->
@@ -3576,6 +4469,8 @@
 	<item>
 		<!-- Icarus Heavy Arms - Light -->
 		<ingredient count="1" id="10439" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Heavy Arms - Lightning - Light -->
@@ -3584,6 +4479,8 @@
 	<item>
 		<!-- Icarus Hall -->
 		<ingredient count="1" id="10222" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hall - Hail -->
@@ -3592,6 +4489,8 @@
 	<item>
 		<!-- Icarus Hall - Mana Up -->
 		<ingredient count="1" id="10455" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hall - Hail - Mana Up -->
@@ -3600,6 +4499,8 @@
 	<item>
 		<!-- Icarus Hall - Conversion -->
 		<ingredient count="1" id="10456" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hall - Hail - Conversion -->
@@ -3608,6 +4509,8 @@
 	<item>
 		<!-- Icarus Hall - Acumen -->
 		<ingredient count="1" id="10457" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Hall - Hail - Acumen -->
@@ -3616,6 +4519,8 @@
 	<item>
 		<!-- Dynasty Dual Daggers -->
 		<ingredient count="1" id="13882" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient count="1" id="14680" />
 		<!-- Dynasty Dual Daggers - Great Gale -->
@@ -3624,6 +4529,8 @@
 	<item>
 		<!-- Icarus Dual Daggers -->
 		<ingredient count="1" id="13883" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient count="1" id="14681" />
 		<!-- Icarus Dual Daggers - Confusion -->
@@ -3632,6 +4539,8 @@
 	<item>
 		<!-- Vesper Cutter -->
 		<ingredient count="1" id="13457" />
+	<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Cutter - Thunder -->
@@ -3640,6 +4549,8 @@
 	<item>
 		<!-- Vesper Cutter - Haste -->
 		<ingredient count="1" id="14118" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Cutter - Thunder - Haste -->
@@ -3648,6 +4559,8 @@
 	<item>
 		<!-- Vesper Cutter - Health -->
 		<ingredient count="1" id="14119" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Cutter - Thunder - Health -->
@@ -3656,6 +4569,8 @@
 	<item>
 		<!-- Vesper Cutter - Focus -->
 		<ingredient count="1" id="14120" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Cutter - Thunder - Focus -->
@@ -3664,6 +4579,8 @@
 	<item>
 		<!-- Vesper Slasher -->
 		<ingredient count="1" id="13458" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Slasher - Gale -->
@@ -3672,6 +4589,8 @@
 	<item>
 		<!-- Vesper Slasher - Haste -->
 		<ingredient count="1" id="14121" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Slasher - Gale - Haste -->
@@ -3680,6 +4599,8 @@
 	<item>
 		<!-- Vesper Slasher - Health -->
 		<ingredient count="1" id="14122" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Slasher - Gale - Health -->
@@ -3688,6 +4609,8 @@
 	<item>
 		<!-- Vesper Slasher - Focus -->
 		<ingredient count="1" id="14123" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Slasher - Gale - Focus -->
@@ -3696,6 +4619,8 @@
 	<item>
 		<!-- Vesper Buster -->
 		<ingredient count="1" id="13459" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Buster - Cleverness -->
@@ -3704,6 +4629,8 @@
 	<item>
 		<!-- Vesper Buster - Mana Up -->
 		<ingredient count="1" id="14124" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Buster - Cleverness - Mana Up -->
@@ -3712,6 +4639,8 @@
 	<item>
 		<!-- Vesper Buster - Acumen -->
 		<ingredient count="1" id="14125" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Buster - Cleverness - Acumen -->
@@ -3720,6 +4649,8 @@
 	<item>
 		<!-- Vesper Buster - Magic Hold -->
 		<ingredient count="1" id="14126" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Buster - Cleverness - Magic Hold -->
@@ -3728,6 +4659,8 @@
 	<item>
 		<!-- Vesper Shaper -->
 		<ingredient count="1" id="13460" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shaper - Gale -->
@@ -3736,6 +4669,8 @@
 	<item>
 		<!-- Vesper Shaper - Critical Damage -->
 		<ingredient count="1" id="14127" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shaper - Gale - Critical Damage -->
@@ -3744,6 +4679,8 @@
 	<item>
 		<!-- Vesper Shaper - HP Drain -->
 		<ingredient count="1" id="14128" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shaper - Gale - HP Drain -->
@@ -3752,6 +4689,8 @@
 	<item>
 		<!-- Vesper Shaper - Haste -->
 		<ingredient count="1" id="14129" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shaper - Gale - Haste -->
@@ -3760,6 +4699,8 @@
 	<item>
 		<!-- Vesper Fighter -->
 		<ingredient count="1" id="13461" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Fighter - Gale -->
@@ -3768,6 +4709,8 @@
 	<item>
 		<!-- Vesper Fighter - Focus -->
 		<ingredient count="1" id="14130" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Fighter - Gale - Focus -->
@@ -3776,6 +4719,8 @@
 	<item>
 		<!-- Vesper Fighter - Health -->
 		<ingredient count="1" id="14131" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Fighter - Gale - Health -->
@@ -3784,6 +4729,8 @@
 	<item>
 		<!-- Vesper Fighter - Critical Stun -->
 		<ingredient count="1" id="14132" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Fighter - Gale - Critical Stun -->
@@ -3792,6 +4739,8 @@
 	<item>
 		<!-- Vesper Stormer -->
 		<ingredient count="1" id="13462" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Stormer - Thunder -->
@@ -3800,6 +4749,8 @@
 	<item>
 		<!-- Vesper Stormer - Health -->
 		<ingredient count="1" id="14133" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Stormer - Thunder - Health -->
@@ -3808,6 +4759,8 @@
 	<item>
 		<!-- Vesper Stormer - Guidance -->
 		<ingredient count="1" id="14134" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Stormer - Thunder - Guidance -->
@@ -3816,6 +4769,8 @@
 	<item>
 		<!-- Vesper Stormer - Haste -->
 		<ingredient count="1" id="14135" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Stormer - Thunder - Haste -->
@@ -3824,6 +4779,8 @@
 	<item>
 		<!-- Vesper Avenger -->
 		<ingredient count="1" id="13463" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Avenger - Landslide -->
@@ -3832,6 +4789,8 @@
 	<item>
 		<!-- Vesper Avenger - HP Drain -->
 		<ingredient count="1" id="14136" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Avenger - Landslide - HP Drain -->
@@ -3840,6 +4799,8 @@
 	<item>
 		<!-- Vesper Avenger - Health -->
 		<ingredient count="1" id="14137" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Avenger - Landslide - Health -->
@@ -3848,6 +4809,8 @@
 	<item>
 		<!-- Vesper Avenger - HP Regeneration -->
 		<ingredient count="1" id="14138" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Avenger - Landslide - HP Regeneration -->
@@ -3856,6 +4819,8 @@
 	<item>
 		<!-- Vesper Retributer -->
 		<ingredient count="1" id="13464" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Retributer - Gale -->
@@ -3864,6 +4829,8 @@
 	<item>
 		<!-- Vesper Retributer - HP Regeneration -->
 		<ingredient count="1" id="14139" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Retributer - Gale - HP Regeneration -->
@@ -3872,6 +4839,8 @@
 	<item>
 		<!-- Vesper Retributer - Health -->
 		<ingredient count="1" id="14140" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Retributer - Gale - Health -->
@@ -3880,6 +4849,8 @@
 	<item>
 		<!-- Vesper Retributer - HP Drain -->
 		<ingredient count="1" id="14141" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Retributer - Gale - HP Drain -->
@@ -3888,6 +4859,8 @@
 	<item>
 		<!-- Vesper Caster -->
 		<ingredient count="1" id="13465" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Caster - Cleverness -->
@@ -3896,6 +4869,8 @@
 	<item>
 		<!-- Vesper Caster - Acumen -->
 		<ingredient count="1" id="14142" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Caster - Cleverness - Acumen -->
@@ -3904,6 +4879,8 @@
 	<item>
 		<!-- Vesper Caster - MP Regeneration -->
 		<ingredient count="1" id="14143" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Caster - Cleverness - MP Regeneration -->
@@ -3912,6 +4889,8 @@
 	<item>
 		<!-- Vesper Caster - Mana Up -->
 		<ingredient count="1" id="14144" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Caster - Cleverness - Mana Up -->
@@ -3920,6 +4899,8 @@
 	<item>
 		<!-- Vesper Singer -->
 		<ingredient count="1" id="13466" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Singer - Hail -->
@@ -3928,6 +4909,8 @@
 	<item>
 		<!-- Vesper Singer - Empower -->
 		<ingredient count="1" id="14145" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Singer - Hail - Empower -->
@@ -3936,6 +4919,8 @@
 	<item>
 		<!-- Vesper Singer - MP Regeneration -->
 		<ingredient count="1" id="14146" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Singer - Hail - MP Regeneration -->
@@ -3944,6 +4929,8 @@
 	<item>
 		<!-- Vesper Singer - Magic Hold -->
 		<ingredient count="1" id="14147" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Singer - Hail - Magic Hold -->
@@ -3952,6 +4939,8 @@
 	<item>
 		<!-- Vesper Thrower -->
 		<ingredient count="1" id="13467" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Thrower - Clairvoyance -->
@@ -3960,6 +4949,8 @@
 	<item>
 		<!-- Vesper Thrower - Cheap Shot -->
 		<ingredient count="1" id="14148" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Thrower - Clairvoyance - Cheap Shot -->
@@ -3968,6 +4959,8 @@
 	<item>
 		<!-- Vesper Thrower - Focus -->
 		<ingredient count="1" id="14149" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Thrower - Clairvoyance - Focus -->
@@ -3976,6 +4969,8 @@
 	<item>
 		<!-- Vesper Thrower - Critical Slow -->
 		<ingredient count="1" id="14150" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Thrower - Clairvoyance - Critical Slow -->
@@ -3984,6 +4979,8 @@
 	<item>
 		<!-- Vesper Pincer -->
 		<ingredient count="1" id="13468" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Pincer - Thunder -->
@@ -3992,6 +4989,8 @@
 	<item>
 		<!-- Vesper Pincer - Haste -->
 		<ingredient count="1" id="14151" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Pincer - Thunder - Haste -->
@@ -4000,6 +4999,8 @@
 	<item>
 		<!-- Vesper Pincer - Health -->
 		<ingredient count="1" id="14152" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Pincer - Thunder - Health -->
@@ -4008,6 +5009,8 @@
 	<item>
 		<!-- Vesper Pincer - Focus -->
 		<ingredient count="1" id="14153" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Pincer - Thunder - Focus -->
@@ -4016,6 +5019,8 @@
 	<item>
 		<!-- Vesper Shooter -->
 		<ingredient count="1" id="13469" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shooter - Clairvoyance -->
@@ -4024,6 +5029,8 @@
 	<item>
 		<!-- Vesper Shooter - Cheap Shot -->
 		<ingredient count="1" id="14154" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shooter - Clairvoyance - Cheap Shot -->
@@ -4032,6 +5039,8 @@
 	<item>
 		<!-- Vesper Shooter - Focus -->
 		<ingredient count="1" id="14155" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shooter - Clairvoyance - Focus -->
@@ -4040,6 +5049,8 @@
 	<item>
 		<!-- Vesper Shooter - Critical Slow -->
 		<ingredient count="1" id="14156" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Shooter - Clairvoyance - Critical Slow -->
@@ -4048,6 +5059,8 @@
 	<item>
 		<!-- Vesper Nagan -->
 		<ingredient count="1" id="13470" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Nagan - Gale -->
@@ -4056,6 +5069,8 @@
 	<item>
 		<!-- Vesper Nagan - Haste -->
 		<ingredient count="1" id="14157" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Nagan - Gale - Haste -->
@@ -4064,6 +5079,8 @@
 	<item>
 		<!-- Vesper Nagan - Health -->
 		<ingredient count="1" id="14158" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Nagan - Gale - Health -->
@@ -4072,6 +5089,8 @@
 	<item>
 		<!-- Vesper Nagan - Focus -->
 		<ingredient count="1" id="14159" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Nagan - Gale - Focus -->
@@ -4080,6 +5099,8 @@
 	<item>
 		<!-- Vesper Dual Sword -->
 		<ingredient count="1" id="52" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Dual Sword - Destruction -->
@@ -4088,6 +5109,8 @@
 	<item>
 		<!-- Vesper Dual Daggers -->
 		<ingredient count="1" id="13884" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient count="1" id="21579" />
 		<!-- Vesper Dual Daggers - Gale -->
@@ -4096,6 +5119,8 @@
 	<item>
 		<!-- Hellblade -->
 		<ingredient id="21919" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Hellblade - Lightning -->
@@ -4104,6 +5129,8 @@
 	<item>
 		<!-- Hellblade - Haste -->
 		<ingredient id="21920" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Hellblade - Lightning - Haste -->
@@ -4112,6 +5139,8 @@
 	<item>
 		<!-- Hellblade - Health -->
 		<ingredient id="21921" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Hellblade - Lightning - Health -->
@@ -4120,6 +5149,8 @@
 	<item>
 		<!-- Hellblade - Focus -->
 		<ingredient id="21922" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Hellblade - Lightning - Focus -->
@@ -4128,6 +5159,8 @@
 	<item>
 		<!-- Butcher Blades -->
 		<ingredient id="21935" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="12" id="12374"/>
 		<!-- Neolithic Crystal - S80 -->
 		<ingredient id="14681" count="1" />
 		<!-- Butcher Blades - Confusion -->
@@ -4136,6 +5169,8 @@
 	<item>
 		<!-- Claw of Destruction -->
 		<ingredient id="21939" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Claw of Destruction - Landslide -->
@@ -4144,6 +5179,8 @@
 	<item>
 		<!-- Claw of Destruction - HP Drain -->
 		<ingredient id="21940" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Claw of Destruction - Landslide - HP Drain -->
@@ -4152,6 +5189,8 @@
 	<item>
 		<!-- Claw of Destruction - Health -->
 		<ingredient id="21941" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Claw of Destruction - Landslide - Health -->
@@ -4160,6 +5199,8 @@
 	<item>
 		<!-- Claw of Destruction - HP Regeneration -->
 		<ingredient id="21942" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="16" id="12374"/>
 		<!-- Neolithic Crystal - S84 -->
 		<ingredient id="21579" count="1" />
 		<!-- Claw of Destruction - Landslide - HP Regeneration -->
@@ -4168,6 +5209,8 @@
 	<item>
 		<!-- Blades of Delusion -->
 		<ingredient id="21955" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient id="14680" count="1" />
 		<!-- Blades of Delusion - Earth -->
@@ -4176,6 +5219,8 @@
 	<item>
 		<!-- Blood Brother -->
 		<ingredient id="21959" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient id="14680" count="1" />
 		<!-- Blood Brother - Great Gale -->
@@ -4184,6 +5229,8 @@
 	<item>
 		<!-- Blood Brother - Focus -->
 		<ingredient id="21960" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient id="14680" count="1" />
 		<!-- Blood Brother - Great Gale - Focus -->
@@ -4192,6 +5239,8 @@
 	<item>
 		<!-- Blood Brother - Health -->
 		<ingredient id="21961" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient id="14680" count="1" />
 		<!-- Blood Brother - Great Gale - Health -->
@@ -4200,6 +5249,8 @@
 	<item>
 		<!-- Blood Brother - Light -->
 		<ingredient id="21962" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="8" id="12374"/>
 		<!-- Neolithic Crystal - S -->
 		<ingredient id="14680" count="1" />
 		<!-- Blood Brother - Great Gale - Light -->
@@ -4208,6 +5259,8 @@
 	<item>
 		<!-- Mardil's Fan -->
 		<ingredient id="21973" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient id="14679" count="1" />
 		<!-- Mardil's Fan - Holy Spirit -->
@@ -4216,6 +5269,8 @@
 	<item>
 		<!-- Mardil's Fan - M. Atk. -->
 		<ingredient id="21974" count="1" />
+			<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient id="14679" count="1" />
 		<!-- Mardil's Fan - Holy Spirit - M. Atk. -->
@@ -4224,6 +5279,8 @@
 	<item>
 		<!-- Mardil's Fan - Magic Silence -->
 		<ingredient id="21975" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient id="14679" count="1" />
 		<!-- Mardil's Fan - Holy Spirit - Magic Silence -->
@@ -4232,6 +5289,8 @@
 	<item>
 		<!-- Mardil's Fan - Acumen -->
 		<ingredient id="21976" count="1" />
+		<!-- Varnish Enhancer -->
+		<ingredient count="5" id="12374"/>
 		<!-- Neolithic Crystal - A -->
 		<ingredient id="14679" count="1" />
 		<!-- Mardil's Fan - Holy Spirit - Acumen -->

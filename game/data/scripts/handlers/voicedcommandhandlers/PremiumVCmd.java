@@ -95,9 +95,8 @@ public class PremiumVCmd implements IVoicedCommandHandler
 					html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Drop: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS - Config.RATE_DEATH_DROP_AMOUNT_MULTIPLIER) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x" + PrAdenaDrop + " (+" + PrAdenaDropDiff + "%)<br1></font></td></tr><br>");
-					html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x7<br1></font></td></tr><br>");
-					html3.append("<tr><td>Buffer: <font color=\"LEVEL\">Unique .buffer command<br1></font></td></tr>");
-					html3.append("<tr><td>Gold Buffs: <font color=\"LEVEL\">" + Math.round(prBuffScheme - normalBuffScheme) + " extra buff schemes<br1></font></td></tr>");
+					// html3.append("<tr><td>Autofarm: <font color=\"70FFCA\">1H</font></td></tr>");
+					html3.append("<tr><td>Gold Buffs: <font color=\"LEVEL\">2 Schemes Max.<br><br></font></td></tr>");
 					html3.append("<tr><td>Expires: <font color=\"00A5FF\">" + String.valueOf(format.format(_end_prem_date)) + "</font></td></tr>");
 					html3.append("<tr><td>Current Date: <font color=\"70FFCA\">" + String.valueOf(format.format(System.currentTimeMillis())) + "<br><br></font></td></tr>");
 					html3.append("<tr><td><font color=\"LEVEL\"><center>Premium Info & Rules<br1></font></center></td></tr>");
@@ -124,8 +123,8 @@ public class PremiumVCmd implements IVoicedCommandHandler
 					html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PLATINUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PLATINUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Drop: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PLATINUM_RATE_DROP_ITEMS) + " (+" + Math.round(PremiumServiceConfigs.PLATINUM_RATE_DROP_ITEMS - Config.RATE_DEATH_DROP_AMOUNT_MULTIPLIER) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x" + PlAdenaDrop + " (+" + PlAdenaDropDiff + "%)<br1></font></td></tr><br>");
-					html3.append("<tr><td>Buffer: <font color=\"LEVEL\">Unique .buffer command<br1></font></td></tr>");
-					html3.append("<tr><td>Platinum Buffs: <font color=\"LEVEL\"> " + Math.round(plBuffScheme - normalBuffScheme) + " extra buff schemes<br1></font></td></tr>");
+					// html3.append("<tr><td>Autofarm: <font color=\"70FFCA\">2H</font></td></tr>");
+					html3.append("<tr><td>Platinum Buffs: <font color=\"LEVEL\"> 4 Schemes Max.<br><br></font></td></tr>");
 					html3.append("<tr><td>Expires: <font color=\"00A5FF\">" + String.valueOf(format.format(_end_prem_date)) + "</font></td></tr>");
 					html3.append("<tr><td>Current Date: <font color=\"70FFCA\">" + String.valueOf(format.format(System.currentTimeMillis())) + "<br><br></font></td></tr>");
 					html3.append("<tr><td><font color=\"LEVEL\"><center>Premium Info & Rules<br1></font></center></td></tr>");
@@ -149,15 +148,14 @@ public class PremiumVCmd implements IVoicedCommandHandler
 					html3.append("<tr><td>Rate SP: <font color=\"00A5FF\">x" + Math.round(Config.RATE_SP) + "<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Drop: <font color=\"00A5FF\">x" + Math.round(Config.RATE_DEATH_DROP_AMOUNT_MULTIPLIER) + "<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Adena: <font color=\"00A5FF\">x" + Math.round(normalAdenaMultiplier) + "<br1></font></td></tr><br>");
+					
 					html3.append("<tr><td>Expires: <font color=\"00A5FF\">Never (Normal Account)<br1></font></td></tr>");
 					html3.append("<tr><td>Current Date: <font color=\"70FFCA\">" + String.valueOf(format.format(System.currentTimeMillis())) + " <br><br></font></td></tr><br><br1><br1>");
-					html3.append("<tr><td>Upgrade to Premium Account: <font color=\"70FFCA\"> http://www.l2soe.com</font></td></tr>");
+					html3.append("<tr><td>Upgrade to Premium Account: <font color=\"70FFCA\"> Press Alt+B.</font></td></tr>");
 					html3.append("<tr><td>Rate EXP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_XP - Config.RATE_XP) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate SP: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_SP - Config.RATE_SP) + ")<br1></font></td></tr>");
 					html3.append("<tr><td>Rate Drop: <font color=\"LEVEL\">x" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS) + " (+" + Math.round(PremiumServiceConfigs.PREMIUM_RATE_DROP_ITEMS - Config.RATE_DEATH_DROP_AMOUNT_MULTIPLIER) + ")<br1></font></td></tr>");
-					html3.append("<tr><td>Rate Adena: <font color=\"LEVEL\">x" + PrAdenaDrop + " (+" + PrAdenaDropDiff + "%)<br1></font></td></tr><br>");
-					html3.append("<tr><td>Buffer: <font color=\"LEVEL\">Unique .buffer command<br1></font></td></tr>");
-					html3.append("<tr><td>Premium Buffs: <font color=\"LEVEL\">" + Math.round(prBuffScheme - normalBuffScheme) + " extra buff schemes<br1><br></font></td></tr>");
+					html3.append("<tr><td>Premium Buffs: <font color=\"LEVEL\">1 Scheme Max.<br><br></font></td></tr>");
 					html3.append("<tr><td><font color=\"LEVEL\"><center>Premium Info & Rules<br1></font></center></td></tr>");
 					html3.append("<tr><td> <font color=\"70FFCA\">1. Premium  benefits CAN NOT BE TRANSFERED.<br1></font></td></tr><br>");
 					html3.append("<tr><td> <font color=\"70FFCA\">2. Premium benefits effect ALL characters in same account.<br1></font></td></tr><br>");

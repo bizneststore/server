@@ -3,7 +3,6 @@ package ai.modifier.dropEngine;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
@@ -13,8 +12,8 @@ import l2r.gameserver.model.actor.L2Attackable;
 import l2r.gameserver.model.actor.L2Character;
 import l2r.gameserver.model.actor.L2Npc;
 import l2r.gameserver.model.actor.instance.L2PcInstance;
+import l2r.gameserver.model.actor.instance.L2RaidBossInstance;
 import l2r.gameserver.model.actor.templates.L2NpcTemplate;
-import l2r.gameserver.util.Util;
 
 import ai.npc.AbstractNpcAI;
 
@@ -193,7 +192,28 @@ public final class DropExample extends AbstractNpcAI
 		{
 			final L2Attackable monster = (L2Attackable) npc;
 			
-			// Filter the DROP_DATA for the current mob's level range
+			// RAIDBOSS EXTRA DROPS (vmilon)
+			if (npc instanceof L2RaidBossInstance)
+			{
+				
+				// ADDITIONAL DROPS
+				List<DropDetails> additionalDrops = new ArrayList<>();
+				additionalDrops.add(new DropDetails(49, 58, new DropItem(9876, 1, 2, 70))); // B GRADE FRAGMENTS
+				additionalDrops.add(new DropDetails(59, 75, new DropItem(5432, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(72, 80, new DropItem(5432, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(78, 83, new DropItem(5432, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(80, 85, new DropItem(5432, 1, 1, 50))); // Example additional drop
+				
+				for (DropDetails dd : additionalDrops)
+				{
+					for (DropItem di : dd.getDrops())
+					{
+						int dropCount = getRandom(di.getMinCount(), di.getMaxCount());
+						rewardPlayer(player, npc, di.getItemId(), dropCount, di.getDropChance());
+					}
+				}
+			}
+			
 			List<DropDetails> applicableDrops = new ArrayList<>();
 			for (DropDetails dd : DROP_DATA)
 			{
@@ -206,42 +226,17 @@ public final class DropExample extends AbstractNpcAI
 			// Limit to a maximum of 5 drops
 			if (!applicableDrops.isEmpty())
 			{
-				// Shuffle the list to randomize the selection
+				// Shuffle list
 				Collections.shuffle(applicableDrops);
 				
-				// Select up to 5 drops
 				List<DropDetails> selectedDrops = applicableDrops.subList(0, Math.min(applicableDrops.size(), 5));
 				
-				// Process the selected drops
 				for (DropDetails dd : selectedDrops)
 				{
 					for (DropItem di : dd.getDrops())
 					{
 						int dropCount = getRandom(di.getMinCount(), di.getMaxCount());
-						if (player.isInParty())
-						{
-							final List<L2PcInstance> toReward = new LinkedList<>();
-							for (L2PcInstance member : player.getParty().getMembers())
-							{
-								if (Util.checkIfInRange(1400, npc, member, true))
-								{
-									toReward.add(member);
-								}
-							}
-							
-							if (!toReward.isEmpty())
-							{
-								long count = dropCount / toReward.size();
-								for (L2PcInstance member : toReward)
-								{
-									rewardPlayer(member, npc, di.getItemId(), count, di.getDropChance());
-								}
-							}
-						}
-						else
-						{
-							rewardPlayer(player, npc, di.getItemId(), dropCount, di.getDropChance());
-						}
+						rewardPlayer(player, npc, di.getItemId(), dropCount, di.getDropChance());
 					}
 				}
 			}
