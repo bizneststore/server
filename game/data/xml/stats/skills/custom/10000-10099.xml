@@ -211,8 +211,8 @@
 				<add stat="reflectDam" val="30" />	
 		</for>
 	</skill>
-<skill id="10013" levels="3" name="Gold Scroll">
-		<table name="#consume"> 40018 40019 40020 </table>
+<skill id="10013" levels="4" name="Gold Scroll">
+		<table name="#consume"> 40018 40019 40020 40024 </table>
 		<set name="isMagic" val="2" /> <!-- Static Skill -->
 		<set name="itemConsumeId" val="#consume" />
 		<set name="itemConsumeCount" val="1" />
