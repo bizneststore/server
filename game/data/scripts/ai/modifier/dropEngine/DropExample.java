@@ -198,11 +198,11 @@ public final class DropExample extends AbstractNpcAI
 				
 				// ADDITIONAL DROPS
 				List<DropDetails> additionalDrops = new ArrayList<>();
-				additionalDrops.add(new DropDetails(49, 58, new DropItem(9876, 1, 2, 70))); // B GRADE FRAGMENTS
-				additionalDrops.add(new DropDetails(59, 75, new DropItem(5432, 1, 1, 50))); // Example additional drop
-				additionalDrops.add(new DropDetails(72, 80, new DropItem(5432, 1, 1, 50))); // Example additional drop
-				additionalDrops.add(new DropDetails(78, 83, new DropItem(5432, 1, 1, 50))); // Example additional drop
-				additionalDrops.add(new DropDetails(80, 85, new DropItem(5432, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(49, 58, new DropItem(40013, 1, 1, 70))); // B GRADE FRAGMENTS
+				additionalDrops.add(new DropDetails(59, 75, new DropItem(40014, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(72, 80, new DropItem(40015, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(78, 83, new DropItem(40016, 1, 1, 50))); // Example additional drop
+				additionalDrops.add(new DropDetails(80, 85, new DropItem(40017, 1, 1, 50))); // Example additional drop
 				
 				for (DropDetails dd : additionalDrops)
 				{
