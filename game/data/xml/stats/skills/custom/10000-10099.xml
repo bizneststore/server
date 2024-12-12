@@ -411,7 +411,7 @@
 			<effect name="RestorationRandom" noicon="1" />
 		</for>
 	</skill>
-<skill id="10023" levels="1" name="Random Cloak">
+<skill id="10024" levels="1" name="Random Cloak">
 		<!-- Confirmed CT2.5 -->
 		<table name="#extractableItems">
 			50243,1,5.88;50244,1,5.88;50245,1,5.88;50246,1,5.88;50247,1,5.88;50248,1,5.88;50249,1,5.88;50250,1,5.88;50251,1,5.88;50252,1,5.88;50253,1,5.88;50261,1,5.88;50262,1,5.88;50263,1,5.88;50264,1,5.88;50299,1,5.88;50301,1,5.88
