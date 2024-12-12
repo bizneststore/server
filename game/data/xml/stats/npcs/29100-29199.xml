@@ -745,15 +745,15 @@
 			<height normal="8.5" />
 		</collision>
 	</npc>
-	<npc id="29118" level="83" type="L2GrandBoss" name="Beleth">
+	<npc id="29118" level="85" type="L2GrandBoss" name="Beleth">
 		<!-- Confirmed CT2.5 -->
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
-		<acquire expRate="2387.49266947307" sp="1362651" raidPoints="3997" />
+		<acquire expRate="2987.49266947307" sp="1562651" raidPoints="4997" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="2603600" hpRegen="200" mp="1000000.0" mpRegen="1000" />
-			<attack physical="4000" magical="2300" random="50" critical="4" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="590" magical="650" />
+			<vitals hp="2803600" hpRegen="250" mp="1500000.0" mpRegen="1000" />
+			<attack physical="4400" magical="2600" random="50" critical="4" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="630" magical="680" />
 			<attribute>
 				<attack type="DARK" value="300" />
 				<defence fire="300" water="300" wind="300" earth="300" holy="250" dark="370" default="300" />
@@ -3340,15 +3340,15 @@
 			<height normal="25" />
 		</collision>
 	</npc>
-	<npc id="29175" level="82" type="L2GrandBoss" name="Tiat" title="Witch of the Dragon of Darkness">
+	<npc id="29175" level="85" type="L2GrandBoss" name="Tiat" title="Witch of the Dragon of Darkness">
 		<!-- Confirmed CT2.5 -->
 		<race>DRAGON</race>
 		<sex>FEMALE</sex>
-		<acquire expRate="1707.36682763236" sp="4460470.034" raidPoints="3975" />
+		<acquire expRate="2407.36682763236" sp="4660470.034" raidPoints="4975" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="5523846.14458983" hpRegen="548.283697654583" mp="184680.0" mpRegen="1000" />
-			<attack physical="3093.77456970222" magical="2112.64697503607" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="530.6226053" magical="352.987813333333" />
+			<vitals hp="5823846.14458983" hpRegen="578.283697654583" mp="204680.0" mpRegen="1000" />
+			<attack physical="3393.77456970222" magical="2312.64697503607" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="560.6226053" magical="372.987813333333" />
 			<attribute>
 				<attack type="FIRE" value="250" />
 				<defence fire="250" water="150" wind="200" earth="200" holy="200" dark="200" default="150" />
@@ -3416,11 +3416,11 @@
 		<!-- Confirmed CT2.5 -->
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
-		<acquire expRate="1154.07890173387" sp="587466.813342582" raidPoints="572" />
+		<acquire expRate="2355.48497" sp="523589" raidPoints="16448" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="90456.5" hpRegen="337" mp="30000.0" mpRegen="200" />
-			<attack physical="1211.5" magical="328.69659" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="247.65008" magical="181.21958" />
+			<vitals hp="380722" hpRegen="396.8" mp="260000.0" mpRegen="130" />
+			<attack physical="3916" magical="1720" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2581" magical="1466.39" evasion="-18" />
 			<attribute>
 				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="53" />
 			</attribute>
@@ -3487,9 +3487,9 @@
 		<equipment chest="0" rhand="0" lhand="0" /> <!-- chest: N/A rhand: N/A lhand: N/A -->
 		<acquire expRate="0" sp="0" raidPoints="0" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="1989104.85860933" hpRegen="556.482123682282" mp="184680" mpRegen="300" />
-			<attack physical="8184.13933986331" magical="2579.001338104" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1085.36442" magical="529.48" evasion="0" />
+			<vitals hp="2089104.85860933" hpRegen="576.482123682282" mp="194680" mpRegen="350" />
+			<attack physical="8384.13933986331" magical="2679.001338104" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1285.36442" magical="549.48" evasion="0" />
 			<attribute>
 				<attack type="WATER" value="370" />
 				<defence fire="250" water="370" wind="300" earth="300" holy="300" dark="300" default="300" />
@@ -3813,7 +3813,7 @@
 			<height normal="55" />
 		</collision>
 	</npc>
-	<npc id="29181" level="83" type="L2GrandBoss" name="Zaken">
+	<npc id="29181" level="85" type="L2GrandBoss" name="Zaken">
 		<!-- Confirmed CT2.6 -->
 		<parameters>
 			<param name="ai" value="zaken_day_83" />
@@ -3821,11 +3821,11 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment chest="0" rhand="0" lhand="0" /> <!-- chest: N/A rhand: N/A lhand: N/A -->
-		<acquire expRate="2218.44806945083" sp="2462168" raidPoints="1795" />
+		<acquire expRate="2518.44806945083" sp="2562168" raidPoints="1995" />
 		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
-			<vitals hp="3155900.34672804" hpRegen="818.275841116973" mp="177740" mpRegen="300" />
-			<attack physical="8022.87946266377" magical="2559.9693577641" random="30" critical="4" accuracy="7" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1061.58432" magical="517.88" evasion="-18" />
+			<vitals hp="3255900.34672804" hpRegen="838.275841116973" mp="187740" mpRegen="300" />
+			<attack physical="8222.87946266377" magical="2659.9693577641" random="30" critical="4" accuracy="7" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1261.58432" magical="537.88" evasion="-18" />
 			<attribute>
 				<attack type="DARK" value="370" />
 				<defence fire="300" water="300" wind="300" earth="300" holy="250" dark="370" default="300" />

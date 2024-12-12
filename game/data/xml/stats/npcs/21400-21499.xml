@@ -3742,7 +3742,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
 		<race>HUMANOID</race>
@@ -3976,7 +3976,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -4092,7 +4092,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 		</parameters>
 		<race>HUMANOID</race>
@@ -4214,7 +4214,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 		</parameters>
 		<race>HUMANOID</race>
@@ -4446,7 +4446,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4232" level="6" /> <!-- NPC AE Strike -->
 		</parameters>
 		<race>HUMANOID</race>
@@ -4562,7 +4562,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4072" level="6" /> <!-- Stun -->
 		</parameters>
 		<race>ANIMAL</race>
@@ -4695,7 +4695,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -4822,7 +4822,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -5037,7 +5037,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -5252,7 +5252,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -5502,7 +5502,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -6636,7 +6636,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -6765,7 +6765,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
@@ -6980,7 +6980,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
@@ -7195,7 +7195,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
@@ -7447,7 +7447,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
 		</parameters>
@@ -8580,7 +8580,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 		</parameters>
 		<race>BEAST</race>
 		<sex>MALE</sex>
@@ -8702,7 +8702,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -8917,7 +8917,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -9132,7 +9132,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>
@@ -9374,7 +9374,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfBuff" id="4092" level="1" /> <!-- NPC Puma Spirit Totem -->
 		</parameters>

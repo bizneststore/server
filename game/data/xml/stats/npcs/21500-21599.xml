@@ -2108,7 +2108,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4561" level="6" /> <!-- NPC Fire Burn - Magic -->
 			<skill name="Buff" id="4631" level="3" /> <!-- NPC Buff - Acumen Shield WildMagic -->
 			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
@@ -2234,7 +2234,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
 			<skill name="Buff" id="4638" level="3" /> <!-- NPC Clan Buff - Acumen Empower WildMagic -->
 			<skill name="DeBuff" id="4035" level="6" /> <!-- Poison -->
@@ -2358,7 +2358,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 			<skill name="SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
 			<skill name="Dispell" id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -2615,7 +2615,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4641" level="6" /> <!-- NPC Super Strike -->
 			<skill name="SelfBuff" id="4103" level="2" /> <!-- NPC Ultimate Evasion -->
 			<skill name="TeleportEffect" id="4671" level="1" /> <!-- AV - Teleport -->
@@ -2741,7 +2741,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4641" level="6" /> <!-- NPC Super Strike -->
 			<skill name="SelfBuff" id="4103" level="2" /> <!-- NPC Ultimate Evasion -->
 			<skill name="TeleportEffect" id="4671" level="1" /> <!-- AV - Teleport -->
@@ -2863,7 +2863,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4561" level="6" /> <!-- NPC Fire Burn - Magic -->
 			<skill name="Buff" id="4634" level="3" /> <!-- NPC Buff - Acumen Empower DamageShield -->
 			<skill name="DeBuff" id="4104" level="6" /> <!-- Flame -->
@@ -3114,7 +3114,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 			<skill name="SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
 			<skill name="Dispell" id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -3238,7 +3238,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_MiddleRangeDDMagic" id="4630" level="6" /> <!-- NPC MR - Twister -->
 			<skill name="W_ShortRangeDDMagic" id="4561" level="6" /> <!-- NPC Fire Burn - Magic -->
 			<skill name="W_SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
@@ -3368,7 +3368,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
 			<skill name="Buff" id="4636" level="3" /> <!-- NPC Buff - Acumen Berserk DamageShield -->
 			<skill name="DeBuff" id="4119" level="3" /> <!-- Decrease Accuracy -->
@@ -3491,7 +3491,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4641" level="6" /> <!-- NPC Super Strike -->
 			<skill name="SelfBuff" id="4103" level="2" /> <!-- NPC Ultimate Evasion -->
 			<skill name="TeleportEffect" id="4671" level="1" /> <!-- AV - Teleport -->
@@ -3741,7 +3741,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4561" level="6" /> <!-- NPC Fire Burn - Magic -->
 			<skill name="Buff" id="4633" level="3" /> <!-- NPC Buff - Acumen Empower Berserk -->
 			<skill name="DeBuff" id="4076" level="3" /> <!-- Decrease Speed -->
@@ -3865,7 +3865,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 			<skill name="SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
 			<skill name="Dispell" id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -3989,7 +3989,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_MiddleRangeDDMagic" id="4630" level="6" /> <!-- NPC MR - Twister -->
 			<skill name="W_ShortRangeDDMagic" id="4160" level="6" /> <!-- NPC Aura Burn - Magic -->
 			<skill name="W_SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
@@ -4117,7 +4117,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="W_ShortRangeDDMagic" id="4561" level="6" /> <!-- NPC Fire Burn - Magic -->
 			<skill name="Buff" id="4637" level="3" /> <!-- NPC Buff - Acumen WildMagic DamageShield -->
 			<skill name="DeBuff" id="4102" level="2" /> <!-- Surrender To Fire -->
@@ -4360,7 +4360,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 			<skill name="SelfRangeDDMagic" id="4571" level="6" /> <!-- NPC Blazing Circle -->
 			<skill name="Dispell" id="4094" level="6" /> <!-- NPC Cancel Magic -->
@@ -4482,7 +4482,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4641" level="6" /> <!-- NPC Super Strike -->
 			<skill name="SelfBuff" id="4103" level="2" /> <!-- NPC Ultimate Evasion -->
 			<skill name="TeleportEffect" id="4671" level="1" /> <!-- AV - Teleport -->
@@ -4610,7 +4610,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4641" level="6" /> <!-- NPC Super Strike -->
 			<skill name="SelfBuff" id="4103" level="2" /> <!-- NPC Ultimate Evasion -->
 			<skill name="TeleportEffect" id="4671" level="1" /> <!-- AV - Teleport -->
@@ -5298,7 +5298,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4032" level="6" /> <!-- NPC Strike -->
 		</parameters>
@@ -5422,7 +5422,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 		</parameters>
 		<race>UNDEAD</race>
@@ -5542,7 +5542,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4067" level="6" /> <!-- NPC Mortal Blow -->
 		</parameters>
@@ -5667,7 +5667,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 		</parameters>
@@ -5792,7 +5792,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4579" level="6" /> <!-- Bleed -->
 		</parameters>
@@ -5918,7 +5918,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 		</parameters>
@@ -6044,7 +6044,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="DDMagic" id="4001" level="6" /> <!-- NPC Windstrike -->
 		</parameters>
@@ -6169,7 +6169,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 		</parameters>
 		<race>UNDEAD</race>
@@ -6292,7 +6292,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfBuff" id="4028" level="3" /> <!-- NPC Might -->
 			<skill name="PhysicalSpecial" id="4581" level="6" /> <!-- Hold -->
 		</parameters>
@@ -6409,7 +6409,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfBuff" id="4074" level="2" /> <!-- NPC Haste -->
 			<skill name="DDMagic" id="4596" level="6" /> <!-- Bleed -->
 		</parameters>
@@ -7042,7 +7042,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4073" level="6" /> <!-- Stun -->
 		</parameters>
@@ -7166,7 +7166,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfBuff" id="4635" level="3" /> <!-- NPC Buff - Acumen Berserk WildMagic -->
 			<skill name="DDMagic" id="4596" level="6" /> <!-- Bleed -->
 		</parameters>
@@ -7788,7 +7788,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4573" level="6" /> <!-- NPC Sonic Blaster -->
 			<skill name="DDMagic1" id="4654" level="6" /> <!-- NPC Death Link -->
 			<skill name="DDMagic2" id="4138" level="6" /> <!-- NPC AE - Corpse Burst -->
@@ -7906,7 +7906,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4584" level="6" /> <!-- Reducing P. Def Stun -->
 			<skill name="DDMagic1" id="4664" level="6" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4029" level="3" /> <!-- NPC Shield -->
@@ -8027,7 +8027,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="DDMagic" id="4664" level="6" /> <!-- NPC 100% HP Drain -->
 		</parameters>
 		<race>ANIMAL</race>
@@ -8143,7 +8143,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="6" /> <!-- Poison -->
 			<skill name="DDMagic" id="4592" level="6" /> <!-- Decrease P. Def. -->
 		</parameters>
@@ -8261,7 +8261,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfBuff" id="4074" level="2" /> <!-- NPC Haste -->
 			<skill name="PhysicalSpecial" id="4581" level="6" /> <!-- Hold -->
 		</parameters>
@@ -8506,7 +8506,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4582" level="6" /> <!-- Poison -->
 			<skill name="DDMagic1" id="4664" level="6" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4028" level="3" /> <!-- NPC Might -->
@@ -8630,7 +8630,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4573" level="7" /> <!-- NPC Sonic Blaster -->
 			<skill name="DDMagic1" id="4654" level="7" /> <!-- NPC Death Link -->
 			<skill name="DDMagic2" id="4138" level="7" /> <!-- NPC AE - Corpse Burst -->
@@ -9098,7 +9098,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfRangeDeBuff" id="4649" level="7" /> <!-- Poison -->
 			<skill name="PhysicalSpecial" id="4073" level="7" /> <!-- Stun -->
 		</parameters>
@@ -9218,7 +9218,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="SelfBuff" id="4635" level="3" /> <!-- NPC Buff - Acumen Berserk WildMagic -->
 			<skill name="DDMagic" id="4596" level="7" /> <!-- Bleed -->
 		</parameters>
@@ -9582,7 +9582,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4582" level="7" /> <!-- Poison -->
 			<skill name="DDMagic1" id="4664" level="7" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4028" level="3" /> <!-- NPC Might -->
@@ -10215,7 +10215,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4582" level="7" /> <!-- Poison -->
 			<skill name="DDMagic1" id="4664" level="7" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4099" level="2" /> <!-- NPC Berserk -->
@@ -10966,7 +10966,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4582" level="7" /> <!-- Poison -->
 			<skill name="DDMagic1" id="4664" level="7" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4585" level="3" /> <!-- NPC Clan Buff - Berserk Might -->
@@ -11088,7 +11088,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="PhysicalSpecial" id="4582" level="7" /> <!-- Poison -->
 			<skill name="DDMagic1" id="4664" level="7" /> <!-- NPC 100% HP Drain -->
 			<skill name="SelfBuff" id="4028" level="3" /> <!-- NPC Might -->
@@ -11212,7 +11212,7 @@
 			<param name="SoulShotRate" value="5" />
 			<param name="SpiritShot" value="100" />
 			<param name="SpiritShotRate" value="10" />
-			<param name="LongRangeGuardRate" value="10" />
+			<param name="LongRangeGuardRate" value="5" />
 			<skill name="DDMagic1" id="4664" level="7" /> <!-- NPC 100% HP Drain -->
 			<skill name="DDMagic2" id="4078" level="7" /> <!-- NPC Flamestrike -->
 			<skill name="DeBuff" id="4663" level="1" /> <!-- NPC Hate -->
