@@ -1803,5 +1803,16 @@
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="10023-1" />
 	</item>
-
+<item id="50354" type="EtcItem" name="Random Cloak Pack - SoE Event">
+		<set name="icon" val="SOE_Icons.wooden_chest_s_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="10024-1" />
+	</item>
 </list>
